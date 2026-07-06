@@ -100,11 +100,11 @@ app = create_app()
 
 if __name__ == "__main__":
     import uvicorn
-    
+
+    # Bind to the platform-assigned port (Railway/Render set $PORT).
     uvicorn.run(
-        "app.main:app",
+        app,
         host="0.0.0.0",
         port=int(settings.PORT),
-        reload=settings.DEBUG,
         log_level=settings.LOG_LEVEL.lower(),
     )
