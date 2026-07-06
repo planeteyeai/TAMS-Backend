@@ -40,7 +40,10 @@ class Settings(BaseSettings):
     AWS_SECRET_ACCESS_KEY: Optional[str] = None
     
     # CORS
-    CORS_ORIGINS: str = "http://localhost:3000,http://localhost:8000"
+    CORS_ORIGINS: str = (
+        "http://localhost:3000,http://localhost:8000,"
+        "https://tams-uob1.onrender.com"
+    )
     ALLOWED_HOSTS: str = "localhost,127.0.0.1,*"
     
     # JWT

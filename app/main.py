@@ -47,21 +47,21 @@ def create_app() -> FastAPI:
         lifespan=lifespan,
     )
     
-    # CORS must allow any localhost port in dev (Next.js may use 3000, 3001, 3002, …)
+    # CORS must allow the frontend origin(s). In dev, allow any localhost port;
+    # in production, allow configured origins plus *.onrender.com / *.vercel.app.
+    origins = [o.strip() for o in settings.CORS_ORIGINS.split(",") if o.strip()]
     cors_kwargs = {
+        "allow_origins": origins,
         "allow_credentials": True,
         "allow_methods": ["*"],
         "allow_headers": ["*"],
     }
     if settings.DEBUG:
         cors_kwargs["allow_origin_regex"] = r"https?://(localhost|127\.0\.0\.1)(:\d+)?"
-        cors_kwargs["allow_origins"] = [
-            o.strip() for o in settings.CORS_ORIGINS.split(",") if o.strip()
-        ]
     else:
-        cors_kwargs["allow_origins"] = [
-            o.strip() for o in settings.CORS_ORIGINS.split(",") if o.strip()
-        ]
+        cors_kwargs["allow_origin_regex"] = (
+            r"https://([a-z0-9-]+\.)*(onrender\.com|vercel\.app|railway\.app)"
+        )
 
     app.add_middleware(CORSMiddleware, **cors_kwargs)
 

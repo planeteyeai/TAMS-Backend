@@ -1,0 +1,83 @@
+# FastAPI Backend Requirements (FULL — for local ML/geo development)
+# NOTE: Deployment uses the slim requirements.txt. Several packages here
+# (gdal, torch, tensorflow, rasterio, geopandas) need system libraries and
+# will not build on a plain PaaS buildpack.
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+starlette==0.27.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+alembic==1.13.0
+psycopg2-binary==2.9.9
+
+# PostGIS/Geospatial
+geoalchemy2==0.14.1
+shapely==2.0.2
+geojson==3.0.1
+
+# Data Processing
+pandas==2.1.3
+numpy==1.26.2
+scipy==1.11.4
+scikit-learn==1.3.2
+
+# Geospatial Processing
+rasterio==1.3.9
+geopandas==0.14.0
+gdal==3.8.0
+
+# Computer Vision & ML
+torch==2.1.1
+torchvision==0.16.1
+tensorflow==2.15.0
+opencv-python==4.8.1.78
+pillow==10.1.0
+
+# Model Serving
+onnx==1.15.0
+onnxruntime==1.17.1
+
+# Task Queue
+celery==5.3.4
+redis==5.0.1
+
+# Caching
+cachetools==5.3.2
+
+# Authentication
+python-jose==3.3.0
+passlib==1.7.4
+python-dotenv==1.0.0
+
+# API Documentation
+openapi-schema-pydantic==1.3.0
+
+# Monitoring & Logging
+python-json-logger==2.0.7
+prometheus-client==0.19.0
+
+# AWS Integration
+boto3==1.34.1
+s3fs==2023.12.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.22.0
+pytest-cov==4.1.0
+httpx==0.25.2
+
+# Code Quality
+black==23.12.0
+pylint==3.0.3
+isort==5.13.2
+flake8==6.1.0
+
+# Utility
+requests==2.31.0
+aiohttp==3.9.1
+tenacity==8.2.3
