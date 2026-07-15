@@ -36,7 +36,7 @@ app/
 
 | Variable | Example |
 |----------|---------|
-| `CORS_ORIGINS` | `https://YOUR-FRONTEND.onrender.com,http://localhost:3000` |
+| `CORS_ORIGINS` | `https://tams-txmr.onrender.com,http://localhost:3000` |
 | `ALLOWED_HOSTS` | `*,.up.railway.app` |
 | `DEBUG` | `false` |
 | `JWT_SECRET_KEY` | strong random secret |
