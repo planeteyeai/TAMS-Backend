@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="switchgear" id="switchgear">
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="site" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="generator_" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="width" type="string"></SimpleField>
+	<SimpleField name="colour" type="string"></SimpleField>
+	<SimpleField name="operator_w" type="string"></SimpleField>
+	<SimpleField name="operator_s" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="plant_type" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant_sour" type="string"></SimpleField>
+	<SimpleField name="plant_outp" type="string"></SimpleField>
+	<SimpleField name="plant_meth" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="generato_1" type="string"></SimpleField>
+	<SimpleField name="generato_2" type="string"></SimpleField>
+	<SimpleField name="generato_3" type="string"></SimpleField>
+	<SimpleField name="generato_4" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+</Schema>
+<Folder><name>switchgear</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#switchgear">
+		<SimpleData name="full_id">w1487698218</SimpleData>
+		<SimpleData name="osm_id">1487698218</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>68.9699435,22.2523943 68.9699165,22.2523818 68.9698907,22.2523699 68.969853,22.2524129 68.9698378,22.2524432 68.9699029,22.252479 68.9699435,22.2523943</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#switchgear">
+		<SimpleData name="full_id">w1342223226</SimpleData>
+		<SimpleData name="osm_id">1342223226</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>68.9734321,22.2389562 68.9734369,22.2389195 68.9733854,22.238913 68.9733768,22.2389542 68.9734321,22.2389562</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#switchgear">
+		<SimpleData name="full_id">w1487698220</SimpleData>
+		<SimpleData name="osm_id">1487698220</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>68.9739966,22.2495625 68.9740144,22.2495826 68.9739482,22.2496411 68.973885,22.2495769 68.9739512,22.2495413 68.9739759,22.2495741 68.9739966,22.2495625</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#switchgear">
+		<SimpleData name="full_id">w1343832247</SimpleData>
+		<SimpleData name="osm_id">1343832247</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>68.9723915,22.240126 68.9723596,22.2402673 68.972253,22.240235 68.9721547,22.2402094 68.9720986,22.2401973 68.9721252,22.2400709 68.9723915,22.240126</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#switchgear">
+		<SimpleData name="full_id">w1347825068</SimpleData>
+		<SimpleData name="osm_id">1347825068</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+		<SimpleData name="location">tss_gorinja</SimpleData>
+		<SimpleData name="voltage">69000</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>69.0441054,22.1722869 69.0444961,22.1725838 69.0439168,22.1732216 69.0435521,22.1729021 69.0441054,22.1722869</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#switchgear">
+		<SimpleData name="full_id">w1245375370</SimpleData>
+		<SimpleData name="osm_id">1245375370</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>69.2917988,22.1299182 69.2918341,22.1300302 69.2916872,22.1300664 69.2916462,22.1299733 69.2917988,22.1299182</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#switchgear">
+		<SimpleData name="full_id">w1487698217</SimpleData>
+		<SimpleData name="osm_id">1487698217</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>68.9631437,22.251397 68.963221,22.251429 68.9631681,22.2515117 68.9630868,22.2514741 68.9631437,22.251397</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>

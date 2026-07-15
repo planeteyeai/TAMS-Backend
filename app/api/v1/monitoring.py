@@ -27,8 +27,18 @@ async def run_monitoring_cycle(request: MonitoringRunRequest):
 
     Pipeline: Acquire satellite scenes → AI detection → change comparison → alert generation.
     """
-    result = await monitoring_workflow.run_monitoring(request)
-    return ApiResponse(data=result.model_dump(), meta=ResponseMeta())
+    import logging
+    import traceback
+    logger = logging.getLogger("app.api.monitoring")
+    try:
+        result = await monitoring_workflow.run_monitoring(request)
+        return ApiResponse(data=result.model_dump(), meta=ResponseMeta())
+    except Exception as exc:
+        logger.error("Error executing monitoring cycle: %s\n%s", str(exc), traceback.format_exc())
+        raise HTTPException(
+            status_code=500,
+            detail=f"Monitoring pipeline run failed: {str(exc)}"
+        )
 
 
 @router.get("/runs", response_model=ApiResponse)

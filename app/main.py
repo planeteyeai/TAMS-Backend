@@ -1,6 +1,6 @@
 """
 Main FastAPI Application Entry Point
-TAMS - Transmission Asset Intelligence & Monitoring Platform
+TAMS - Transmission Asset Monitoring System
 """
 
 from contextlib import asynccontextmanager
@@ -24,7 +24,23 @@ async def lifespan(app: FastAPI):
     """
     Lifespan context manager for startup and shutdown events.
     """
+    from app.db.init_db import init_database, is_db_ready
+
     logger.info("Application startup")
+    db_ok = await init_database()
+    if db_ok:
+        logger.info("Database initialized and ready")
+    else:
+        logger.warning("Running in mock-data mode (no database)")
+        from app.services.kml_loader import get_corridor_assets, preload_kml_assets
+        import app.services.mock_data as mock_data
+
+        preload_kml_assets()
+        mock_data.MOCK_ASSETS.clear()
+        mock_data.MOCK_ASSETS.extend(get_corridor_assets())
+        mock_data.rebuild_derived_mock_data()
+        logger.info("Loaded %d KML corridor assets (India)", len(mock_data.MOCK_ASSETS))
+    app.state.database_enabled = is_db_ready()
     yield
     logger.info("Application shutdown")
 

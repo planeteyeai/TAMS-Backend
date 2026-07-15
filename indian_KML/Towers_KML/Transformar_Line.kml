@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Transformar_Line" id="Transformar_Line">
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="site" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="generator_" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="width" type="string"></SimpleField>
+	<SimpleField name="colour" type="string"></SimpleField>
+	<SimpleField name="operator_w" type="string"></SimpleField>
+	<SimpleField name="operator_s" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="plant_type" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant_sour" type="string"></SimpleField>
+	<SimpleField name="plant_outp" type="string"></SimpleField>
+	<SimpleField name="plant_meth" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="generato_1" type="string"></SimpleField>
+	<SimpleField name="generato_2" type="string"></SimpleField>
+	<SimpleField name="generato_3" type="string"></SimpleField>
+	<SimpleField name="generato_4" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+</Schema>
+<Folder><name>Transformar_Line</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformar_Line">
+		<SimpleData name="full_id">w660142385</SimpleData>
+		<SimpleData name="osm_id">660142385</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>72.7850908,21.1636277 72.7851171,21.1635807 72.7852645,21.1636524 72.7852382,21.1636994 72.7850908,21.1636277</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformar_Line">
+		<SimpleData name="full_id">w361364082</SimpleData>
+		<SimpleData name="osm_id">361364082</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>72.784076,21.1641728 72.7842566,21.1642597 72.7843037,21.1641746 72.7841231,21.1640877 72.784076,21.1641728</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>

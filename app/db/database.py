@@ -26,10 +26,13 @@ Base = declarative_base()
 async def get_session():
     """
     Async session dependency for FastAPI.
-    
-    Yields:
-        AsyncSession: Database session
+    Yields None when database is unavailable (mock fallback mode).
     """
+    from app.db.init_db import is_db_ready
+
+    if not is_db_ready():
+        yield None
+        return
     async with async_session_maker() as session:
         yield session
 

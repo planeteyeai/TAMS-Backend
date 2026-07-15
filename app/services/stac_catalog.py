@@ -197,7 +197,7 @@ async def search_scenes(
     url = f"{settings.CDSE_STAC_URL}/collections/{meta['collection']}/items"
 
     try:
-        async with httpx.AsyncClient(timeout=10.0) as client:
+        async with httpx.AsyncClient(timeout=4.0) as client:
             response = await client.get(url, params=params)
             response.raise_for_status()
             features = response.json().get("features", [])

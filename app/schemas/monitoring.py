@@ -113,3 +113,5 @@ class MonitoringRunResult(BaseModel):
     changes: list[ChangeFinding]
     alerts_generated: list[str]
     stages: list[WorkflowStageResult]
+    # Assets included in this run — power View-on-map from the mission report UI
+    monitored_assets: list[dict[str, Any]] = Field(default_factory=list)

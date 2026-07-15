@@ -174,7 +174,17 @@ async def run_monitoring(request: MonitoringRunRequest) -> MonitoringRunResult:
     if request.asset_ids:
         assets = [a for a in MOCK_ASSETS if a["id"] in request.asset_ids]
     else:
+        # Full KML catalog is huge — sample a representative slice for interactive runs
         assets = list(MOCK_ASSETS)
+
+    # Keep UI / interactive cycles responsive (full fleet scans belong in batch jobs)
+    MAX_INTERACTIVE_ASSETS = 40
+    if len(assets) > MAX_INTERACTIVE_ASSETS:
+        # Prefer substations + mixture of lines over flooding detections
+        subs = [a for a in assets if a.get("asset_type") == "substation"][:12]
+        lines = [a for a in assets if a.get("asset_type") == "line"][:20]
+        towers = [a for a in assets if a.get("asset_type") == "tower"][:8]
+        assets = (subs + lines + towers)[:MAX_INTERACTIVE_ASSETS] or assets[:MAX_INTERACTIVE_ASSETS]
 
     if not assets:
         result = MonitoringRunResult(
@@ -293,6 +303,18 @@ async def run_monitoring(request: MonitoringRunRequest) -> MonitoringRunResult:
         changes=changes,
         alerts_generated=alert_ids,
         stages=stages,
+        monitored_assets=[
+            {
+                "id": a["id"],
+                "name": a.get("name") or a["id"],
+                "asset_type": a.get("asset_type") or "tower",
+                "latitude": a.get("latitude"),
+                "longitude": a.get("longitude"),
+                "health_score": a.get("health_score") or "healthy",
+                "voltage_kv": (a.get("metadata") or {}).get("voltage_kv"),
+            }
+            for a in assets
+        ],
     )
     RUN_HISTORY.insert(0, result)
     logger.info("Monitoring run %s completed: %d assets, %d alerts", run_id, len(assets), len(alert_ids))

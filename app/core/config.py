@@ -2,15 +2,22 @@
 Core configuration module for TAMS Backend
 """
 
-from pydantic_settings import BaseSettings, SettingsConfigDict
+from pathlib import Path
 from typing import Optional
+
+from pydantic_settings import BaseSettings, SettingsConfigDict
+
+# Always load backend/.env regardless of process cwd
+_BACKEND_DIR = Path(__file__).resolve().parents[2]
+_ENV_FILE = _BACKEND_DIR / ".env"
 
 
 class Settings(BaseSettings):
     """Application settings from environment variables"""
 
     model_config = SettingsConfigDict(
-        env_file=".env",
+        env_file=str(_ENV_FILE),
+        env_file_encoding="utf-8",
         case_sensitive=True,
         extra="ignore",
     )
@@ -67,7 +74,7 @@ class Settings(BaseSettings):
     CDSE_S3_ENDPOINT: str = "https://eodata.dataspace.copernicus.eu"
     CDSE_S3_ACCESS_KEY: Optional[str] = None
     CDSE_S3_SECRET_KEY: Optional[str] = None
-    ENABLE_CDSE_STAC: bool = True
+    ENABLE_CDSE_STAC: bool = False
 
 
 settings = Settings()

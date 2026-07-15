@@ -1,0 +1,46 @@
+# FastAPI Backend Requirements - Lightweight Local Development Version
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+starlette>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-multipart>=0.0.6
+
+# Database
+sqlalchemy>=2.0.0
+asyncpg>=0.29.0
+alembic>=1.13.0
+psycopg2-binary>=2.9.9
+
+# Data Processing (Unpinned for Python 3.13 precompiled wheels)
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+pillow>=10.0.0
+
+# Task Queue
+celery>=5.3.0
+redis>=5.0.0
+
+# Caching
+cachetools>=5.3.0
+
+# Authentication
+python-jose>=3.3.0
+passlib>=1.7.4
+python-dotenv>=1.0.0
+
+# Monitoring & Logging
+python-json-logger>=2.0.0
+prometheus-client>=0.19.0
+
+# AWS Integration
+boto3>=1.34.0
+s3fs>=2023.12.0
+
+# Utility
+requests>=2.31.0
+aiohttp>=3.9.0
+tenacity>=8.2.0
+httpx>=0.25.0
