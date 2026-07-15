@@ -19,11 +19,17 @@ _ASYNC_URL = normalize_database_url(settings.DATABASE_URL)
 
 
 def _connect_args() -> dict:
-    if database_requires_ssl(_ASYNC_URL):
-        ctx = ssl.create_default_context()
-        # Railway / managed PG often use certs that need default context
-        return {"ssl": ctx}
-    return {}
+    if not database_requires_ssl(_ASYNC_URL):
+        return {}
+    # Railway public proxy (*.proxy.rlwy.net) presents a chain that often
+    # fails strict verification from local/dev clients — require TLS but
+    # do not pin CA verification for those hosts.
+    host = (_ASYNC_URL.split("@")[-1].split("/")[0].split(":")[0] or "").lower()
+    ctx = ssl.create_default_context()
+    if host.endswith(".rlwy.net") or host.endswith(".railway.app"):
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+    return {"ssl": ctx}
 
 
 # SQLAlchemy engine and session factory
