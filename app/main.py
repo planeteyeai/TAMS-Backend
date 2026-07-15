@@ -35,32 +35,70 @@ def _load_kml_mock_sync() -> int:
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """
-    Lifespan: connect Railway/local Postgres when available, always warm Gujarat KML
-    for the map (DB may only hold enterprise seed tables at first).
+    Lifespan: connect Postgres when available, import KML into DB if empty,
+    otherwise warm in-memory KML only as a temporary fallback.
     """
+    from sqlalchemy import func, select
+
+    from app.db.database import async_session_maker
     from app.db.init_db import init_database, is_db_ready
+    from app.models import Asset
 
     logger.info("Application startup")
     db_ok = await init_database()
     app.state.database_enabled = is_db_ready()
     app.state.kml_ready = False
+    app.state.kml_import_running = False
 
     if db_ok:
         logger.info("Database initialized and ready (Railway/Postgres)")
+
+        async def _import_kml_into_db() -> None:
+            if not settings.IMPORT_KML_ON_STARTUP:
+                return
+            try:
+                async with async_session_maker() as session:
+                    count = await session.scalar(select(func.count()).select_from(Asset)) or 0
+                if count > 0:
+                    app.state.kml_ready = True
+                    logger.info("Skipping KML import — database already has %s assets", count)
+                    return
+                app.state.kml_import_running = True
+                from app.services.kml_db_import import import_kml_to_database
+
+                stats = await import_kml_to_database(
+                    include_towers=settings.IMPORT_INCLUDE_TOWERS,
+                    force=False,
+                    batch_size=settings.IMPORT_BATCH_SIZE,
+                )
+                app.state.kml_ready = True
+                logger.info("KML data stored in database: %s", stats)
+            except Exception:
+                logger.exception("KML→DB import failed — falling back to in-memory KML")
+                try:
+                    n = await asyncio.to_thread(_load_kml_mock_sync)
+                    app.state.kml_ready = True
+                    logger.info("Loaded %d KML assets in memory (fallback)", n)
+                except Exception:
+                    app.state.kml_ready = False
+                    logger.exception("KML memory fallback also failed")
+            finally:
+                app.state.kml_import_running = False
+
+        asyncio.create_task(_import_kml_into_db())
     else:
         logger.warning("Running without database — KML mock mode for all APIs")
 
-    async def _load_kml_background() -> None:
-        try:
-            count = await asyncio.to_thread(_load_kml_mock_sync)
-            app.state.kml_ready = True
-            logger.info("Loaded %d KML corridor assets (India)", count)
-        except Exception:
-            app.state.kml_ready = False
-            logger.exception("KML preload failed")
+        async def _load_kml_background() -> None:
+            try:
+                count = await asyncio.to_thread(_load_kml_mock_sync)
+                app.state.kml_ready = True
+                logger.info("Loaded %d KML corridor assets (India)", count)
+            except Exception:
+                app.state.kml_ready = False
+                logger.exception("KML preload failed")
 
-    # Always load KML for GIS; enterprise routes use Postgres when connected
-    asyncio.create_task(_load_kml_background())
+        asyncio.create_task(_load_kml_background())
 
     yield
     logger.info("Application shutdown")
@@ -120,6 +158,7 @@ def create_app() -> FastAPI:
             "status": "healthy",
             "version": settings.APP_VERSION,
             "kml_ready": bool(getattr(request.app.state, "kml_ready", True)),
+            "kml_import_running": bool(getattr(request.app.state, "kml_import_running", False)),
             "database": bool(getattr(request.app.state, "database_enabled", False)),
         }
     

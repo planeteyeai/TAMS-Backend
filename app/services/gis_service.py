@@ -1,13 +1,19 @@
 """GIS feature service."""
 
-from sqlalchemy import select
+from sqlalchemy import Float, cast, func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import selectinload
 
-from app.db.init_db import asset_to_dict, is_db_ready
-from app.models import Asset
+from app.db.database import async_session_maker
+from app.db.init_db import is_db_ready
+from app.models import Asset, AssetType
 from app.services.asset_service import list_assets
-from app.services.kml_loader import get_towers_in_bbox, get_region_stats, get_stats_for_place, get_all_place_stats
+from app.services.kml_loader import (
+    get_all_place_stats,
+    get_region_stats,
+    get_stats_for_place,
+    get_towers_in_bbox,
+)
 
 
 async def get_features(
@@ -18,8 +24,8 @@ async def get_features(
     asset_type: str | None = None,
     state: str | None = None,
 ) -> dict:
-    page_size = 15000 if not is_db_ready() else 2000
-    items, total = await list_assets(
+    page_size = 15000 if not is_db_ready() else 5000
+    items, _total = await list_assets(
         session, asset_type=asset_type, state=state, bbox=bbox, page=1, page_size=page_size
     )
 
@@ -58,6 +64,7 @@ async def get_features(
         "features": features,
         "total": len(features),
         "layers": ["lines", "towers", "substations", "all"],
+        "source": "database" if is_db_ready() and session is not None else "indian_KML",
     }
 
 
@@ -78,7 +85,6 @@ async def proximity_analysis(
             continue
         if asset_types and a.get("asset_type") not in asset_types:
             continue
-        # Haversine approximation
         dlat = (lat - center_lat) * 111.0
         dlon = (lon - center_lon) * 111.0 * max(0.1, abs(center_lat))
         dist_km = (dlat**2 + dlon**2) ** 0.5
@@ -104,6 +110,50 @@ async def get_viewport_towers(
         min_lon, min_lat, max_lon, max_lat = [float(v) for v in bbox.split(",")]
     except (ValueError, TypeError) as exc:
         raise ValueError("bbox must be minLon,minLat,maxLon,maxLat") from exc
+
+    if is_db_ready():
+        async with async_session_maker() as session:
+            stmt = (
+                select(Asset)
+                .join(AssetType)
+                .where(
+                    Asset.is_active.is_(True),
+                    AssetType.type_code == "TOWER",
+                    Asset.latitude.is_not(None),
+                    Asset.longitude.is_not(None),
+                    Asset.latitude >= min_lat,
+                    Asset.latitude <= max_lat,
+                    Asset.longitude >= min_lon,
+                    Asset.longitude <= max_lon,
+                )
+            )
+            if state:
+                stmt = stmt.where(Asset.metadata_["country_or_state"].astext.ilike(state))
+            stmt = stmt.limit(limit)
+            rows = (await session.scalars(stmt)).all()
+            features = [
+                {
+                    "type": "Feature",
+                    "id": str(t.asset_id),
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [t.longitude, t.latitude],
+                    },
+                    "properties": {
+                        "asset_id": str(t.asset_id),
+                        "name": t.name,
+                        "asset_type": "tower",
+                        "metadata": t.metadata_ or {},
+                    },
+                }
+                for t in rows
+            ]
+            return {
+                "type": "FeatureCollection",
+                "features": features,
+                "total": len(features),
+                "source": "database",
+            }
 
     towers = get_towers_in_bbox(
         min_lon=min_lon,
@@ -155,22 +205,52 @@ async def get_region_asset_stats(
                 raise ValueError("bbox must be minLon,minLat,maxLon,maxLat") from exc
         return get_region_stats(state=state)
 
-    _, total = await list_assets(None, page=1, page_size=1)
-    items, _ = await list_assets(None, page=1, page_size=10000)
-    return {
-        "towers": sum(1 for a in items if a.get("asset_type") == "tower"),
-        "lines": sum(1 for a in items if a.get("asset_type") == "line"),
-        "substations": sum(1 for a in items if a.get("asset_type") == "substation"),
-        "total": total,
-        "line_km": round(
-            sum(float(a.get("metadata", {}).get("length_km") or 0) for a in items if a.get("asset_type") == "line"),
-            1,
-        ),
-        "source": "database",
-    }
+    async with async_session_maker() as session:
+        # If import still empty, fall back to KML stats
+        total = await session.scalar(select(func.count()).select_from(Asset).where(Asset.is_active.is_(True))) or 0
+        if total == 0:
+            if place_id:
+                return get_stats_for_place(place_id)
+            return get_region_stats(state=state)
+
+        type_counts = (
+            await session.execute(
+                select(AssetType.type_code, func.count())
+                .join(Asset, Asset.asset_type_id == AssetType.asset_type_id)
+                .where(Asset.is_active.is_(True))
+                .group_by(AssetType.type_code)
+            )
+        ).all()
+        by_type = {code: int(n) for code, n in type_counts}
+
+        line_km = await session.scalar(
+            select(
+                func.coalesce(
+                    func.sum(cast(Asset.metadata_["length_km"].astext, Float)),
+                    0,
+                )
+            )
+            .select_from(Asset)
+            .join(AssetType)
+            .where(Asset.is_active.is_(True), AssetType.type_code == "LINE")
+        )
+
+        return {
+            "towers": by_type.get("TOWER", 0),
+            "lines": by_type.get("LINE", 0),
+            "substations": by_type.get("SUBSTATION", 0),
+            "total": int(total),
+            "line_km": round(float(line_km or 0), 1),
+            "source": "database",
+        }
 
 
 async def get_places_asset_stats() -> dict[str, dict]:
     if not is_db_ready():
         return get_all_place_stats()
-    return {}
+    # Prefer DB India/Gujarat totals; keep KML place breakdown for UX until fully mapped
+    india = await get_region_asset_stats()
+    return {
+        "india": {"total": india.get("total", 0), **india},
+        "gujarat": {"total": india.get("total", 0), **india},
+    }

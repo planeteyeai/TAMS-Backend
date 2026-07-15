@@ -97,14 +97,37 @@ async def list_assets(
         q = f"%{search}%"
         stmt = stmt.where(or_(Asset.name.ilike(q), Asset.asset_code.ilike(q)))
         count_stmt = count_stmt.where(or_(Asset.name.ilike(q), Asset.asset_code.ilike(q)))
+    if state:
+        stmt = stmt.where(Asset.metadata_["country_or_state"].astext.ilike(state))
+        count_stmt = count_stmt.where(Asset.metadata_["country_or_state"].astext.ilike(state))
+    if bbox_tuple and len(bbox_tuple) == 4:
+        min_lon, min_lat, max_lon, max_lat = bbox_tuple
+        stmt = stmt.where(
+            Asset.latitude.is_not(None),
+            Asset.longitude.is_not(None),
+            Asset.latitude >= min_lat,
+            Asset.latitude <= max_lat,
+            Asset.longitude >= min_lon,
+            Asset.longitude <= max_lon,
+        )
+        count_stmt = count_stmt.where(
+            Asset.latitude.is_not(None),
+            Asset.longitude.is_not(None),
+            Asset.latitude >= min_lat,
+            Asset.latitude <= max_lat,
+            Asset.longitude >= min_lon,
+            Asset.longitude <= max_lon,
+        )
 
     total = await session.scalar(count_stmt) or 0
     stmt = stmt.offset((page - 1) * page_size).limit(page_size)
     rows = (await session.scalars(stmt)).all()
 
+    # Skip per-row health lookups on large GIS pages (too slow)
+    load_health = page_size <= 200
     result = []
     for row in rows:
-        health = await _latest_health(session, row.asset_id)
+        health = await _latest_health(session, row.asset_id) if load_health else None
         result.append(asset_to_dict(row, health))
     return result, int(total or 0)
 

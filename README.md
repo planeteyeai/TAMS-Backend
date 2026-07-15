@@ -42,7 +42,23 @@ app/
 | `DEBUG` | `false` |
 | `JWT_SECRET_KEY` | strong random secret |
 
-The app rewrites Railway’s `postgres://…` URL to `postgresql+asyncpg://…` automatically and creates tables on boot. Gujarat KML still powers the map if the asset table is empty.
+The app rewrites Railway’s `postgres://…` URL to `postgresql+asyncpg://…` automatically, creates tables on boot, and **imports all indian_KML assets into Postgres** when the table is empty (`IMPORT_KML_ON_STARTUP=true`).
+
+### Load / reload KML into the database (script)
+
+```bash
+# Local
+set DATABASE_URL=postgresql+asyncpg://USER:PASS@HOST:PORT/DB
+python -m scripts.import_kml_to_db
+
+# Wipe and reimport everything (lines + substations + towers)
+python -m scripts.import_kml_to_db --force
+
+# Railway shell / one-off
+railway run python -m scripts.import_kml_to_db --force
+```
+
+After import, GIS / assets / stats are served from the database (`"source": "database"`).
 
 4. Railway builds with the repo `Dockerfile` (`railway.json`).
 5. Copy the public URL (`https://….up.railway.app`) into the Render frontend env:

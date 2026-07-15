@@ -36,6 +36,11 @@ class Settings(BaseSettings):
     DATABASE_ECHO: bool = False
     DATABASE_POOL_SIZE: int = 5
     DATABASE_MAX_OVERFLOW: int = 5
+
+    # When Postgres is empty, import indian_KML into the database on startup
+    IMPORT_KML_ON_STARTUP: bool = True
+    IMPORT_INCLUDE_TOWERS: bool = True
+    IMPORT_BATCH_SIZE: int = 500
     
     # Redis
     REDIS_URL: str = "redis://localhost:6379/0"

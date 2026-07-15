@@ -130,7 +130,7 @@ def asset_to_dict(asset: Asset, latest_health: HealthScore | None = None) -> dic
             "computed_at": latest_health.computed_at,
         }
 
-    geom = meta.get("geometry")
+    geom = asset.geometry or meta.get("geometry")
     if geom:
         result["geometry"] = geom
 
@@ -184,13 +184,18 @@ async def init_database() -> bool:
         return False
 
     async with async_session_maker() as session:
-        count = await session.scalar(select(func.count()).select_from(Asset))
-        if count and count > 0:
-            logger.info("Database already seeded (%s assets)", count)
-            return True
-        await _seed(session)
+        from app.services.kml_db_import import ensure_reference_data
+
+        await ensure_reference_data(session)
         await session.commit()
-        logger.info("Database seeded successfully")
+        count = await session.scalar(select(func.count()).select_from(Asset)) or 0
+        if count > 0:
+            logger.info("Database ready with %s assets", count)
+        else:
+            logger.info(
+                "Database schema ready (0 assets) — KML import will fill tables "
+                "(startup task or: python -m scripts.import_kml_to_db)"
+            )
     return True
 
 
