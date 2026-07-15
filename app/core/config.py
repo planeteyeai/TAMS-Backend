@@ -46,12 +46,13 @@ class Settings(BaseSettings):
     AWS_ACCESS_KEY_ID: Optional[str] = None
     AWS_SECRET_ACCESS_KEY: Optional[str] = None
     
-    # CORS
+    # CORS — include your Render frontend URL in production
     CORS_ORIGINS: str = (
-        "http://localhost:3000,http://localhost:8000,"
+        "http://localhost:3000,http://127.0.0.1:3000,"
         "https://tams-uob1.onrender.com"
     )
-    ALLOWED_HOSTS: str = "localhost,127.0.0.1,*"
+    # Railway / Render hosts; keep * so platform domains always work
+    ALLOWED_HOSTS: str = "localhost,127.0.0.1,*,.up.railway.app,.onrender.com"
     
     # JWT
     JWT_SECRET_KEY: str = "your-secret-key-change-in-production"

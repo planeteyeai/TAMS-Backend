@@ -28,7 +28,28 @@ app/
                            # monitoring workflow, change detection, mock_data, catalogs
 ```
 
-## Getting Started
+## Deploy (Railway)
+
+1. Create a Railway project from [planeteyeai/TAMS-Backend](https://github.com/planeteyeai/TAMS-Backend).
+2. Railway builds with the repo `Dockerfile` (`railway.json`).
+3. Set variables (at minimum):
+
+| Variable | Example |
+|----------|---------|
+| `CORS_ORIGINS` | `https://YOUR-FRONTEND.onrender.com,http://localhost:3000` |
+| `ALLOWED_HOSTS` | `*,.up.railway.app` |
+| `DEBUG` | `false` |
+| `JWT_SECRET_KEY` | strong random secret |
+
+Leave `DATABASE_URL` unset/unreachable to serve Gujarat KML mock assets.
+
+4. Copy the public URL (`https://….up.railway.app`) into the Render frontend env:
+   - `BACKEND_URL`
+   - `NEXT_PUBLIC_HOSTED_API_BASE_URL` (= `…/api/v1`)
+
+Health: `GET /health` · Docs: `GET /docs`
+
+## Getting Started (local)
 
 ### 1. Prerequisites
 
