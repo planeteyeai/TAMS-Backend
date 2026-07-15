@@ -30,11 +30,12 @@ class Settings(BaseSettings):
     PORT: int = 8000
     LOG_LEVEL: str = "INFO"
     
-    # Database
+    # Database — Railway: set DATABASE_URL=${{Postgres.DATABASE_URL}}
+    # (postgres://… is auto-normalized to postgresql+asyncpg://)
     DATABASE_URL: str = "postgresql+asyncpg://user:password@localhost:5432/tams"
     DATABASE_ECHO: bool = False
-    DATABASE_POOL_SIZE: int = 20
-    DATABASE_MAX_OVERFLOW: int = 0
+    DATABASE_POOL_SIZE: int = 5
+    DATABASE_MAX_OVERFLOW: int = 5
     
     # Redis
     REDIS_URL: str = "redis://localhost:6379/0"

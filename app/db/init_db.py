@@ -155,14 +155,33 @@ def is_db_ready() -> bool:
 
 
 async def init_database() -> bool:
-    """Create extensions, tables, and seed if empty."""
+    """Create extensions, tables, and seed if empty (Railway Postgres ready)."""
     if not await check_db_connection():
         return False
 
-    async with engine.begin() as conn:
-        await conn.execute(text('CREATE EXTENSION IF NOT EXISTS "uuid-ossp"'))
-        await conn.execute(text('CREATE EXTENSION IF NOT EXISTS "postgis"'))
-        await conn.run_sync(Base.metadata.create_all)
+    global _db_ready
+    try:
+        async with engine.begin() as conn:
+            # Prefer pgcrypto / built-in uuid; uuid-ossp is optional on some hosts
+            try:
+                await conn.execute(text('CREATE EXTENSION IF NOT EXISTS "pgcrypto"'))
+            except Exception as ext_exc:
+                logger.warning("pgcrypto extension skipped: %s", ext_exc)
+            try:
+                await conn.execute(text('CREATE EXTENSION IF NOT EXISTS "uuid-ossp"'))
+            except Exception as ext_exc:
+                logger.warning("uuid-ossp extension skipped: %s", ext_exc)
+            # PostGIS is optional — geometry is JSONB so vanilla Railway PG works
+            try:
+                await conn.execute(text('CREATE EXTENSION IF NOT EXISTS "postgis"'))
+                logger.info("PostGIS extension enabled")
+            except Exception as ext_exc:
+                logger.warning("PostGIS not available (OK): %s", ext_exc)
+            await conn.run_sync(Base.metadata.create_all)
+    except Exception as exc:
+        logger.exception("Database schema init failed: %s", exc)
+        _db_ready = False
+        return False
 
     async with async_session_maker() as session:
         count = await session.scalar(select(func.count()).select_from(Asset))

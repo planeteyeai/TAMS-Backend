@@ -31,23 +31,25 @@ app/
 ## Deploy (Railway)
 
 1. Create a Railway project from [planeteyeai/TAMS-Backend](https://github.com/planeteyeai/TAMS-Backend).
-2. Railway builds with the repo `Dockerfile` (`railway.json`).
-3. Set variables (at minimum):
+2. **Add Postgres:** project → **+ New** → **Database** → **PostgreSQL**.
+3. On the **backend service → Variables**, link the DB:
 
-| Variable | Example |
-|----------|---------|
+| Variable | Value |
+|----------|--------|
+| `DATABASE_URL` | `${{Postgres.DATABASE_URL}}` |
 | `CORS_ORIGINS` | `https://tams-txmr.onrender.com,http://localhost:3000` |
 | `ALLOWED_HOSTS` | `*,.up.railway.app` |
 | `DEBUG` | `false` |
 | `JWT_SECRET_KEY` | strong random secret |
 
-Leave `DATABASE_URL` unset/unreachable to serve Gujarat KML mock assets.
+The app rewrites Railway’s `postgres://…` URL to `postgresql+asyncpg://…` automatically and creates tables on boot. Gujarat KML still powers the map if the asset table is empty.
 
-4. Copy the public URL (`https://….up.railway.app`) into the Render frontend env:
+4. Railway builds with the repo `Dockerfile` (`railway.json`).
+5. Copy the public URL (`https://….up.railway.app`) into the Render frontend env:
    - `BACKEND_URL`
    - `NEXT_PUBLIC_HOSTED_API_BASE_URL` (= `…/api/v1`)
 
-Health: `GET /health` · Docs: `GET /docs`
+Health: `GET /health` (includes `"database": true` when Postgres is connected) · Docs: `GET /docs`
 
 ## Getting Started (local)
 

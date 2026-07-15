@@ -56,6 +56,21 @@ async def list_assets(
             page_size=page_size,
         )
 
+    # Empty Railway DB (schema only) → serve Gujarat KML for the map
+    db_count = await session.scalar(select(func.count()).select_from(Asset).where(Asset.is_active.is_(True)))
+    if not db_count:
+        from app.services.kml_loader import list_kml_assets
+
+        return list_kml_assets(
+            asset_type=asset_type,
+            state=state,
+            bbox=bbox_tuple,
+            search=search,
+            include_towers=include_towers,
+            page=page,
+            page_size=page_size,
+        )
+
     stmt = (
         select(Asset)
         .options(selectinload(Asset.asset_type), selectinload(Asset.substation))

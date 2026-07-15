@@ -1,9 +1,8 @@
-"""Enterprise TAMS SQLAlchemy models (PostgreSQL + PostGIS)."""
+"""Enterprise TAMS SQLAlchemy models (PostgreSQL; PostGIS optional)."""
 
 import uuid
 from datetime import date, datetime
 
-from geoalchemy2 import Geometry
 from sqlalchemy import (
     Boolean,
     Date,
@@ -87,7 +86,8 @@ class Asset(Base, TimestampMixin):
     qr_code_url: Mapped[str | None] = mapped_column(String(500))
     tags: Mapped[list | None] = mapped_column(JSONB)
     metadata_: Mapped[dict | None] = mapped_column("metadata", JSONB)
-    geometry: Mapped[str | None] = mapped_column(Geometry(geometry_type="GEOMETRY", srid=4326))
+    # GeoJSON stored as JSONB (works on Railway Postgres without PostGIS)
+    geometry: Mapped[dict | None] = mapped_column(JSONB)
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
 
     asset_type: Mapped["AssetType"] = relationship(back_populates="assets")

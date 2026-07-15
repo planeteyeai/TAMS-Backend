@@ -35,31 +35,32 @@ def _load_kml_mock_sync() -> int:
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """
-    Lifespan context manager for startup and shutdown events.
-    KML mock load runs in the background so /health passes Railway checks quickly.
+    Lifespan: connect Railway/local Postgres when available, always warm Gujarat KML
+    for the map (DB may only hold enterprise seed tables at first).
     """
     from app.db.init_db import init_database, is_db_ready
 
     logger.info("Application startup")
     db_ok = await init_database()
     app.state.database_enabled = is_db_ready()
-    app.state.kml_ready = bool(db_ok)
+    app.state.kml_ready = False
 
     if db_ok:
-        logger.info("Database initialized and ready")
+        logger.info("Database initialized and ready (Railway/Postgres)")
     else:
-        logger.warning("Running in mock-data mode (no database)")
+        logger.warning("Running without database — KML mock mode for all APIs")
 
-        async def _load_kml_background() -> None:
-            try:
-                count = await asyncio.to_thread(_load_kml_mock_sync)
-                app.state.kml_ready = True
-                logger.info("Loaded %d KML corridor assets (India)", count)
-            except Exception:
-                app.state.kml_ready = False
-                logger.exception("KML preload failed")
+    async def _load_kml_background() -> None:
+        try:
+            count = await asyncio.to_thread(_load_kml_mock_sync)
+            app.state.kml_ready = True
+            logger.info("Loaded %d KML corridor assets (India)", count)
+        except Exception:
+            app.state.kml_ready = False
+            logger.exception("KML preload failed")
 
-        asyncio.create_task(_load_kml_background())
+    # Always load KML for GIS; enterprise routes use Postgres when connected
+    asyncio.create_task(_load_kml_background())
 
     yield
     logger.info("Application shutdown")
