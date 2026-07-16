@@ -9,6 +9,7 @@ import logging
 
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.middleware.trustedhost import TrustedHostMiddleware
 
 from app.api.v1 import router as api_v1_router
@@ -62,6 +63,21 @@ async def lifespan(app: FastAPI):
                 if count > 0:
                     app.state.kml_ready = True
                     logger.info("Skipping KML import — database already has %s assets", count)
+                    # Warm corridor catalog cache so /assets?page_size=12000 is fast
+                    try:
+                        from app.services import asset_service
+
+                        async with async_session_maker() as session:
+                            items, total = await asset_service.list_assets(
+                                session,
+                                state="Gujarat",
+                                include_towers=False,
+                                page=1,
+                                page_size=15000,
+                            )
+                        logger.info("Warmed corridor cache: %s assets", total or len(items))
+                    except Exception:
+                        logger.exception("Corridor cache warm failed (first /assets may be slow)")
                     return
                 app.state.kml_import_running = True
                 from app.services.kml_db_import import import_kml_to_database
@@ -124,6 +140,8 @@ def create_app() -> FastAPI:
     
     # CORS: configured origins + hosted FE domains (Render / Vercel / Railway).
     origins = [o.strip() for o in settings.CORS_ORIGINS.split(",") if o.strip()]
+    app.add_middleware(GZipMiddleware, minimum_size=500)
+
     cors_kwargs = {
         "allow_origins": origins,
         "allow_credentials": True,

@@ -2,7 +2,6 @@
 
 from sqlalchemy import Float, cast, func, select
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy.orm import selectinload
 
 from app.db.database import async_session_maker
 from app.db.init_db import is_db_ready
@@ -113,40 +112,54 @@ async def get_viewport_towers(
 
     if is_db_ready():
         async with async_session_maker() as session:
+            # Single round-trip: join asset_types instead of separate type_id lookup.
+            map_meta = func.jsonb_build_object(
+                "country_or_state",
+                Asset.metadata_["country_or_state"],
+                "region",
+                Asset.metadata_["region"],
+                "voltage_kv",
+                Asset.metadata_["voltage_kv"],
+            )
             stmt = (
-                select(Asset)
-                .join(AssetType)
+                select(
+                    Asset.asset_id,
+                    Asset.name,
+                    Asset.latitude,
+                    Asset.longitude,
+                    map_meta,
+                )
+                .join(AssetType, Asset.asset_type_id == AssetType.asset_type_id)
                 .where(
-                    Asset.is_active.is_(True),
                     AssetType.type_code == "TOWER",
-                    Asset.latitude.is_not(None),
-                    Asset.longitude.is_not(None),
+                    Asset.is_active.is_(True),
                     Asset.latitude >= min_lat,
                     Asset.latitude <= max_lat,
                     Asset.longitude >= min_lon,
                     Asset.longitude <= max_lon,
                 )
+                .limit(limit)
             )
-            if state:
+            if state and state.lower() not in ("gujarat", "india"):
                 stmt = stmt.where(Asset.metadata_["country_or_state"].astext.ilike(state))
-            stmt = stmt.limit(limit)
-            rows = (await session.scalars(stmt)).all()
+
+            rows = (await session.execute(stmt)).all()
             features = [
                 {
                     "type": "Feature",
-                    "id": str(t.asset_id),
+                    "id": str(asset_id),
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [t.longitude, t.latitude],
+                        "coordinates": [lon, lat],
                     },
                     "properties": {
-                        "asset_id": str(t.asset_id),
-                        "name": t.name,
+                        "asset_id": str(asset_id),
+                        "name": name,
                         "asset_type": "tower",
-                        "metadata": t.metadata_ or {},
+                        "metadata": meta or {},
                     },
                 }
-                for t in rows
+                for asset_id, name, lat, lon, meta in rows
             ]
             return {
                 "type": "FeatureCollection",

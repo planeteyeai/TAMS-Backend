@@ -11,6 +11,17 @@ from app.db.init_db import asset_to_dict, is_db_ready
 from app.models import Asset, AssetType, HealthScore
 from app.services.mock_data import MOCK_ASSETS, create_asset as mock_create_asset
 
+# In-process cache for the map corridor catalog (lines + substations).
+# Avoids re-pulling ~10k geometries from Railway on every page load.
+_corridor_cache: list[dict] | None = None
+_corridor_cache_key: str | None = None
+
+
+def _invalidate_corridor_cache() -> None:
+    global _corridor_cache, _corridor_cache_key
+    _corridor_cache = None
+    _corridor_cache_key = None
+
 
 async def _latest_health(session: AsyncSession, asset_id: UUID) -> HealthScore | None:
     stmt = (
@@ -57,8 +68,8 @@ async def list_assets(
         )
 
     # Empty Railway DB (schema only) → serve Gujarat KML for the map
-    db_count = await session.scalar(select(func.count()).select_from(Asset).where(Asset.is_active.is_(True)))
-    if not db_count:
+    has_any = await session.scalar(select(Asset.asset_id).where(Asset.is_active.is_(True)).limit(1))
+    if not has_any:
         from app.services.kml_loader import list_kml_assets
 
         return list_kml_assets(
@@ -70,6 +81,41 @@ async def list_assets(
             page=page,
             page_size=page_size,
         )
+
+    # Large map/catalog pages: light column select (avoid ORM + count overhead)
+    if page_size > 500 and not search and not status and not criticality:
+        cacheable = (
+            not include_towers
+            and not asset_type
+            and not category
+            and not bbox_tuple
+            and (not state or state.lower() in ("gujarat", "india"))
+        )
+        global _corridor_cache, _corridor_cache_key
+        cache_key = f"corridor:{state or 'all'}"
+        if cacheable and _corridor_cache is not None and _corridor_cache_key == cache_key:
+            start = (page - 1) * page_size
+            chunk = _corridor_cache[start : start + page_size]
+            return chunk, len(_corridor_cache)
+
+        items, total = await _list_assets_light(
+            session,
+            asset_type=asset_type,
+            category=category,
+            state=state,
+            bbox_tuple=bbox_tuple,
+            include_towers=include_towers,
+            page=page,
+            page_size=page_size,
+        )
+        if cacheable and page == 1 and len(items) < page_size:
+            _corridor_cache = items
+            _corridor_cache_key = cache_key
+        elif cacheable and page == 1 and len(items) == page_size:
+            # Full page returned — store this page; total may be higher but good enough for map
+            _corridor_cache = items
+            _corridor_cache_key = cache_key
+        return items, total
 
     stmt = (
         select(Asset)
@@ -86,6 +132,10 @@ async def list_assets(
     elif category:
         stmt = stmt.join(AssetType).where(AssetType.category == category)
         count_stmt = count_stmt.join(AssetType).where(AssetType.category == category)
+    elif not include_towers:
+        # Match KML path: towers come from /gis/towers bbox, not the catalog page
+        stmt = stmt.join(AssetType).where(AssetType.type_code != "TOWER")
+        count_stmt = count_stmt.join(AssetType).where(AssetType.type_code != "TOWER")
 
     if status:
         stmt = stmt.where(Asset.status == status)
@@ -97,7 +147,7 @@ async def list_assets(
         q = f"%{search}%"
         stmt = stmt.where(or_(Asset.name.ilike(q), Asset.asset_code.ilike(q)))
         count_stmt = count_stmt.where(or_(Asset.name.ilike(q), Asset.asset_code.ilike(q)))
-    if state:
+    if state and state.lower() not in ("gujarat", "india"):
         stmt = stmt.where(Asset.metadata_["country_or_state"].astext.ilike(state))
         count_stmt = count_stmt.where(Asset.metadata_["country_or_state"].astext.ilike(state))
     if bbox_tuple and len(bbox_tuple) == 4:
@@ -130,6 +180,93 @@ async def list_assets(
         health = await _latest_health(session, row.asset_id) if load_health else None
         result.append(asset_to_dict(row, health))
     return result, int(total or 0)
+
+
+async def _list_assets_light(
+    session: AsyncSession,
+    *,
+    asset_type: str | None,
+    category: str | None,
+    state: str | None,
+    bbox_tuple: tuple[float, float, float, float] | None,
+    include_towers: bool,
+    page: int,
+    page_size: int,
+) -> tuple[list[dict], int]:
+    """Fast path for map catalog: columns only, no count, no health joins."""
+    map_meta = func.jsonb_build_object(
+        "country_or_state",
+        Asset.metadata_["country_or_state"],
+        "region",
+        Asset.metadata_["region"],
+        "voltage_kv",
+        Asset.metadata_["voltage_kv"],
+        "length_km",
+        Asset.metadata_["length_km"],
+    )
+    stmt = (
+        select(
+            Asset.asset_id,
+            Asset.name,
+            Asset.latitude,
+            Asset.longitude,
+            Asset.status,
+            Asset.geometry,
+            AssetType.type_code,
+            map_meta,
+        )
+        .join(AssetType, Asset.asset_type_id == AssetType.asset_type_id)
+        .where(Asset.is_active.is_(True))
+    )
+
+    if asset_type:
+        legacy_map = {"tower": "TOWER", "line": "LINE", "substation": "SUBSTATION"}
+        code = legacy_map.get(asset_type, asset_type.upper())
+        stmt = stmt.where(AssetType.type_code == code)
+    elif category:
+        stmt = stmt.where(AssetType.category == category)
+    elif not include_towers:
+        stmt = stmt.where(AssetType.type_code != "TOWER")
+
+    if state and state.lower() not in ("gujarat", "india"):
+        stmt = stmt.where(Asset.metadata_["country_or_state"].astext.ilike(state))
+    if bbox_tuple and len(bbox_tuple) == 4:
+        min_lon, min_lat, max_lon, max_lat = bbox_tuple
+        stmt = stmt.where(
+            Asset.latitude.is_not(None),
+            Asset.longitude.is_not(None),
+            Asset.latitude >= min_lat,
+            Asset.latitude <= max_lat,
+            Asset.longitude >= min_lon,
+            Asset.longitude <= max_lon,
+        )
+
+    stmt = stmt.offset((page - 1) * page_size).limit(page_size)
+    rows = (await session.execute(stmt)).all()
+
+    result: list[dict] = []
+    for asset_id, name, lat, lon, status, geom, type_code, meta in rows:
+        legacy = (type_code or "TOWER").lower()
+        if type_code == "LINE":
+            legacy = "line"
+        elif type_code == "SUBSTATION":
+            legacy = "substation"
+        item: dict[str, Any] = {
+            "id": str(asset_id),
+            "asset_id": str(asset_id),
+            "name": name,
+            "asset_type": legacy,
+            "type_code": type_code,
+            "latitude": lat,
+            "longitude": lon,
+            "status": status or "active",
+            "health_score": "healthy",
+            "metadata": meta or {},
+        }
+        if geom:
+            item["geometry"] = geom
+        result.append(item)
+    return result, len(result)
 
 
 async def get_asset(session: AsyncSession | None, asset_id: str) -> dict | None:
@@ -218,6 +355,7 @@ async def create_asset_record(session: AsyncSession | None, payload: dict[str, A
     )
     await session.commit()
     await session.refresh(asset, ["asset_type", "substation"])
+    _invalidate_corridor_cache()
     health = await _latest_health(session, asset.asset_id)
     return asset_to_dict(asset, health)
 
@@ -251,6 +389,7 @@ async def update_asset_record(
         asset.metadata_ = payload["metadata"]
 
     await session.commit()
+    _invalidate_corridor_cache()
     health = await _latest_health(session, asset.asset_id)
     return asset_to_dict(asset, health)
 
@@ -276,6 +415,7 @@ async def deactivate_asset(session: AsyncSession | None, asset_id: str) -> bool:
     asset.is_active = False
     asset.status = "Decommissioned"
     await session.commit()
+    _invalidate_corridor_cache()
     return True
 
 

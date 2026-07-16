@@ -105,6 +105,9 @@ CREATE INDEX IF NOT EXISTS ix_assets_substation ON assets (substation_id);
 CREATE INDEX IF NOT EXISTS ix_assets_parent ON assets (parent_asset_id);
 CREATE INDEX IF NOT EXISTS ix_assets_type ON assets (asset_type_id);
 CREATE INDEX IF NOT EXISTS ix_assets_lat_lon ON assets (latitude, longitude);
+CREATE INDEX IF NOT EXISTS ix_assets_type_lat_lon_active
+    ON assets (asset_type_id, latitude, longitude)
+    WHERE is_active = true AND latitude IS NOT NULL AND longitude IS NOT NULL;
 
 -- ---------------------------------------------------------------------------
 -- Sensors / alarms / health / maintenance / inspections

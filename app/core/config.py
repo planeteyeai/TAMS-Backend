@@ -55,7 +55,7 @@ class Settings(BaseSettings):
     # CORS — include your Render frontend URL in production
     CORS_ORIGINS: str = (
         "http://localhost:3000,http://127.0.0.1:3000,"
-        "https://tams-txmr.onrender.com"
+        "https://tams-txmr.onrender.com,https://tams-28nc.onrender.com"
     )
     # Railway / Render hosts; keep * so platform domains always work
     ALLOWED_HOSTS: str = "localhost,127.0.0.1,*,.up.railway.app,.onrender.com"
