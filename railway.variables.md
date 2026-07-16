@@ -13,7 +13,7 @@ You already have a Postgres service with `DATABASE_URL` (internal) and `DATABASE
 | Variable | Value |
 |----------|--------|
 | `DATABASE_URL` | **Reference** → Postgres service → `DATABASE_URL` (internal). Equivalent: `${{Postgres.DATABASE_URL}}` |
-| `CORS_ORIGINS` | `https://tams-txmr.onrender.com,https://tams-28nc.onrender.com,http://localhost:3000` |
+| `CORS_ORIGINS` | `https://tams-1-tgkn.onrender.com,http://localhost:3000` |
 | `ALLOWED_HOSTS` | `*,.up.railway.app` |
 | `DEBUG` | `false` |
 | `IMPORT_KML_ON_STARTUP` | `true` |
