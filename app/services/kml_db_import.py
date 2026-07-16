@@ -161,21 +161,16 @@ async def import_kml_to_database(
 
     Returns counts: {lines, substations, towers, inserted, skipped, cleared}.
     """
-    from app.services.kml_loader import _load_towers, get_corridor_assets, preload_kml_assets
-    from app.services import mock_data
+    from app.services.kml_loader import _load_lines, _load_substations, _load_towers
 
     logger.info("KML→DB import starting (towers=%s force=%s)", include_towers, force)
-    preload_kml_assets()
-    # Wait briefly for background tower thread when towers requested
+    # Load directly (avoid preload background thread / double parse)
+    logger.info("Parsing KML lines + substations…")
+    corridor = _load_lines() + _load_substations()
+    towers: list[dict[str, Any]] = []
     if include_towers:
+        logger.info("Parsing KML towers (large file)…")
         towers = _load_towers()
-    else:
-        towers = []
-
-    corridor = get_corridor_assets()
-    mock_data.MOCK_ASSETS.clear()
-    mock_data.MOCK_ASSETS.extend(corridor)
-    mock_data.rebuild_derived_mock_data()
 
     all_items = list(corridor)
     if include_towers:
@@ -222,34 +217,48 @@ async def import_kml_to_database(
             if at:
                 type_map[code] = at
 
-        # Substations catalog first
+        # Substations catalog — bulk insert (avoid per-row SELECT/flush over Railway)
+        logger.info("Inserting substation catalog…")
         substation_ids: dict[str, int] = {}
+        sub_rows: list[dict[str, Any]] = []
+        seen_sub_codes: set[str] = set()
+        legacy_to_code: dict[str, str] = {}
         for mock in (a for a in corridor if a.get("asset_type") == "substation"):
             code = _safe_code(mock.get("id") or mock["name"], "SUB")
-            existing_sub = await session.scalar(
-                select(Substation).where(Substation.substation_code == code)
+            if code in seen_sub_codes:
+                code = _safe_code(f"{code}-{len(seen_sub_codes)}", "SUB")
+            seen_sub_codes.add(code)
+            legacy_to_code[mock["id"]] = code
+            sub_rows.append(
+                {
+                    "substation_code": code,
+                    "substation_name": mock["name"][:200],
+                    "latitude": mock.get("latitude"),
+                    "longitude": mock.get("longitude"),
+                    "voltage_level": str(mock.get("metadata", {}).get("voltage_kv", "") or "")[:20],
+                    "region": str(mock.get("metadata", {}).get("region") or "India")[:100],
+                    "status": "InService",
+                }
             )
-            if existing_sub:
-                substation_ids[mock["id"]] = existing_sub.substation_id
-                continue
-            sub = Substation(
-                substation_code=code,
-                substation_name=mock["name"][:200],
-                latitude=mock.get("latitude"),
-                longitude=mock.get("longitude"),
-                voltage_level=str(mock.get("metadata", {}).get("voltage_kv", "") or "")[:20],
-                region=str(mock.get("metadata", {}).get("region") or "India")[:100],
-                status="InService",
-            )
-            session.add(sub)
-            await session.flush()
-            substation_ids[mock["id"]] = sub.substation_id
-        await session.commit()
+        if sub_rows:
+            for i in range(0, len(sub_rows), batch_size):
+                chunk = sub_rows[i : i + batch_size]
+                await session.execute(insert(Substation.__table__), chunk)
+                await session.commit()
+            # Map legacy ids → DB ids
+            result = await session.execute(select(Substation.substation_id, Substation.substation_code))
+            code_to_id = {code: sid for sid, code in result.all()}
+            for legacy_id, code in legacy_to_code.items():
+                if code in code_to_id:
+                    substation_ids[legacy_id] = code_to_id[code]
+        logger.info("Substations in DB: %s", len(substation_ids))
 
         asset_uuid_map: dict[str, UUID] = {}
         rows: list[dict[str, Any]] = []
         health_rows: list[dict[str, Any]] = []
         seen_codes: set[str] = set()
+        total = len(all_items)
+        logger.info("Inserting %s assets in batches of %s…", total, batch_size)
 
         for idx, mock in enumerate(all_items):
             type_code = _map_legacy_type(mock["asset_type"])
@@ -261,8 +270,7 @@ async def import_kml_to_database(
             meta = dict(mock.get("metadata") or {})
             if mock.get("description"):
                 meta["description"] = mock["description"]
-            if mock.get("geometry"):
-                meta["geometry"] = mock["geometry"]
+            # Keep geometry only on geometry column (avoid huge duplicate JSONB)
             meta["legacy_id"] = mock.get("id")
 
             code = _safe_code(mock.get("id") or mock["name"], f"AST-{idx}")
@@ -271,7 +279,9 @@ async def import_kml_to_database(
             seen_codes.add(code)
 
             asset_id = uuid4()
-            asset_uuid_map[mock["id"]] = asset_id
+            # Only keep uuid map for a small sample (ops seed) — full map is huge
+            if mock.get("asset_type") == "line" and len(asset_uuid_map) < 20:
+                asset_uuid_map[mock["id"]] = asset_id
             geom = mock.get("geometry") if isinstance(mock.get("geometry"), dict) else None
 
             rows.append(
@@ -313,8 +323,8 @@ async def import_kml_to_database(
                 stats["inserted"] += await _flush_asset_batch(session, rows, health_rows)
                 rows.clear()
                 health_rows.clear()
-                if stats["inserted"] % 5000 == 0:
-                    logger.info("Imported %s / %s assets…", stats["inserted"], len(all_items))
+                if stats["inserted"] % 2000 == 0 or stats["inserted"] <= batch_size:
+                    logger.info("Imported %s / %s assets…", stats["inserted"], total)
 
         stats["inserted"] += await _flush_asset_batch(session, rows, health_rows)
 

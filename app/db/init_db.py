@@ -162,21 +162,14 @@ async def init_database() -> bool:
     global _db_ready
     try:
         async with engine.begin() as conn:
-            # Prefer pgcrypto / built-in uuid; uuid-ossp is optional on some hosts
-            try:
-                await conn.execute(text('CREATE EXTENSION IF NOT EXISTS "pgcrypto"'))
-            except Exception as ext_exc:
-                logger.warning("pgcrypto extension skipped: %s", ext_exc)
-            try:
-                await conn.execute(text('CREATE EXTENSION IF NOT EXISTS "uuid-ossp"'))
-            except Exception as ext_exc:
-                logger.warning("uuid-ossp extension skipped: %s", ext_exc)
-            # PostGIS is optional — geometry is JSONB so vanilla Railway PG works
-            try:
-                await conn.execute(text('CREATE EXTENSION IF NOT EXISTS "postgis"'))
-                logger.info("PostGIS extension enabled")
-            except Exception as ext_exc:
-                logger.warning("PostGIS not available (OK): %s", ext_exc)
+            # Optional extensions — use SAVEPOINT so a missing one does not abort DDL
+            for ext in ("pgcrypto", "uuid-ossp"):
+                try:
+                    async with conn.begin_nested():
+                        await conn.execute(text(f'CREATE EXTENSION IF NOT EXISTS "{ext}"'))
+                except Exception as ext_exc:
+                    logger.warning("%s extension skipped: %s", ext, ext_exc)
+            # PostGIS not required (geometry is JSONB) — skip on Railway vanilla PG
             await conn.run_sync(Base.metadata.create_all)
     except Exception as exc:
         logger.exception("Database schema init failed: %s", exc)
