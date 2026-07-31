@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Substation_P" id="Substation_P">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="roof:shape" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="name:uk" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="short_name" type="string"></SimpleField>
+	<SimpleField name="industrial" type="string"></SimpleField>
+	<SimpleField name="disused:power" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="name:etymology:wikidata" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="roof:material" type="string"></SimpleField>
+	<SimpleField name="name:pa" type="string"></SimpleField>
+	<SimpleField name="name:hi" type="string"></SimpleField>
+	<SimpleField name="indoor:wall:material" type="string"></SimpleField>
+	<SimpleField name="indoor:level" type="string"></SimpleField>
+	<SimpleField name="indoor:area" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:place" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="building:roof:colour" type="string"></SimpleField>
+	<SimpleField name="building:material" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="building:fireproof" type="string"></SimpleField>
+	<SimpleField name="building:condition" type="string"></SimpleField>
+	<SimpleField name="building:colour" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+</Schema>
+<Folder><name>Substation_P</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">w1467581294</SimpleData>
+		<SimpleData name="osm_id">1467581294</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3352263,28.2427391 77.3352295,28.2426954 77.3353047,28.2426997 77.3353015,28.2427433 77.3352263,28.2427391</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">w1467777445</SimpleData>
+		<SimpleData name="osm_id">1467777445</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.4034427,28.4486906 77.4034768,28.4487205 77.4035337,28.4486705 77.4034996,28.4486405 77.4034427,28.4486906</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">w1467336871</SimpleData>
+		<SimpleData name="osm_id">1467336871</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.9564075,28.1999374 76.956453,28.199943 76.9564627,28.1998814 76.9564173,28.1998759 76.9564075,28.1999374</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">w1467354139</SimpleData>
+		<SimpleData name="osm_id">1467354139</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.2554344,28.2438314 77.2554691,28.2438434 77.2554934,28.2437886 77.2554587,28.2437766 77.2554344,28.2438314</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">w1467322702</SimpleData>
+		<SimpleData name="osm_id">1467322702</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0285612,28.2120454 77.0285995,28.2120225 77.0286389,28.2120735 77.0286006,28.2120965 77.0285612,28.2120454</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">w1467328069</SimpleData>
+		<SimpleData name="osm_id">1467328069</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.978462,28.2030434 76.9785016,28.2030479 76.978493,28.2031066 76.9784533,28.2031021 76.978462,28.2030434</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>66 KV Substation, Sector 5</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">w1066679796</SimpleData>
+		<SimpleData name="osm_id">1066679796</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="operator">HVPNL</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.8598611,30.7005126 76.8605655,30.700266 76.8604108,30.6997247 76.8597185,30.6999723 76.8598611,30.7005126</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

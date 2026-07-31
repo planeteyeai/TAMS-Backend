@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Substation_POLYGON" id="Substation_POLYGON">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="name:etymology:wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="waterway" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="roof:material" type="string"></SimpleField>
+	<SimpleField name="name:pa" type="string"></SimpleField>
+	<SimpleField name="name:hi" type="string"></SimpleField>
+	<SimpleField name="indoor:wall:material" type="string"></SimpleField>
+	<SimpleField name="indoor:level" type="string"></SimpleField>
+	<SimpleField name="indoor:area" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:place" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="building:roof:colour" type="string"></SimpleField>
+	<SimpleField name="building:material" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="building:fireproof" type="string"></SimpleField>
+	<SimpleField name="building:condition" type="string"></SimpleField>
+	<SimpleField name="building:colour" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+</Schema>
+<Folder><name>Substation_POLYGON</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_POLYGON">
+		<SimpleData name="full_id">r6247863</SimpleData>
+		<SimpleData name="osm_id">6247863</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.5357818,32.1438849 76.5360145,32.1436239 76.5362109,32.1436008 76.5362835,32.1436533 76.5359873,32.1440026 76.5357818,32.1438849</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.5348298,32.1440896 76.5351607,32.1436776 76.5355249,32.143881 76.5355007,32.1439066 76.5358347,32.1440934 76.5354977,32.1444338 76.5351335,32.1442828 76.5348298,32.1440896</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

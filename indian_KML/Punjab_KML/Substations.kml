@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Substations" id="Substations">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="wheelchair" type="string"></SimpleField>
+	<SimpleField name="stroller" type="string"></SimpleField>
+	<SimpleField name="currency:PKR" type="string"></SimpleField>
+	<SimpleField name="air_conditioning" type="string"></SimpleField>
+	<SimpleField name="contact:website" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city:ur" type="string"></SimpleField>
+	<SimpleField name="addr:city:sd" type="string"></SimpleField>
+	<SimpleField name="addr:city:ps" type="string"></SimpleField>
+	<SimpleField name="addr:city:pnb" type="string"></SimpleField>
+	<SimpleField name="addr:city:ar" type="string"></SimpleField>
+	<SimpleField name="payment:debit_cards" type="string"></SimpleField>
+	<SimpleField name="payment:credit_cards" type="string"></SimpleField>
+	<SimpleField name="payment:cash" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="shop" type="string"></SimpleField>
+	<SimpleField name="ele" type="string"></SimpleField>
+	<SimpleField name="name:ru" type="string"></SimpleField>
+	<SimpleField name="name:pt" type="string"></SimpleField>
+	<SimpleField name="name:es" type="string"></SimpleField>
+	<SimpleField name="name:de" type="string"></SimpleField>
+	<SimpleField name="name:azb" type="string"></SimpleField>
+	<SimpleField name="name:az-Arab" type="string"></SimpleField>
+	<SimpleField name="architect" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="short_name:ur" type="string"></SimpleField>
+	<SimpleField name="name:ur" type="string"></SimpleField>
+	<SimpleField name="name:sd" type="string"></SimpleField>
+	<SimpleField name="name:pnb" type="string"></SimpleField>
+	<SimpleField name="name:ks" type="string"></SimpleField>
+	<SimpleField name="name:ar" type="string"></SimpleField>
+	<SimpleField name="brand:wikipedia:ur" type="string"></SimpleField>
+	<SimpleField name="brand:wikipedia" type="string"></SimpleField>
+	<SimpleField name="brand:wikidata" type="string"></SimpleField>
+	<SimpleField name="brand:ur" type="string"></SimpleField>
+	<SimpleField name="brand:ks" type="string"></SimpleField>
+	<SimpleField name="brand:ar" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="waterway" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="short_name" type="string"></SimpleField>
+	<SimpleField name="industrial" type="string"></SimpleField>
+	<SimpleField name="disused:power" type="string"></SimpleField>
+	<SimpleField name="name:etymology:wikidata" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="roof:material" type="string"></SimpleField>
+	<SimpleField name="name:pa" type="string"></SimpleField>
+	<SimpleField name="name:hi" type="string"></SimpleField>
+	<SimpleField name="indoor:wall:material" type="string"></SimpleField>
+	<SimpleField name="indoor:level" type="string"></SimpleField>
+	<SimpleField name="indoor:area" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:place" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="building:roof:colour" type="string"></SimpleField>
+	<SimpleField name="building:material" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="building:fireproof" type="string"></SimpleField>
+	<SimpleField name="building:condition" type="string"></SimpleField>
+	<SimpleField name="building:colour" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+</Schema>
+<Folder><name>Substations</name>
+  <Placemark>
+	<name>Dhuri</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">r18941488</SimpleData>
+		<SimpleData name="osm_id">18941488</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">400000;220000;66000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.9309441,30.3012428 75.9338439,30.3012343 75.9364656,30.3012371 75.9359637,30.2998474 75.9359258,30.2998076 75.9349762,30.2995206 75.9337583,30.299235 75.9324993,30.2989934 75.9321307,30.2989238 75.9319118,30.2988187 75.9312551,30.2989991 75.9306029,30.2990914 75.9303655,30.2989728 75.9301676,30.2989447 75.9301607,30.3010145 75.9309473,30.3010125 75.9309441,30.3012428</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>75.9362354,30.300427 75.9365611,30.3013428 75.9375347,30.3013367 75.9385527,30.3013029 75.9383552,30.3011261 75.9373513,30.3005776 75.9371182,30.3004485 75.9362354,30.300427</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Pakhowal</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w124751492</SimpleData>
+		<SimpleData name="osm_id">124751492</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">PSPCL</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.6811574,30.7123619 75.681338,30.7137489 75.682478,30.7137275 75.682453,30.712062 75.6811574,30.7123619</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>66 K.V. Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w210276710</SimpleData>
+		<SimpleData name="osm_id">210276710</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">PSPCL</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.5971628,30.6557802 75.5973683,30.6550611 75.5979057,30.6551245 75.5978407,30.6554811 75.5978987,30.6556125 75.5978671,30.6558497 75.5971628,30.6557802</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Majra</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w919730617</SimpleData>
+		<SimpleData name="osm_id">919730617</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">220000;66000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7170197,30.8448345 76.7163894,30.8444661 76.7163652,30.8436578 76.7169607,30.8436486 76.7169553,30.843568 76.7184627,30.8435449 76.718503,30.8454839 76.7170197,30.8448345</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

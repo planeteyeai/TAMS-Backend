@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Portal" id="Portal">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="line_management" type="string"></SimpleField>
+	<SimpleField name="line_arrangement" type="string"></SimpleField>
+	<SimpleField name="light:tilt" type="string"></SimpleField>
+	<SimpleField name="light:shape" type="string"></SimpleField>
+	<SimpleField name="light:direction" type="string"></SimpleField>
+	<SimpleField name="light:count" type="string"></SimpleField>
+	<SimpleField name="catenary_mast:supporting" type="string"></SimpleField>
+	<SimpleField name="voltage:secondary" type="string"></SimpleField>
+	<SimpleField name="manufacturer" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="switch" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="devices" type="string"></SimpleField>
+	<SimpleField name="lamp_type" type="string"></SimpleField>
+	<SimpleField name="lamp_mount" type="string"></SimpleField>
+	<SimpleField name="vehicle" type="string"></SimpleField>
+	<SimpleField name="locked" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="smoking" type="string"></SimpleField>
+	<SimpleField name="office" type="string"></SimpleField>
+	<SimpleField name="name:hi" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="internet_access" type="string"></SimpleField>
+	<SimpleField name="contact:website" type="string"></SimpleField>
+	<SimpleField name="contact:phone" type="string"></SimpleField>
+	<SimpleField name="contact:email" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="wheelchair" type="string"></SimpleField>
+	<SimpleField name="short_name" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:en" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="indoor" type="string"></SimpleField>
+	<SimpleField name="drive_through" type="string"></SimpleField>
+	<SimpleField name="currency:INR" type="string"></SimpleField>
+	<SimpleField name="brand:wikidata" type="string"></SimpleField>
+	<SimpleField name="brand:en" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="entrance" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+</Schema>
+<Folder><name>Portal</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153865</SimpleData>
+		<SimpleData name="osm_id">12605153865</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9817319,28.6789781</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153864</SimpleData>
+		<SimpleData name="osm_id">12605153864</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9816729,28.6756507</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153863</SimpleData>
+		<SimpleData name="osm_id">12605153863</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9828209,28.6761261</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153862</SimpleData>
+		<SimpleData name="osm_id">12605153862</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9828531,28.6779004</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153873</SimpleData>
+		<SimpleData name="osm_id">12605153873</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9817118,28.6778439</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153871</SimpleData>
+		<SimpleData name="osm_id">12605153871</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9816931,28.6767895</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153870</SimpleData>
+		<SimpleData name="osm_id">12605153870</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9816953,28.6769118</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153869</SimpleData>
+		<SimpleData name="osm_id">12605153869</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9816991,28.6771286</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153868</SimpleData>
+		<SimpleData name="osm_id">12605153868</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9817036,28.677378</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153867</SimpleData>
+		<SimpleData name="osm_id">12605153867</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.981708,28.6776273</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153866</SimpleData>
+		<SimpleData name="osm_id">12605153866</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9816764,28.6758482</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153876</SimpleData>
+		<SimpleData name="osm_id">12605153876</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9828327,28.6767755</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153875</SimpleData>
+		<SimpleData name="osm_id">12605153875</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9828517,28.6778202</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153841</SimpleData>
+		<SimpleData name="osm_id">12605153841</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9803713,28.6776568</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153840</SimpleData>
+		<SimpleData name="osm_id">12605153840</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9787906,28.677678</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153839</SimpleData>
+		<SimpleData name="osm_id">12605153839</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9787937,28.6779157</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153838</SimpleData>
+		<SimpleData name="osm_id">12605153838</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9803746,28.6778992</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153837</SimpleData>
+		<SimpleData name="osm_id">12605153837</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9787712,28.6762114</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153836</SimpleData>
+		<SimpleData name="osm_id">12605153836</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9803518,28.6761952</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153835</SimpleData>
+		<SimpleData name="osm_id">12605153835</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9803778,28.6781436</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153834</SimpleData>
+		<SimpleData name="osm_id">12605153834</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9787969,28.6781597</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153849</SimpleData>
+		<SimpleData name="osm_id">12605153849</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9803583,28.6766802</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153848</SimpleData>
+		<SimpleData name="osm_id">12605153848</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9787777,28.6767014</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153847</SimpleData>
+		<SimpleData name="osm_id">12605153847</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9787809,28.6769437</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153846</SimpleData>
+		<SimpleData name="osm_id">12605153846</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9803615,28.6769227</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153845</SimpleData>
+		<SimpleData name="osm_id">12605153845</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9803648,28.6771674</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153844</SimpleData>
+		<SimpleData name="osm_id">12605153844</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9787841,28.6771886</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153843</SimpleData>
+		<SimpleData name="osm_id">12605153843</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9787873,28.6774286</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153842</SimpleData>
+		<SimpleData name="osm_id">12605153842</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.980368,28.6774073</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153857</SimpleData>
+		<SimpleData name="osm_id">12605153857</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9785348,28.6764543</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153856</SimpleData>
+		<SimpleData name="osm_id">12605153856</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.978524,28.6767038</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153855</SimpleData>
+		<SimpleData name="osm_id">12605153855</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9785535,28.6774309</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153854</SimpleData>
+		<SimpleData name="osm_id">12605153854</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9785482,28.6776803</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153853</SimpleData>
+		<SimpleData name="osm_id">12605153853</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9785616,28.6781557</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153852</SimpleData>
+		<SimpleData name="osm_id">12605153852</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9785616,28.6779133</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153851</SimpleData>
+		<SimpleData name="osm_id">12605153851</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9787744,28.676452</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12605153850</SimpleData>
+		<SimpleData name="osm_id">12605153850</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.980355,28.6764354</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863171</SimpleData>
+		<SimpleData name="osm_id">12685863171</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0682793,28.7937252</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863170</SimpleData>
+		<SimpleData name="osm_id">12685863170</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0685511,28.7934761</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863159</SimpleData>
+		<SimpleData name="osm_id">12685863159</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0670232,28.795562</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863158</SimpleData>
+		<SimpleData name="osm_id">12685863158</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0671546,28.7954445</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863157</SimpleData>
+		<SimpleData name="osm_id">12685863157</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0666342,28.7950026</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863156</SimpleData>
+		<SimpleData name="osm_id">12685863156</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0670071,28.7949297</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863155</SimpleData>
+		<SimpleData name="osm_id">12685863155</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.06683,28.7948169</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863154</SimpleData>
+		<SimpleData name="osm_id">12685863154</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0671358,28.7948098</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863129</SimpleData>
+		<SimpleData name="osm_id">12685863129</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0671795,28.7919174</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863128</SimpleData>
+		<SimpleData name="osm_id">12685863128</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0661008,28.7929216</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863127</SimpleData>
+		<SimpleData name="osm_id">12685863127</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0669781,28.7917486</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863126</SimpleData>
+		<SimpleData name="osm_id">12685863126</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0687845,28.7932623</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863125</SimpleData>
+		<SimpleData name="osm_id">12685863125</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0676967,28.7942592</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863124</SimpleData>
+		<SimpleData name="osm_id">12685863124</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0658905,28.7927454</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863109</SimpleData>
+		<SimpleData name="osm_id">12685863109</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0676412,28.7954839</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863106</SimpleData>
+		<SimpleData name="osm_id">12685863106</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0672925,28.7957966</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863137</SimpleData>
+		<SimpleData name="osm_id">12685863137</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0679776,28.7925861</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863136</SimpleData>
+		<SimpleData name="osm_id">12685863136</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0669001,28.7935915</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863135</SimpleData>
+		<SimpleData name="osm_id">12685863135</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0667013,28.7934249</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863134</SimpleData>
+		<SimpleData name="osm_id">12685863134</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.067776,28.7924172</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863133</SimpleData>
+		<SimpleData name="osm_id">12685863133</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0665039,28.7932595</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863132</SimpleData>
+		<SimpleData name="osm_id">12685863132</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0675758,28.7922494</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863131</SimpleData>
+		<SimpleData name="osm_id">12685863131</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0663051,28.7930928</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863130</SimpleData>
+		<SimpleData name="osm_id">12685863130</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0673771,28.7920829</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863145</SimpleData>
+		<SimpleData name="osm_id">12685863145</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0657977,28.7928374</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863144</SimpleData>
+		<SimpleData name="osm_id">12685863144</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.066015,28.7930066</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12478557113</SimpleData>
+		<SimpleData name="osm_id">12478557113</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.938785,28.5331731</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863143</SimpleData>
+		<SimpleData name="osm_id">12685863143</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0683837,28.7929264</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12478557111</SimpleData>
+		<SimpleData name="osm_id">12478557111</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9387985,28.533663</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863142</SimpleData>
+		<SimpleData name="osm_id">12685863142</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0673007,28.7939272</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863141</SimpleData>
+		<SimpleData name="osm_id">12685863141</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0674984,28.7940929</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863140</SimpleData>
+		<SimpleData name="osm_id">12685863140</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0685825,28.793093</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863139</SimpleData>
+		<SimpleData name="osm_id">12685863139</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0670963,28.7937559</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863138</SimpleData>
+		<SimpleData name="osm_id">12685863138</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0681763,28.7927526</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863153</SimpleData>
+		<SimpleData name="osm_id">12685863153</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0655882,28.7937615</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863152</SimpleData>
+		<SimpleData name="osm_id">12685863152</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0659235,28.7937944</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863151</SimpleData>
+		<SimpleData name="osm_id">12685863151</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0672086,28.7940127</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863150</SimpleData>
+		<SimpleData name="osm_id">12685863150</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0670021,28.7938434</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863149</SimpleData>
+		<SimpleData name="osm_id">12685863149</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0668063,28.7936812</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863148</SimpleData>
+		<SimpleData name="osm_id">12685863148</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0666051,28.7935167</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863147</SimpleData>
+		<SimpleData name="osm_id">12685863147</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0664093,28.7933474</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Portal">
+		<SimpleData name="full_id">n12685863146</SimpleData>
+		<SimpleData name="osm_id">12685863146</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0662028,28.7931805</coordinates></Point></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

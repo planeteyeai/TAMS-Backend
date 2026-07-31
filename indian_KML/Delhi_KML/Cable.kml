@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Cable" id="Cable">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="street_cabinet" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="generator:plant" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="name:hi" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="operator:en" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>Cable</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Cable">
+		<SimpleData name="full_id">w764203417</SimpleData>
+		<SimpleData name="osm_id">764203417</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">cable</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.2042072,28.5129338 77.2040395,28.5129686</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Cable">
+		<SimpleData name="full_id">w762454977</SimpleData>
+		<SimpleData name="osm_id">762454977</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">cable</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.2063786,28.519276 77.206348,28.5190097</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Cable">
+		<SimpleData name="full_id">w761127238</SimpleData>
+		<SimpleData name="osm_id">761127238</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">cable</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.2016435,28.5050993 77.2020052,28.5050849 77.2022973,28.5050903</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Cable">
+		<SimpleData name="full_id">w1313994914</SimpleData>
+		<SimpleData name="osm_id">1313994914</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">cable</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.295907,28.6185455 77.295836,28.6184843 77.2958929,28.6183116</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Cable">
+		<SimpleData name="full_id">w756549238</SimpleData>
+		<SimpleData name="osm_id">756549238</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">cable</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.2541457,28.5418667 77.2542873,28.5419813</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Cable">
+		<SimpleData name="full_id">w190261096</SimpleData>
+		<SimpleData name="osm_id">190261096</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">cable</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.1155025,28.5339254 77.1163398,28.5446834</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Cable">
+		<SimpleData name="full_id">w514039450</SimpleData>
+		<SimpleData name="osm_id">514039450</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">cable</SimpleData>
+		<SimpleData name="operator">Power Grid Corporation of India Ltd</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.0183538,28.54637 77.0151714,28.5436675</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Cable">
+		<SimpleData name="full_id">w514039449</SimpleData>
+		<SimpleData name="osm_id">514039449</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">cable</SimpleData>
+		<SimpleData name="operator">Power Grid Corporation of India Ltd</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.0133488,28.5440515 77.0171951,28.5474726</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Cable">
+		<SimpleData name="full_id">w1116280976</SimpleData>
+		<SimpleData name="osm_id">1116280976</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">cable</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.0432468,28.5597226 77.0430897,28.5591982 77.0421973,28.5559326 77.0425424,28.5534708 77.0429216,28.5510323 77.0433041,28.5485728 77.0436908,28.5461248 77.0438915,28.5449819</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Cable">
+		<SimpleData name="full_id">w1311785646</SimpleData>
+		<SimpleData name="osm_id">1311785646</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">cable</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.234159,28.5479623 77.2337727,28.548121 77.2334575,28.5483191 77.2331131,28.5485516</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Cable">
+		<SimpleData name="full_id">w1311785631</SimpleData>
+		<SimpleData name="osm_id">1311785631</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">cable</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.2347808,28.549074 77.2345972,28.5491665 77.2344017,28.5492738 77.2341673,28.5489578</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="generator_Polygon" id="generator_Polygon">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="roof:shape" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="building:colour" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+</Schema>
+<Folder><name>generator_Polygon</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#generator_Polygon">
+		<SimpleData name="full_id">w172301974</SimpleData>
+		<SimpleData name="osm_id">172301974</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:type">gas_turbine</SimpleData>
+		<SimpleData name="generator:source">gas</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0715071,28.795831 77.0715359,28.7958052 77.071744,28.795619 77.072163,28.7959784 77.0719261,28.7961904 77.0715071,28.795831</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#generator_Polygon">
+		<SimpleData name="full_id">w172301973</SimpleData>
+		<SimpleData name="osm_id">172301973</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:type">steam_turbine</SimpleData>
+		<SimpleData name="generator:source">gas</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0704401,28.7968177 77.0706285,28.7966489 77.0706769,28.7966056 77.0710959,28.796965 77.0708591,28.7971771 77.0704401,28.7968177</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#generator_Polygon">
+		<SimpleData name="full_id">w1033716971</SimpleData>
+		<SimpleData name="osm_id">1033716971</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">shed</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0374408,28.6120376 77.037462,28.6119779 77.0375079,28.6119905 77.0374867,28.6120502 77.0374408,28.6120376</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#generator_Polygon">
+		<SimpleData name="full_id">w172301972</SimpleData>
+		<SimpleData name="osm_id">172301972</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:type">gas_turbine</SimpleData>
+		<SimpleData name="generator:source">gas</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.071804,28.7955623 77.0719877,28.7953978 77.0720409,28.7953502 77.0724599,28.7957096 77.072223,28.7959217 77.071804,28.7955623</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#generator_Polygon">
+		<SimpleData name="full_id">w172301977</SimpleData>
+		<SimpleData name="osm_id">172301977</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:type">gas_turbine</SimpleData>
+		<SimpleData name="generator:source">gas</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0701516,28.7970877 77.0703527,28.7969077 77.0703885,28.7968756 77.0708074,28.797235 77.0705706,28.797447 77.0701516,28.7970877</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#generator_Polygon">
+		<SimpleData name="full_id">w172301976</SimpleData>
+		<SimpleData name="osm_id">172301976</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:type">gas_turbine</SimpleData>
+		<SimpleData name="generator:source">gas</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0698687,28.797338 77.0700829,28.7971462 77.0701056,28.7971259 77.0705246,28.7974853 77.0702877,28.7976974 77.0698687,28.797338</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#generator_Polygon">
+		<SimpleData name="full_id">w172301975</SimpleData>
+		<SimpleData name="osm_id">172301975</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:type">steam_turbine</SimpleData>
+		<SimpleData name="generator:source">gas</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0712103,28.7961157 77.071402,28.7959441 77.0714471,28.7959037 77.0718661,28.7962631 77.0716292,28.7964751 77.0712103,28.7961157</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

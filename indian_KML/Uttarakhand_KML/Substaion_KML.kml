@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Substaion_KML" id="Substaion_KML">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="waterway" type="string"></SimpleField>
+	<SimpleField name="hydroelectric" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+</Schema>
+<Folder><name>Substaion_KML</name>
+  <Placemark>
+	<name>Rishikesh</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substaion_KML">
+		<SimpleData name="full_id">r19799765</SimpleData>
+		<SimpleData name="osm_id">19799765</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">400000;220000;132000</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.2572247,30.0664442 78.257198,30.0664836 78.2575699,30.0679015 78.2576594,30.0678839 78.2577112,30.0680822 78.2578367,30.0680537 78.2578477,30.068089 78.2583185,30.0679925 78.2582652,30.0677766 78.258747,30.0676774 78.2587093,30.0675376 78.2589117,30.0674955 78.2588348,30.0672143 78.2586308,30.0672551 78.2586167,30.0672007 78.2581208,30.0672931 78.2578787,30.0663233 78.2572247,30.0664442</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>78.2561473,30.0674377 78.2556609,30.0655201 78.2568257,30.0652909 78.2572376,30.0668974 78.2571898,30.0669635 78.2572569,30.067228 78.2561473,30.0674377</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>78.253927,30.0615765 78.2546774,30.0644945 78.2564429,30.0641656 78.2556852,30.0612327 78.253927,30.0615765</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

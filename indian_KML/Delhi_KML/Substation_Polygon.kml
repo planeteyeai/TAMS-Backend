@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Transformer" id="Transformer">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="roof:shape" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="building:colour" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+</Schema>
+<Folder><name>Transformer</name>
+  <Placemark>
+	<name>Electric Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w952787109</SimpleData>
+		<SimpleData name="osm_id">952787109</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">service</SimpleData>
+		<SimpleData name="operator">NSUT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0358791,28.6077513 77.035907,28.6076642 77.0361583,28.6077263 77.0361304,28.6078134 77.0358791,28.6077513</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Electric Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w952398106</SimpleData>
+		<SimpleData name="osm_id">952398106</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">NSUT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.037902,28.6115754 77.0379706,28.6113816 77.0380538,28.6114043 77.0380319,28.6114664 77.0383463,28.6115521 77.0382997,28.6116838 77.037902,28.6115754</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Electric Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w952398096</SimpleData>
+		<SimpleData name="osm_id">952398096</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">service</SimpleData>
+		<SimpleData name="operator">NSUT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0372522,28.6085472 77.0372847,28.6084493 77.0373462,28.608465 77.0373687,28.6083975 77.0375068,28.6084329 77.0374518,28.6085984 77.0372522,28.6085472</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Electric Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w952398072</SimpleData>
+		<SimpleData name="osm_id">952398072</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0366378,28.6135043 77.0366933,28.6133333 77.0367999,28.61336 77.0367444,28.6135309 77.0366378,28.6135043</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Electric Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w44091397</SimpleData>
+		<SimpleData name="osm_id">44091397</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.1857359,28.5389209 77.1858389,28.5388832 77.1857788,28.5387701 77.1856759,28.5388078 77.1857359,28.5389209</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Pocket 5 Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w352446795</SimpleData>
+		<SimpleData name="osm_id">352446795</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="location">indoor</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0467418,28.5935058 77.0467824,28.5934764 77.0467329,28.5934257 77.0466961,28.593454 77.0467418,28.5935058</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w1498062680</SimpleData>
+		<SimpleData name="osm_id">1498062680</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.1767312,28.7213178 77.1768217,28.7213774 77.1768168,28.7213831 77.1768628,28.7214134 77.1768842,28.7213885 77.1768381,28.7213582 77.1767477,28.7212987 77.1767312,28.7213178</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>33KV Electric Substation Kidwai Nagar (East - I)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w1479881906</SimpleData>
+		<SimpleData name="osm_id">1479881906</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building:levels">2</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="voltage">33000</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.2100595,28.5728818 77.2100595,28.5727725 77.2101063,28.5727725 77.2101063,28.5727241 77.2101323,28.5727241 77.2101323,28.5726896 77.2102517,28.5726896 77.2102517,28.5728818 77.2100595,28.5728818</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Powergrid Narela Transmission Ltd. (Mungeshpur)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w1474325002</SimpleData>
+		<SimpleData name="osm_id">1474325002</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">commercial</SimpleData>
+		<SimpleData name="voltage">765000;400000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="operator">Powergrid Corporation Of India Ltd.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.9837943,28.8246469 76.9873562,28.8245937 76.9873832,28.8240785 76.9882686,28.8240607 76.9876468,28.8232554 76.9863086,28.8213606 76.9838889,28.8214138 76.9839363,28.8224975 76.9825304,28.8225271 76.982736,28.8242885 76.9829421,28.8247618 76.9837943,28.8246469</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Main Electric Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w351081649</SimpleData>
+		<SimpleData name="osm_id">351081649</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="start_date">1999-04-26</SimpleData>
+		<SimpleData name="building">service</SimpleData>
+		<SimpleData name="operator">NSUT</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0407443,28.607729 77.0408929,28.6077682 77.0409571,28.6075801 77.0408086,28.607541 77.0407443,28.607729</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Hauz Qazi Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w1465628342</SimpleData>
+		<SimpleData name="osm_id">1465628342</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="roof:shape">flat</SimpleData>
+		<SimpleData name="building:levels">4</SimpleData>
+		<SimpleData name="start_date">1953</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">DSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.2256902,28.6486963 77.2258483,28.6486203 77.2258952,28.6486954 77.225737,28.6487714 77.2256902,28.6486963</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Electric Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w281984544</SimpleData>
+		<SimpleData name="osm_id">281984544</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.2144284,28.6177244 77.2145585,28.6177194 77.214542,28.6173886 77.2144119,28.6173935 77.2144284,28.6177244</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Tikri Kalan(Mundka) Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">r18526167</SimpleData>
+		<SimpleData name="osm_id">18526167</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="substation">substation</SimpleData>
+		<SimpleData name="operator">Delhi Transco Limited</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.9813685,28.67925 76.9812588,28.6792665 76.9810979,28.6793382 76.9799441,28.6793564 76.9782928,28.6793675 76.977345,28.6793741 76.9773425,28.6786862 76.9773271,28.6780501 76.9773146,28.677235 76.9773036,28.6760556 76.9772908,28.6752837 76.9772847,28.6750751 76.9787311,28.6750675 76.9799171,28.6750509 76.9800566,28.6750374 76.9812295,28.6750326 76.9824933,28.6750206 76.9825339,28.6750205 76.9831611,28.6750318 76.9834205,28.6750331 76.9853136,28.6749877 76.9854182,28.675134 76.9863313,28.6764801 76.9848184,28.6765042 76.9849234,28.6771962 76.9861993,28.6771911 76.9862331,28.6792352 76.9837173,28.6792517 76.9817632,28.6792572 76.9813685,28.67925</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>D 7 Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w190261107</SimpleData>
+		<SimpleData name="osm_id">190261107</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="substation">yes</SimpleData>
+		<SimpleData name="operator">BSES Rajdhani</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.1473435,28.5283753 77.1466576,28.5287467 77.147287,28.5296006 77.1478402,28.5290309 77.1473435,28.5283753</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer">
+		<SimpleData name="full_id">w1316627353</SimpleData>
+		<SimpleData name="osm_id">1316627353</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="roof:shape">flat</SimpleData>
+		<SimpleData name="building:use">office</SimpleData>
+		<SimpleData name="building:colour">brown</SimpleData>
+		<SimpleData name="addr:housenumber">257</SimpleData>
+		<SimpleData name="building:levels">2</SimpleData>
+		<SimpleData name="addr:street">Jai Singh Road</SimpleData>
+		<SimpleData name="building">office</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.2117879,28.6260861 77.2118145,28.6260394 77.211976,28.6261102 77.2119494,28.626157 77.2117879,28.6260861</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

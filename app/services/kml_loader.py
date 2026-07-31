@@ -1,5 +1,5 @@
 """
-Load transmission assets from indian_KML/Towers_KML (OSM-derived Gujarat corridor data).
+Load transmission assets from indian_KML state packs (Gujarat + Rajasthan, …).
 
 Integrated into:
   - mock_data.MOCK_ASSETS (lines + substations at startup)
@@ -19,42 +19,135 @@ from xml.etree import ElementTree as ET
 
 logger = logging.getLogger(__name__)
 
-KML_DIR = Path(__file__).resolve().parents[2] / "indian_KML" / "Towers_KML"
+KML_ROOT = Path(__file__).resolve().parents[2] / "indian_KML"
+# Legacy single-dir alias (Gujarat pack)
+KML_DIR = KML_ROOT / "Towers_KML"
 
 # (south, west, north, east)
 INDIA_BOUNDS = (6.5, 68.0, 35.5, 97.5)
 
 STATE_BOUNDS: dict[str, tuple[float, float, float, float]] = {
-    "Gujarat": (20.1, 68.1, 24.7, 74.5),
-    "Maharashtra": (15.6, 72.6, 22.1, 80.9),
-    "Rajasthan": (23.0, 69.3, 30.2, 78.2),
-    "Karnataka": (11.5, 74.0, 18.5, 78.6),
-    "Telangana": (15.8, 77.2, 19.9, 81.3),
-    "Tamil Nadu": (8.0, 76.2, 13.6, 80.4),
-    "Uttar Pradesh": (23.7, 77.0, 30.4, 84.6),
+    # Delhi first so NCR points are not swallowed by surrounding Haryana bbox
     "Delhi": (28.4, 76.8, 28.9, 77.4),
-    "Madhya Pradesh": (21.0, 74.0, 26.9, 82.8),
-    "West Bengal": (21.5, 85.8, 27.2, 89.9),
     "Andhra Pradesh": (12.6, 76.7, 19.9, 84.8),
-    "Kerala": (8.0, 74.8, 12.8, 77.4),
-    "Punjab": (29.5, 73.8, 32.5, 76.9),
-    "Bihar": (24.3, 83.3, 27.5, 88.3),
-    "Odisha": (17.8, 81.3, 22.6, 87.5),
+    "Arunachal Pradesh": (26.5, 91.5, 29.5, 97.4),
     "Assam": (24.1, 89.7, 28.0, 96.0),
-    "Jharkhand": (22.0, 83.3, 25.3, 87.9),
+    "Bihar": (24.3, 83.3, 27.5, 88.3),
     "Chhattisgarh": (17.8, 80.2, 24.1, 84.4),
+    "Goa": (14.9, 73.7, 15.8, 74.3),
+    "Gujarat": (20.1, 68.1, 24.7, 74.5),
+    "Haryana": (27.65, 74.45, 30.95, 77.6),
+    "Himachal Pradesh": (30.4, 75.6, 33.3, 79.0),
+    "Jharkhand": (22.0, 83.3, 25.3, 87.9),
+    "Karnataka": (11.5, 74.0, 18.5, 78.6),
+    "Kerala": (8.0, 74.8, 12.8, 77.4),
+    "Madhya Pradesh": (21.0, 74.0, 26.9, 82.8),
+    "Maharashtra": (15.6, 72.6, 22.1, 80.9),
+    "Manipur": (23.8, 93.0, 25.7, 94.8),
+    "Meghalaya": (25.0, 89.8, 26.1, 92.8),
+    "Mizoram": (21.9, 92.2, 24.5, 93.4),
+    "Nagaland": (25.2, 93.3, 27.0, 95.3),
+    "Odisha": (17.8, 81.3, 22.6, 87.5),
+    "Punjab": (29.5, 73.8, 32.5, 76.9),
+    "Rajasthan": (23.0, 69.3, 30.2, 78.2),
+    "Sikkim": (27.0, 88.0, 28.2, 88.9),
+    "Tamil Nadu": (8.0, 76.2, 13.6, 80.4),
+    "Telangana": (15.8, 77.2, 19.9, 81.3),
+    "Tripura": (22.9, 91.2, 24.5, 92.3),
+    "Uttar Pradesh": (23.7, 77.0, 30.4, 84.6),
+    "Uttarakhand": (28.7, 77.5, 31.5, 81.0),
+    "West Bengal": (21.5, 85.8, 27.2, 89.9),
 }
 
 LINE_GLOBS = [
     "*_voltage_line.kml",
     "substation_Line.kml",
     "Portal_Line.kml",
+    "Portal_L.kml",
     "Transformar_Line.kml",
+    "Transformer_LIne.kml",
     "Unidentified_voltage_line.kml",
+    # Multi-state pack naming
+    "*kv.kml",
+    "*Kv.kml",
+    "* kv.kml",
+    "Minor_lines.kml",
+    "Minor_Line.kml",
+    "Minor_Liner.kml",
+    "Substation_L.kml",
+    "Cable.kml",
+    "Power_Plant_lIne.kml",
+    "Power_Plant_L.kml",
+    "power_plant_L.kml",
+    "power_Plant_Line.kml",
+    "Generator_LINE.kml",
+    "Generator_LIne.kml",
+    "PGCIL_Line.kml",
+    "Unindetifeid_Line.kml",
+    "Unindentified_Line.kml",
+    "Unindentified_Lines.kml",
+    "Unidentified_Line.kml",
+    "unidentified_lines.kml",
 ]
 
-TOWER_FILE = "Towers Locations.kml"
-SUBSTATION_FILES = ["substation.kml", "Power_Plant.kml", "Portal.kml", "Transformar.kml"]
+# Prefer named voltage files; skip mega "ALL Lines" when siblings exist (dedupe by osm_id anyway).
+LINE_SKIP_NAMES = {"all lines.kml", "all polygon.kml"}
+
+TOWER_FILES = [
+    "Towers Locations.kml",
+    "Tower_Locations.kml",
+    "tower_Locations.kml",
+    "transsmition_Towers.kml",  # Rajasthan spelling
+    "transmission_Towers.kml",
+    "Transmitions_Towers.kml",  # Uttarakhand spelling
+    "Pole.kml",
+]
+SUBSTATION_FILES = [
+    "substation.kml",
+    "Substations.kml",
+    "Substaion_KML.kml",  # Uttarakhand typo
+    "Power_Plant.kml",
+    "Power_plant.kml",
+    "Portal.kml",
+    "Portal_Point.kml",
+    "Transformar.kml",
+    "Transformer.kml",
+    "transformer.kml",
+    "transformer_Point.kml",
+    "Transformer_points.kml",
+    "Substation_Points.kml",
+    "Substation_P.kml",
+    "Substation_Polygon.kml",
+    "Substation_POLYGON.kml",
+    "Generator_PO.kml",
+    "Generator_point.kml",
+    "Generator.kml",
+    "Power_Plant_Point.kml",
+    "switchgear.kml",
+    "switch.kml",
+    "Switch.kml",
+]
+
+# Folder name → forced state label (more reliable than bbox for NCR overlaps)
+DIR_STATE_HINTS: dict[str, str] = {
+    "Delhi_KML": "Delhi",
+    "Haryana_KML": "Haryana",
+    "Punjab_KML": "Punjab",
+    "Rajasthan_KML": "Rajasthan",
+    "Himachal_Pradesh_KML": "Himachal Pradesh",
+    "Uttarakhand_KML": "Uttarakhand",
+}
+
+
+def _iter_kml_dirs() -> list[Path]:
+    dirs: list[Path] = []
+    if KML_DIR.is_dir():
+        dirs.append(KML_DIR)
+    if KML_ROOT.is_dir():
+        for child in sorted(KML_ROOT.iterdir()):
+            if child.is_dir() and child.name != "Towers_KML" and child not in dirs:
+                dirs.append(child)
+    return dirs
 
 _NOW = datetime.now(timezone.utc)
 
@@ -65,18 +158,46 @@ _cache: dict[str, Any] = {
     "tower_counts": {},
 }
 
+
+def clear_kml_cache() -> None:
+    """Drop in-memory KML caches so new state packs are re-parsed."""
+    _cache["lines"] = None
+    _cache["substations"] = None
+    _cache["towers"] = None
+    _cache["tower_counts"] = {}
+    logger.info("Cleared indian_KML in-memory caches")
+
 PLACE_ID_TO_STATE: dict[str, str | None] = {
     "india": None,
+    "andhra-pradesh": "Andhra Pradesh",
+    "arunachal-pradesh": "Arunachal Pradesh",
+    "assam": "Assam",
+    "bihar": "Bihar",
+    "chhattisgarh": "Chhattisgarh",
+    "goa": "Goa",
     "gujarat": "Gujarat",
-    "maharashtra": "Maharashtra",
-    "rajasthan": "Rajasthan",
+    "haryana": "Haryana",
+    "himachal-pradesh": "Himachal Pradesh",
+    "jharkhand": "Jharkhand",
     "karnataka": "Karnataka",
-    "telangana": "Telangana",
-    "tamil-nadu": "Tamil Nadu",
-    "uttar-pradesh": "Uttar Pradesh",
-    "delhi": "Delhi",
+    "kerala": "Kerala",
     "madhya-pradesh": "Madhya Pradesh",
+    "maharashtra": "Maharashtra",
+    "manipur": "Manipur",
+    "meghalaya": "Meghalaya",
+    "mizoram": "Mizoram",
+    "nagaland": "Nagaland",
+    "odisha": "Odisha",
+    "punjab": "Punjab",
+    "rajasthan": "Rajasthan",
+    "sikkim": "Sikkim",
+    "tamil-nadu": "Tamil Nadu",
+    "telangana": "Telangana",
+    "tripura": "Tripura",
+    "uttar-pradesh": "Uttar Pradesh",
+    "uttarakhand": "Uttarakhand",
     "west-bengal": "West Bengal",
+    "delhi": "Delhi",
 }
 
 CITY_BOUNDS: dict[str, tuple[float, float, float, float]] = {
@@ -126,7 +247,12 @@ def _parse_voltage_kv(props: dict[str, str], filename: str = "") -> int | None:
             return v // 1000 if v > 1000 else v
         except ValueError:
             pass
-    m = re.search(r"(\d+)_voltage_line", filename)
+    m = re.search(r"(\d+)_voltage_line", filename, flags=re.IGNORECASE)
+    if m:
+        v = int(m.group(1))
+        return v // 1000 if v > 1000 else v
+    # Rajasthan pack: 132kv.kml / 66 kv.kml / 500000Kv.kml
+    m = re.search(r"(\d+)\s*kv", filename, flags=re.IGNORECASE)
     if m:
         v = int(m.group(1))
         return v // 1000 if v > 1000 else v
@@ -255,7 +381,7 @@ def _base_asset(
     }
 
 
-def _parse_placemark_lines(path: Path) -> list[dict[str, Any]]:
+def _parse_placemark_lines(path: Path, forced_state: str | None = None) -> list[dict[str, Any]]:
     assets: list[dict[str, Any]] = []
     filename = path.name
 
@@ -282,7 +408,7 @@ def _parse_placemark_lines(path: Path) -> list[dict[str, Any]]:
             continue
 
         lat, lon = _centroid(coords)
-        state = _detect_state_for_line(coords)
+        state = forced_state or _detect_state_for_line(coords)
         osm_id = props.get("osm_id") or props.get("full_id") or f"line-{len(assets)}"
         voltage_kv = _parse_voltage_kv(props, filename)
         name = _get_name(elem, props, f"LINE-{voltage_kv or '?'}kV-{osm_id}")
@@ -308,7 +434,9 @@ def _parse_placemark_lines(path: Path) -> list[dict[str, Any]]:
     return assets
 
 
-def _parse_placemark_points(path: Path, asset_type: str) -> list[dict[str, Any]]:
+def _parse_placemark_points(
+    path: Path, asset_type: str, forced_state: str | None = None
+) -> list[dict[str, Any]]:
     assets: list[dict[str, Any]] = []
 
     for event, elem in ET.iterparse(path, events=("end",)):
@@ -351,7 +479,7 @@ def _parse_placemark_points(path: Path, asset_type: str) -> list[dict[str, Any]]
             elem.clear()
             continue
 
-        state = _detect_state(lat, lon)
+        state = forced_state or _detect_state(lat, lon)
         osm_id = props.get("osm_id") or props.get("full_id") or f"{asset_type}-{len(assets)}"
         voltage_kv = _parse_voltage_kv(props, path.name)
         if asset_type == "substation" and not voltage_kv:
@@ -386,19 +514,24 @@ def _load_lines() -> list[dict[str, Any]]:
         return _cache["lines"]
 
     lines: list[dict[str, Any]] = []
-    if not KML_DIR.is_dir():
-        logger.warning("KML directory not found: %s", KML_DIR)
+    dirs = _iter_kml_dirs()
+    if not dirs:
+        logger.warning("KML directories not found under: %s", KML_ROOT)
         _cache["lines"] = []
         return []
 
     seen: set[str] = set()
-    for pattern in LINE_GLOBS:
-        for path in sorted(KML_DIR.glob(pattern)):
-            logger.info("Parsing line KML: %s", path.name)
-            for asset in _parse_placemark_lines(path):
-                if asset["id"] not in seen:
-                    seen.add(asset["id"])
-                    lines.append(asset)
+    for kml_dir in dirs:
+        forced = DIR_STATE_HINTS.get(kml_dir.name)
+        for pattern in LINE_GLOBS:
+            for path in sorted(kml_dir.glob(pattern)):
+                if path.name.lower() in LINE_SKIP_NAMES:
+                    continue
+                logger.info("Parsing line KML: %s/%s", kml_dir.name, path.name)
+                for asset in _parse_placemark_lines(path, forced_state=forced):
+                    if asset["id"] not in seen:
+                        seen.add(asset["id"])
+                        lines.append(asset)
 
     logger.info("Loaded %d transmission line segments from KML", len(lines))
     _cache["lines"] = lines
@@ -411,15 +544,17 @@ def _load_substations() -> list[dict[str, Any]]:
 
     subs: list[dict[str, Any]] = []
     seen: set[str] = set()
-    for filename in SUBSTATION_FILES:
-        path = KML_DIR / filename
-        if not path.is_file():
-            continue
-        logger.info("Parsing substation KML: %s", path.name)
-        for asset in _parse_placemark_points(path, "substation"):
-            if asset["id"] not in seen:
-                seen.add(asset["id"])
-                subs.append(asset)
+    for kml_dir in _iter_kml_dirs():
+        forced = DIR_STATE_HINTS.get(kml_dir.name)
+        for filename in SUBSTATION_FILES:
+            path = kml_dir / filename
+            if not path.is_file():
+                continue
+            logger.info("Parsing substation KML: %s/%s", kml_dir.name, path.name)
+            for asset in _parse_placemark_points(path, "substation", forced_state=forced):
+                if asset["id"] not in seen:
+                    seen.add(asset["id"])
+                    subs.append(asset)
 
     logger.info("Loaded %d substations from KML", len(subs))
     _cache["substations"] = subs
@@ -430,14 +565,25 @@ def _load_towers() -> list[dict[str, Any]]:
     if _cache["towers"] is not None:
         return _cache["towers"]
 
-    path = KML_DIR / TOWER_FILE
-    if not path.is_file():
-        logger.warning("Tower KML not found: %s", path)
-        _cache["towers"] = []
-        return []
+    towers: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    found_any = False
+    for kml_dir in _iter_kml_dirs():
+        forced = DIR_STATE_HINTS.get(kml_dir.name)
+        for filename in TOWER_FILES:
+            path = kml_dir / filename
+            if not path.is_file():
+                continue
+            found_any = True
+            logger.info("Parsing tower KML (this may take a moment): %s/%s", kml_dir.name, path.name)
+            for asset in _parse_placemark_points(path, "tower", forced_state=forced):
+                if asset["id"] not in seen:
+                    seen.add(asset["id"])
+                    towers.append(asset)
 
-    logger.info("Parsing tower KML (this may take a moment): %s", path.name)
-    towers = _parse_placemark_points(path, "tower")
+    if not found_any:
+        logger.warning("No tower KML files found under: %s", KML_ROOT)
+
     logger.info("Loaded %d towers from KML", len(towers))
     _cache["towers"] = towers
     return towers
@@ -448,7 +594,7 @@ def preload_kml_assets() -> None:
     _load_lines()
     _load_substations()
     warmup_tower_counts()
-    # Parse tower points in background so first Gujarat map request is fast.
+    # Parse tower points in background so first map request is fast.
     import threading
 
     def _warm_towers() -> None:
@@ -461,34 +607,48 @@ def preload_kml_assets() -> None:
 
 
 def warmup_tower_counts() -> None:
-    """Pre-compute India/Gujarat tower totals from KML (streaming)."""
+    """Pre-compute India / known state tower totals from KML (streaming)."""
     logger.info("Counting towers from KML…")
-    count = _get_tower_count_for_box(INDIA_BOUNDS)
-    _cache["tower_counts"]["Gujarat"] = count
-    logger.info("India/Gujarat tower count: %d", count)
+    india = _get_tower_count_for_box(INDIA_BOUNDS)
+    _cache["tower_counts"]["India"] = india
+    for state in ("Gujarat", "Rajasthan", "Delhi", "Haryana", "Punjab", "Himachal Pradesh", "Uttarakhand"):
+        box = STATE_BOUNDS.get(state)
+        if not box:
+            continue
+        _cache["tower_counts"][state] = _get_tower_count_for_box(box)
+        logger.info("%s tower count: %d", state, _cache["tower_counts"][state])
+    logger.info("India tower count: %d", india)
+
+
+def _iter_tower_kml_paths() -> list[Path]:
+    paths: list[Path] = []
+    for kml_dir in _iter_kml_dirs():
+        for filename in TOWER_FILES:
+            path = kml_dir / filename
+            if path.is_file():
+                paths.append(path)
+    return paths
 
 
 def _stream_count_towers(box: tuple[float, float, float, float] | None = None) -> int:
-    path = KML_DIR / TOWER_FILE
-    if not path.is_file():
-        return 0
     count = 0
-    for _event, elem in ET.iterparse(path, events=("end",)):
-        if _strip_ns(elem.tag) != "coordinates":
-            continue
-        txt = (elem.text or "").strip()
-        if not txt or " " in txt:
+    for path in _iter_tower_kml_paths():
+        for _event, elem in ET.iterparse(path, events=("end",)):
+            if _strip_ns(elem.tag) != "coordinates":
+                continue
+            txt = (elem.text or "").strip()
+            if not txt or " " in txt:
+                elem.clear()
+                continue
+            parts = txt.split(",")
+            if len(parts) >= 2:
+                try:
+                    lon, lat = float(parts[0]), float(parts[1])
+                    if box is None or _in_box(lat, lon, box):
+                        count += 1
+                except ValueError:
+                    pass
             elem.clear()
-            continue
-        parts = txt.split(",")
-        if len(parts) >= 2:
-            try:
-                lon, lat = float(parts[0]), float(parts[1])
-                if box is None or _in_box(lat, lon, box):
-                    count += 1
-            except ValueError:
-                pass
-        elem.clear()
     return count
 
 
@@ -497,12 +657,12 @@ def _box_cache_key(box: tuple[float, float, float, float]) -> str:
 
 
 def _get_tower_count_for_state(state: str | None) -> int:
-    """Tower KML footprint is entirely within Gujarat."""
     if state is None:
         return _get_tower_count_for_box(INDIA_BOUNDS)
-    if state == "Gujarat":
-        return _get_tower_count_for_box(STATE_BOUNDS["Gujarat"])
-    return 0
+    box = STATE_BOUNDS.get(state)
+    if not box:
+        return 0
+    return _get_tower_count_for_box(box)
 
 
 def _get_tower_count_for_box(box: tuple[float, float, float, float]) -> int:

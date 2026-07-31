@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Generetor_P" id="Generetor_P">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="roof:shape" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="name:uk" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="short_name" type="string"></SimpleField>
+	<SimpleField name="industrial" type="string"></SimpleField>
+	<SimpleField name="disused:power" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="name:etymology:wikidata" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="roof:material" type="string"></SimpleField>
+	<SimpleField name="name:pa" type="string"></SimpleField>
+	<SimpleField name="name:hi" type="string"></SimpleField>
+	<SimpleField name="indoor:wall:material" type="string"></SimpleField>
+	<SimpleField name="indoor:level" type="string"></SimpleField>
+	<SimpleField name="indoor:area" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:place" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="building:roof:colour" type="string"></SimpleField>
+	<SimpleField name="building:material" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="building:fireproof" type="string"></SimpleField>
+	<SimpleField name="building:condition" type="string"></SimpleField>
+	<SimpleField name="building:colour" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+</Schema>
+<Folder><name>Generetor_P</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w164145599</SimpleData>
+		<SimpleData name="osm_id">164145599</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">run-of-the-river</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.0871447,28.5788903 76.0869128,28.5786648 76.0869864,28.5786064 76.08724,28.5784053 76.0872781,28.5783751 76.0873283,28.578424 76.0872965,28.5784492 76.0870443,28.5786493 76.0870315,28.5786595 76.0872131,28.5788361 76.0871447,28.5788903</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w164145601</SimpleData>
+		<SimpleData name="osm_id">164145601</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">run-of-the-river</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.1159319,28.5838026 76.1159368,28.5837474 76.1159517,28.5835775 76.1159556,28.5835325 76.1160468,28.5835387 76.1160447,28.5835625 76.1160297,28.5837333 76.1160231,28.5838088 76.1159319,28.5838026</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w164145592</SimpleData>
+		<SimpleData name="osm_id">164145592</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">run-of-the-river</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.1001004,28.5829746 76.1001028,28.5829257 76.1001099,28.5827779 76.1001112,28.582751 76.1001924,28.582754 76.1001851,28.5829048 76.1001815,28.5829777 76.1001004,28.5829746</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w164145593</SimpleData>
+		<SimpleData name="osm_id">164145593</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">run-of-the-river</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.1000707,28.5831776 76.1000682,28.5832407 76.1000543,28.5835831 76.1000511,28.5836628 76.100419,28.5836742 76.100422,28.5835994 76.1001481,28.5835909 76.1001494,28.5835582 76.100163,28.5832195 76.1001646,28.5831805 76.1000707,28.5831776</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w164145586</SimpleData>
+		<SimpleData name="osm_id">164145586</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">run-of-the-river</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.1159148,28.5840111 76.1159119,28.5840679 76.115894,28.584419 76.1158903,28.5844919 76.1162648,28.5845067 76.1162681,28.5844416 76.1159843,28.5844304 76.1159863,28.5843906 76.1160041,28.584044 76.1160056,28.5840146 76.1159148,28.5840111</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w164145591</SimpleData>
+		<SimpleData name="osm_id">164145591</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">run-of-the-river</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.0876434,28.5781901 76.0876893,28.5781513 76.0877913,28.5780661 76.0878048,28.5780548 76.0877482,28.5780028 76.0877397,28.5780099 76.0876379,28.5780953 76.0875868,28.5781381 76.0876434,28.5781901</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Unit-II</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w161476934</SimpleData>
+		<SimpleData name="osm_id">161476934</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3763707,28.486193 76.376921,28.4858798 76.377367,28.485626 76.37726,28.4854808 76.3769371,28.4850424 76.3766926,28.4851816 76.3763991,28.4847831 76.3763243,28.4846816 76.3758617,28.4840536 76.3751099,28.4844814 76.375491,28.4849988 76.3755734,28.4851106 76.3756481,28.4852121 76.3761845,28.4859403 76.3762695,28.4860557 76.3763707,28.486193</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Unit-III</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w161476930</SimpleData>
+		<SimpleData name="osm_id">161476930</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.377367,28.485626 76.3779414,28.4852992 76.3783697,28.4850555 76.3782605,28.4849072 76.3781564,28.4847659 76.3779284,28.4848956 76.3774173,28.4842015 76.3773423,28.4841001 76.3768697,28.4834582 76.3760949,28.4838991 76.3765686,28.4845421 76.3766433,28.4846436 76.3769371,28.4850424 76.37726,28.4854808 76.377367,28.485626</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Unit-I</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w161476931</SimpleData>
+		<SimpleData name="osm_id">161476931</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3749647,28.4845621 76.3742485,28.4849696 76.3747139,28.4856015 76.3747887,28.485703 76.3753244,28.4864302 76.3751832,28.4865106 76.3752751,28.4866353 76.3753691,28.4867629 76.3760056,28.4864007 76.3763707,28.486193 76.3762695,28.4860557 76.3761845,28.4859403 76.3760403,28.4860223 76.3755041,28.4852943 76.3754293,28.4851928 76.3749647,28.4845621</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w144144757</SimpleData>
+		<SimpleData name="osm_id">144144757</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3061174,28.3746618 77.3062923,28.3746898 77.3063131,28.3745892 77.3061381,28.3745612 77.3061174,28.3746618</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w144144742</SimpleData>
+		<SimpleData name="osm_id">144144742</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3060647,28.3750124 77.3062628,28.3750392 77.3062827,28.3749161 77.3060883,28.3748861 77.3060647,28.3750124</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Unit VII</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w259576308</SimpleData>
+		<SimpleData name="osm_id">259576308</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="ref">PTPS</SimpleData>
+		<SimpleData name="operator">Haryana Power Generation Corporation Limited</SimpleData>
+		<SimpleData name="start_date">28.09.2004</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:type">steam_generator</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.8706823,29.3978169 76.8706998,29.3982045 76.8707065,29.3983533 76.8707156,29.3985551 76.8706169,29.3985585 76.8706584,29.3994799 76.8712168,29.3994608 76.8711752,29.3985394 76.8710904,29.3985423 76.8710814,29.3983437 76.8710747,29.398195 76.8710571,29.397804 76.8706823,29.3978169</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Unit VIII</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w259576309</SimpleData>
+		<SimpleData name="osm_id">259576309</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="ref">PTPS</SimpleData>
+		<SimpleData name="operator">Haryana Power Generation Corporation Limited</SimpleData>
+		<SimpleData name="start_date">28.01.2005</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:type">steam_generator</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.8696879,29.3978459 76.8697052,29.39823 76.8697119,29.3983787 76.8697214,29.3985891 76.8696227,29.3985925 76.869664,29.3995089 76.8702224,29.3994898 76.8701811,29.3985734 76.8700962,29.3985763 76.8700869,29.3983691 76.8700802,29.3982204 76.8700627,29.3978331 76.8696879,29.3978459</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w259342054</SimpleData>
+		<SimpleData name="osm_id">259342054</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.9605451,29.3596687 76.9615593,29.3596935 76.9615648,29.3595217 76.9605506,29.3594968 76.9605451,29.3596687</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Unit VI</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w259576307</SimpleData>
+		<SimpleData name="osm_id">259576307</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="ref">PTPS</SimpleData>
+		<SimpleData name="operator">Haryana Power Generation Corporation Limited</SimpleData>
+		<SimpleData name="start_date">31.03.2001</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:type">steam_generator</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">210 MW</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.8765006,29.396963 76.8765143,29.3973738 76.8765184,29.3974973 76.8765226,29.3976238 76.8764162,29.3976265 76.8764409,29.3983672 76.8770011,29.398353 76.8769764,29.3976123 76.8769011,29.3976142 76.8768968,29.3974876 76.8768927,29.397364 76.876881,29.396955 76.8765006,29.396963</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w259342042</SimpleData>
+		<SimpleData name="osm_id">259342042</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.960552,29.359454 76.9615668,29.3594789 76.9615724,29.359307 76.9605576,29.3592821 76.960552,29.359454</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w259342048</SimpleData>
+		<SimpleData name="osm_id">259342048</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.9605377,29.3598989 76.9615507,29.3599238 76.9615563,29.3597512 76.9605432,29.3597263 76.9605377,29.3598989</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Unit</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w183897741</SimpleData>
+		<SimpleData name="osm_id">183897741</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="operator">Haryana Power Generation Company</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:type">steam_generator</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">600 MW</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.8568358,29.3466071 75.8572977,29.3468285 75.8575156,29.3464832 75.8570536,29.3462617 75.8569517,29.3464234 75.8568358,29.3466071</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w259342038</SimpleData>
+		<SimpleData name="osm_id">259342038</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.9604915,29.3606928 76.961513,29.3607237 76.9615198,29.3605511 76.9604983,29.3605202 76.9604915,29.3606928</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Unit</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w183897729</SimpleData>
+		<SimpleData name="osm_id">183897729</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="operator">Haryana Power Generation Company</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:type">steam_generator</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">600 MW</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.8562539,29.3475499 75.8567158,29.3477713 75.8569337,29.347426 75.8564717,29.3472046 75.8563808,29.3473486 75.8562539,29.3475499</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w169779754</SimpleData>
+		<SimpleData name="osm_id">169779754</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">run-of-the-river</SimpleData>
+		<SimpleData name="generator:source">hydro</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.5132377,28.358854 76.5133947,28.3589568 76.5135852,28.3590816 76.5136568,28.358997 76.5134637,28.3588704 76.5133094,28.3587693 76.5132377,28.358854</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generetor_P">
+		<SimpleData name="full_id">w172573180</SimpleData>
+		<SimpleData name="osm_id">172573180</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3061799,28.3742599 77.3063548,28.3742879 77.3063756,28.3741873 77.3062006,28.3741593 77.3061799,28.3742599</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

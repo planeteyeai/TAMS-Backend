@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Transformer_LIne" id="Transformer_LIne">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="street_cabinet" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="generator:plant" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="name:hi" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="operator:en" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>Transformer_LIne</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer_LIne">
+		<SimpleData name="full_id">w1286191667</SimpleData>
+		<SimpleData name="osm_id">1286191667</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.1281573,28.6060312 77.1282143,28.6060613 77.1282299,28.6060385 77.1281729,28.6060084 77.1281573,28.6060312</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer_LIne">
+		<SimpleData name="full_id">w1181342837</SimpleData>
+		<SimpleData name="osm_id">1181342837</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.1573668,28.747156 77.157367,28.7471005 77.1572993,28.7471003 77.1572991,28.7471558 77.1573668,28.747156</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer_LIne">
+		<SimpleData name="full_id">w1157154677</SimpleData>
+		<SimpleData name="osm_id">1157154677</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.1707211,28.7199412 77.17078,28.7200034 77.1708493,28.7199473 77.1707904,28.7198792 77.1707211,28.7199412</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer_LIne">
+		<SimpleData name="full_id">w1294685232</SimpleData>
+		<SimpleData name="osm_id">1294685232</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.288688,28.6191379 77.2887131,28.6190902 77.2887649,28.6191112 77.2887398,28.6191589 77.288688,28.6191379</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Transformer_LIne">
+		<SimpleData name="full_id">w1289863470</SimpleData>
+		<SimpleData name="osm_id">1289863470</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.2886602,28.6191971 77.2886853,28.6191494 77.2887371,28.6191704 77.288712,28.6192181 77.2886602,28.6191971</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

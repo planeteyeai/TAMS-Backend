@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Generator_PO" id="Generator_PO">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="name:etymology:wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="waterway" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="roof:material" type="string"></SimpleField>
+	<SimpleField name="name:pa" type="string"></SimpleField>
+	<SimpleField name="name:hi" type="string"></SimpleField>
+	<SimpleField name="indoor:wall:material" type="string"></SimpleField>
+	<SimpleField name="indoor:level" type="string"></SimpleField>
+	<SimpleField name="indoor:area" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:place" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="building:roof:colour" type="string"></SimpleField>
+	<SimpleField name="building:material" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="building:fireproof" type="string"></SimpleField>
+	<SimpleField name="building:condition" type="string"></SimpleField>
+	<SimpleField name="building:colour" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+</Schema>
+<Folder><name>Generator_PO</name>
+  <Placemark>
+	<name>Uhl III hydro power station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w823477055</SimpleData>
+		<SimpleData name="osm_id">823477055</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="wikidata">Q65199822</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">100 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7212871,31.8749588 76.7218369,31.8754371 76.7219925,31.8753209 76.7214668,31.8748312 76.7212871,31.8749588</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1314717272</SimpleData>
+		<SimpleData name="osm_id">1314717272</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.4384864,31.5780264 78.4382477,31.5775968 78.438355,31.5775557 78.4383336,31.5774826 78.4384221,31.5774506 78.438465,31.5774826 78.4386018,31.5774231 78.4385133,31.577334 78.4388351,31.577286 78.4391677,31.5776539 78.4392321,31.5778802 78.4384864,31.5780264</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>GMR Bajoli Holi Hydropower Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1182754621</SimpleData>
+		<SimpleData name="osm_id">1182754621</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="wikidata">Q11960009</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">180 MW</SimpleData>
+		<SimpleData name="operator">GMR Bajoli Holi Hydropower Private Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.5356005,32.3421034 76.5348664,32.3422634 76.5347555,32.3419001 76.5354895,32.3417401 76.5356005,32.3421034</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1460198107</SimpleData>
+		<SimpleData name="osm_id">1460198107</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.0104265,32.4751854 76.0106117,32.475131 76.0105364,32.4749486 76.0103511,32.475003 76.0104265,32.4751854</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1460198108</SimpleData>
+		<SimpleData name="osm_id">1460198108</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.0106182,32.4751093 76.0107622,32.4750661 76.0106843,32.4748815 76.0105404,32.4749247 76.0106182,32.4751093</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1446718599</SimpleData>
+		<SimpleData name="osm_id">1446718599</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.8388568,31.4632436 77.8387964,31.4631457 77.8387643,31.4630938 77.8392018,31.4629099 77.8392966,31.4630955 77.8388568,31.4632436</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1455770043</SimpleData>
+		<SimpleData name="osm_id">1455770043</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.4830324,32.3654501 76.4832823,32.3653319 76.4832012,32.3652096 76.4829514,32.365328 76.4830324,32.3654501</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1099912120</SimpleData>
+		<SimpleData name="osm_id">1099912120</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.9431701,31.5697582 77.9435429,31.5697719 77.9435499,31.5696338 77.9431771,31.5696201 77.9431701,31.5697582</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1099947037</SimpleData>
+		<SimpleData name="osm_id">1099947037</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7369967,31.5989431 77.7371109,31.5988716 77.7369016,31.5986294 77.7367875,31.598701 77.7369967,31.5989431</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>BUDHIL</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1075624920</SimpleData>
+		<SimpleData name="osm_id">1075624920</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="waterway">dam</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.5342795,32.4542269 76.5343856,32.4542435 76.534503,32.4537087 76.5343969,32.4536921 76.5342795,32.4542269</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1095766194</SimpleData>
+		<SimpleData name="osm_id">1095766194</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.9493553,31.8842082 76.9497223,31.8841093 76.9495212,31.8838588 76.9492373,31.8839736 76.9493553,31.8842082</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bajoli Holi Dam</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1182754620</SimpleData>
+		<SimpleData name="osm_id">1182754620</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="waterway">dam</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.6699254,32.2809014 76.6693568,32.2796678 76.668815,32.2802347 76.6690457,32.280797 76.6699254,32.2809014</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1102447395</SimpleData>
+		<SimpleData name="osm_id">1102447395</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.768679,31.4865059 77.7689302,31.4864632 77.7688606,31.4862231 77.7686629,31.4862406 77.76862,31.4861537 77.7684912,31.4861719 77.7685341,31.4863847 77.768679,31.4865059</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1102449049</SimpleData>
+		<SimpleData name="osm_id">1102449049</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7003551,31.5271903 77.7004478,31.5271136 77.7002761,31.5269627 77.7000305,31.5267833 77.699832,31.5267764 77.6998454,31.5270371 77.7001834,31.5272931 77.7003551,31.5271903</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>MALANA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w199104528</SimpleData>
+		<SimpleData name="osm_id">199104528</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="waterway">weir</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.2761769,32.0808702 77.2757158,32.0806883 77.2747716,32.081211 77.2747822,32.081652 77.2753617,32.081161 77.2761769,32.0808702</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Chamera Dam</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w226985822</SimpleData>
+		<SimpleData name="osm_id">226985822</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="waterway">dam</SimpleData>
+		<SimpleData name="wikidata">Q5069772</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.9867116,32.5981291 75.9854901,32.5979328 75.9844923,32.5964143 75.9855506,32.5957955 75.9860451,32.5964355 75.9864751,32.5972868 75.9867116,32.5981291</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Pong Dam power house</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w122316766</SimpleData>
+		<SimpleData name="osm_id">122316766</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="wikidata">Q65199815</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">396 MW</SimpleData>
+		<SimpleData name="operator">Bhakra Beas Management Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.9424254,31.9665397 75.9424409,31.9677626 75.9427043,31.9677602 75.9426888,31.9665373 75.9424254,31.9665397</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>NATHPA JHAKRI</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w166148049</SimpleData>
+		<SimpleData name="osm_id">166148049</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="waterway">dam</SimpleData>
+		<SimpleData name="material">concrete</SimpleData>
+		<SimpleData name="height">57</SimpleData>
+		<SimpleData name="wikidata">Q11990941</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.9799852,31.5634652 77.980012,31.5637392 77.9800732,31.5641112 77.980093,31.5641641 77.9801288,31.5642596 77.98028,31.5645386 77.9804217,31.5648192 77.9804651,31.5648996 77.980354,31.564918 77.9801605,31.5645524 77.9799601,31.5641613 77.9798734,31.5634969 77.9798315,31.5635015 77.9798193,31.5633942 77.9798585,31.5633977 77.9798531,31.5633619 77.9799317,31.5633481 77.9799262,31.5633838 77.9799669,31.5633861 77.9799852,31.5634652</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w316835842</SimpleData>
+		<SimpleData name="osm_id">316835842</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3226359,32.479128 76.3225179,32.4789425 76.3222027,32.479085 76.3223247,32.4792751 76.3225507,32.4791682 76.3226359,32.479128</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>CHAMERA II</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w316835848</SimpleData>
+		<SimpleData name="osm_id">316835848</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="waterway">dam</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.25401,32.4728785 76.2539587,32.4728982 76.2537518,32.4729902 76.2533045,32.4732703 76.2532187,32.4734468 76.253483,32.4737802 76.2533178,32.4737733 76.2530522,32.4734307 76.2530777,32.4733898 76.252678,32.4728746 76.2526863,32.4726793 76.253162,32.4732584 76.2532565,32.473155 76.2531211,32.4729826 76.253133,32.4729482 76.2531748,32.4729525 76.2533152,32.4731033 76.2534276,32.4730322 76.2532795,32.4728555 76.2532911,32.4728069 76.2533484,32.4728124 76.2534889,32.4729848 76.253591,32.4729202 76.2534557,32.4727284 76.2534735,32.4726918 76.253521,32.4726971 76.2536636,32.4728784 76.2537955,32.4728129 76.2529538,32.4717536 76.2530176,32.4717278 76.253084,32.4717623 76.2531571,32.4719033 76.2532736,32.4720777 76.2534707,32.4722563 76.25401,32.4728785</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w299891653</SimpleData>
+		<SimpleData name="osm_id">299891653</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.4966333,30.5306858 77.4968131,30.5304327 77.4972743,30.5306756 77.4971478,30.5308539 77.4971093,30.5308336 77.4970096,30.5309739 77.4966623,30.5307909 77.4967087,30.5307255 77.4966333,30.5306858</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w316835840</SimpleData>
+		<SimpleData name="osm_id">316835840</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3034073,32.4716183 76.3034875,32.4714791 76.3032663,32.4713884 76.3031861,32.4715276 76.3034073,32.4716183</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bhakra Power station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">r6278572</SimpleData>
+		<SimpleData name="osm_id">6278572</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q83436</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">1379.6 MW</SimpleData>
+		<SimpleData name="operator">Bhakra Beas Management Board</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.4314511,31.4106197 76.4314385,31.4106453 76.4309772,31.4115882 76.4307668,31.4114693 76.4308445,31.411227 76.4310158,31.4107961 76.4311235,31.4105505 76.4311294,31.4105241 76.4311519,31.4104921 76.4314511,31.4106197</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.4321063,31.4091067 76.4322079,31.4089896 76.432585,31.4091672 76.4319741,31.4100881 76.4315567,31.4099145 76.431581,31.4098833 76.4321063,31.4091067</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1463419123</SimpleData>
+		<SimpleData name="osm_id">1463419123</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="waterway">dam</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.2402354,31.4300981 78.2405466,31.4304254 78.2408094,31.4303247 78.2411233,31.4306886 78.2409543,31.43089 78.241142,31.4311234 78.2413968,31.4309609 78.241488,31.4307389 78.241303,31.4306062 78.2405359,31.4299173 78.2402354,31.4300981</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Baira Dam</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w513690648</SimpleData>
+		<SimpleData name="osm_id">513690648</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="waterway">dam</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.1406967,32.8070486 76.1416743,32.8072425 76.1421997,32.8072532 76.1423714,32.8072567 76.1426022,32.8072613 76.142607,32.8072156 76.1426527,32.8067795 76.1424325,32.8068105 76.1422525,32.8068375 76.1422696,32.8061928 76.1414745,32.8061108 76.1407474,32.8069997 76.1406967,32.8070486</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w519692869</SimpleData>
+		<SimpleData name="osm_id">519692869</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3805513,32.2097771 76.3807981,32.2099303 76.3808799,32.209836 76.3806331,32.2096828 76.3805513,32.2097771</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w506335161</SimpleData>
+		<SimpleData name="osm_id">506335161</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.0375838,32.2393508 78.0377957,32.2396435 78.0379432,32.2395671 78.0377313,32.2392744 78.0375838,32.2393508</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w513442071</SimpleData>
+		<SimpleData name="osm_id">513442071</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.434744,33.0027095 76.4348327,33.0027869 76.4350366,33.0026227 76.4349479,33.0025453 76.434744,33.0027095</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w736785474</SimpleData>
+		<SimpleData name="osm_id">736785474</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7531001,31.5557772 77.7535867,31.5556755 77.7536322,31.5556301 77.7536385,31.5554843 77.753662,31.5553599 77.7536808,31.5552823 77.7536761,31.5552288 77.7536133,31.5552275 77.7535301,31.5552489 77.7534988,31.555281 77.7535254,31.5553251 77.7532743,31.5553585 77.7530483,31.5554147 77.7530043,31.5554441 77.7530561,31.5556448 77.7531001,31.5557772</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Solang Hydro Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w579968919</SimpleData>
+		<SimpleData name="osm_id">579968919</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.1538273,32.3200681 77.1540742,32.3202109 77.1541737,32.3200881 77.1539268,32.3199453 77.1538273,32.3200681</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w582021627</SimpleData>
+		<SimpleData name="osm_id">582021627</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.174795,32.3090415 77.1749107,32.3091745 77.1752509,32.3089629 77.1751352,32.30883 77.174795,32.3090415</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Baspa 2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w330388003</SimpleData>
+		<SimpleData name="osm_id">330388003</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="waterway">dam</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="wikidata">Q11960328</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">300 MW</SimpleData>
+		<SimpleData name="operator">JSW Energy</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.1878801,31.4960665 78.1882255,31.4962317 78.1883201,31.4962381 78.1883787,31.4960102 78.1887346,31.4960921 78.1888397,31.4960448 78.1892857,31.4960819 78.1893668,31.4962548 78.1895635,31.4962471 78.189559,31.49616 78.1896371,31.4961562 78.1896581,31.4958873 78.189619,31.4953047 78.1894839,31.4950985 78.189155,31.4951254 78.1890694,31.4954468 78.1885634,31.4956619 78.1884192,31.4957695 78.188245,31.4957195 78.1881684,31.4956081 78.1881264,31.4955825 78.1879852,31.4957733 78.1878966,31.4959257 78.1878801,31.4960665</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Chamera II Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w418309786</SimpleData>
+		<SimpleData name="osm_id">418309786</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="wikidata">Q5069770</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">300 MW</SimpleData>
+		<SimpleData name="operator">National Hydel Power Corporation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.1696731,32.506725 76.1704388,32.5067356 76.1704417,32.5065891 76.169676,32.5065785 76.1696731,32.506725</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Koldam Dam Powerhouse</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w330267981</SimpleData>
+		<SimpleData name="osm_id">330267981</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="wikidata">Q65199789</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">800 MW</SimpleData>
+		<SimpleData name="operator">NTPC Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.8752251,31.3822536 76.8770499,31.3825419 76.877141,31.3821216 76.8753162,31.3818333 76.8752251,31.3822536</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w330278458</SimpleData>
+		<SimpleData name="osm_id">330278458</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="name:en">Dehar Power House</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="wikidata">Q11965021</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">990 MW</SimpleData>
+		<SimpleData name="operator">Bhakra Beas Management Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.8679429,31.4131375 76.8681315,31.4131682 76.8683722,31.4132074 76.8685826,31.4132416 76.8687545,31.4132696 76.8690275,31.413314 76.8692112,31.4133439 76.8692816,31.4130288 76.8680133,31.4128225 76.8679429,31.4131375</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Allain Duhangan Hydro Project</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w489244100</SimpleData>
+		<SimpleData name="osm_id">489244100</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="waterway">dam</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.240017,32.2599967 77.2401374,32.2599269 77.240316,32.2598234 77.2405609,32.2599729 77.2406065,32.2600097 77.2405581,32.2601832 77.2405525,32.2602488 77.2406056,32.2603029 77.2406642,32.2603122 77.2409704,32.2602725 77.2408015,32.2599527 77.2407129,32.2598665 77.2403857,32.2596556 77.2399753,32.2598914 77.2398251,32.2599822 77.2398573,32.2600956 77.2398788,32.2604789 77.2399431,32.2605288 77.2399539,32.260649 77.2399823,32.2606714 77.2402176,32.2602974 77.2402035,32.260225 77.240017,32.2599967</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Shanan Power Project</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w493723417</SimpleData>
+		<SimpleData name="osm_id">493723417</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="wikidata">Q12000140</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">110 MW</SimpleData>
+		<SimpleData name="operator">Punjab State Power Corporation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.8067181,31.9891006 76.8076193,31.9886047 76.8081558,31.9887139 76.8082631,31.9890324 76.8110526,31.990097 76.8106341,31.9905975 76.8098402,31.9902335 76.8085028,31.9900183 76.8082668,31.9913877 76.8075442,31.9912981 76.8068147,31.9911298 76.8060154,31.9911389 76.8056667,31.9912526 76.8053555,31.991653 76.8051088,31.9915393 76.8050283,31.9912481 76.80601,31.9901971 76.8066323,31.9894282 76.8067181,31.9891006</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w429548144</SimpleData>
+		<SimpleData name="osm_id">429548144</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="waterway">dam</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.1792456,31.4995823 78.1788057,31.4992387 78.1777898,31.4984454 78.1777121,31.4985176 78.1782078,31.4989047 78.1780792,31.4990245 78.1781325,31.4990661 78.1782074,31.4989963 78.1785298,31.4992481 78.1776974,31.5000053 78.1777363,31.5000364 78.178568,31.4992799 78.1786715,31.4993607 78.1787677,31.4994358 78.1779428,31.5001929 78.1780464,31.500275 78.1780699,31.5002535 78.178009,31.5002052 78.1788119,31.4994684 78.1788849,31.4995255 78.1789236,31.4994894 78.179153,31.4996685 78.1792456,31.4995823</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w444232921</SimpleData>
+		<SimpleData name="osm_id">444232921</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.1631527,31.6979271 77.1632945,31.6979086 77.1632502,31.6976633 77.1631084,31.6976818 77.1631527,31.6979271</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>ANDHRA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w900916999</SimpleData>
+		<SimpleData name="osm_id">900916999</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.8767478,31.2408662 77.8766191,31.2414624 77.8769227,31.2415162 77.8770676,31.2409199 77.8767478,31.2408662</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Sewa II</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w823477065</SimpleData>
+		<SimpleData name="osm_id">823477065</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="wikidata">Q55632926</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">120 MW</SimpleData>
+		<SimpleData name="operator">NHPC Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.9162381,32.6244259 75.916037,32.6237347 75.9155971,32.6238273 75.9158009,32.6245321 75.9162381,32.6244259</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Rampur Hydro Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w823477066</SimpleData>
+		<SimpleData name="osm_id">823477066</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:method">run-of-the-river</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="wikidata">Q25378366</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">412 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5916689,31.3999291 77.5933341,31.3999049 77.5933407,31.400235 77.5916754,31.4002592 77.5916689,31.3999291</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1061542530</SimpleData>
+		<SimpleData name="osm_id">1061542530</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.180134,32.3018316 76.180492,32.3016876 76.1803977,32.30152 76.1801386,32.3016241 76.1801632,32.3016677 76.1800642,32.3017075 76.180134,32.3018316</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1075624180</SimpleData>
+		<SimpleData name="osm_id">1075624180</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.4912239,32.4177704 76.4913816,32.4178103 76.4914705,32.4175595 76.4913129,32.4175197 76.4912239,32.4177704</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Baira Siul Hydroelectric Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1038894865</SimpleData>
+		<SimpleData name="osm_id">1038894865</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="wikidata">Q65199020</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">180 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.1109414,32.7421758 76.1118844,32.7427017 76.1116863,32.7429531 76.1107433,32.7424272 76.1109414,32.7421758</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>SEWA-III</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w1053790164</SimpleData>
+		<SimpleData name="osm_id">1053790164</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.901149,32.6028843 75.9012864,32.6027815 75.9010493,32.6025566 75.9009943,32.6025977 75.9008222,32.6024343 75.9007398,32.6024959 75.901149,32.6028843</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Sainj Hydro Power Project</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w820186104</SimpleData>
+		<SimpleData name="osm_id">820186104</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="plant:method">run-of-the-river</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">100 MW</SimpleData>
+		<SimpleData name="operator">Himachal Pradesh Power Corporation Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.4077529,31.7803728 77.4079728,31.7800216 77.4081767,31.779748 77.4082625,31.7794972 77.4079192,31.7793102 77.4071628,31.7790458 77.4068677,31.7794653 77.4067497,31.7797207 77.4066263,31.7799943 77.4073076,31.7802132 77.4074256,31.7803408 77.4077529,31.7803728</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w823477053</SimpleData>
+		<SimpleData name="osm_id">823477053</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.1635391,31.6988915 77.1637416,31.6988893 77.1637483,31.6989805 77.1635418,31.6989794 77.1635391,31.6988915</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w736785492</SimpleData>
+		<SimpleData name="osm_id">736785492</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.778689,31.5423795 77.7791853,31.5419962 77.7789578,31.5418067 77.778446,31.5421504 77.778689,31.5423795</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w819335260</SimpleData>
+		<SimpleData name="osm_id">819335260</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.614821,32.298417 76.6151088,32.2982953 76.6150694,32.2981732 76.6150129,32.297998 76.614853,32.2978561 76.6145492,32.2982007 76.614821,32.298417</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w823477056</SimpleData>
+		<SimpleData name="osm_id">823477056</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.8575486,31.5778682 77.8573608,31.5778111 77.8572455,31.5781241 77.8574413,31.5781698 77.8575486,31.5778682</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Parbati-III</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w823477063</SimpleData>
+		<SimpleData name="osm_id">823477063</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="wikidata">Q65199767</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">520 MW</SimpleData>
+		<SimpleData name="operator">NHPC</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3319489,31.7852871 77.3317283,31.7856168 77.3319805,31.7857353 77.3321892,31.7854647 77.3319489,31.7852871</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_PO">
+		<SimpleData name="full_id">w823477054</SimpleData>
+		<SimpleData name="osm_id">823477054</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7985508,31.9549137 76.7987949,31.9544471 76.7985696,31.9543675 76.7983201,31.9548226 76.7985508,31.9549137</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

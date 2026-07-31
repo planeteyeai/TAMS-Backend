@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Substation_Points" id="Substation_Points">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
+	<SimpleField name="light:tilt" type="string"></SimpleField>
+	<SimpleField name="light:shape" type="string"></SimpleField>
+	<SimpleField name="light:direction" type="string"></SimpleField>
+	<SimpleField name="light:count" type="string"></SimpleField>
+	<SimpleField name="guyed" type="string"></SimpleField>
+	<SimpleField name="tensioning" type="string"></SimpleField>
+	<SimpleField name="catenary_mast:attachment" type="string"></SimpleField>
+	<SimpleField name="catenary_mast:supporting" type="string"></SimpleField>
+	<SimpleField name="manufacturer" type="string"></SimpleField>
+	<SimpleField name="loc_name" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="switch" type="string"></SimpleField>
+	<SimpleField name="devices" type="string"></SimpleField>
+	<SimpleField name="lamp_type" type="string"></SimpleField>
+	<SimpleField name="lamp_mount" type="string"></SimpleField>
+	<SimpleField name="vehicle" type="string"></SimpleField>
+	<SimpleField name="locked" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="colour" type="string"></SimpleField>
+	<SimpleField name="smoking" type="string"></SimpleField>
+	<SimpleField name="office" type="string"></SimpleField>
+	<SimpleField name="name:hi" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="internet_access" type="string"></SimpleField>
+	<SimpleField name="contact:website" type="string"></SimpleField>
+	<SimpleField name="contact:phone" type="string"></SimpleField>
+	<SimpleField name="contact:email" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="wheelchair" type="string"></SimpleField>
+	<SimpleField name="short_name" type="string"></SimpleField>
+	<SimpleField name="operator:en" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="indoor" type="string"></SimpleField>
+	<SimpleField name="drive_through" type="string"></SimpleField>
+	<SimpleField name="currency:INR" type="string"></SimpleField>
+	<SimpleField name="brand:wikidata" type="string"></SimpleField>
+	<SimpleField name="brand:en" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="node" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="compensator" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="voltage:secondary" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="entrance" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="tower:type" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="line_management" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="line_arrangement" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+</Schema>
+<Folder><name>Substation_Points</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Substation_Points">
+		<SimpleData name="full_id">n8918165356</SimpleData>
+		<SimpleData name="osm_id">8918165356</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>73.0488954,24.7950273</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Substation_Points">
+		<SimpleData name="full_id">n8842262070</SimpleData>
+		<SimpleData name="osm_id">8842262070</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">swaroopganj,_substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>72.925503,24.6525474</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Substation 1</name>
+	<ExtendedData><SchemaData schemaUrl="#Substation_Points">
+		<SimpleData name="full_id">n11687227084</SimpleData>
+		<SimpleData name="osm_id">11687227084</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>75.0330058,27.8025929</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Substation_Points">
+		<SimpleData name="full_id">n13410487093</SimpleData>
+		<SimpleData name="osm_id">13410487093</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>75.8455512,26.923292</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Substation_Points">
+		<SimpleData name="full_id">n13410486639</SimpleData>
+		<SimpleData name="osm_id">13410486639</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>71.9696894,25.0288783</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>MANSAROVAR 33/11 SUB STATION</name>
+	<ExtendedData><SchemaData schemaUrl="#Substation_Points">
+		<SimpleData name="full_id">n13030222225</SimpleData>
+		<SimpleData name="osm_id">13030222225</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">33000,11000</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">JDVVNL</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>72.9716164,26.224968</coordinates></Point></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

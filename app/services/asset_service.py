@@ -33,6 +33,22 @@ async def _latest_health(session: AsyncSession, asset_id: UUID) -> HealthScore |
     return await session.scalar(stmt)
 
 
+async def _latest_health_map(
+    session: AsyncSession, asset_ids: list[UUID]
+) -> dict[UUID, HealthScore]:
+    """One query for latest health scores (avoids N+1 over remote Postgres)."""
+    if not asset_ids:
+        return {}
+    stmt = (
+        select(HealthScore)
+        .where(HealthScore.asset_id.in_(asset_ids))
+        .distinct(HealthScore.asset_id)
+        .order_by(HealthScore.asset_id, HealthScore.computed_at.desc())
+    )
+    rows = (await session.scalars(stmt)).all()
+    return {row.asset_id: row for row in rows}
+
+
 async def list_assets(
     session: AsyncSession | None,
     *,
@@ -82,14 +98,15 @@ async def list_assets(
             page_size=page_size,
         )
 
-    # Large map/catalog pages: light column select (avoid ORM + count overhead)
-    if page_size > 500 and not search and not status and not criticality:
+    # Map/catalog pages: light column select (avoid ORM + count overhead)
+    if page_size > 50 and not search and not status and not criticality:
         cacheable = (
             not include_towers
             and not asset_type
             and not category
             and not bbox_tuple
-            and (not state or state.lower() in ("gujarat", "india"))
+            and bool(state)
+            and state.lower() != "india"
         )
         global _corridor_cache, _corridor_cache_key
         cache_key = f"corridor:{state or 'all'}"
@@ -147,7 +164,7 @@ async def list_assets(
         q = f"%{search}%"
         stmt = stmt.where(or_(Asset.name.ilike(q), Asset.asset_code.ilike(q)))
         count_stmt = count_stmt.where(or_(Asset.name.ilike(q), Asset.asset_code.ilike(q)))
-    if state and state.lower() not in ("gujarat", "india"):
+    if state and state.lower() != "india":
         stmt = stmt.where(Asset.metadata_["country_or_state"].astext.ilike(state))
         count_stmt = count_stmt.where(Asset.metadata_["country_or_state"].astext.ilike(state))
     if bbox_tuple and len(bbox_tuple) == 4:
@@ -174,11 +191,11 @@ async def list_assets(
     rows = (await session.scalars(stmt)).all()
 
     # Skip per-row health lookups on large GIS pages (too slow)
-    load_health = page_size <= 200
-    result = []
-    for row in rows:
-        health = await _latest_health(session, row.asset_id) if load_health else None
-        result.append(asset_to_dict(row, health))
+    if page_size <= 200:
+        health_by_id = await _latest_health_map(session, [row.asset_id for row in rows])
+        result = [asset_to_dict(row, health_by_id.get(row.asset_id)) for row in rows]
+    else:
+        result = [asset_to_dict(row, None) for row in rows]
     return result, int(total or 0)
 
 
@@ -228,7 +245,7 @@ async def _list_assets_light(
     elif not include_towers:
         stmt = stmt.where(AssetType.type_code != "TOWER")
 
-    if state and state.lower() not in ("gujarat", "india"):
+    if state and state.lower() != "india":
         stmt = stmt.where(Asset.metadata_["country_or_state"].astext.ilike(state))
     if bbox_tuple and len(bbox_tuple) == 4:
         min_lon, min_lat, max_lon, max_lat = bbox_tuple

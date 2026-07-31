@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Generator_LIne" id="Generator_LIne">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>Generator_LIne</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_LIne">
+		<SimpleData name="full_id">w782007928</SimpleData>
+		<SimpleData name="osm_id">782007928</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.9754249,30.2844142 77.9754503,30.2843887 77.9754825,30.2844118 77.9754597,30.2844408 77.9754249,30.2844142</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Kedarnath-2 Mini Hydro Power Project</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Generator_LIne">
+		<SimpleData name="full_id">w1219344322</SimpleData>
+		<SimpleData name="osm_id">1219344322</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:electricity">100 KW</SimpleData>
+		<SimpleData name="generator:method">run-of-the-river</SimpleData>
+		<SimpleData name="generator:source">hydro</SimpleData>
+		<SimpleData name="operator">Uttarakhand Renewable Energy Development Authority</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.0651994,30.7332272 79.0652737,30.7332302 79.0652819,30.733082 79.0652076,30.7330789 79.0651994,30.7332272</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

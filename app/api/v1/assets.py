@@ -1,8 +1,9 @@
 """Enterprise asset API — DB-backed with mock fallback."""
 
+from datetime import datetime
 from typing import Optional
 
-from fastapi import APIRouter, Depends, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query, UploadFile, File
 from pydantic import BaseModel, Field
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -102,6 +103,61 @@ async def create_asset(payload: EnterpriseAssetCreate, session: AsyncSession = D
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     return _wrap(asset)
+
+
+@router.post("/import/tower-ground-kml", response_model=ApiResponse)
+async def import_tower_ground_kml(
+    file: UploadFile = File(...),
+    session: AsyncSession = Depends(get_session),
+):
+    if not file.filename or not file.filename.lower().endswith(".kml"):
+        raise HTTPException(status_code=400, detail="Please upload a .kml file")
+
+    try:
+        from app.services.tower_ground_import import import_ground_tower_kml
+
+        await file.seek(0)
+        stats = await import_ground_tower_kml(
+            session,
+            source=file.file,
+            source_name=file.filename,
+            import_batch_id=datetime.utcnow().strftime("ground-kml-%Y%m%d-%H%M%S"),
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    finally:
+        await file.close()
+
+    return _wrap(stats)
+
+
+@router.post("/import/state-kml", response_model=ApiResponse)
+async def import_state_kml_pack(
+    state: Optional[str] = Query(
+        None,
+        description="Optional state filter e.g. Rajasthan / Gujarat. Omit to upsert all packs.",
+    ),
+    include_towers: bool = Query(True),
+):
+    """
+    Upsert missing assets from indian_KML packs already on the server
+    (Gujarat Towers_KML + Rajasthan_KML, …) without wiping existing rows.
+    """
+    try:
+        from app.services.asset_service import _invalidate_corridor_cache
+        from app.services.kml_db_import import upsert_missing_kml_assets
+
+        stats = await upsert_missing_kml_assets(
+            include_towers=include_towers,
+            state=state,
+        )
+        _invalidate_corridor_cache()
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+    return _wrap(stats)
 
 
 @router.put("/{asset_id}", response_model=ApiResponse)

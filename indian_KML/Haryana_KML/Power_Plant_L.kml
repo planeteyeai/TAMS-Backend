@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Power_Plant_L" id="Power_Plant_L">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="street_cabinet" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="utility" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="generator:plant" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="surface" type="string"></SimpleField>
+	<SimpleField name="generator:solar:tracking" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="colour" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="operator:wikipedia" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="contact:facebook" type="string"></SimpleField>
+	<SimpleField name="compensator" type="string"></SimpleField>
+	<SimpleField name="area" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="name:ar" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="name:ur" type="string"></SimpleField>
+	<SimpleField name="name:ks" type="string"></SimpleField>
+	<SimpleField name="name:fa" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="name:hi" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="operator:en" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>Power_Plant_L</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_Plant_L">
+		<SimpleData name="full_id">w919850708</SimpleData>
+		<SimpleData name="osm_id">919850708</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.9996682,29.468546 76.9996454,29.4679954 77.0005359,29.4679837 77.0005412,29.4681098 77.0002127,29.4685442 76.9996682,29.468546</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_Plant_L">
+		<SimpleData name="full_id">w299881714</SimpleData>
+		<SimpleData name="osm_id">299881714</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">16 MW</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="operator">Haryana Power Generation Corporation Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.4881503,30.2629431 77.4884779,30.2630306 77.4886237,30.2626231 77.4882961,30.2625356 77.4881503,30.2629431</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_Plant_L">
+		<SimpleData name="full_id">w1463424769</SimpleData>
+		<SimpleData name="osm_id">1463424769</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.392129,30.2171849 77.3920405,30.216879 77.3928988,30.2166472 77.39299,30.216923 77.392129,30.2171849</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_Plant_L">
+		<SimpleData name="full_id">w299881715</SimpleData>
+		<SimpleData name="osm_id">299881715</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">16 MW</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="operator">Haryana Power Generation Corporation Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.4513281,30.2490838 77.4517373,30.2488413 77.4515327,30.2485836 77.4511235,30.2488261 77.4513281,30.2490838</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_Plant_L">
+		<SimpleData name="full_id">w989819096</SimpleData>
+		<SimpleData name="osm_id">989819096</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.8661985,29.512525 76.8661078,29.508444 76.8640594,29.5084785 76.8641539,29.5127307 76.8648523,29.5128613 76.8656033,29.5128239 76.8661985,29.512525</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

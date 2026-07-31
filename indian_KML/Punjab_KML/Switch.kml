@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Switch" id="Switch">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="utility" type="string"></SimpleField>
+	<SimpleField name="voltage:tertiary" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="line_arrangement" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="phone" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="craft" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="switch" type="string"></SimpleField>
+	<SimpleField name="devices" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="generator:solar:modules" type="string"></SimpleField>
+	<SimpleField name="direction" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="disused:highway" type="string"></SimpleField>
+	<SimpleField name="lamp_type" type="string"></SimpleField>
+	<SimpleField name="lamp_mount" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="model" type="string"></SimpleField>
+	<SimpleField name="location:transition" type="string"></SimpleField>
+	<SimpleField name="service_times" type="string"></SimpleField>
+	<SimpleField name="religion" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="denomination" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="manufacturer" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="indoor:level" type="string"></SimpleField>
+	<SimpleField name="indoor:area" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="voltage:secondary" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="compensator" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="voltage-low" type="string"></SimpleField>
+	<SimpleField name="voltage-high" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="line_management" type="string"></SimpleField>
+	<SimpleField name="sector" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+</Schema>
+<Folder><name>Switch</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Switch">
+		<SimpleData name="full_id">n12606315122</SimpleData>
+		<SimpleData name="osm_id">12606315122</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="switch">disconnector</SimpleData>
+		<SimpleData name="location">pole</SimpleData>
+		<SimpleData name="operator">PSPCL</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>75.38195,31.8166287</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Switch">
+		<SimpleData name="full_id">n12606315123</SimpleData>
+		<SimpleData name="osm_id">12606315123</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="switch">disconnector</SimpleData>
+		<SimpleData name="location">pole</SimpleData>
+		<SimpleData name="operator">PSPCL</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>75.3818435,31.8166608</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Switch">
+		<SimpleData name="full_id">n13915215863</SimpleData>
+		<SimpleData name="osm_id">13915215863</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.4987948,31.2316616</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Switch">
+		<SimpleData name="full_id">n13915215862</SimpleData>
+		<SimpleData name="osm_id">13915215862</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.4986962,31.2315529</coordinates></Point></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

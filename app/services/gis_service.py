@@ -104,12 +104,14 @@ async def get_viewport_towers(
     bbox: str,
     state: str | None = None,
     limit: int = 5000,
+    sync: bool = False,
 ) -> dict:
     try:
         min_lon, min_lat, max_lon, max_lat = [float(v) for v in bbox.split(",")]
     except (ValueError, TypeError) as exc:
         raise ValueError("bbox must be minLon,minLat,maxLon,maxLat") from exc
 
+    sync_stats: dict | None = None
     if is_db_ready():
         async with async_session_maker() as session:
             # Single round-trip: join asset_types instead of separate type_id lookup.
@@ -119,7 +121,18 @@ async def get_viewport_towers(
                 "region",
                 Asset.metadata_["region"],
                 "voltage_kv",
-                Asset.metadata_["voltage_kv"],
+                func.coalesce(
+                    Asset.metadata_["voltage_kv"],
+                    func.to_jsonb(Asset.voltage_level_kv),
+                ),
+                "structure",
+                Asset.metadata_["structure"],
+                "power",
+                Asset.metadata_["power"],
+                "cables",
+                Asset.metadata_["cables"],
+                "circuits",
+                Asset.metadata_["circuits"],
             )
             stmt = (
                 select(
@@ -127,12 +140,15 @@ async def get_viewport_towers(
                     Asset.name,
                     Asset.latitude,
                     Asset.longitude,
+                    Asset.voltage_level_kv,
                     map_meta,
                 )
                 .join(AssetType, Asset.asset_type_id == AssetType.asset_type_id)
                 .where(
                     AssetType.type_code == "TOWER",
                     Asset.is_active.is_(True),
+                    Asset.latitude.is_not(None),
+                    Asset.longitude.is_not(None),
                     Asset.latitude >= min_lat,
                     Asset.latitude <= max_lat,
                     Asset.longitude >= min_lon,
@@ -140,10 +156,47 @@ async def get_viewport_towers(
                 )
                 .limit(limit)
             )
-            if state and state.lower() not in ("gujarat", "india"):
+            if state and state.lower() != "india":
                 stmt = stmt.where(Asset.metadata_["country_or_state"].astext.ilike(state))
 
             rows = (await session.execute(stmt)).all()
+
+        # Optional detect/corridor sync — OFF by default. Running it on every
+        # map pan exhausted the DB pool and made /gis/towers hang (empty 3D map).
+        if sync:
+            kml_preview = get_towers_in_bbox(
+                min_lon=min_lon,
+                min_lat=min_lat,
+                max_lon=max_lon,
+                max_lat=max_lat,
+                state=state,
+                limit=limit,
+            )
+            if kml_preview:
+                try:
+                    from app.services.kml_db_import import upsert_detected_towers_in_bbox
+
+                    sync_stats = await upsert_detected_towers_in_bbox(
+                        min_lon=min_lon,
+                        min_lat=min_lat,
+                        max_lon=max_lon,
+                        max_lat=max_lat,
+                        state=state,
+                        limit=limit,
+                    )
+                    if sync_stats.get("inserted") or (sync_stats.get("corridor") or {}).get(
+                        "towers_inserted"
+                    ):
+                        async with async_session_maker() as session:
+                            rows = (await session.execute(stmt)).all()
+                except Exception:
+                    import logging
+
+                    logging.getLogger(__name__).exception(
+                        "Viewport tower/corridor DB sync failed"
+                    )
+
+        if rows:
             features = [
                 {
                     "type": "Feature",
@@ -156,17 +209,32 @@ async def get_viewport_towers(
                         "asset_id": str(asset_id),
                         "name": name,
                         "asset_type": "tower",
-                        "metadata": meta or {},
+                        "health_score": "healthy",
+                        "voltage_level_kv": voltage_level_kv,
+                        "metadata": {
+                            **(meta or {}),
+                            **(
+                                {"voltage_kv": voltage_level_kv}
+                                if voltage_level_kv is not None
+                                and not (meta or {}).get("voltage_kv")
+                                else {}
+                            ),
+                        },
                     },
                 }
-                for asset_id, name, lat, lon, meta in rows
+                for asset_id, name, lat, lon, voltage_level_kv, meta in rows
             ]
-            return {
+            payload = {
                 "type": "FeatureCollection",
                 "features": features,
                 "total": len(features),
                 "source": "database",
+                "truncated": len(features) >= limit,
+                "limit": limit,
             }
+            if sync_stats:
+                payload["sync"] = sync_stats
+            return payload
 
     towers = get_towers_in_bbox(
         min_lon=min_lon,
@@ -192,12 +260,15 @@ async def get_viewport_towers(
                 },
             }
         )
-    return {
+    payload = {
         "type": "FeatureCollection",
         "features": features,
         "total": len(features),
         "source": "indian_KML/Towers_KML",
     }
+    if sync_stats:
+        payload["sync"] = sync_stats
+    return payload
 
 
 async def get_region_asset_stats(

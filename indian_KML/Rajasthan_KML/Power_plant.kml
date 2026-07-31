@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Power_plant" id="Power_plant">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="name:etymology:wikidata" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+</Schema>
+<Folder><name>Power_plant</name>
+  <Placemark>
+	<name>Giral Lignite Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_plant">
+		<SimpleData name="full_id">w173212580</SimpleData>
+		<SimpleData name="osm_id">173212580</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q5564120</SimpleData>
+		<SimpleData name="operator">Rajasthan Rajya Vidyut Utpadan Nigam</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:output:electricity">250 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>71.2519394,26.0416011 71.2518098,26.0416694 71.2508558,26.0432552 71.2510524,26.0433616 71.2495734,26.0455175 71.2495533,26.0481771 71.2496136,26.0482855 71.2496181,26.0484461 71.249551,26.0485846 71.2495555,26.0487371 71.2537804,26.0488235 71.2567586,26.0488857 71.2567295,26.0499254 71.2610348,26.0500218 71.2610633,26.0485367 71.2597237,26.0485027 71.2597868,26.0465071 71.2595246,26.0464787 71.2604156,26.0421069 71.2589527,26.0418088 71.2548041,26.0416215 71.253891,26.0415871 71.2525795,26.0415891 71.2525094,26.041646 71.2522771,26.0416432 71.2522361,26.0415977 71.2519394,26.0416011</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Transtech Green Power Plant Sanchore</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_plant">
+		<SimpleData name="full_id">w175330892</SimpleData>
+		<SimpleData name="osm_id">175330892</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">biomass</SimpleData>
+		<SimpleData name="plant:output:electricity">12 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>71.5956293,24.8083481 71.5991778,24.8066775 71.5982767,24.8051108 71.5979916,24.8053488 71.5969199,24.8047341 71.5964388,24.8053049 71.595782,24.8058572 71.5959271,24.8060351 71.595586,24.8062662 71.5962275,24.8073915 71.5953187,24.8078305 71.5956293,24.8083481</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Barmer Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_plant">
+		<SimpleData name="full_id">w172860716</SimpleData>
+		<SimpleData name="osm_id">172860716</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q17060319</SimpleData>
+		<SimpleData name="operator">Raj West Power Limited</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:output:electricity">1080 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>71.3181016,25.9064421 71.3187179,25.9008981 71.3189423,25.8999262 71.319163,25.893338 71.3193494,25.885353 71.3260376,25.8855652 71.3338634,25.8860684 71.3374053,25.886438 71.3390336,25.886462 71.339007,25.888608 71.339045,25.8912503 71.3389423,25.8968153 71.3387141,25.9026469 71.3388358,25.9077973 71.332646,25.9073284 71.3272855,25.9074106 71.3265718,25.9074273 71.3224155,25.906774 71.3187703,25.906503 71.3181016,25.9064421</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_plant">
+		<SimpleData name="full_id">w1228071247</SimpleData>
+		<SimpleData name="osm_id">1228071247</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>73.0878205,24.8263298 73.0881361,24.8259502 73.0875665,24.8255134 73.089171,24.8238166 73.091764,24.8259812 73.0931333,24.8271743 73.0935167,24.8277204 73.0922377,24.8289745 73.0919379,24.8288853 73.0878205,24.8263298</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>VS Lignite Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_plant">
+		<SimpleData name="full_id">w208635578</SimpleData>
+		<SimpleData name="osm_id">208635578</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="start_date">2010</SimpleData>
+		<SimpleData name="ref">https://www.gem.wiki/VS_Lignite_Plant</SimpleData>
+		<SimpleData name="operator">KSK Energy Ventures Pvt Ltd</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:output:electricity">135 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>72.8538339,27.8536589 72.8619468,27.8533685 72.8621298,27.8570376 72.8623418,27.8613868 72.8623793,27.8623904 72.8576221,27.8625558 72.8542414,27.8626808 72.8541042,27.8595192 72.8539295,27.8557141 72.8538339,27.8536589</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Ramgarh Gas Thermal Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_plant">
+		<SimpleData name="full_id">w618824711</SimpleData>
+		<SimpleData name="osm_id">618824711</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q15991665</SimpleData>
+		<SimpleData name="operator">Rajasthan Rajya Vidyut Utpadan Nigam</SimpleData>
+		<SimpleData name="plant:type">combined_cycle</SimpleData>
+		<SimpleData name="plant:source">gas</SimpleData>
+		<SimpleData name="plant:output:electricity">273.80 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>70.5412442,27.3355784 70.5416555,27.3359604 70.5423482,27.3365937 70.5408358,27.3377977 70.5330122,27.3441771 70.5263323,27.3381313 70.5259076,27.3381244 70.5257985,27.3373803 70.5260284,27.3338571 70.5261063,27.3312891 70.5315918,27.3313998 70.5368519,27.3314993 70.5370338,27.3316683 70.5412442,27.3355784</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

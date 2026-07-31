@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="66_kv" id="66_kv">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="street_cabinet" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="site" type="string"></SimpleField>
+	<SimpleField name="utility" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="generator:plant" type="string"></SimpleField>
+	<SimpleField name="operator:ur" type="string"></SimpleField>
+	<SimpleField name="generator:output:biogas" type="string"></SimpleField>
+	<SimpleField name="generator:solar:tracking" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="industrial" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="generator:output:hot_water" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="surface" type="string"></SimpleField>
+	<SimpleField name="maxspeed" type="string"></SimpleField>
+	<SimpleField name="colour" type="string"></SimpleField>
+	<SimpleField name="construction" type="string"></SimpleField>
+	<SimpleField name="operator:wikipedia" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="name:ja" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="contact:facebook" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="name:uk" type="string"></SimpleField>
+	<SimpleField name="name:sr" type="string"></SimpleField>
+	<SimpleField name="name:pnb" type="string"></SimpleField>
+	<SimpleField name="name:pa" type="string"></SimpleField>
+	<SimpleField name="name:es" type="string"></SimpleField>
+	<SimpleField name="name:de" type="string"></SimpleField>
+	<SimpleField name="name:azb" type="string"></SimpleField>
+	<SimpleField name="name:az-Arab" type="string"></SimpleField>
+	<SimpleField name="compensator" type="string"></SimpleField>
+	<SimpleField name="area" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="name:ar" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="name:ur" type="string"></SimpleField>
+	<SimpleField name="name:ks" type="string"></SimpleField>
+	<SimpleField name="name:fa" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="name:hi" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="operator:en" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>66_kv</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1370732270</SimpleData>
+		<SimpleData name="osm_id">1370732270</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.7500493,27.0311555 74.7501581,27.0309906</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462190526</SimpleData>
+		<SimpleData name="osm_id">1462190526</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.9326588,26.8018953 75.932599,26.8020201 75.9323799,26.802477</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1355029667</SimpleData>
+		<SimpleData name="osm_id">1355029667</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.757856,26.7968417 75.7581807,26.796826 75.7585428,26.7968084 75.7596343,26.7967555</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1370732268</SimpleData>
+		<SimpleData name="osm_id">1370732268</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.7496522,27.0307404 74.7495488,27.0309035</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462721887</SimpleData>
+		<SimpleData name="osm_id">1462721887</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="layer">-1</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>70.5401252,27.3363529 70.5403591,27.336189 70.5388732,27.3347403 70.5402089,27.3336491 70.5403752,27.3338254 70.5402701,27.3338899</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462191822</SimpleData>
+		<SimpleData name="osm_id">1462191822</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.3633242,28.5993024 74.3633258,28.5994865</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462191819</SimpleData>
+		<SimpleData name="osm_id">1462191819</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.36324,28.5993052 74.3633242,28.5993024 74.3635663,28.5992945 74.3638166,28.5992863</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462721886</SimpleData>
+		<SimpleData name="osm_id">1462721886</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>70.5395813,27.3362784 70.5395303,27.3363784</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462721883</SimpleData>
+		<SimpleData name="osm_id">1462721883</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>70.5395303,27.3363784 70.5396725,27.3363594</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w99830324</SimpleData>
+		<SimpleData name="osm_id">99830324</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.8646083548453,28.2216403637215 76.8645164,28.2216263 76.8617438,28.221231 76.8589992,28.2213985 76.8559461,28.2215467 76.8529282,28.2217464 76.8501586,28.2219001 76.8473455,28.2220456 76.844604,28.2221966 76.8418033,28.2223585 76.8390712,28.2216833 76.8363048,28.2209504 76.8334627,28.2202282 76.8321577,28.2198966 76.8310866,28.2196245 76.8284713514148,28.2189482971955</coordinates></LineString><LineString><coordinates>76.8175560503947,28.2150890115627 76.8159634,28.214366</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462721881</SimpleData>
+		<SimpleData name="osm_id">1462721881</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>70.5395303,27.3363784 70.539831,27.3366709 70.5399836,27.3368192</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w311559760</SimpleData>
+		<SimpleData name="osm_id">311559760</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>69.5553303,27.0925736 69.555936,27.0942183 69.5569982,27.0961929 69.5577911,27.0976727 69.5590399,27.0988271 69.5601164,27.0998222 69.5617392,27.1013765 69.5633243,27.102876 69.5654059,27.1030857 69.5679136,27.1026445 69.5697375,27.1022924 69.5721551,27.1018346 69.5744519,27.1014145 69.5766493,27.1009897 69.578773,27.1015316 69.58103,27.1021095 69.5836879,27.1027573 69.5857646,27.1016158 69.5877253,27.1005757 69.5896422,27.0995376 69.5921624,27.0968793 69.5939486,27.0962443 69.5943832,27.0943365 69.5947559,27.0925312 69.5951395,27.0907689 69.5948212,27.0891027 69.5944412,27.0871129 69.594059,27.0850934 69.5937037,27.0833075 69.5939538,27.081875 69.5959562,27.080582 69.5976431,27.0808212 69.6002509,27.0811683 69.6026687,27.0814796 69.6046731,27.0804594 69.6064403,27.0795797 69.60756,27.0789508</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462721882</SimpleData>
+		<SimpleData name="osm_id">1462721882</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>70.539831,27.3366709 70.5401725,27.3363987</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w210645563</SimpleData>
+		<SimpleData name="osm_id">210645563</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.3331732,29.1586372 74.3318518,29.1595601</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462721880</SimpleData>
+		<SimpleData name="osm_id">1462721880</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>70.5408151,27.3370218 70.5401725,27.3363987 70.5401252,27.3363529 70.5400533,27.3362831</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w311559759</SimpleData>
+		<SimpleData name="osm_id">311559759</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>69.6212179,27.0878954 69.622783,27.0895799 69.6251184,27.0899397 69.626765,27.0902162 69.6283398,27.0908579 69.6298886,27.0914802 69.6319854,27.0907047 69.6343823,27.0899424 69.6367255,27.0891972 69.638573,27.0885796 69.6403458,27.087987 69.6411016,27.0863188 69.6417075,27.0849812 69.6436521,27.0840232 69.6457864,27.0829295 69.6471104,27.0822364 69.6491193,27.0812292 69.6511143,27.0802088 69.6527864,27.0793535 69.655187,27.0800257 69.6568634,27.0804618 69.6590813,27.0810964 69.6609906,27.0816353 69.6630772,27.0821848 69.664646,27.0826723 69.6663981,27.0820554 69.6683592,27.08138 69.6700475,27.0814048 69.6720464,27.0814314 69.674356,27.0814491 69.6760506,27.0814659 69.6784438,27.0814801 69.6802217,27.081512 69.6818304,27.0802427 69.6834391,27.078993 69.6848447,27.0778815 69.6864733,27.0766016 69.6880223,27.075389 69.6899097,27.0739335 69.6916299,27.0725454 69.6935114,27.0710616 69.6953888,27.069583 69.6964162,27.0687817 69.698208,27.0673403 69.6993568,27.0655089 69.7004061,27.0637253 69.7015031,27.0624612 69.7029872,27.0607591 69.7041697,27.0594038 69.7046248,27.057224 69.7050628,27.0553782 69.7053196,27.0537044 69.7056651,27.0517185 69.7060022,27.0497553 69.7063589,27.0478476 69.706739,27.0456985 69.7070723,27.0436884 69.7073861,27.0420722 69.7084132,27.0399421 69.7101751,27.0390012 69.7116148,27.0387537 69.7130668,27.0393943 69.7145325,27.0400175 69.7168441,27.0407633 69.7183799,27.0420045 69.7199314,27.0432423 69.7208104,27.0445477 69.7221279,27.046445 69.7232993,27.0481271 69.7246286,27.0500296 69.7255154,27.0513002 69.7265308,27.0528 69.7275931,27.0543344 69.7286475,27.0558306 69.7291601,27.0578684 69.7296961,27.0600918 69.7305888,27.061857 69.7314035,27.0635093 69.7322513,27.065264 69.7331751,27.0670812 69.7338982,27.0685009 69.7338768,27.0705488 69.7338729,27.0724405 69.7338631,27.0739313 69.7338476,27.0755609 69.7344693,27.0773033 69.7351417,27.079181 69.7358356,27.0811523 69.7365614,27.0831869 69.7372689,27.0851392 69.7372416,27.0868623 69.7377289,27.0883251 69.7384359,27.0904798 69.7391646,27.09266 69.7398654,27.0948029 69.740393,27.0963609 69.7419738,27.0981386 69.7433157,27.0996239 69.7449643,27.1014388 69.7459139,27.1030942 69.7468318,27.1046892 69.7472479,27.1065555 69.7476321,27.1084199 69.7480542,27.1104509 69.7485877,27.112932 69.7490005,27.1148518 69.7494685,27.1169399 69.7501765,27.1176602 69.7515117,27.1203694 69.7521374,27.122125 69.7529033,27.1242795 69.7535504,27.1261633 69.7542716,27.1281356 69.754905,27.1299656 69.7554507,27.1320524 69.756014,27.1342205 69.7565792,27.1364199 69.7571523,27.1385533 69.7576941,27.1406468 69.7582281,27.1426795 69.7587329,27.1445995 69.7593137,27.1468091 69.761559,27.1475687 69.7641033,27.1473046 69.7662508,27.147049 69.7686112,27.1467733 69.7696944,27.1478666 69.7706427,27.1500162 69.771591,27.152121 69.772432,27.1539841 69.7732592,27.1558518 69.7740725,27.1576764 69.7755728,27.1583153 69.7770904,27.1589035 69.779314,27.1597919 69.7810497,27.1604939 69.783481,27.1614716 69.7856908,27.1623723 69.7886862,27.1610698 69.7910379,27.160069 69.7931508,27.159156 69.7943759,27.1586156 69.7962795,27.1577998 69.798674,27.1567717 69.8009751,27.1557836 69.8025117,27.1548152 69.8048772,27.1533339 69.8056992,27.1528351 69.807437,27.1534964 69.8088965,27.1540518 69.8110722,27.1548797 69.8133405,27.1557429 69.8144829,27.1566836 69.8155101,27.1586624 69.8165005,27.1605914 69.8173519,27.1622696 69.8189405,27.1640648 69.8201535,27.1654443 69.82231,27.1665114 69.8247704,27.1677464 69.8271189,27.1689018 69.8293969,27.1700479 69.8313497,27.1710084 69.8451505,27.1778915 69.8470627,27.1788394 69.8488711,27.1797446 69.8513923,27.1810007 69.8521918,27.1829403 69.8530103,27.1849614 69.8538156,27.18695 69.8546018,27.1888804 69.8563649,27.1903485 69.8583165,27.1919514 69.8592255,27.1930487 69.8601995,27.1942123 69.8614221,27.1956726</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w849304617</SimpleData>
+		<SimpleData name="osm_id">849304617</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.8159634,28.214366 76.8155988,28.2142004 76.8131533,28.2131127 76.8110612,28.2121627 76.8084543,28.2110054 76.8064498,28.2092269 76.8048085,28.2078017 76.802908,28.206124 76.8023141054268,28.2056039265222</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462723883</SimpleData>
+		<SimpleData name="osm_id">1462723883</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>70.8746937,26.9412771 70.8750284,26.9412864</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462723881</SimpleData>
+		<SimpleData name="osm_id">1462723881</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>70.8750421,26.9408249 70.8747017,26.9408177</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462723882</SimpleData>
+		<SimpleData name="osm_id">1462723882</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>70.8747074,26.9410512 70.8750352,26.9410592</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462459535</SimpleData>
+		<SimpleData name="osm_id">1462459535</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.7825117,27.848474 75.7826413,27.848563 75.7829296,27.8487608 75.7831823,27.8489341</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462723880</SimpleData>
+		<SimpleData name="osm_id">1462723880</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>70.8747099,26.940611 70.8750483,26.9406169</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462191823</SimpleData>
+		<SimpleData name="osm_id">1462191823</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.3635699,28.5994842 74.3635663,28.5992945</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1480912793</SimpleData>
+		<SimpleData name="osm_id">1480912793</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.3768963,28.0195426 73.376877,28.0196457 73.3768271,28.0199122 73.3768115,28.0199959 73.3766281,28.0209751</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462723878</SimpleData>
+		<SimpleData name="osm_id">1462723878</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>70.8747099,26.9403827 70.8750552,26.9403827</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1028209284</SimpleData>
+		<SimpleData name="osm_id">1028209284</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>72.2735204572331,24.5511562359226 72.2727005,24.551597 72.2714674,24.5522479 72.2701062,24.5529663 72.2695382875112,24.5532699377028</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w173217221</SimpleData>
+		<SimpleData name="osm_id">173217221</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>70.0408765,27.314979 70.0406734,27.3149277 70.0385576,27.3142791 70.036448,27.3136514 70.0342667,27.3129529 70.0325372,27.3123764 70.0301132,27.3115647 70.0285528,27.3104259 70.0273433,27.3095291 70.0258379,27.308413 70.0245329,27.307532 70.0229881,27.3064118 70.0214875,27.3053237 70.0198457,27.3041358 70.0185177,27.3031828 70.0166863,27.3030676 70.0139539,27.3028849 70.0110894,27.3027387 70.0088653,27.3026133 70.0064399,27.302471 70.0038202,27.3023122 70.0015661,27.3019448 70.0004256,27.3004495 69.9979554,27.2972004 69.9966611,27.2954964 69.9953129,27.2937185 69.9940103,27.2920163 69.9927721,27.2903971 69.9903726,27.2904599 69.9892403,27.2917615 69.9884904,27.2937905 69.9879211,27.295369 69.987275,27.2959007 69.985825,27.2971357 69.9844081,27.2983339 69.9833818,27.2991794 69.9813438,27.300911 69.9807078,27.3014815 69.9797857,27.3029879 69.9786805,27.3048117 69.9758697,27.3064126 69.975189,27.3057204 69.9742921,27.3048073 69.9735251,27.3035628 69.9727374,27.3022844 69.9720907,27.3012237 69.9695894,27.3002895 69.9672618,27.2994216 69.965397,27.298717 69.9637648,27.2981069 69.9621038,27.2974752 69.9600419,27.2967037 69.9584164,27.2956291 69.9563833,27.2942948 69.9530785,27.2920992 69.9515312,27.2910693 69.9491446,27.2918543 69.9467979,27.2932028 69.9453635,27.2941519 69.9438153,27.2956819 69.9423977,27.2970916 69.9412306,27.2982311 69.9397277,27.2996998 69.9370812,27.3023187 69.9343698,27.3020175 69.9320786,27.3017499 69.9309259,27.2998331 69.9298453,27.2980129 69.9287648,27.2961648 69.9285455,27.2939121 69.9283349,27.2917484 69.9281603,27.2899555 69.9279436,27.287636 69.92777,27.2857782 69.9274432,27.2824962 69.9272183,27.2802365 69.9270262,27.2782814 69.9268402,27.2762874 69.9257927,27.2742166 69.9248492,27.2723269 69.923826,27.2702954 69.9227453,27.2681496 69.92168,27.2660275 69.9206856,27.264053 69.9192587,27.2622926 69.9169361,27.2595045 69.9154865,27.2577644 69.9140158,27.2559854 69.9130457,27.2548277 69.911563,27.2530353 69.9105465,27.2517989 69.9091202,27.2504758 69.9073656,27.2488461 69.9057517,27.2473472 69.9042899,27.2460061 69.9025297,27.2443854 69.9009261,27.2429013 69.8992536,27.2413363 69.8981042,27.2402865 69.8969422,27.2392032 69.8957532,27.2381165 69.8947256,27.2371575 69.8931052,27.2356622 69.8916273,27.2342984 69.8907702,27.2322445 69.8898577,27.2300646 69.8890826,27.2281977 69.8882144,27.226124 69.8873684,27.224133 69.8864198,27.2227419 69.8855878,27.2215217 69.884228,27.2195129 69.8831893,27.2179964 69.8814043,27.2153671 69.8792295,27.2147585 69.8767512,27.2140889 69.8751736,27.2121705 69.8739694,27.2107311 69.8727852,27.2093067 69.8712637,27.2074692 69.8699028,27.205833 69.8683916,27.2040158 69.8670085,27.2023543 69.8657434,27.2008347 69.8642386,27.1990269 69.8628298,27.1973442 69.8614221,27.1956726</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w173217218</SimpleData>
+		<SimpleData name="osm_id">173217218</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="circuits">1</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>69.9045778,27.4316914 69.9064333,27.4302459 69.9083387,27.4287543 69.91009,27.4271132 69.9116564,27.4256454 69.9133475,27.4240632 69.9148912,27.4226221 69.9164536,27.4211639 69.9181802,27.4195445 69.9195235,27.4182907 69.9208245,27.4170701 69.9224555,27.4155398 69.9240118,27.4140935 69.9262832,27.413907 69.9286183,27.4137382 69.9306411,27.4135661 69.9332633,27.4133626 69.9353942,27.4126618 69.9374217,27.411995 69.9396935,27.4112458 69.9416164,27.4106054 69.9434175,27.4100056 69.9453698,27.4093418 69.9476438,27.4085828 69.9496604,27.4079094 69.9521321,27.4070839 69.954479,27.4063002 69.956667,27.4051818 69.9578061,27.4029107 69.9586948,27.4010913 69.9594264,27.3996097 69.960086,27.3982664 69.9611408,27.396136 69.9632453,27.3958316 69.9655118,27.3955236 69.9679446,27.3951879 69.9702672,27.3948725 69.9724507,27.39457 69.9744513,27.3942989 69.9755586,27.3922477 69.9768051,27.389918 69.977607,27.388422 69.9780685,27.3875677 69.9792286,27.3862207 69.9810048,27.3841365 69.9821808,27.3827803 69.9834889,27.3812466 69.9852943,27.3795901 69.9872524,27.3777799 69.9891086,27.3760573 69.9906085,27.3743803 69.9928307,27.3726367 69.9946348,27.3711154 69.9958805,27.3700649 69.9976505,27.3685742 69.9995161,27.3670171 70.0012654,27.3655245 70.0031185,27.3639894 70.0043525,27.3622606 70.0058275,27.3601609 70.0073088,27.3580815 70.0087942,27.356002 70.0101965,27.3539391 70.0114181,27.3521824 70.0129409,27.3500272 70.0141001,27.3483738 70.0152448,27.346761 70.0166305,27.3448161 70.0177482,27.3439229 70.019192,27.3427013 70.0207442,27.3414154 70.0224428,27.3400041 70.0236812,27.3380714 70.0246072,27.3366138 70.025764,27.3348361 70.0270531,27.3328683 70.0282718,27.3309781 70.0295412,27.3290327 70.0307943,27.3270944 70.0329716,27.3260106 70.0347011,27.325169 70.0367351,27.3237297 70.038187,27.3226844 70.0396453,27.3208689 70.0409525,27.319177 70.040896,27.3171521 70.040827,27.315157 70.0408765,27.314979 70.0409283,27.3147931 70.0414829,27.3127689 70.0420063,27.3108344 70.0426283,27.3085686 70.0432053,27.3063953 70.0436894,27.3046721 70.0441369,27.3029364 70.0447111,27.3008831 70.0460537,27.2991823 70.0470902,27.297829 70.0482883,27.2962568 70.0497034,27.2944492 70.0503601,27.292288 70.0508975,27.290537 70.0515423,27.288434 70.052207,27.286331 70.0527962,27.2843782 70.0533972,27.2824025 70.0540181,27.2803789 70.0545913,27.2785128 70.0553426,27.2760887 70.0558014,27.2745677 70.0564769,27.2723412 70.0568007,27.2712862 70.0574536,27.2691439 70.0577153,27.267185 70.0580418,27.2646832 70.0582839,27.2628918 70.058585,27.2607902 70.0587955,27.2591925 70.0604673,27.2581169 70.0625153,27.2568059 70.0638075,27.2559564 70.0656006,27.2547971 70.0672406,27.253732 70.0692925,27.2524015 70.0713285,27.2510922 70.0734422,27.2503379 70.0748475,27.2497437 70.076107,27.2482006 70.0774961,27.2465073 70.0790226,27.2446441 70.0803401,27.2430428 70.0818388,27.2412203 70.0827801,27.2389146 70.0836956,27.236685 70.0842827,27.2352375 70.0851554,27.2330962 70.0857069,27.2317575 70.087589,27.2309125 70.0888904,27.2303195 70.0906073,27.2295387 70.0932061,27.2283397 70.0952466,27.2285475 70.0973491,27.2287527 70.0992293,27.2286551 70.1018919,27.2284824 70.1046248,27.2283022 70.1066119,27.228137 70.1084864,27.2279543 70.1104876,27.2277691 70.1123762,27.2276265 70.1142986,27.2274313 70.1168035,27.2272436 70.1186977,27.2270258 70.1207552,27.2268206 70.1232771,27.2266104 70.1257597,27.2263944 70.1280106,27.2270934 70.1302536,27.2277978 70.1325702,27.2285163 70.1342161,27.22901 70.1365168,27.2297462 70.1387584,27.230432 70.1410866,27.2311323 70.143457,27.2318738 70.1458592,27.2326064 70.1482329,27.2333597 70.1490012,27.2350664 70.1498569,27.2369133 70.1507153,27.2388452 70.1516039,27.2408041 70.1524696,27.2427116 70.1533533,27.2447163 70.1542759,27.2466933 70.1559875,27.2476983 70.1580314,27.2488502 70.1596694,27.249749 70.161208,27.2511497 70.1628608,27.2525929 70.1645468,27.2530533 70.1668519,27.2537089 70.1689431,27.2549274 70.1709563,27.2560918 70.1729377,27.2572578 70.1749498,27.2584268 70.1770655,27.2596473 70.1791909,27.2608735 70.1815168,27.2605825 70.1838893,27.2603134 70.1861372,27.2600584 70.1885112,27.2597891 70.1908303,27.259526 70.1932593,27.2592505 70.1952071,27.2590296 70.1977424,27.2586977 70.2001578,27.2583815 70.2017978,27.259788 70.2036109,27.2613572 70.2054359,27.2629282 70.2071853,27.2644373 70.2086939,27.2657535 70.2102701,27.2669671 70.2121051,27.2683753 70.2138107,27.2696666 70.2154665,27.270981 70.2171483,27.2722512 70.2190728,27.2736911 70.2206928,27.2748975 70.2222147,27.2760346 70.2235553,27.2770362 70.2249136,27.2780776 70.2261673,27.2790389 70.2273155,27.2799174 70.2280179,27.2804577 70.2302611,27.2811181 70.2324589,27.2817473 70.2344295,27.2823114 70.2368248,27.2830343 70.2391524,27.2836747 70.2414556,27.2843408 70.2437909,27.2850104 70.2460087,27.2856608 70.2483336,27.2863187 70.2506584,27.286974 70.2529551,27.2876194 70.2553335,27.2883123 70.2576596,27.2889768 70.259834,27.289598 70.2621166,27.2902283 70.2644161,27.2908961 70.2666537,27.291534 70.2689166,27.2920667 70.2711514,27.2926095 70.2734828,27.293193 70.2758687,27.2937901 70.278019,27.2943479 70.2802826,27.2948608 70.2827819,27.2954686 70.2851776,27.2960559 70.2873725,27.2965941 70.2894131,27.297562 70.2915803,27.2986125 70.2937668,27.2996447 70.2957294,27.3005712 70.2977747,27.3015377 70.2998405,27.3025139 70.3017125,27.3033985 70.3037617,27.3043668 70.3058156,27.3053501 70.3080471,27.305866 70.3103081,27.3063903 70.3125401,27.3069079 70.3148673,27.3074475 70.31712,27.3079698 70.3193829,27.3084946 70.321574,27.3090026 70.3237729,27.3095125 70.325962,27.3100201 70.3282502,27.3105613 70.3304567,27.311082 70.332642,27.3115976 70.3348933,27.3121288 70.337145,27.3126601 70.3393811,27.3131877 70.3415657,27.3137032 70.3438695,27.3142468 70.3460951,27.3147719 70.3484524,27.3153281 70.3507891,27.3158795 70.3530311,27.3164085 70.3548972,27.3177177 70.3566671,27.3189287 70.3585549,27.3202204 70.3604201,27.3214966 70.3623025,27.3227846 70.3641345,27.3240328 70.3661471,27.3253626 70.3682337,27.3262648 70.3704452,27.3271527 70.3726393,27.3280337 70.3748594,27.3289251 70.3770727,27.3298137 70.3792635,27.3306933 70.3814177,27.3315581 70.3836384,27.3324649 70.3858279,27.3333544 70.3879745,27.3342023 70.3896291,27.3351523 70.3916791,27.3363152 70.3937113,27.3374681 70.395799,27.3386524 70.397895,27.3398415 70.399962,27.341014 70.4020741,27.3422122 70.4040844,27.3433525 70.4062029,27.3445589 70.4080766,27.3456242 70.4096173,27.3465002 70.4114948,27.3475677 70.4133622,27.3475463 70.415882,27.3474977 70.418298,27.3474366 70.420719,27.3474495 70.4231376,27.3474226 70.4255951,27.3473953 70.4280773,27.3473678 70.4306089,27.3473397 70.4330581,27.3473125 70.4355343,27.347285 70.4380383,27.3472572 70.4404987,27.3472338 70.4429024,27.347211 70.4451723,27.3471895 70.4467811,27.3460296 70.4478776,27.3452491 70.4502688,27.344811 70.4526407,27.3443951 70.4549996,27.3439465 70.4573371,27.3434931 70.4597409,27.3430363 70.4621603,27.3426003 70.4645227,27.3421146 70.4669391,27.3416651 70.4692999,27.341226 70.471699,27.3407798 70.4741462,27.3403246 70.4765567,27.3398762 70.4789421,27.3394325 70.4813787,27.3389793 70.483778,27.338533 70.4862009,27.3380823 70.4886445,27.3376277 70.491059,27.3371786 70.4934769,27.3367288 70.4958861,27.3362807 70.4982917,27.3358299 70.5007022,27.3353783 70.5031817,27.3349137 70.505552,27.3344695 70.5078593,27.3340372 70.5102849,27.3335827 70.5126796,27.3331339 70.5151313,27.3326745 70.5175527,27.3322208 70.519991,27.3317639 70.522411,27.3313104 70.52483,27.3308571 70.5272533,27.3303968 70.5295798,27.3305718 70.5318939,27.3307224 70.5341341,27.3308816 70.5365749,27.3310529 70.5384995,27.3325031 70.5402701,27.3338899</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1480912806</SimpleData>
+		<SimpleData name="osm_id">1480912806</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.3768115,28.0199959 73.3770499,28.0200212</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1480912807</SimpleData>
+		<SimpleData name="osm_id">1480912807</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.377066,28.0199359 73.3768271,28.0199122</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1480912805</SimpleData>
+		<SimpleData name="osm_id">1480912805</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.3771035,28.0196755 73.376877,28.0196457</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462459552</SimpleData>
+		<SimpleData name="osm_id">1462459552</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.7826413,27.848563 75.7824202,27.8488413</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462459551</SimpleData>
+		<SimpleData name="osm_id">1462459551</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.7826934,27.8490392 75.7829296,27.8487608</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w352346162</SimpleData>
+		<SimpleData name="osm_id">352346162</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="circuits">1</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.8276725,28.0439636 73.8302564,28.0452443 73.8326996,28.0463868 73.8357127,28.0477963 73.8384791,28.0490854 73.8412338,28.0503897 73.8439089,28.0516393 73.8466304,28.0529299 73.8482607,28.0536882 73.8501053,28.0545519 73.8524678,28.0556458 73.854446,28.0565617 73.8572382,28.0578971 73.8597389,28.0590531 73.8621577,28.0601467 73.8646252,28.0613339 73.8676848,28.0627588 73.8703952,28.0640317 73.8732361,28.0653573 73.8761464,28.0667094 73.8781867,28.0676752 73.8803632,28.0687054 73.8837166,28.0702927 73.8861836,28.0714984 73.8892623,28.0729649 73.8916048,28.0740948 73.8938345,28.0751702 73.8963382,28.0763778 73.8992831,28.0777875 73.9021241,28.0791515 73.9044441,28.0802713 73.9072894,28.0816333 73.9099294,28.0828904 73.9127337,28.0842658 73.915618,28.0856202 73.9186644,28.0870851 73.9216438,28.0869154 73.9246946,28.0867456 73.9281194,28.086551 73.9313172,28.0863622 73.9356026,28.0861428 73.9381907,28.085975 73.9414555,28.0857937 73.9441544,28.0856657 73.9473387,28.0854693 73.9506083,28.0852677 73.9528409,28.0851501 73.9561676,28.0849615 73.9584664,28.0848316 73.9615015,28.0846762 73.9649534,28.084459 73.9677619,28.0842739 73.9705732,28.0841332 73.9733118,28.0839555 73.9762322,28.0838198 73.9783961,28.0836905 73.9807672,28.0835311 73.9835133,28.0833958 73.9863991,28.0832147 73.9886634,28.0831084 73.9916512,28.0829074 73.994652,28.0827537 73.9979006,28.082576 74.0005026,28.0824086 74.003244,28.0822822 74.0062371,28.0821148 74.0081055,28.0819931 74.0104222,28.0818725 74.0135972,28.0823245 74.0168308,28.0827848 74.020079,28.0834793 74.0223106,28.0839474 74.0249371,28.0845274 74.0276836,28.0851124 74.0297185,28.0855637 74.0316277,28.085662 74.0349658,28.0858537 74.0373065,28.0859949 74.0404646,28.0861689 74.0434227,28.086363 74.0461635,28.0865193 74.0493159,28.0866807 74.0520653,28.0868396 74.0544774,28.0870034 74.0574526,28.0871522 74.0600305,28.0873136 74.0633001,28.087485 74.0657558,28.0865099 74.0681093,28.0855696 74.0705008,28.0846448 74.0723346,28.0838951 74.074983,28.0828672 74.07783,28.0816873 74.0805193,28.0806387 74.082829,28.0797061 74.0854249,28.0786833 74.087723,28.0777558 74.0901524,28.0767665 74.0923074,28.0759395 74.0940915,28.075231 74.0955281,28.0746255 74.0980452,28.0736388 74.1006732,28.0726185 74.1033537,28.0715389 74.1054766,28.0706707 74.1078418,28.0697508 74.1101239,28.0688281 74.1129505,28.0676995 74.1159318,28.0665297 74.1187146,28.0667513 74.1217426,28.0670038 74.124102,28.0672332 74.1263475,28.0674238 74.1284849,28.0676042 74.1317582,28.0678618 74.1344709,28.0681092 74.1375135,28.0683746 74.1395838,28.0682045 74.1422352,28.0680087 74.1449595,28.0677974 74.1468897,28.0676531 74.1494709,28.0674547 74.1523559,28.0672512 74.1554949,28.0670141 74.1586894,28.0667823 74.1611159,28.0666045 74.1642462,28.0663442 74.167499,28.0660994 74.1707811,28.0658676 74.1734062,28.0656305 74.1759846,28.0653806 74.1795061,28.0650533 74.1816377,28.0648807 74.1843708,28.0646282 74.1876315,28.064346 74.1907985,28.0640886 74.1939551,28.063822 74.1963026,28.0635984 74.1984868,28.0633839 74.2018214,28.0631036 74.2040291,28.0629181 74.2077517,28.062581 74.2101513,28.0623818 74.2133495,28.0621091 74.2164922,28.061769 74.2195446,28.0615453 74.2216594,28.0613461 74.2248542,28.0610641 74.2280038,28.0607914 74.230827,28.0605463 74.2337961,28.0603164 74.2369041,28.0600406 74.2398002,28.0597894 74.2428943,28.0595166 74.2461099,28.0592316 74.2485233,28.0590171 74.2512215,28.0587781 74.2545483,28.05849 74.2572916,28.058248 74.259903,28.0580089 74.262563,28.0577699 74.2645493,28.0575891 74.267185,28.0573685 74.2705777,28.057062 74.2730954,28.0568444 74.2759741,28.0565839 74.2791238,28.0563051 74.2823324,28.0560078 74.285173,28.055778 74.2885449,28.0554715 74.2919411,28.0551651 74.2952157,28.0548739 74.2976674,28.0546625 74.3010705,28.054353 74.303866,28.0540986 74.3066718,28.0538565 74.309429,28.0536175 74.3123321,28.0533447 74.3155095,28.0530812 74.3184781,28.0527915 74.3214923,28.0525311 74.3244162,28.0522675 74.3274548,28.0520039 74.3308405,28.0517097 74.3325282,28.0510692 74.335398,28.0499777 74.3372579,28.0492703 74.3396478,28.0483743 74.3414328,28.0476909 74.3439087,28.0467531 74.3469056,28.0472312 74.3486662,28.0475009 74.3517324,28.047982 74.354382,28.0483958 74.3573546,28.0488678 74.3595979,28.0492325 74.3631468,28.0497902 74.3657756,28.0502009 74.3679772,28.0505656 74.3703177,28.050918 74.3721026,28.0504399 74.3739188,28.0499036 74.3763427,28.0492294 74.3790281,28.0484756 74.3817252,28.0477185 74.3839159,28.0470945 74.3857529,28.0465673 74.3887011,28.0457459 74.3917431,28.0448847 74.393572,28.0443729 74.395872,28.0437293 74.3976622,28.0432255 74.3997161,28.0426474 74.4016677,28.0420926 74.4049164,28.0411763 74.4071006,28.0410721 74.4093819,28.0409762 74.4126764,28.0408377 74.4157811,28.0407071 74.4191092,28.0405804 74.4219678,28.0404621 74.4245427,28.0403603 74.4275883,28.0402392 74.4305154,28.0401264 74.4333951,28.039998 74.4364713,28.0398607 74.4398754,28.0397286 74.4428332,28.0396056 74.4447316,28.039523 74.447958,28.0393992 74.4513309,28.0392507 74.4543828,28.0391296 74.4574159,28.0389865 74.4604147,28.0388816 74.4641211,28.0392255 74.4676622,28.0395418 74.4706154,28.0398057 74.4735402,28.040067 74.4760837,28.0402857 74.4786446,28.040506 74.4809064,28.0407265 74.4846622,28.0410974 74.4882091,28.0414103 74.4913591,28.041698 74.4950755,28.0426046 74.4986376,28.0434781 74.5016001,28.0442213 74.5047125,28.0449781 74.5075737,28.045696 74.5102386,28.0463496 74.5133532,28.0471042 74.5163237,28.0478345 74.5189429,28.0484753 74.5221043,28.0492576 74.5253411,28.0500586 74.5272578,28.0510074 74.5298675,28.0522973 74.5324608,28.0535852 74.5350635,28.0548751 74.5375271,28.0560693 74.5401369,28.0573925 74.5422934,28.0584503 74.5443568,28.0594625 74.54759,28.0610505 74.5500183,28.0622675 74.5527765,28.0636259 74.555457,28.0649636 74.558189,28.0663071 74.5608479,28.0676221 74.5632834,28.0687989 74.566314,28.0703257 74.5690788,28.0716897 74.5717611,28.072987 74.5740765,28.0741358 74.5762303,28.0752183 74.5793013,28.0767227 74.5824856,28.077333 74.5851555,28.0778079 74.5885001,28.078419 74.5910917,28.0788847 74.5945752,28.0795107 74.5973508,28.0800095 74.5996435,28.0804242 74.602103,28.0808691 74.6055371,28.0790129 74.607503,28.0777512</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w352346158</SimpleData>
+		<SimpleData name="osm_id">352346158</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.7992775,28.0306641 73.802516,28.0321948 73.8052927,28.0334876 73.8069539,28.0342733 73.8098897,28.0356421 73.8126886,28.0369524 73.8154896,28.0382763 73.8180919,28.0394715 73.8206544,28.0406842 73.822616,28.0416006 73.8255164,28.0429693 73.8276725,28.0439636</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1370732262</SimpleData>
+		<SimpleData name="osm_id">1370732262</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.7493192,27.0305757 74.7496522,27.0307404 74.7498649,27.0308456 74.7501581,27.0309906 74.7503384,27.0310798</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w457954455</SimpleData>
+		<SimpleData name="osm_id">457954455</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>69.60756,27.0789508 69.6212179,27.0878954</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w247697078</SimpleData>
+		<SimpleData name="osm_id">247697078</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.8158185945061,28.2155806352329 76.8159176,28.2147602 76.8159634,28.214366</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462723849</SimpleData>
+		<SimpleData name="osm_id">1462723849</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>70.8750559,26.9403587 70.8750552,26.9403827 70.8750483,26.9406169 70.8750421,26.9408249 70.8750352,26.9410592 70.8750284,26.9412864 70.8750184,26.941626</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1462190534</SimpleData>
+		<SimpleData name="osm_id">1462190534</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.9328144,26.8021036 75.932599,26.8020201</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1355029670</SimpleData>
+		<SimpleData name="osm_id">1355029670</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.7581661,26.7965976 75.7581807,26.796826</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1355029671</SimpleData>
+		<SimpleData name="osm_id">1355029671</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.7585428,26.7968084 75.7585305,26.79659</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w193910501</SimpleData>
+		<SimpleData name="osm_id">193910501</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.3436617,28.0165557 73.34571,28.0161551 73.3480448,28.0156984 73.3511256,28.0151022 73.355531,28.0142428 73.360988,28.0131935 73.3652571,28.0123568 73.3678374,28.0118511 73.3692968,28.0111823 73.3715244,28.0101614 73.3743409,28.0088392 73.376588,28.0077843 73.381722,28.0054149 73.3845129,28.0041268 73.3870915,28.002941 73.3899238,28.0016188 73.3926839,28.0003422 73.3952669,27.9991475 73.3975153,27.9981075 73.4002896,27.9968193 73.4026917,27.9957041 73.4054358,27.9944183 73.4081881,27.9931398 73.4108026,27.9919344 73.4132157,27.9908264 73.4161031,27.9894943 73.4187755,27.9882669 73.421696,27.9868812 73.4246497,27.9855369 73.4275013,27.9842194 73.4304467,27.9828531 73.4330391,27.981633 73.4359458,27.9802861 73.4382735,27.9792048 73.4411526,27.9778799 73.4439326,27.9765768 73.446387,27.9766645 73.4494731,27.9767961 73.4524047,27.9768959 73.4557196,27.9770518 73.4588332,27.9771492 73.4617207,27.9772296 73.4646633,27.9773489 73.4677714,27.9774731 73.4709401,27.9775949 73.4740262,27.9777216 73.4770074,27.9778385 73.4801762,27.9779481 73.4830416,27.9780504 73.4861414,27.9781721 73.4891061,27.9783061 73.4921645,27.9784157 73.4952092,27.9785155 73.4982676,27.9786178 73.5014309,27.978971 73.5047431,27.9793485 73.5075037,27.9796797 73.5107043,27.980049 73.513928,27.9804209 73.5166311,27.9807358 73.5201714,27.9811435 73.5230731,27.9814991 73.5261904,27.9818524 73.5292558,27.9822148 73.53209,27.9826255 73.5348021,27.9830315 73.5378363,27.9834788 73.5407796,27.9839101 73.5435254,27.9843116 73.5463674,27.9847268 73.5493834,27.9851833 73.5521085,27.9855595 73.5551609,27.9860092 73.5575768,27.9863762 73.5604447,27.9867776 73.5627152,27.9871355 73.5649831,27.987475 73.5678328,27.987881 73.5710489,27.9883605 73.5739948,27.9887963 73.5773095,27.9892849 73.5803801,27.9897437 73.583261,27.9901497 73.5862355,27.9905971 73.5886826,27.9909618 73.5911791,27.991315 73.5944497,27.9918082 73.597305,27.9922176 73.6007523,27.9927383 73.602711,27.9930159 73.6055971,27.9934357 73.60853,27.9938692 73.6118811,27.9943624 73.6140685,27.994695 73.617152,27.99514 73.6199966,27.9955368 73.6229503,27.9959864 73.6259299,27.9964589 73.6291185,27.9969272 73.6314469,27.9972639 73.6345082,27.9977064 73.6375568,27.9981487 73.6404859,27.9985865 73.6432039,27.9989794 73.6464839,27.9994665 73.6494003,27.9998976 73.6527057,28.0006721 73.6558611,28.001413 73.6588792,28.0021179 73.6617981,28.0028026 73.6651035,28.0035771 73.6678013,28.0042124 73.6710863,28.0049779 73.6738578,28.0056402 73.6767666,28.0063114 73.679983,28.0070701 73.6831019,28.007801 73.6854623,28.0083542 73.688099,28.0089738 73.6908985,28.0090097 73.6940183,28.0090501 73.6968914,28.0090703 73.6998053,28.0091264 73.7027801,28.0091489 73.7059406,28.009178 73.7091977,28.0092184 73.7120022,28.0092521 73.7151602,28.0092813 73.7181274,28.0093262 73.7207387,28.0093576 73.7224982,28.0097505 73.7246594,28.0102421 73.7269122,28.0107606 73.7292641,28.0113039 73.7322263,28.0119683 73.734774,28.0125587 73.7375658,28.013185 73.7401796,28.0137888 73.7426866,28.0143545 73.7464733,28.0152148 73.7503437,28.0160981 73.7529518,28.0166847 73.7557292,28.0173087 73.7586533,28.0179875 73.761346,28.0185983 73.7641429,28.0192444 73.7673817,28.0199781 73.7696458,28.020491 73.7725518,28.0211493 73.7757939,28.0218837 73.7783546,28.0224638 73.7816583,28.023221 73.7849959,28.023986 73.7875862,28.025193 73.7896172,28.0261463 73.7916778,28.0270994 73.7949715,28.0286555 73.7970922,28.0296441 73.7992775,28.0306641</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#66_kv">
+		<SimpleData name="full_id">w1370732269</SimpleData>
+		<SimpleData name="osm_id">1370732269</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.7497528,27.0310172 74.7498649,27.0308456</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

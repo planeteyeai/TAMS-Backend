@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="765kv" id="765kv">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>765kv</name>
+  <Placemark>
+	<name>Dhauliganga power house</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#765kv">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w429776295</SimpleData>
+		<SimpleData name="osm_id">429776295</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="start_date">October 2005</SimpleData>
+		<SimpleData name="location">underground</SimpleData>
+		<SimpleData name="wikidata">Q5269446</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">280 MW</SimpleData>
+		<SimpleData name="plant:method">run-of-the-river</SimpleData>
+		<SimpleData name="operator">NHPC</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>80.570927,29.925667 80.5711111,29.9248925 80.5717702,29.9250102 80.5715861,29.9257847 80.570927,29.925667</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Tehri Dam Power House</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#765kv">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w429714428</SimpleData>
+		<SimpleData name="osm_id">429714428</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="start_date">2006</SimpleData>
+		<SimpleData name="location">underground</SimpleData>
+		<SimpleData name="wikidata">Q69091</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">1000 MW</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="operator">Tehri Hydro Development Corporation Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.4789017,30.3704666 78.4787902,30.3696963 78.4798661,30.3695804 78.4799776,30.3703507 78.4789017,30.3704666</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Koteshwar Dam power plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#765kv">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w429714426</SimpleData>
+		<SimpleData name="osm_id">429714426</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q65200282</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">400 MW</SimpleData>
+		<SimpleData name="plant:method">run-of-the-river</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.4980044,30.2602021 78.4990434,30.260916 78.4990796,30.2608682 78.4994883,30.2603954 78.4998575,30.2599326 78.49866,30.2592268 78.4980044,30.2602021</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#765kv">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1468713482</SimpleData>
+		<SimpleData name="osm_id">1468713482</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.6428189,30.5583415 78.6427143,30.5579904 78.6431327,30.557905 78.6434948,30.5579627 78.6435431,30.558159 78.6428189,30.5583415</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#765kv">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1463428150</SimpleData>
+		<SimpleData name="osm_id">1463428150</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.9154064,29.9900311 79.9157149,29.9901589 79.9158463,29.9901263 79.9160287,29.9901798 79.9161252,29.989901 79.9157175,29.9897779 79.9155378,29.9897593 79.9154869,29.9898638 79.9154064,29.9900311</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Hathiari Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#765kv">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1454937716</SimpleData>
+		<SimpleData name="osm_id">1454937716</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">120 W</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.8854116,30.5248589 77.8856889,30.5241087 77.8853716,30.5240217 77.8852768,30.5242781 77.8852236,30.5244221 77.8851806,30.5245385 77.8851308,30.5246731 77.8851822,30.5246872 77.8851458,30.5247859 77.8854116,30.5248589</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Vishnuprayag hydro power plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#765kv">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1447993404</SimpleData>
+		<SimpleData name="osm_id">1447993404</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="location">underground</SimpleData>
+		<SimpleData name="wikidata">Q65200281</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">400 MW</SimpleData>
+		<SimpleData name="plant:method">run-of-the-river</SimpleData>
+		<SimpleData name="operator">Jaiprakash Power Ventures Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.545671,30.5680806 79.5447248,30.5665413 79.5456836,30.5661043 79.5466298,30.5676437 79.545671,30.5680806</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Maneri Bhali I Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#765kv">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w508582664</SimpleData>
+		<SimpleData name="osm_id">508582664</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q65200287</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">90 MW</SimpleData>
+		<SimpleData name="plant:method">run-of-the-river</SimpleData>
+		<SimpleData name="operator">Uttarakhand Jal Vidyut Nigam Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.4430958,30.7265031 78.4443081,30.727038 78.4445442,30.7270749 78.4449304,30.726812 78.4450752,30.7267383 78.4452165,30.726827 78.445282,30.7268012 78.4455067,30.7270004 78.4454607,30.7270445 78.4456571,30.7272225 78.4459119,30.7269898 78.4460535,30.7268346 78.446436,30.7266914 78.4464897,30.7263179 78.4453953,30.7254049 78.4444566,30.7250959 78.4440059,30.7253126 78.4431315,30.7263917 78.4430958,30.7265031</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#765kv">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1463428149</SimpleData>
+		<SimpleData name="osm_id">1463428149</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.0911716,30.5309795 79.0916491,30.5310257 79.0916598,30.5306191 79.0914023,30.5305497 79.0914828,30.5300137 79.0912199,30.5300322 79.0911716,30.5309795</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Ramganga Hydroelectric Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#765kv">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w204007350</SimpleData>
+		<SimpleData name="osm_id">204007350</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="alt_name">Kalagarh</SimpleData>
+		<SimpleData name="wikidata">Q7289490</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">198 MW</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="operator">Uttarakhand Jal Vidyut Nigam Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.7579566,29.517107 78.7579904,29.516792 78.7572874,29.516735 78.7572536,29.51705 78.7579566,29.517107</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Singoli Bhatwari hydro power station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#765kv">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1463428147</SimpleData>
+		<SimpleData name="osm_id">1463428147</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q65200272</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">99 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.0484299,30.4106525 79.0486693,30.4103562 79.0467435,30.4090191 79.0463948,30.4094818 79.047288,30.4101387 79.0484299,30.4106525</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#765kv">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1463424768</SimpleData>
+		<SimpleData name="osm_id">1463424768</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.6190814,30.7848892 78.6189365,30.7843615 78.6191833,30.7843085 78.6193013,30.7848684 78.6191538,30.7849905 78.6190814,30.7848892</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

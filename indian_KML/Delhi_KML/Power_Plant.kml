@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Power_Plant" id="Power_Plant">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="roof:shape" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="building:colour" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+</Schema>
+<Folder><name>Power_Plant</name>
+  <Placemark>
+	<name>Pragati-III Combined Cycle Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_Plant">
+		<SimpleData name="full_id">w172301971</SimpleData>
+		<SimpleData name="osm_id">172301971</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q7237608</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="plant:type">combined_cycle</SimpleData>
+		<SimpleData name="plant:source">gas</SimpleData>
+		<SimpleData name="plant:output:electricity">1500 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.066783,28.7954408 77.0666195,28.7955758 77.0682573,28.7970093 77.0697685,28.7982948 77.0700139,28.7985035 77.0717646,28.8000533 77.0720359,28.7999856 77.0719784,28.7995847 77.0741886,28.7995604 77.0744296,28.799377 77.0745807,28.7992619 77.0768601,28.7974327 77.0755412,28.796296 77.0738788,28.7948859 77.0735164,28.7945633 77.0726208,28.7953877 77.0696068,28.7928609 77.066783,28.7954408</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Indraprastha Gas Turbine Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_Plant">
+		<SimpleData name="full_id">w139071685</SimpleData>
+		<SimpleData name="osm_id">139071685</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q5973021</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="operator">Indraprastha Power Generation Company Limited</SimpleData>
+		<SimpleData name="plant:type">combined_cycle</SimpleData>
+		<SimpleData name="plant:source">gas</SimpleData>
+		<SimpleData name="plant:output:electricity">270 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.2490657,28.6203115 77.2498291,28.6178651 77.2502138,28.6179589 77.2503559,28.617665 77.2506103,28.6179473 77.2509347,28.6183358 77.251266,28.6192367 77.2513667,28.6197343 77.2513557,28.6200438 77.2492309,28.6204045 77.2490657,28.6203115</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Pragati-I Combined Cycle Gas Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_Plant">
+		<SimpleData name="full_id">w139071683</SimpleData>
+		<SimpleData name="osm_id">139071683</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q7237615</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="operator">Pragati Power Corporation Limited</SimpleData>
+		<SimpleData name="plant:type">combined_cycle</SimpleData>
+		<SimpleData name="plant:source">gas</SimpleData>
+		<SimpleData name="plant:output:electricity">330 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.2541211,28.6196589 77.254143,28.6182718 77.2535732,28.6161622 77.253887,28.6142484 77.2511535,28.6137336 77.2507524,28.6152588 77.2514181,28.6154023 77.2511261,28.6178526 77.2517334,28.6188573 77.2519871,28.6197958 77.2533998,28.619586 77.2534561,28.6197697 77.2540375,28.6197467 77.2541211,28.6196589</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Rithala Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_Plant">
+		<SimpleData name="full_id">w78542610</SimpleData>
+		<SimpleData name="osm_id">78542610</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="plant:source">gas</SimpleData>
+		<SimpleData name="plant:output:electricity">108 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.1027468,28.7334751 77.1022154,28.7328781 77.102165,28.732737 77.1020796,28.732721 77.1018549,28.7320524 77.1016233,28.7318266 77.1008232,28.7320528 77.1015385,28.734322 77.1027468,28.7334751</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Power_Plant">
+		<SimpleData name="full_id">w1286855149</SimpleData>
+		<SimpleData name="osm_id">1286855149</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">waste</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.2799012,28.50742 77.280043,28.5073608 77.2803182,28.5072459 77.2808197,28.5081738 77.2804858,28.5083131 77.2804026,28.5083478 77.2799012,28.50742</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

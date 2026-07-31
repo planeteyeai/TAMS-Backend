@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="transformer_Point" id="transformer_Point">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="line_management" type="string"></SimpleField>
+	<SimpleField name="line_arrangement" type="string"></SimpleField>
+	<SimpleField name="light:tilt" type="string"></SimpleField>
+	<SimpleField name="light:shape" type="string"></SimpleField>
+	<SimpleField name="light:direction" type="string"></SimpleField>
+	<SimpleField name="light:count" type="string"></SimpleField>
+	<SimpleField name="catenary_mast:supporting" type="string"></SimpleField>
+	<SimpleField name="voltage:secondary" type="string"></SimpleField>
+	<SimpleField name="manufacturer" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="switch" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="devices" type="string"></SimpleField>
+	<SimpleField name="lamp_type" type="string"></SimpleField>
+	<SimpleField name="lamp_mount" type="string"></SimpleField>
+	<SimpleField name="vehicle" type="string"></SimpleField>
+	<SimpleField name="locked" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="smoking" type="string"></SimpleField>
+	<SimpleField name="office" type="string"></SimpleField>
+	<SimpleField name="name:hi" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="internet_access" type="string"></SimpleField>
+	<SimpleField name="contact:website" type="string"></SimpleField>
+	<SimpleField name="contact:phone" type="string"></SimpleField>
+	<SimpleField name="contact:email" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="wheelchair" type="string"></SimpleField>
+	<SimpleField name="short_name" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:en" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="indoor" type="string"></SimpleField>
+	<SimpleField name="drive_through" type="string"></SimpleField>
+	<SimpleField name="currency:INR" type="string"></SimpleField>
+	<SimpleField name="brand:wikidata" type="string"></SimpleField>
+	<SimpleField name="brand:en" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="entrance" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+</Schema>
+<Folder><name>transformer_Point</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n13718857866</SimpleData>
+		<SimpleData name="osm_id">13718857866</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="transformer">main</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1768043,28.7213526</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n13718857865</SimpleData>
+		<SimpleData name="osm_id">13718857865</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="transformer">main</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.176755,28.7213185</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11067159822</SimpleData>
+		<SimpleData name="osm_id">11067159822</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1700702,28.7518596</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11061485846</SimpleData>
+		<SimpleData name="osm_id">11061485846</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1744347,28.7541061</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12605153861</SimpleData>
+		<SimpleData name="osm_id">12605153861</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9807878,28.6776521</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12605153860</SimpleData>
+		<SimpleData name="osm_id">12605153860</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9807959,28.677398</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12605153859</SimpleData>
+		<SimpleData name="osm_id">12605153859</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9807824,28.6771297</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12208696628</SimpleData>
+		<SimpleData name="osm_id">12208696628</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2484879,28.5694073</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10271662617</SimpleData>
+		<SimpleData name="osm_id">10271662617</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2506559,28.590126</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12605153858</SimpleData>
+		<SimpleData name="osm_id">12605153858</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.980761,28.676925</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11139440810</SimpleData>
+		<SimpleData name="osm_id">11139440810</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.290314,28.6223751</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n13227608729</SimpleData>
+		<SimpleData name="osm_id">13227608729</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0471307,28.5938696</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11139393278</SimpleData>
+		<SimpleData name="osm_id">11139393278</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.290291,28.6223679</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12605153872</SimpleData>
+		<SimpleData name="osm_id">12605153872</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9823328,28.676785</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n13227608726</SimpleData>
+		<SimpleData name="osm_id">13227608726</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0471036,28.593836</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n9872303265</SimpleData>
+		<SimpleData name="osm_id">9872303265</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9869672,28.6057769</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10741318287</SimpleData>
+		<SimpleData name="osm_id">10741318287</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.168149,28.7215445</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10718644225</SimpleData>
+		<SimpleData name="osm_id">10718644225</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2419582,28.585529</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n13813730665</SimpleData>
+		<SimpleData name="osm_id">13813730665</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1939831,28.5619287</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10718642431</SimpleData>
+		<SimpleData name="osm_id">10718642431</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2332415,28.5747636</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10718639391</SimpleData>
+		<SimpleData name="osm_id">10718639391</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2441781,28.589139</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11993709861</SimpleData>
+		<SimpleData name="osm_id">11993709861</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.3057022,28.6317847</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10694514228</SimpleData>
+		<SimpleData name="osm_id">10694514228</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2879728,28.5337809</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12613221605</SimpleData>
+		<SimpleData name="osm_id">12613221605</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2896153,28.6252337</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11993709859</SimpleData>
+		<SimpleData name="osm_id">11993709859</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.3057145,28.6317617</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11993705208</SimpleData>
+		<SimpleData name="osm_id">11993705208</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.3030502,28.6364084</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10931502599</SimpleData>
+		<SimpleData name="osm_id">10931502599</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1638244,28.7227919</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10575627914</SimpleData>
+		<SimpleData name="osm_id">10575627914</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2920865,28.6239919</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12605153874</SimpleData>
+		<SimpleData name="osm_id">12605153874</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9823435,28.6778345</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10931502566</SimpleData>
+		<SimpleData name="osm_id">10931502566</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1641978,28.7228614</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12685860956</SimpleData>
+		<SimpleData name="osm_id">12685860956</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0692415,28.7967708</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12685860955</SimpleData>
+		<SimpleData name="osm_id">12685860955</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0695097,28.7965311</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12685860954</SimpleData>
+		<SimpleData name="osm_id">12685860954</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0701964,28.796014</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10929143464</SimpleData>
+		<SimpleData name="osm_id">10929143464</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1699046,28.7194378</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12685860953</SimpleData>
+		<SimpleData name="osm_id">12685860953</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0707435,28.7954216</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12685860952</SimpleData>
+		<SimpleData name="osm_id">12685860952</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0709313,28.7952218</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12098415211</SimpleData>
+		<SimpleData name="osm_id">12098415211</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2942188,28.623299</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12685860951</SimpleData>
+		<SimpleData name="osm_id">12685860951</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0711915,28.7949797</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12801629387</SimpleData>
+		<SimpleData name="osm_id">12801629387</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="operator">Bombay Suburban Electric Supply Yamuna Power Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2434588,28.5563543</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n9554253937</SimpleData>
+		<SimpleData name="osm_id">9554253937</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2895996,28.613413</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12050816176</SimpleData>
+		<SimpleData name="osm_id">12050816176</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2363803,28.525849</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12602348519</SimpleData>
+		<SimpleData name="osm_id">12602348519</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2664323,28.5878165</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11998490348</SimpleData>
+		<SimpleData name="osm_id">11998490348</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2888162,28.6191899</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12135328578</SimpleData>
+		<SimpleData name="osm_id">12135328578</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2318667,28.6551887</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12602348518</SimpleData>
+		<SimpleData name="osm_id">12602348518</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2664752,28.587647</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12602348517</SimpleData>
+		<SimpleData name="osm_id">12602348517</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2665261,28.5874397</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12602348516</SimpleData>
+		<SimpleData name="osm_id">12602348516</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2665717,28.5872678</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12601900821</SimpleData>
+		<SimpleData name="osm_id">12601900821</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2626579,28.5066851</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12117668060</SimpleData>
+		<SimpleData name="osm_id">12117668060</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.3051971,28.6310931</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12601900820</SimpleData>
+		<SimpleData name="osm_id">12601900820</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2627974,28.506975</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12117667980</SimpleData>
+		<SimpleData name="osm_id">12117667980</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.3052282,28.6310997</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12601900819</SimpleData>
+		<SimpleData name="osm_id">12601900819</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2631058,28.5061053</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12601900818</SimpleData>
+		<SimpleData name="osm_id">12601900818</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2628778,28.5061996</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12972974595</SimpleData>
+		<SimpleData name="osm_id">12972974595</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1872691,28.5791175</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12964548745</SimpleData>
+		<SimpleData name="osm_id">12964548745</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2400988,28.5824141</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12135328579</SimpleData>
+		<SimpleData name="osm_id">12135328579</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="location">indoor</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2305186,28.6542241</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11773636385</SimpleData>
+		<SimpleData name="osm_id">11773636385</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2174064,28.5676346</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11764311306</SimpleData>
+		<SimpleData name="osm_id">11764311306</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="location">indoor</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2906465,28.6205385</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11764165805</SimpleData>
+		<SimpleData name="osm_id">11764165805</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2442458,28.5670545</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11755534324</SimpleData>
+		<SimpleData name="osm_id">11755534324</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2867343,28.6266728</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11755533236</SimpleData>
+		<SimpleData name="osm_id">11755533236</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2867655,28.626671</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11648475732</SimpleData>
+		<SimpleData name="osm_id">11648475732</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.3008333,28.6238292</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11843066089</SimpleData>
+		<SimpleData name="osm_id">11843066089</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1655884,28.5917267</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11823656859</SimpleData>
+		<SimpleData name="osm_id">11823656859</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2273934,28.6426582</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11814425240</SimpleData>
+		<SimpleData name="osm_id">11814425240</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1682423,28.5883271</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11810413167</SimpleData>
+		<SimpleData name="osm_id">11810413167</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2901246,28.6223599</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11799964986</SimpleData>
+		<SimpleData name="osm_id">11799964986</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2392853,28.572198</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11799964872</SimpleData>
+		<SimpleData name="osm_id">11799964872</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2408582,28.57039</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10908114883</SimpleData>
+		<SimpleData name="osm_id">10908114883</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="transformer">distribution</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1658479,28.7450534</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n9216197674</SimpleData>
+		<SimpleData name="osm_id">9216197674</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2822123,28.6338136</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11903565535</SimpleData>
+		<SimpleData name="osm_id">11903565535</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="transformer">distribution</SimpleData>
+		<SimpleData name="rating">5.0</SimpleData>
+		<SimpleData name="operator">BSES Yamuna Power Limited</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2763093,28.6283446</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10908114874</SimpleData>
+		<SimpleData name="osm_id">10908114874</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1646108,28.7414015</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11889582825</SimpleData>
+		<SimpleData name="osm_id">11889582825</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2344506,28.5483274</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10913809838</SimpleData>
+		<SimpleData name="osm_id">10913809838</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1626343,28.7557732</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11934972873</SimpleData>
+		<SimpleData name="osm_id">11934972873</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="transformer">minor_distribution</SimpleData>
+		<SimpleData name="phases">3</SimpleData>
+		<SimpleData name="operator">BSES Rajdhani Power Limited</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1772609,28.5087553</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11926242676</SimpleData>
+		<SimpleData name="osm_id">11926242676</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2371885,28.5527371</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12592669378</SimpleData>
+		<SimpleData name="osm_id">12592669378</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="transformer">distribution</SimpleData>
+		<SimpleData name="phases">3</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2258444,28.6500335</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n13565005147</SimpleData>
+		<SimpleData name="osm_id">13565005147</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1929365,28.5627178</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10926188688</SimpleData>
+		<SimpleData name="osm_id">10926188688</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1623286,28.7526394</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n13543920058</SimpleData>
+		<SimpleData name="osm_id">13543920058</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0993276,28.6968966</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12685894064</SimpleData>
+		<SimpleData name="osm_id">12685894064</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0694994,28.7933063</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11916097271</SimpleData>
+		<SimpleData name="osm_id">11916097271</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0288209,28.6165694</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10921135332</SimpleData>
+		<SimpleData name="osm_id">10921135332</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1655518,28.755911</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12685894063</SimpleData>
+		<SimpleData name="osm_id">12685894063</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0691614,28.7936119</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<description>D-block, Vikas Marg, Khatta, LNR</description>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11914762058</SimpleData>
+		<SimpleData name="osm_id">11914762058</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="voltage:primary">11000</SimpleData>
+		<SimpleData name="devices">3</SimpleData>
+		<SimpleData name="transformer">distribution</SimpleData>
+		<SimpleData name="operator">BSES YAMUNA POWER LTD</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="ref">Z-2501</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2771735,28.6306981</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12685894022</SimpleData>
+		<SimpleData name="osm_id">12685894022</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0688175,28.7928517</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12685894018</SimpleData>
+		<SimpleData name="osm_id">12685894018</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0690482,28.7930539</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12685894001</SimpleData>
+		<SimpleData name="osm_id">12685894001</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0678385,28.7920102</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12685871899</SimpleData>
+		<SimpleData name="osm_id">12685871899</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.0675971,28.7918198</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12592689770</SimpleData>
+		<SimpleData name="osm_id">12592689770</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="transformer">distribution</SimpleData>
+		<SimpleData name="phases">3</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2258759,28.6499967</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12592689769</SimpleData>
+		<SimpleData name="osm_id">12592689769</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="transformer">distribution</SimpleData>
+		<SimpleData name="phases">3</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2258606,28.6500169</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12592759247</SimpleData>
+		<SimpleData name="osm_id">12592759247</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="voltage:primary">11000</SimpleData>
+		<SimpleData name="transformer">distribution</SimpleData>
+		<SimpleData name="rating">630 kVA</SimpleData>
+		<SimpleData name="phases">3</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2227213,28.6561404</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n4366486737</SimpleData>
+		<SimpleData name="osm_id">4366486737</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="transformer">distribution</SimpleData>
+		<SimpleData name="rating">100 MVA</SimpleData>
+		<SimpleData name="phases">3</SimpleData>
+		<SimpleData name="operator">Delhi Transco Ltd</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.3021085,28.5276562</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11368545075</SimpleData>
+		<SimpleData name="osm_id">11368545075</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.239839,28.5704433</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12601900817</SimpleData>
+		<SimpleData name="osm_id">12601900817</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2626633,28.5062727</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12601900816</SimpleData>
+		<SimpleData name="osm_id">12601900816</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2623977,28.5063693</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12592937575</SimpleData>
+		<SimpleData name="osm_id">12592937575</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="transformer">distribution</SimpleData>
+		<SimpleData name="rating">990 kVA</SimpleData>
+		<SimpleData name="phases">3</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2293698,28.6569903</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11437779369</SimpleData>
+		<SimpleData name="osm_id">11437779369</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1065874,28.7358382</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11437378863</SimpleData>
+		<SimpleData name="osm_id">11437378863</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1066144,28.7358093</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11425285404</SimpleData>
+		<SimpleData name="osm_id">11425285404</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1098692,28.7358414</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11425285378</SimpleData>
+		<SimpleData name="osm_id">11425285378</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1099049,28.7358718</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11414469661</SimpleData>
+		<SimpleData name="osm_id">11414469661</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.3054363,28.625101</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11594245903</SimpleData>
+		<SimpleData name="osm_id">11594245903</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2343979,28.5507704</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11586192755</SimpleData>
+		<SimpleData name="osm_id">11586192755</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.3054121,28.636349</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12478557124</SimpleData>
+		<SimpleData name="osm_id">12478557124</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9357752,28.533272</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12478557123</SimpleData>
+		<SimpleData name="osm_id">12478557123</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9357645,28.5327725</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n10825977289</SimpleData>
+		<SimpleData name="osm_id">10825977289</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1728887,28.7206245</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12162043346</SimpleData>
+		<SimpleData name="osm_id">12162043346</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2951829,28.6175591</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12478557122</SimpleData>
+		<SimpleData name="osm_id">12478557122</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.935743,28.5322729</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12478557121</SimpleData>
+		<SimpleData name="osm_id">12478557121</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>76.9357376,28.5317639</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>DT0</name>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n9708295688</SimpleData>
+		<SimpleData name="osm_id">9708295688</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2191155,28.5623548</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n11050912834</SimpleData>
+		<SimpleData name="osm_id">11050912834</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1659548,28.7334427</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12192571771</SimpleData>
+		<SimpleData name="osm_id">12192571771</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1892862,28.5176271</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n13421308597</SimpleData>
+		<SimpleData name="osm_id">13421308597</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.3020876,28.5280107</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12185790542</SimpleData>
+		<SimpleData name="osm_id">12185790542</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2960794,28.6290244</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n13421308596</SimpleData>
+		<SimpleData name="osm_id">13421308596</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.3018837,28.5283453</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n12162059532</SimpleData>
+		<SimpleData name="osm_id">12162059532</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.2952254,28.6175683</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformer_Point">
+		<SimpleData name="full_id">n13718857867</SimpleData>
+		<SimpleData name="osm_id">13718857867</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="transformer">main</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1768193,28.7213626</coordinates></Point></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

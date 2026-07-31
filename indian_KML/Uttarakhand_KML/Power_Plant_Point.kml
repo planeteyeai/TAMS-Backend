@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Power_Plant_Point" id="Power_Plant_Point">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="line_management" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="name:ne" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+</Schema>
+<Folder><name>Power_Plant_Point</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Power_Plant_Point">
+		<SimpleData name="full_id">n7847783226</SimpleData>
+		<SimpleData name="osm_id">7847783226</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.860741,29.7035452</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Naitwar Mori Hydro Power Station</name>
+	<ExtendedData><SchemaData schemaUrl="#Power_Plant_Point">
+		<SimpleData name="full_id">n13345181398</SimpleData>
+		<SimpleData name="osm_id">13345181398</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="start_date">2025</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">60 MW</SimpleData>
+		<SimpleData name="operator">SJVN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>78.0600393,31.0417705</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Sawra Kuddu hydro power station</name>
+	<ExtendedData><SchemaData schemaUrl="#Power_Plant_Point">
+		<SimpleData name="full_id">n8681472939</SimpleData>
+		<SimpleData name="osm_id">8681472939</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="layer">-1</SimpleData>
+		<SimpleData name="location">underground</SimpleData>
+		<SimpleData name="wikidata">Q65199070</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">111 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.8225297,31.055959</coordinates></Point></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

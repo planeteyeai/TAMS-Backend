@@ -56,14 +56,61 @@ async def gis_towers(
     bbox: str = Query(..., description="minLon,minLat,maxLon,maxLat"),
     state: Optional[str] = Query(None),
     limit: int = Query(5000, ge=1, le=10000),
+    sync: bool = Query(
+        False,
+        description="Run detect/corridor sync before returning (slow; off by default)",
+    ),
 ):
     try:
-        data = await gis_service.get_viewport_towers(bbox=bbox, state=state, limit=limit)
+        data = await gis_service.get_viewport_towers(
+            bbox=bbox, state=state, limit=limit, sync=sync
+        )
     except ValueError as exc:
         from fastapi import HTTPException
 
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     return ApiResponse(data=data, meta=ResponseMeta())
+
+
+@router.get("/corridor/walk", response_model=ApiResponse)
+async def gis_corridor_walk(
+    lat: float = Query(..., description="Seed tower latitude"),
+    lon: float = Query(..., description="Seed tower longitude"),
+    persist: bool = Query(False, description="Upsert walked corridor into the database"),
+):
+    """
+    From a detected tower position, follow connected lines until substations
+    or dead-end endpoints. Multi-line junction towers expose adjacent towers
+    per line.
+    """
+    from app.services.corridor_graph import walk_corridor_from_tower
+    from app.services.kml_db_import import upsert_corridors_from_seed_towers
+
+    seed = {
+        "id": f"seed-{lon:.5f}-{lat:.5f}",
+        "name": "Detected tower",
+        "latitude": lat,
+        "longitude": lon,
+        "asset_type": "tower",
+        "metadata": {},
+    }
+    walk = walk_corridor_from_tower(seed)
+    payload: dict = {
+        "walk": {
+            "seed_tower_id": walk.get("seed_tower_id"),
+            "stats": walk.get("stats"),
+            "endpoints": walk.get("endpoints"),
+            "junction_tower_ids": walk.get("junction_tower_ids"),
+            "adjacencies": walk.get("adjacencies"),
+            "lines_at_tower": walk.get("lines_at_tower"),
+            "tower_count": len(walk.get("towers") or []),
+            "line_count": len(walk.get("lines") or []),
+            "substation_count": len(walk.get("substations") or []),
+        }
+    }
+    if persist:
+        payload["persist"] = await upsert_corridors_from_seed_towers([seed], max_seeds=1)
+    return ApiResponse(data=payload, meta=ResponseMeta())
 
 
 @router.get("/stats", response_model=ApiResponse)

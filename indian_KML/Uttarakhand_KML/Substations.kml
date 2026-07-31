@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Substations" id="Substations">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>Substations</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362540</SimpleData>
+		<SimpleData name="osm_id">1467362540</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.591991,29.8377193 79.5920795,29.8375774 79.5918864,29.8374681 79.5918113,29.8376263 79.591991,29.8377193</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362539</SimpleData>
+		<SimpleData name="osm_id">1467362539</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.3216337,29.6176676 79.3217625,29.617502 79.3220589,29.6175801 79.3219221,29.6177515 79.3216337,29.6176676</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w299891649</SimpleData>
+		<SimpleData name="osm_id">299891649</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.5858135319851,30.4320665025632 77.5861538,30.4318695 77.585954,30.4316129 77.5854222432155,30.4319207674603</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362538</SimpleData>
+		<SimpleData name="osm_id">1467362538</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.4419321,29.6431353 79.4421521,29.6430852 79.4420569,29.6428241 79.4418289,29.6429092 79.4419321,29.6431353</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Chamba</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w256553707</SimpleData>
+		<SimpleData name="osm_id">256553707</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.3862749,30.3409359 78.3867802,30.3410777 78.3868612,30.3410629 78.3870697,30.3411116 78.3869789,30.3413889 78.3869298,30.3413825 78.386871,30.341482 78.3866895,30.3415688 78.3864712,30.3422081 78.3863362,30.3422039 78.3862038,30.3425511 78.3860689,30.3425511 78.3860002,30.3424981 78.3859266,30.3424008 78.3858677,30.3422716 78.3858236,30.3421827 78.3858555,30.341844 78.3861425,30.3416895 78.3862896,30.3412746 78.3862185,30.3412428 78.3862749,30.3409359</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362537</SimpleData>
+		<SimpleData name="osm_id">1467362537</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.9667869,29.2066159 78.9670081,29.2064988 78.9671288,29.2066533 78.9668995,29.2067926 78.9667869,29.2066159</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362536</SimpleData>
+		<SimpleData name="osm_id">1467362536</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.96433,29.2335854 78.9647189,29.2333373 78.9645955,29.2331243 78.9642414,29.2333209 78.96433,29.2335854</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Satpuli</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w166702657</SimpleData>
+		<SimpleData name="osm_id">166702657</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.719965,29.9247435 78.7199891,29.9252008 78.7201402,29.9252938 78.7206722,29.9252805 78.72067,29.9252274 78.7212961,29.9250832 78.7212874,29.9246012 78.7208526,29.9246284 78.7206437,29.924679 78.7203481,29.9247189 78.719965,29.9247435</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362535</SimpleData>
+		<SimpleData name="osm_id">1467362535</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.0197417,29.2100738 79.0200341,29.210048 79.0200126,29.2097156 79.019739,29.2097249 79.0197417,29.2100738</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Swara Kuddu HPP</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w936947867</SimpleData>
+		<SimpleData name="osm_id">936947867</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">generation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.8227481,31.0561075 77.822536,31.0557498 77.8223648,31.0558243 77.822577,31.056182 77.8227481,31.0561075</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w132610155</SimpleData>
+		<SimpleData name="osm_id">132610155</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.6280226,30.427973 77.6281519,30.4285971 77.6289528,30.4285148 77.6288136,30.4278749 77.6280226,30.427973</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362534</SimpleData>
+		<SimpleData name="osm_id">1467362534</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.1920817,29.3078172 79.1922681,29.3076184 79.192079,29.307443 79.1918591,29.3076699 79.1920817,29.3078172</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w905188961</SimpleData>
+		<SimpleData name="osm_id">905188961</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.5209634,30.5353089 79.5201837,30.5347197 79.5191859,30.5356993 79.5199656,30.5362885 79.5209634,30.5353089</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1225019824</SimpleData>
+		<SimpleData name="osm_id">1225019824</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.53018,29.2022188 79.5298773,29.2023131 79.5299481,29.2024865 79.5302509,29.2023922 79.53018,29.2022188</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1225004872</SimpleData>
+		<SimpleData name="osm_id">1225004872</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.540306,29.2497405 79.5401371,29.2498178 79.5403418,29.2501165 79.540467,29.250058 79.540306,29.2497405</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w105373514</SimpleData>
+		<SimpleData name="osm_id">105373514</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.8598818,29.7035349 77.8598306,29.7038678 77.8602074,29.7039115 77.8602586,29.7035786 77.8598818,29.7035349</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Dehradun</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w484574335</SimpleData>
+		<SimpleData name="osm_id">484574335</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.9063641,30.3371302 77.9096736,30.3368794 77.9097881,30.3380047 77.9064785,30.3382555 77.9063641,30.3371302</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Sherpur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w484574329</SimpleData>
+		<SimpleData name="osm_id">484574329</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">400000;220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.8483339,30.3321492 77.8512441,30.3307834 77.8512629,30.3308135 77.8523304,30.33045 77.8536044,30.3324942 77.8539478,30.3329271 77.8553237,30.3350175 77.8540363,30.3356148 77.85365,30.3358232 77.8532236,30.3353393 77.8522633,30.3336818 77.8519441,30.3332813 77.8510697,30.3337559 77.8510617,30.3338392 77.8497608,30.3343254 77.8483339,30.3321492</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Jaffarpur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1194025748</SimpleData>
+		<SimpleData name="osm_id">1194025748</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.3106825,29.0003152 79.3114664,28.9999883 79.3114989,29.000042 79.3118075,29.0001274 79.3122387,29.0008918 79.3112268,29.0013728 79.3106825,29.0003152</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w105071605</SimpleData>
+		<SimpleData name="osm_id">105071605</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.2547241,30.0685025 78.2548626,30.0690384 78.2549519,30.0690211 78.2549859,30.0691527 78.2552161,30.0691081 78.2551833,30.0689812 78.2553789,30.0689434 78.2552393,30.0684029 78.2547241,30.0685025</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1191542572</SimpleData>
+		<SimpleData name="osm_id">1191542572</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.3888406,28.9729159 79.3885608,28.9729902 79.388665,28.9732844 79.3889954,28.9731868 79.3889195,28.9730748 79.3888406,28.9729159</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Ramnagar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w409621340</SimpleData>
+		<SimpleData name="osm_id">409621340</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.1028714,29.3718604 79.1037926,29.371231 79.1047066,29.3720485 79.1037362,29.3727664 79.1028714,29.3718604</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Dhauliganga Dam</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w409621337</SimpleData>
+		<SimpleData name="osm_id">409621337</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>80.5727101,29.921578 80.572773,29.9214936 80.5730142,29.9214611 80.573143,29.9219065 80.5728165,29.9219234 80.5727101,29.921578</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1190979219</SimpleData>
+		<SimpleData name="osm_id">1190979219</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.5129757,29.0574515 79.5126862,29.057825 79.5135361,29.0583394 79.513842,29.0579638 79.5129757,29.0574515</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w409621333</SimpleData>
+		<SimpleData name="osm_id">409621333</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.0025803,29.1741397 79.002683,29.1741909 79.0026333,29.174267 79.0027562,29.1743283 79.0029784,29.1739888 79.0027527,29.1738762 79.0025803,29.1741397</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1190781857</SimpleData>
+		<SimpleData name="osm_id">1190781857</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator">Uttarakhand Power Corporation Limited</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.5292432,29.3815096 79.5292709,29.381213 79.5294974,29.3812304 79.5294728,29.3814962 79.529331,29.3814828 79.5293264,29.381515 79.5292432,29.3815096</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w409621330</SimpleData>
+		<SimpleData name="osm_id">409621330</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.0031544,29.1898376 79.0033804,29.1901358 79.0034145,29.1901886 79.00423,29.1897563 79.0041613,29.1894852 79.0040302,29.1893316 79.0031544,29.1898376</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>UPCL Shantikunj Haridwar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1152422762</SimpleData>
+		<SimpleData name="osm_id">1152422762</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator">UPCL</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.1905141,30.0031723 78.1908111,30.0029709 78.1910827,30.0032553 78.1907882,30.0034599 78.1905141,30.0031723</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w105071592</SimpleData>
+		<SimpleData name="osm_id">105071592</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.1029994,29.9392617 78.103776,29.9392146 78.1037173,29.9385661 78.1029668,29.9386114 78.1029994,29.9392617</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Chila</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w105071586</SimpleData>
+		<SimpleData name="osm_id">105071586</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.219036,29.9748241 78.2188701,29.9754487 78.2197415,29.9756231 78.2198875,29.9755618 78.2199296,29.9754162 78.219673,29.9753606 78.2197858,29.974964 78.219036,29.9748241</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1133281108</SimpleData>
+		<SimpleData name="osm_id">1133281108</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.1176711,29.9267213 78.1187474,29.9273516 78.1185114,29.9276289 78.1174448,29.9270154 78.1176711,29.9267213</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1117286561</SimpleData>
+		<SimpleData name="osm_id">1117286561</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator">UPCL</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.5333718,29.2313299 79.5335702,29.2313008 79.5333861,29.2305431 79.5332538,29.2305626 79.5333472,29.2311459 79.5333718,29.2313299</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>UPCL Substation Dhanpur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1091166559</SimpleData>
+		<SimpleData name="osm_id">1091166559</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.5180342,29.1314777 79.5180419,29.1318198 79.5174711,29.1318357 79.5174507,29.131437 79.5177773,29.131425 79.5177748,29.1314705 79.5180342,29.1314777</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>132 KV Substation BHEL</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w105071553</SimpleData>
+		<SimpleData name="osm_id">105071553</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.1041005,29.9352375 78.1022661,29.9353598 78.1023525,29.9364908 78.1024416,29.9365303 78.1024473,29.9366207 78.1023563,29.9366716 78.1024132,29.9373948 78.1040746,29.9373159 78.1040461,29.9369543 78.1041637,29.9369494 78.1041087,29.935531 78.1041005,29.9352375</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bindal</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w385247305</SimpleData>
+		<SimpleData name="osm_id">385247305</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0387204,30.3374043 78.0377604,30.3360596 78.0376547,30.3357491 78.0374973,30.33559 78.0381403,30.3351456 78.0385136,30.335165 78.0390104,30.3354037 78.0396265,30.3363662 78.0387204,30.3374043</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w663503978</SimpleData>
+		<SimpleData name="osm_id">663503978</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0312029,29.7444144 78.0308354,29.7440464 78.0314925,29.7434549 78.0317983,29.7439323 78.0312029,29.7444144</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w185016658</SimpleData>
+		<SimpleData name="osm_id">185016658</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.9389083,29.7899506 77.939104,29.7897682 77.9390386,29.7897154 77.9392076,29.7895579 77.9392821,29.7896181 77.9394773,29.7894362 77.9399576,29.7898244 77.9392954,29.7904416 77.9391586,29.790331 77.939261,29.7902356 77.9389083,29.7899506</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w663503977</SimpleData>
+		<SimpleData name="osm_id">663503977</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0048555,29.7179369 78.0047643,29.7180137 78.0048797,29.7183049 78.0050728,29.7194044 78.0053571,29.7193438 78.0056146,29.7190876 78.0057943,29.7191948 78.0061778,29.7187196 78.005982,29.7186101 78.0060545,29.7185122 78.0055556,29.7181861 78.0053812,29.7183212 78.0051318,29.7181651 78.0048555,29.7179369</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Tanakpur HPP</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w185016656</SimpleData>
+		<SimpleData name="osm_id">185016656</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator">National Hydroelectric Power Corpoeration</SimpleData>
+		<SimpleData name="substation">generation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>80.0932478,29.0026573 80.0936169,29.0030986 80.0926995,29.0036857 80.0933548,29.0044691 80.094737,29.0035846 80.0938624,29.0025391 80.0934651,29.0025573 80.0932478,29.0026573</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Sitarganj PG</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w185016655</SimpleData>
+		<SimpleData name="osm_id">185016655</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.7324486,28.9298891 79.7318156,28.9298217 79.7316505,28.9298477 79.7318461,28.9306996 79.7315263,28.9324245 79.7328546,28.9326651 79.7328604,28.9314851 79.7330505,28.9314794 79.7331208,28.9308791 79.7328217,28.9308279 79.7324486,28.9298891</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Pantnagar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w185016653</SimpleData>
+		<SimpleData name="osm_id">185016653</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.4124451,28.9905277 79.4124257,28.9927885 79.4163716,28.9928143 79.416391,28.9905536 79.4124451,28.9905277</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Haldwani</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w615999765</SimpleData>
+		<SimpleData name="osm_id">615999765</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator">Uttarakhand Power Coorporation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.5341989,29.2500725 79.5343977,29.2500227 79.5343469,29.2498576 79.5346175,29.249804 79.5356662,29.2500796 79.5355765,29.2496848 79.5351809,29.2480408 79.5347484,29.2480548 79.5346393,29.2485249 79.5344824,29.2487905 79.5342343,29.2490424 79.5343054,29.249303 79.53399,29.2493836 79.5341989,29.2500725</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Khatima</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w185016651</SimpleData>
+		<SimpleData name="osm_id">185016651</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>80.0231976,28.922564 80.0231668,28.9224567 80.0231722,28.9223539 80.0232414,28.9222359 80.0236835,28.9218674 80.0242238,28.9223639 80.0235715,28.9229076 80.0231976,28.922564</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Kamaluwaganja Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w185016648</SimpleData>
+		<SimpleData name="osm_id">185016648</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.458228,29.20793 79.4569214,29.2083672 79.4571446,29.2088549 79.456525,29.2090595 79.4566325,29.2093567 79.4567261,29.2093209 79.4570584,29.2099822 79.4581066,29.2096191 79.4581307,29.2096652 79.4589496,29.2094263 79.4589169,29.2093342 79.4595578,29.2090659 79.4593121,29.2087855 79.4592557,29.2088112 79.4590437,29.2085342 79.4585977,29.2087034 79.458228,29.20793</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Rudrapur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w615999763</SimpleData>
+		<SimpleData name="osm_id">615999763</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.4086669,28.9668193 79.409146,28.9666762 79.4087776,28.9659325 79.4090476,28.9658168 79.40888,28.9655356 79.4087659,28.9655889 79.4087021,28.9654747 79.4085688,28.9655533 79.408634,28.9656772 79.4082095,28.9658418 79.4086669,28.9668193</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w184837526</SimpleData>
+		<SimpleData name="osm_id">184837526</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.856026,29.7817841 77.8565042,29.782253 77.8580229,29.781112 77.8576727,29.78073 77.8570525,29.781152 77.8564882,29.7814611 77.856026,29.7817841</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bhagwanpur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w184837521</SimpleData>
+		<SimpleData name="osm_id">184837521</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.807715,29.9445223 77.8086283,29.9452356 77.809302,29.944588 77.8083887,29.9438746 77.807715,29.9445223</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w615999760</SimpleData>
+		<SimpleData name="osm_id">615999760</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.5447652,29.2927614 79.5446701,29.2923923 79.5451719,29.2922047 79.5451497,29.2926505 79.5447652,29.2927614</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w184837520</SimpleData>
+		<SimpleData name="osm_id">184837520</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0409295,29.9283506 78.0414596,29.9282943 78.0414191,29.9280076 78.040889,29.9280639 78.0409295,29.9283506</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w184837519</SimpleData>
+		<SimpleData name="osm_id">184837519</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.8721202,29.8533523 77.8730652,29.8530493 77.8732922,29.8535818 77.8723471,29.8538848 77.8721202,29.8533523</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bhowali</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w615999758</SimpleData>
+		<SimpleData name="osm_id">615999758</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.5440711,29.365827 79.5447024,29.3660384 79.5445146,29.3664872 79.5445203,29.3666203 79.5448355,29.3667442 79.5446247,29.3671657 79.5443843,29.3670577 79.5443309,29.3669936 79.5443564,29.3669616 79.5440595,29.3668424 79.544106,29.3667342 79.5438451,29.3666325 79.5439214,29.3664207 79.5439522,29.3663401 79.5438596,29.3662981 79.5440711,29.365827</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Roorkee</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w184837512</SimpleData>
+		<SimpleData name="osm_id">184837512</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.864024,29.8710198 77.8605358,29.8732713 77.8619857,29.8751387 77.8624528,29.8748731 77.8634568,29.8758568 77.8636934,29.8762119 77.8658349,29.8756779 77.867212,29.8756253 77.8674516,29.8756174 77.8685618,29.8752177 77.8680431,29.8743287 77.8676366,29.8741577 77.8668692,29.8730714 77.8671119,29.8729241 77.8669481,29.8726637 77.8667843,29.8726374 77.866481,29.8722245 77.8659198,29.8716616 77.8657226,29.8713986 77.8653253,29.8716458 77.8653677,29.8717168 77.864664,29.8720719 77.864024,29.8710198</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Almora</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w615999754</SimpleData>
+		<SimpleData name="osm_id">615999754</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.6467108,29.6094478 79.6465445,29.6085943 79.6470058,29.6084847 79.6474618,29.6084777 79.6474859,29.6086596 79.6477085,29.6086549 79.6477166,29.6089324 79.647553,29.6089534 79.6476012,29.6094618 79.6473142,29.6094641 79.6467108,29.6094478</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Roorkee</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w184837503</SimpleData>
+		<SimpleData name="osm_id">184837503</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">400000;220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.8422099,29.9101631 77.8428226,29.9107783 77.8445121,29.912085 77.8449792,29.9124768 77.8469569,29.9109045 77.8470418,29.910986 77.8476697,29.9104418 77.8476606,29.9103576 77.8478881,29.9101736 77.8463654,29.9086959 77.8463563,29.9086302 77.8450824,29.9075469 77.843132,29.909348 77.8422099,29.9101631</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Majra</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w184814063</SimpleData>
+		<SimpleData name="osm_id">184814063</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.9957274,30.2905067 77.9966807,30.2896835 77.9970213,30.2895486 77.9962365,30.2881615 77.995146,30.2886854 77.9946643,30.2889277 77.9955407,30.2904177 77.9956475,30.2903748 77.9957274,30.2905067</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Khodri</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w184814026</SimpleData>
+		<SimpleData name="osm_id">184814026</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.7985223,30.5072153 77.7986578,30.5085246 77.7995392,30.5084569 77.7993947,30.5070606 77.7985133,30.5071283 77.7985223,30.5072153</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Dhalipur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w184814022</SimpleData>
+		<SimpleData name="osm_id">184814022</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.682383,30.4352248 77.6826664,30.4351807 77.6828136,30.4348461 77.6823037,30.4346709 77.6820871,30.43513 77.682383,30.4352248</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1341583046</SimpleData>
+		<SimpleData name="osm_id">1341583046</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.4194921,29.0020777 79.41948,29.0018988 79.4194291,29.0018671 79.4194217,29.0012062 79.4206327,29.0012062 79.42063,29.0020612 79.4203658,29.0020636 79.4203672,29.0020847 79.4194921,29.0020777</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Dhakrani</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w184814019</SimpleData>
+		<SimpleData name="osm_id">184814019</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.7368443,30.4555053 77.7372811,30.4550251 77.7382745,30.4556964 77.7378377,30.4561767 77.7368443,30.4555053</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1341583044</SimpleData>
+		<SimpleData name="osm_id">1341583044</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.3945115,29.0342428 79.3949662,29.0342273 79.3949336,29.0334939 79.3944789,29.0335094 79.3945115,29.0342428</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w615388684</SimpleData>
+		<SimpleData name="osm_id">615388684</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.2865218,30.1472022 78.2866719,30.1470635 78.2869064,30.1472532 78.2867564,30.1473919 78.2865218,30.1472022</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bagarihat</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1341583034</SimpleData>
+		<SimpleData name="osm_id">1341583034</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">400000;220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>80.3579575,29.7439673 80.3582981,29.7436831 80.3584242,29.7433781 80.3585798,29.7431242 80.358848,29.7431731 80.3592181,29.7428913 80.3595507,29.7431009 80.3597009,29.7434456 80.3601032,29.7437111 80.3604332,29.7438322 80.3606799,29.7442677 80.3609535,29.7445378 80.3602132,29.7452155 80.3599369,29.7456673 80.3598297,29.7457045 80.3594488,29.7454041 80.3591698,29.7450036 80.3590357,29.7449477 80.3583303,29.7446775 80.3579575,29.7439673</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w166702662</SimpleData>
+		<SimpleData name="osm_id">166702662</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.4268148,29.7715052 78.4263588,29.7718464 78.4256813,29.772043 78.4264699,29.7728058 78.426988,29.7724071 78.4270173,29.7723507 78.4268391,29.772165 78.4272014,29.7719143 78.4268148,29.7715052</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w230346993</SimpleData>
+		<SimpleData name="osm_id">230346993</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.1030914,30.2993802 78.1030774,30.2992021 78.1027698,30.2992201 78.1027838,30.2993982 78.1030914,30.2993802</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w615388676</SimpleData>
+		<SimpleData name="osm_id">615388676</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0699867,29.9649154 78.0709247,29.9649267 78.0709201,29.9652147 78.070785,29.9652131 78.0707807,29.9654865 78.0699777,29.9654768 78.0699867,29.9649154</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w227766036</SimpleData>
+		<SimpleData name="osm_id">227766036</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0986444,29.9204576 78.0986464,29.9202884 78.0991779,29.9203058 78.0991779,29.9204751 78.0986444,29.9204576</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w841447834</SimpleData>
+		<SimpleData name="osm_id">841447834</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.8068952,29.8000287 77.8073754,29.799669 77.8070903,29.7993824 77.8065693,29.7997727 77.8066911,29.7998951 77.8067318,29.7998645 77.8068952,29.8000287</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w841447833</SimpleData>
+		<SimpleData name="osm_id">841447833</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.8063046,29.7991129 77.8055814,29.7996482 77.8060056,29.8000798 77.806266,29.7998871 77.8062183,29.7998385 77.8067447,29.7994489 77.8063046,29.7991129</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w841074394</SimpleData>
+		<SimpleData name="osm_id">841074394</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.8540654,29.7429294 77.8544508,29.7427129 77.8547072,29.7430571 77.8543217,29.7432735 77.8540654,29.7429294</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w841074388</SimpleData>
+		<SimpleData name="osm_id">841074388</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.7887875,29.962573 77.789045,29.9623267 77.788597,29.9619107 77.788361,29.962171 77.7887875,29.962573</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Ranikhet</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w840330416</SimpleData>
+		<SimpleData name="osm_id">840330416</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.4902736,29.6729302 79.4905284,29.6729093 79.4905163,29.6727927 79.4906706,29.6727823 79.4907162,29.6729011 79.4912258,29.6728557 79.4912834,29.6732647 79.4912311,29.6733824 79.4911574,29.6734395 79.4909683,29.6734837 79.4908234,29.6734336 79.4901462,29.6734301 79.4900711,29.6733136 79.4903085,29.6733148 79.4902736,29.6729302</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Tehri HPP</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w227348314</SimpleData>
+		<SimpleData name="osm_id">227348314</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">generation</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.4803689,30.3672015 78.481277,30.3666212 78.4814538,30.3669473 78.4805702,30.3674471 78.4803689,30.3672015</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w223207919</SimpleData>
+		<SimpleData name="osm_id">223207919</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0127724,29.7362237 78.0131991,29.7360936 78.013525,29.7368997 78.0130984,29.7370298 78.0127724,29.7362237</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1463156011</SimpleData>
+		<SimpleData name="osm_id">1463156011</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.2057408,29.8332067 79.2057905,29.8331276 79.2056175,29.8330299 79.2055464,29.8331229 79.2057408,29.8332067</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Jaspur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w204007366</SimpleData>
+		<SimpleData name="osm_id">204007366</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.861388,29.2727411 78.8619409,29.2741755 78.8645317,29.2734994 78.8645583,29.2729012 78.8643893,29.2728085 78.8635466,29.2728991 78.8624456,29.2730676 78.861796,29.272758 78.861388,29.2727411</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bageshwar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w840330411</SimpleData>
+		<SimpleData name="osm_id">840330411</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.7623397,29.831939 79.7624874,29.8315388 79.7633537,29.8317794 79.763206,29.8321796 79.7623397,29.831939</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Kalagarh</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w204007352</SimpleData>
+		<SimpleData name="osm_id">204007352</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.7572524,29.5170607 78.7572183,29.5173899 78.758553,29.5174946 78.7585871,29.5171654 78.7572524,29.5170607</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1455212858</SimpleData>
+		<SimpleData name="osm_id">1455212858</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0599187,31.0416834 78.0600752,31.0414898 78.0593633,31.0410672 78.0592068,31.0412608 78.0599187,31.0416834</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w823477060</SimpleData>
+		<SimpleData name="osm_id">823477060</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.4441799,30.7259832 78.4444213,30.7262045 78.4440833,30.7265181 78.4447485,30.7270991 78.4457087,30.7262737 78.4448397,30.7254621 78.4441799,30.7259832</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Maneri 2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w823477059</SimpleData>
+		<SimpleData name="osm_id">823477059</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">generation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.3197683,30.6081601 78.3198059,30.6091389 78.3196074,30.6091343 78.3196181,30.6095775 78.3181,30.6094159 78.3179444,30.6090419 78.3179712,30.608511 78.3178371,30.6085064 78.317821,30.6082801 78.3189046,30.6082617 78.3188993,30.6081509 78.3197683,30.6081601</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w185016744</SimpleData>
+		<SimpleData name="osm_id">185016744</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.1231211,29.1910895 79.1240214,29.1919826 79.1245283,29.1915932 79.1246303,29.1916945 79.124981,29.1914252 79.1239787,29.1904308 79.1231211,29.1910895</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w185016733</SimpleData>
+		<SimpleData name="osm_id">185016733</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.5106935,29.0117726 79.5106453,29.0122651 79.5110543,29.0122958 79.5111025,29.0118032 79.5106935,29.0117726</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w773655116</SimpleData>
+		<SimpleData name="osm_id">773655116</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.5191663,29.0676324 79.5191323,29.067049 79.5197933,29.0670177 79.5198341,29.0675251 79.5191663,29.0676324</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w773587297</SimpleData>
+		<SimpleData name="osm_id">773587297</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.6935691,29.0226923 79.6939534,29.022753 79.6940107,29.0225702 79.6946634,29.0226907 79.6947912,29.0221687 79.6950396,29.0222158 79.6952119,29.0215997 79.6935649,29.0212913 79.6933989,29.0219396 79.6937364,29.0220057 79.6935691,29.0226923</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w185016728</SimpleData>
+		<SimpleData name="osm_id">185016728</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.1481125,29.2035056 79.1483765,29.2038467 79.148515,29.203765 79.148251,29.2034239 79.1481125,29.2035056</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w773587292</SimpleData>
+		<SimpleData name="osm_id">773587292</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.6869805,29.0292392 79.6874106,29.0293169 79.6875041,29.0289214 79.687074,29.0288437 79.6869805,29.0292392</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w773587284</SimpleData>
+		<SimpleData name="osm_id">773587284</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.6831052,29.0455552 79.6835513,29.0454426 79.683373,29.0449029 79.6829269,29.0450155 79.6831052,29.0455552</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w773587282</SimpleData>
+		<SimpleData name="osm_id">773587282</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.6864309,29.0455305 79.6871066,29.0456675 79.6873215,29.0448572 79.6866457,29.0447203 79.6864309,29.0455305</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Haridwar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w695750382</SimpleData>
+		<SimpleData name="osm_id">695750382</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.080415,29.9538804 78.080858,29.9515729 78.0827948,29.9518322 78.0827111,29.9523359 78.0826579,29.9523547 78.0826124,29.9525964 78.0821732,29.9525534 78.0819318,29.9539013 78.0809587,29.9537725 78.080929,29.9539409 78.080415,29.9538804</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bhilanga HPP</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1447991024</SimpleData>
+		<SimpleData name="osm_id">1447991024</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">generation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.7727056,30.5241435 78.7722436,30.5237432 78.7726948,30.5233568 78.7731568,30.5237571 78.7727056,30.5241435</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Pithorgarh</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w185016686</SimpleData>
+		<SimpleData name="osm_id">185016686</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>80.1968913,29.6139917 80.1973959,29.6139575 80.1983471,29.613777 80.1981422,29.6130391 80.1979661,29.6127444 80.1976192,29.6125365 80.197543,29.6124771 80.1974826,29.6121892 80.1973748,29.6119494 80.1970753,29.6117666 80.1969912,29.6116661 80.196936,29.6114993 80.1963763,29.6116912 80.1964867,29.6126873 80.1966864,29.6128175 80.1968335,29.6129249 80.1968835,29.6130597 80.1968782,29.6132447 80.1968256,29.6136879 80.1968546,29.6138752 80.1968913,29.6139917</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1415864668</SimpleData>
+		<SimpleData name="osm_id">1415864668</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0130202,29.7369386 78.0134815,29.7367919 78.0132508,29.7361025 78.0127385,29.7362446 78.0130202,29.7369386</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Srinagar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w377053364</SimpleData>
+		<SimpleData name="osm_id">377053364</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.7840531,30.2248822 78.7842028,30.2248434 78.7849504,30.2247771 78.7849795,30.2252558 78.7851667,30.2252412 78.7851985,30.2255355 78.7841298,30.2256374 78.7840568,30.2252461 78.7841055,30.2252574 78.7840531,30.2248822</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Vishnu Prayag</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w377052291</SimpleData>
+		<SimpleData name="osm_id">377052291</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.5469224,30.5665345 79.5464585,30.5668212 79.5470163,30.5674902 79.5474802,30.5672035 79.5469224,30.5665345</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Srinagar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w377052290</SimpleData>
+		<SimpleData name="osm_id">377052290</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">400000;132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.6895583,30.2283567 78.6894924,30.2279397 78.6892997,30.2276772 78.6883292,30.2271897 78.6882667,30.2269077 78.6879421,30.2268222 78.6878379,30.2264667 78.6876227,30.2262822 78.6873987,30.2262747 78.6872737,30.2262327 78.6872008,30.2260047 78.6872127,30.2259715 78.6872564,30.2258502 78.6876262,30.2256267 78.6879508,30.2254662 78.6890098,30.2250357 78.6895254,30.2249607 78.6904101,30.2246854 78.6912374,30.224643 78.6919421,30.2247066 78.6922735,30.2246918 78.6926516,30.2254046 78.6928504,30.2258013 78.6927179,30.2259561 78.6924208,30.2259625 78.6921728,30.225831 78.6919887,30.2256612 78.6917358,30.2257355 78.6914707,30.2262001 78.6914535,30.2265267 78.6916327,30.226951 78.6913234,30.2270952 78.6914559,30.227301 78.6919666,30.2277741 78.6926639,30.2276319 78.6924625,30.2280244 78.6925116,30.2282938 78.6924724,30.2283468 78.6922956,30.228385 78.6922391,30.2284444 78.6921458,30.2287074 78.6920329,30.2288368 78.6917235,30.2288814 78.6916131,30.2288792 78.6915124,30.2289068 78.6910582,30.2288517 78.6906605,30.228735 78.690059,30.2285759 78.6898815,30.2284982 78.6895583,30.2283567</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Koteshwar Pooling</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w377052289</SimpleData>
+		<SimpleData name="osm_id">377052289</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">765000;400000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.4873927,30.2536308 78.486551,30.2529604 78.4844958,30.2538534 78.4841187,30.254593 78.4845046,30.2549651 78.4851352,30.255444 78.4854994,30.2556243 78.4857622,30.2556245 78.485981,30.2553278 78.4862094,30.2552764 78.4863783,30.2552101 78.4868796,30.2550135 78.4870564,30.254829 78.4876554,30.2546021 78.4879181,30.2543645 78.4881563,30.2542331 78.4885098,30.254127 78.4888265,30.2541037 78.4882766,30.2535735 78.487869,30.2535396 78.4876432,30.2535459 78.4873927,30.2536308</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Koteshwar Dam</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w377052288</SimpleData>
+		<SimpleData name="osm_id">377052288</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.501171,30.2612835 78.5020158,30.260474 78.5035635,30.2617945 78.5027255,30.2625744 78.501171,30.2612835</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Foolchor Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1060198188</SimpleData>
+		<SimpleData name="osm_id">1060198188</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator">UPCL</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.4869174,29.1827125 79.4875016,29.1825919 79.4875227,29.1825867 79.4875951,29.1828677 79.4873417,29.1829157 79.4873189,29.182815 79.4870319,29.1828864 79.4869174,29.1827125</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Kashipur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w104909991</SimpleData>
+		<SimpleData name="osm_id">104909991</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">400000;220000;132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.9898811,29.2307326 78.9928853,29.2348405 78.9950441,29.2337052 78.9943136,29.2328457 78.9932629,29.2310155 78.9922328,29.2292641 78.9898811,29.2307326</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Piran Kaliyar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1026717952</SimpleData>
+		<SimpleData name="osm_id">1026717952</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.894087,29.9406321 77.8947106,29.9412713 77.8955702,29.9419907 77.8978783,29.9409459 77.8977402,29.9407228 77.8967156,29.9411016 77.896222,29.9402301 77.895644,29.9405578 77.8951558,29.9400662 77.894087,29.9406321</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Srinagar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w377052270</SimpleData>
+		<SimpleData name="osm_id">377052270</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">generation</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.7918115,30.2353767 78.7915759,30.2333802 78.7928994,30.2332636 78.793135,30.2352601 78.7918704,30.2353715 78.7918115,30.2353767</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>ITI</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1526458046</SimpleData>
+		<SimpleData name="osm_id">1526458046</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.5106578,29.2070699 79.5104481,29.2071211 79.5104829,29.2072851 79.5107241,29.2072813 79.5106578,29.2070699</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Singoli Bhatwari HPP</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1489654544</SimpleData>
+		<SimpleData name="osm_id">1489654544</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">generation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.0462973,30.4094529 79.0466947,30.4089313 79.0478779,30.4097118 79.047379,30.4102601 79.0462973,30.4094529</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Baram</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1489652186</SimpleData>
+		<SimpleData name="osm_id">1489652186</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>80.3559171,29.8399342 80.3565303,29.8403985 80.3570948,29.8398667 80.3567996,29.8394361 80.3566569,29.8395458 80.3564946,29.839377 80.3559171,29.8399342</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Vyasi HPP</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1489651348</SimpleData>
+		<SimpleData name="osm_id">1489651348</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">generation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.8852788,30.5237869 77.8857933,30.5239091 77.8861215,30.5234994 77.8854346,30.523315 77.8852788,30.5237869</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w104909939</SimpleData>
+		<SimpleData name="osm_id">104909939</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.9918748,29.1920009 78.9929569,29.1931979 78.9940838,29.1925788 78.9936635,29.1920009 78.9934849,29.1920949 78.993104,29.1915813 78.9929963,29.1916363 78.9928834,29.1914666 78.9918748,29.1920009</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362548</SimpleData>
+		<SimpleData name="osm_id">1467362548</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.7374606,29.7526115 79.7375438,29.7525277 79.7375062,29.7524858 79.7376001,29.7524101 79.737867,29.7527268 79.7377785,29.752778 79.7376913,29.7527244 79.7376148,29.752757 79.7374606,29.7526115</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362547</SimpleData>
+		<SimpleData name="osm_id">1467362547</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.2202449,30.1668419 79.2204246,30.1664627 79.2205869,30.1664813 79.2205131,30.166603 79.2205895,30.1666204 79.2204702,30.1668477 79.2202449,30.1668419</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362546</SimpleData>
+		<SimpleData name="osm_id">1467362546</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>80.1496947,29.6109612 80.14992,29.6108376 80.1497778,29.6105881 80.1495123,29.6107257 80.1496947,29.6109612</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362545</SimpleData>
+		<SimpleData name="osm_id">1467362545</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.9174127,29.8391898 79.9176058,29.8390385 79.917469,29.8388943 79.9172571,29.8390665 79.9174127,29.8391898</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Kichha</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w104143823</SimpleData>
+		<SimpleData name="osm_id">104143823</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.5042875,28.9140614 79.5047631,28.9149191 79.5053345,28.9147359 79.5053038,28.9145751 79.505562,28.9145061 79.50559,28.9145862 79.505855,28.9145486 79.505814,28.9143849 79.5056628,28.9144222 79.5054542,28.9136834 79.504786,28.9138398 79.5042875,28.9140614</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362544</SimpleData>
+		<SimpleData name="osm_id">1467362544</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.1638689,29.6583229 79.1641639,29.6582891 79.1641451,29.6580782 79.1638581,29.6581061 79.1638689,29.6583229</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362543</SimpleData>
+		<SimpleData name="osm_id">1467362543</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.7832888,29.6406852 79.7833787,29.6405524 79.7831614,29.6404405 79.7830608,29.6405827 79.7832888,29.6406852</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362542</SimpleData>
+		<SimpleData name="osm_id">1467362542</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.8955031,29.9365774 79.8954172,29.9363368 79.895491,29.9363136 79.8955098,29.9363275 79.8956439,29.9363031 79.8957136,29.936546 79.8956868,29.9366518 79.8955728,29.9366762 79.8955031,29.9365774</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substations">
+		<SimpleData name="full_id">w1467362541</SimpleData>
+		<SimpleData name="osm_id">1467362541</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.0343517,29.996726 79.034408,29.9965216 79.034687,29.9965727 79.0346494,29.9967702 79.0343517,29.996726</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

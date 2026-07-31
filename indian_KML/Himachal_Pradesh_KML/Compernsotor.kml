@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Compernsotor" id="Compernsotor">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="disused:highway" type="string"></SimpleField>
+	<SimpleField name="lamp_type" type="string"></SimpleField>
+	<SimpleField name="lamp_mount" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="location:transition" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="backup" type="string"></SimpleField>
+	<SimpleField name="compensator" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="rooms" type="string"></SimpleField>
+	<SimpleField name="internet_access" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="indoor:level" type="string"></SimpleField>
+	<SimpleField name="indoor:area" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="voltage:secondary" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="sector" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+</Schema>
+<Folder><name>Compernsotor</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Compernsotor">
+		<SimpleData name="full_id">n7203091037</SimpleData>
+		<SimpleData name="osm_id">7203091037</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">compensator</SimpleData>
+		<SimpleData name="compensator">series_capacitor</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1676898,30.5490677</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Compernsotor">
+		<SimpleData name="full_id">n7203091034</SimpleData>
+		<SimpleData name="osm_id">7203091034</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">compensator</SimpleData>
+		<SimpleData name="compensator">series_capacitor</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.168422,30.5491301</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Compernsotor">
+		<SimpleData name="full_id">n7203091035</SimpleData>
+		<SimpleData name="osm_id">7203091035</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">compensator</SimpleData>
+		<SimpleData name="compensator">series_capacitor</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1683845,30.5492409</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Compernsotor">
+		<SimpleData name="full_id">n7203091033</SimpleData>
+		<SimpleData name="osm_id">7203091033</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">compensator</SimpleData>
+		<SimpleData name="compensator">series_capacitor</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.168465,30.5490007</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Compernsotor">
+		<SimpleData name="full_id">n7203091038</SimpleData>
+		<SimpleData name="osm_id">7203091038</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">compensator</SimpleData>
+		<SimpleData name="compensator">series_capacitor</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1677408,30.5489499</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Compernsotor">
+		<SimpleData name="full_id">n7203091036</SimpleData>
+		<SimpleData name="osm_id">7203091036</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">compensator</SimpleData>
+		<SimpleData name="compensator">series_capacitor</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>77.1677756,30.5488321</coordinates></Point></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

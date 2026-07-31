@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Substation_P" id="Substation_P">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="name:etymology:wikidata" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+</Schema>
+<Folder><name>Substation_P</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">w812446745</SimpleData>
+		<SimpleData name="osm_id">812446745</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="barrier">fence</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.2357241,26.8668434 75.2352762,26.8660227 75.2358314,26.8657834 75.2359498,26.8660004 75.2362767,26.8665993 75.2357241,26.8668434</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">r15663131</SimpleData>
+		<SimpleData name="osm_id">15663131</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>73.5866673,25.6955149 73.5872292,25.696047 73.5874421,25.6958645 73.5881892,25.6952239 73.5876273,25.6946918 73.5866673,25.6955149</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">w878363630</SimpleData>
+		<SimpleData name="osm_id">878363630</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">school</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.9315322,27.2260342 75.9315562,27.2261493 75.931786,27.2261114 75.931762,27.2259963 75.9315322,27.2260342</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>33/11kv GSS</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">w1123055941</SimpleData>
+		<SimpleData name="osm_id">1123055941</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">33000;11000</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>73.6843946,26.3218727 73.6854943,26.3222514 73.6859393,26.3211936 73.6859839,26.3210813 73.6849681,26.3208389 73.6843946,26.3218727</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Antroli</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">w1179768316</SimpleData>
+		<SimpleData name="osm_id">1179768316</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q3400886</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+		<SimpleData name="operator">Power Grid Corporation of India Ltd</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.087457,27.8764723 75.0878279,27.8760838 75.0877959,27.8760311 75.0883545,27.8751244 75.0879699,27.8747399 75.0866236,27.8739465 75.0859871,27.8743108 75.0867244,27.8753997 75.0871411,27.8760311 75.087457,27.8764723</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Malviya Nagar Power Grid</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">w865638260</SimpleData>
+		<SimpleData name="osm_id">865638260</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.8095876,26.8596395 75.8099607,26.8595452 75.8099517,26.859459 75.810154,26.8594209 75.8101338,26.8593126 75.8102484,26.8592885 75.8102057,26.8590218 75.8097674,26.8591422 75.8094415,26.8592765 75.8095629,26.8596174 75.8095876,26.8596395</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Lachhmangarh</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Substation_P">
+		<SimpleData name="full_id">w182594011</SimpleData>
+		<SimpleData name="osm_id">182594011</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="ref">321607</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.8675015,27.3672564 76.8663334,27.3673045 76.8659192,27.3673478 76.8650884,27.367433 76.8641064,27.3677968 76.8640681,27.3679379 76.8651649,27.3688168 76.8660876,27.3694117 76.8669375,27.3690157 76.8669087,27.3688627 76.8673796,27.368742 76.8671748,27.368249 76.867393,27.3675265 76.8675015,27.3672564</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
