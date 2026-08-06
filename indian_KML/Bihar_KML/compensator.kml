@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="catenary_mast:supporting" type="string"></SimpleField>
+	<SimpleField name="tensioning" type="string"></SimpleField>
+	<SimpleField name="guyed" type="string"></SimpleField>
+	<SimpleField name="construction" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="mapillary:map_feature" type="string"></SimpleField>
+	<SimpleField name="mapillary:image" type="string"></SimpleField>
+	<SimpleField name="religion" type="string"></SimpleField>
+	<SimpleField name="mobile" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="information" type="string"></SimpleField>
+	<SimpleField name="support" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="billboard" type="string"></SimpleField>
+	<SimpleField name="lamp_type" type="string"></SimpleField>
+	<SimpleField name="lamp_mount" type="string"></SimpleField>
+	<SimpleField name="direction" type="string"></SimpleField>
+	<SimpleField name="motor_vehicle" type="string"></SimpleField>
+	<SimpleField name="moped" type="string"></SimpleField>
+	<SimpleField name="mofa" type="string"></SimpleField>
+	<SimpleField name="addr:province" type="string"></SimpleField>
+	<SimpleField name="addr:municipality" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="devices" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="switch" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="addr:place" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="name_1" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="voltage:secondary" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="source:date" type="string"></SimpleField>
+	<SimpleField name="condition" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="communication" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="name:ne" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="voltage-low" type="string"></SimpleField>
+	<SimpleField name="voltage-high" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="compensator" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="tower" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="motorcycle" type="string"></SimpleField>
+	<SimpleField name="motorcar" type="string"></SimpleField>
+	<SimpleField name="horse" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="foot" type="string"></SimpleField>
+	<SimpleField name="bicycle" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3944292623</SimpleData>
+		<SimpleData name="osm_id">3944292623</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">compensator</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="rating">330 Mvar</SimpleData>
+		<SimpleData name="voltage">765000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7053999,25.1264037</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3944292624</SimpleData>
+		<SimpleData name="osm_id">3944292624</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">compensator</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="rating">330 Mvar</SimpleData>
+		<SimpleData name="voltage">765000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7054395,25.1265574</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3944292622</SimpleData>
+		<SimpleData name="osm_id">3944292622</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">compensator</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="rating">330 Mvar</SimpleData>
+		<SimpleData name="voltage">765000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7053744,25.1262602</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,2412 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="ele" type="string"></SimpleField>
+	<SimpleField name="manufacturer" type="string"></SimpleField>
+	<SimpleField name="locked" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="addr:place" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="line_management" type="string"></SimpleField>
+	<SimpleField name="construction:power" type="string"></SimpleField>
+	<SimpleField name="voltage:secondary" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="compensator" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="contact:phone" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="historic" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="line_arrangement" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="residential" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067578</SimpleData>
+		<SimpleData name="osm_id">6455067578</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7152042,26.0720194</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067579</SimpleData>
+		<SimpleData name="osm_id">6455067579</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7152849,26.0720013</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067572</SimpleData>
+		<SimpleData name="osm_id">6455067572</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.714676,26.072138</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067581</SimpleData>
+		<SimpleData name="osm_id">6455067581</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7154568,26.0719626</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067582</SimpleData>
+		<SimpleData name="osm_id">6455067582</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7155142,26.0719497</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067583</SimpleData>
+		<SimpleData name="osm_id">6455067583</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7143215,26.0722177</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067576</SimpleData>
+		<SimpleData name="osm_id">6455067576</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7150158,26.0720617</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068385</SimpleData>
+		<SimpleData name="osm_id">6455068385</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7162871,26.0692354</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068386</SimpleData>
+		<SimpleData name="osm_id">6455068386</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.716139,26.0692692</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068387</SimpleData>
+		<SimpleData name="osm_id">6455068387</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7160843,26.0692817</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067580</SimpleData>
+		<SimpleData name="osm_id">6455067580</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7153997,26.0719755</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068389</SimpleData>
+		<SimpleData name="osm_id">6455068389</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.71587,26.0693307</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068390</SimpleData>
+		<SimpleData name="osm_id">6455068390</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7158199,26.0693421</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068391</SimpleData>
+		<SimpleData name="osm_id">6455068391</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7157674,26.0693542</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067584</SimpleData>
+		<SimpleData name="osm_id">6455067584</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7163485,26.0692213</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068393</SimpleData>
+		<SimpleData name="osm_id">6455068393</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7155743,26.0693983</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068394</SimpleData>
+		<SimpleData name="osm_id">6455068394</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7155082,26.0694134</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068395</SimpleData>
+		<SimpleData name="osm_id">6455068395</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.715353,26.0694489</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068388</SimpleData>
+		<SimpleData name="osm_id">6455068388</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7160219,26.069296</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.20">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068397</SimpleData>
+		<SimpleData name="osm_id">6455068397</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7152485,26.0694728</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.21">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068398</SimpleData>
+		<SimpleData name="osm_id">6455068398</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7148384,26.0695665</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.22">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068399</SimpleData>
+		<SimpleData name="osm_id">6455068399</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7147787,26.0695801</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.23">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068392</SimpleData>
+		<SimpleData name="osm_id">6455068392</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7156266,26.0693863</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.24">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068401</SimpleData>
+		<SimpleData name="osm_id">6455068401</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7145768,26.0696263</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.25">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068402</SimpleData>
+		<SimpleData name="osm_id">6455068402</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7145177,26.0696398</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.26">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068403</SimpleData>
+		<SimpleData name="osm_id">6455068403</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7144669,26.0696514</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.27">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068396</SimpleData>
+		<SimpleData name="osm_id">6455068396</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7153024,26.0694604</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.28">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068405</SimpleData>
+		<SimpleData name="osm_id">6455068405</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7142585,26.069699</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.29">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068406</SimpleData>
+		<SimpleData name="osm_id">6455068406</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7142009,26.0697122</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.30">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068407</SimpleData>
+		<SimpleData name="osm_id">6455068407</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7140575,26.069745</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.31">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068400</SimpleData>
+		<SimpleData name="osm_id">6455068400</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7147165,26.0695944</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.32">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068409</SimpleData>
+		<SimpleData name="osm_id">6455068409</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7139391,26.069772</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.33">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068410</SimpleData>
+		<SimpleData name="osm_id">6455068410</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7137906,26.069806</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.34">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068411</SimpleData>
+		<SimpleData name="osm_id">6455068411</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7137352,26.0698187</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.35">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068404</SimpleData>
+		<SimpleData name="osm_id">6455068404</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7143201,26.069685</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.36">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068413</SimpleData>
+		<SimpleData name="osm_id">6455068413</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7164087,26.0692076</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.37">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068414</SimpleData>
+		<SimpleData name="osm_id">6455068414</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7137164,26.0697518</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.38">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068415</SimpleData>
+		<SimpleData name="osm_id">6455068415</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7137717,26.0697392</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.39">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068408</SimpleData>
+		<SimpleData name="osm_id">6455068408</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7139998,26.0697582</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.40">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068417</SimpleData>
+		<SimpleData name="osm_id">6455068417</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7139803,26.0696915</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.41">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068418</SimpleData>
+		<SimpleData name="osm_id">6455068418</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7140382,26.0696783</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.42">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068419</SimpleData>
+		<SimpleData name="osm_id">6455068419</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7141821,26.0696454</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.43">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068412</SimpleData>
+		<SimpleData name="osm_id">6455068412</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7136806,26.0698311</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.44">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068421</SimpleData>
+		<SimpleData name="osm_id">6455068421</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7143016,26.0696181</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.45">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068422</SimpleData>
+		<SimpleData name="osm_id">6455068422</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7144481,26.0695846</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.46">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068423</SimpleData>
+		<SimpleData name="osm_id">6455068423</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7144995,26.0695728</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.47">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068416</SimpleData>
+		<SimpleData name="osm_id">6455068416</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7139195,26.0697054</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.48">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068425</SimpleData>
+		<SimpleData name="osm_id">6455068425</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7146978,26.0695275</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.49">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068426</SimpleData>
+		<SimpleData name="osm_id">6455068426</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7147596,26.0695134</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.50">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068427</SimpleData>
+		<SimpleData name="osm_id">6455068427</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7148196,26.0694997</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.51">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068420</SimpleData>
+		<SimpleData name="osm_id">6455068420</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7142404,26.0696321</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.52">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068429</SimpleData>
+		<SimpleData name="osm_id">6455068429</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7152831,26.0693937</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.53">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068430</SimpleData>
+		<SimpleData name="osm_id">6455068430</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7153345,26.069382</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.54">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068431</SimpleData>
+		<SimpleData name="osm_id">6455068431</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.715489,26.0693467</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.55">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068424</SimpleData>
+		<SimpleData name="osm_id">6455068424</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7145583,26.0695594</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.56">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068433</SimpleData>
+		<SimpleData name="osm_id">6455068433</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7156076,26.0693196</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.57">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068434</SimpleData>
+		<SimpleData name="osm_id">6455068434</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7157491,26.0692872</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.58">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068435</SimpleData>
+		<SimpleData name="osm_id">6455068435</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7158011,26.0692753</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.59">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068428</SimpleData>
+		<SimpleData name="osm_id">6455068428</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7152295,26.069406</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.60">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068437</SimpleData>
+		<SimpleData name="osm_id">6455068437</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7160033,26.0692291</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.61">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068438</SimpleData>
+		<SimpleData name="osm_id">6455068438</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7160656,26.0692149</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.62">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068439</SimpleData>
+		<SimpleData name="osm_id">6455068439</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7161204,26.0692024</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.63">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068432</SimpleData>
+		<SimpleData name="osm_id">6455068432</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.715555,26.0693316</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.64">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068441</SimpleData>
+		<SimpleData name="osm_id">6455068441</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.716331,26.0691542</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.65">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068442</SimpleData>
+		<SimpleData name="osm_id">6455068442</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7163909,26.0691405</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.66">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068443</SimpleData>
+		<SimpleData name="osm_id">6455068443</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7136627,26.0697641</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.67">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068436</SimpleData>
+		<SimpleData name="osm_id">6455068436</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7158523,26.0692636</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.68">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068440</SimpleData>
+		<SimpleData name="osm_id">6455068440</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7162697,26.0691682</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.69">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068451</SimpleData>
+		<SimpleData name="osm_id">6455068451</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">765000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7190867,26.0706756</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.70">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068453</SimpleData>
+		<SimpleData name="osm_id">6455068453</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">765000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7187346,26.070751</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.71">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068454</SimpleData>
+		<SimpleData name="osm_id">6455068454</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">765000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7185948,26.070781</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.72">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068455</SimpleData>
+		<SimpleData name="osm_id">6455068455</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">765000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7184354,26.0708151</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.73">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068457</SimpleData>
+		<SimpleData name="osm_id">6455068457</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">765000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.718016,26.070905</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.74">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068458</SimpleData>
+		<SimpleData name="osm_id">6455068458</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">765000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7178593,26.0709386</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.75">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068459</SimpleData>
+		<SimpleData name="osm_id">6455068459</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">765000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7192356,26.0706437</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.76">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068452</SimpleData>
+		<SimpleData name="osm_id">6455068452</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">765000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7189309,26.070709</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.77">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455068456</SimpleData>
+		<SimpleData name="osm_id">6455068456</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">765000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7181563,26.0708749</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.78">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066514</SimpleData>
+		<SimpleData name="osm_id">6455066514</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7154455,26.0711633</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.79">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066516</SimpleData>
+		<SimpleData name="osm_id">6455066516</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.71554,26.071508</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.80">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066517</SimpleData>
+		<SimpleData name="osm_id">6455066517</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7155536,26.0715572</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.81">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066518</SimpleData>
+		<SimpleData name="osm_id">6455066518</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7155673,26.0716073</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.82">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066520</SimpleData>
+		<SimpleData name="osm_id">6455066520</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7156807,26.0715279</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.83">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066521</SimpleData>
+		<SimpleData name="osm_id">6455066521</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7156668,26.0714787</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.84">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066522</SimpleData>
+		<SimpleData name="osm_id">6455066522</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7155825,26.0711813</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.85">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066515</SimpleData>
+		<SimpleData name="osm_id">6455066515</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7154584,26.0712106</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.86">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066524</SimpleData>
+		<SimpleData name="osm_id">6455066524</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7155541,26.071081</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.87">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066525</SimpleData>
+		<SimpleData name="osm_id">6455066525</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7153213,26.0702591</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.88">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066526</SimpleData>
+		<SimpleData name="osm_id">6455066526</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7153064,26.0702064</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.89">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066519</SimpleData>
+		<SimpleData name="osm_id">6455066519</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7154308,26.0711099</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.90">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066528</SimpleData>
+		<SimpleData name="osm_id">6455066528</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7152062,26.0698526</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.91">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066529</SimpleData>
+		<SimpleData name="osm_id">6455066529</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7151892,26.0697928</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.92">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066530</SimpleData>
+		<SimpleData name="osm_id">6455066530</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7151751,26.0697429</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.93">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066523</SimpleData>
+		<SimpleData name="osm_id">6455066523</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7155693,26.0711345</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.94">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066532</SimpleData>
+		<SimpleData name="osm_id">6455066532</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.714722,26.0713316</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.95">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066533</SimpleData>
+		<SimpleData name="osm_id">6455066533</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7147074,26.0712794</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.96">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066536</SimpleData>
+		<SimpleData name="osm_id">6455066536</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7144461,26.0703435</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.97">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066534</SimpleData>
+		<SimpleData name="osm_id">6455066534</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7144754,26.0704484</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.98">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066537</SimpleData>
+		<SimpleData name="osm_id">6455066537</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7147357,26.0713808</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.99">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066527</SimpleData>
+		<SimpleData name="osm_id">6455066527</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7152916,26.0701541</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.100">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066538</SimpleData>
+		<SimpleData name="osm_id">6455066538</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7150197,26.0712624</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.101">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066540</SimpleData>
+		<SimpleData name="osm_id">6455066540</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7150043,26.0712098</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.102">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066541</SimpleData>
+		<SimpleData name="osm_id">6455066541</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7147511,26.0703307</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.103">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066531</SimpleData>
+		<SimpleData name="osm_id">6455066531</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.715695,26.0715783</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.104">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066542</SimpleData>
+		<SimpleData name="osm_id">6455066542</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7147367,26.0702784</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.105">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066535</SimpleData>
+		<SimpleData name="osm_id">6455066535</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7144606,26.0703956</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.106">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066544</SimpleData>
+		<SimpleData name="osm_id">6455066544</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7151829,26.070234</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.107">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066545</SimpleData>
+		<SimpleData name="osm_id">6455066545</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7151682,26.0701817</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.108">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066546</SimpleData>
+		<SimpleData name="osm_id">6455066546</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7150837,26.0698807</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.109">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066539</SimpleData>
+		<SimpleData name="osm_id">6455066539</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7150337,26.0713106</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.110">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066548</SimpleData>
+		<SimpleData name="osm_id">6455066548</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7150528,26.069771</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.111">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066549</SimpleData>
+		<SimpleData name="osm_id">6455066549</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7151977,26.0702867</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.112">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066550</SimpleData>
+		<SimpleData name="osm_id">6455066550</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7149245,26.0700725</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.113">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066543</SimpleData>
+		<SimpleData name="osm_id">6455066543</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7147656,26.0703834</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.114">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066552</SimpleData>
+		<SimpleData name="osm_id">6455066552</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7148581,26.0700871</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.115">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066553</SimpleData>
+		<SimpleData name="osm_id">6455066553</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7149514,26.070166</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.116">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066547</SimpleData>
+		<SimpleData name="osm_id">6455066547</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7150667,26.0698205</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.117">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066551</SimpleData>
+		<SimpleData name="osm_id">6455066551</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.714982,26.0700599</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.118">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066812</SimpleData>
+		<SimpleData name="osm_id">6455066812</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">0</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7123596,26.0707809</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.119">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066813</SimpleData>
+		<SimpleData name="osm_id">6455066813</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">0</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7123979,26.0709399</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.120">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n1015893391</SimpleData>
+		<SimpleData name="osm_id">1015893391</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">tower</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>81.1921867,26.9672776</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.121">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066814</SimpleData>
+		<SimpleData name="osm_id">6455066814</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">0</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7125977,26.0716754</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.122">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066816</SimpleData>
+		<SimpleData name="osm_id">6455066816</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">0</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7125349,26.0712997</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.123">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066817</SimpleData>
+		<SimpleData name="osm_id">6455066817</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">0</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7126435,26.0711648</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.124">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066818</SimpleData>
+		<SimpleData name="osm_id">6455066818</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">0</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7126944,26.0713777</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.125">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066820</SimpleData>
+		<SimpleData name="osm_id">6455066820</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">500000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7127017,26.0708735</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.126">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066821</SimpleData>
+		<SimpleData name="osm_id">6455066821</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">500000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.712746,26.0710284</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.127">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066822</SimpleData>
+		<SimpleData name="osm_id">6455066822</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">500000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7128621,26.0714561</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.128">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066815</SimpleData>
+		<SimpleData name="osm_id">6455066815</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">0</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7126364,26.0718323</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.129">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066824</SimpleData>
+		<SimpleData name="osm_id">6455066824</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">500000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7129272,26.0717672</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.130">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066819</SimpleData>
+		<SimpleData name="osm_id">6455066819</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">500000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7126589,26.0707176</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.131">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455066823</SimpleData>
+		<SimpleData name="osm_id">6455066823</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">500000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7128882,26.0716074</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.132">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067510</SimpleData>
+		<SimpleData name="osm_id">6455067510</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7150083,26.0701528</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.133">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067511</SimpleData>
+		<SimpleData name="osm_id">6455067511</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7148845,26.0701815</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.134">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067513</SimpleData>
+		<SimpleData name="osm_id">6455067513</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7148303,26.0699878</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.135">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067514</SimpleData>
+		<SimpleData name="osm_id">6455067514</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7149534,26.0699591</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.136">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067515</SimpleData>
+		<SimpleData name="osm_id">6455067515</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7151326,26.0702453</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.137">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067517</SimpleData>
+		<SimpleData name="osm_id">6455067517</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7150326,26.0698925</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.138">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067518</SimpleData>
+		<SimpleData name="osm_id">6455067518</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7150155,26.0698321</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.139">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067519</SimpleData>
+		<SimpleData name="osm_id">6455067519</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7150015,26.0697828</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.140">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067512</SimpleData>
+		<SimpleData name="osm_id">6455067512</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7148957,26.0699725</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.141">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067521</SimpleData>
+		<SimpleData name="osm_id">6455067521</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7154937,26.0715711</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.142">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067522</SimpleData>
+		<SimpleData name="osm_id">6455067522</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7153975,26.0712249</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.143">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067523</SimpleData>
+		<SimpleData name="osm_id">6455067523</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7153843,26.0711776</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.144">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067516</SimpleData>
+		<SimpleData name="osm_id">6455067516</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7151178,26.070193</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.145">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067525</SimpleData>
+		<SimpleData name="osm_id">6455067525</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.71548,26.0715218</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.146">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067526</SimpleData>
+		<SimpleData name="osm_id">6455067526</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7155075,26.0716209</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.147">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067527</SimpleData>
+		<SimpleData name="osm_id">6455067527</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7152963,26.0714072</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.148">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067520</SimpleData>
+		<SimpleData name="osm_id">6455067520</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7151476,26.070298</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.149">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067529</SimpleData>
+		<SimpleData name="osm_id">6455067529</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7152373,26.0714205</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.150">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067530</SimpleData>
+		<SimpleData name="osm_id">6455067530</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7152695,26.0713144</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.151">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067531</SimpleData>
+		<SimpleData name="osm_id">6455067531</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.715331,26.0712997</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.152">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067524</SimpleData>
+		<SimpleData name="osm_id">6455067524</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7153695,26.0711243</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.153">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067533</SimpleData>
+		<SimpleData name="osm_id">6455067533</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7153276,26.0715153</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.154">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067534</SimpleData>
+		<SimpleData name="osm_id">6455067534</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7153879,26.0715014</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.155">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067535</SimpleData>
+		<SimpleData name="osm_id">6455067535</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7152691,26.0715288</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.156">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067528</SimpleData>
+		<SimpleData name="osm_id">6455067528</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7153575,26.0713935</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.157">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067537</SimpleData>
+		<SimpleData name="osm_id">6455067537</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7160559,26.0719304</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.158">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067538</SimpleData>
+		<SimpleData name="osm_id">6455067538</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.716169,26.0719059</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.159">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067539</SimpleData>
+		<SimpleData name="osm_id">6455067539</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7162281,26.071893</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.160">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067532</SimpleData>
+		<SimpleData name="osm_id">6455067532</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7152103,26.0713286</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.161">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067541</SimpleData>
+		<SimpleData name="osm_id">6455067541</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7159405,26.0719555</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.162">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067542</SimpleData>
+		<SimpleData name="osm_id">6455067542</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7160311,26.0720579</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.163">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067543</SimpleData>
+		<SimpleData name="osm_id">6455067543</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7160889,26.0720447</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.164">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067536</SimpleData>
+		<SimpleData name="osm_id">6455067536</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7159982,26.071943</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.165">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067545</SimpleData>
+		<SimpleData name="osm_id">6455067545</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7162602,26.0720055</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.166">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067546</SimpleData>
+		<SimpleData name="osm_id">6455067546</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7163201,26.0719918</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.167">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067547</SimpleData>
+		<SimpleData name="osm_id">6455067547</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7159732,26.0720712</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.168">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067540</SimpleData>
+		<SimpleData name="osm_id">6455067540</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7162888,26.0718798</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.169">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067549</SimpleData>
+		<SimpleData name="osm_id">6455067549</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7161222,26.0721597</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.170">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067550</SimpleData>
+		<SimpleData name="osm_id">6455067550</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7162346,26.0721341</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.171">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067551</SimpleData>
+		<SimpleData name="osm_id">6455067551</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7162931,26.0721207</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.172">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067544</SimpleData>
+		<SimpleData name="osm_id">6455067544</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7162015,26.0720189</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.173">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067553</SimpleData>
+		<SimpleData name="osm_id">6455067553</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7160058,26.0721863</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.174">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067554</SimpleData>
+		<SimpleData name="osm_id">6455067554</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.714389,26.0721544</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.175">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067555</SimpleData>
+		<SimpleData name="osm_id">6455067555</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7144644,26.0721376</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.176">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067548</SimpleData>
+		<SimpleData name="osm_id">6455067548</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.716064,26.072173</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.177">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067557</SimpleData>
+		<SimpleData name="osm_id">6455067557</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7146636,26.0720932</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.178">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067558</SimpleData>
+		<SimpleData name="osm_id">6455067558</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7147374,26.0720767</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.179">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067559</SimpleData>
+		<SimpleData name="osm_id">6455067559</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7148491,26.0720518</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.180">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067552</SimpleData>
+		<SimpleData name="osm_id">6455067552</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7163524,26.0721072</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.181">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067561</SimpleData>
+		<SimpleData name="osm_id">6455067561</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7150029,26.0720175</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.182">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067562</SimpleData>
+		<SimpleData name="osm_id">6455067562</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7151173,26.071992</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.183">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067563</SimpleData>
+		<SimpleData name="osm_id">6455067563</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7151914,26.0719755</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.184">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067556</SimpleData>
+		<SimpleData name="osm_id">6455067556</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7145901,26.0721096</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.185">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067565</SimpleData>
+		<SimpleData name="osm_id">6455067565</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.715387,26.0719319</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.186">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067566</SimpleData>
+		<SimpleData name="osm_id">6455067566</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7154444,26.0719191</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.187">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067567</SimpleData>
+		<SimpleData name="osm_id">6455067567</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7155019,26.0719063</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.188">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067560</SimpleData>
+		<SimpleData name="osm_id">6455067560</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7149251,26.0720349</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.189">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067569</SimpleData>
+		<SimpleData name="osm_id">6455067569</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7144023,26.0721995</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.190">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067570</SimpleData>
+		<SimpleData name="osm_id">6455067570</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7144776,26.0721826</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.191">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067571</SimpleData>
+		<SimpleData name="osm_id">6455067571</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7146024,26.0721546</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.192">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067564</SimpleData>
+		<SimpleData name="osm_id">6455067564</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7152725,26.0719574</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.193">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067573</SimpleData>
+		<SimpleData name="osm_id">6455067573</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.71475,26.0721214</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.194">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067574</SimpleData>
+		<SimpleData name="osm_id">6455067574</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7148621,26.0720962</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.195">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067575</SimpleData>
+		<SimpleData name="osm_id">6455067575</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7149376,26.0720793</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.196">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067568</SimpleData>
+		<SimpleData name="osm_id">6455067568</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7143079,26.0721725</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.197">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6455067577</SimpleData>
+		<SimpleData name="osm_id">6455067577</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.7151294,26.0720362</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

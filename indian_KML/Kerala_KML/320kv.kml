@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="reprojected" id="reprojected">
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="generator:place" type="string"></SimpleField>
+	<SimpleField name="panoramax" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="generator:solar:tracking" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="operator:website" type="string"></SimpleField>
+	<SimpleField name="postal_code" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="contact:phone" type="string"></SimpleField>
+	<SimpleField name="air_conditioning" type="string"></SimpleField>
+	<SimpleField name="branch" type="string"></SimpleField>
+	<SimpleField name="industrial" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="covered" type="string"></SimpleField>
+	<SimpleField name="phone" type="string"></SimpleField>
+	<SimpleField name="operator:type" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="district" type="string"></SimpleField>
+	<SimpleField name="voltage_1" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="conductor" type="string"></SimpleField>
+	<SimpleField name="capacity" type="string"></SimpleField>
+	<SimpleField name="operator:wikipedia" type="string"></SimpleField>
+	<SimpleField name="government" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="survey:date" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="image" type="string"></SimpleField>
+	<SimpleField name="name:ta" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="gas_insulated" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="name:kn" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="name:ml" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+</Schema>
+<Folder><name>reprojected</name>
+  <Placemark id="reprojected.1">
+	<name>HVDC Pugalur - Trichur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.934</SimpleData>
+		<SimpleData name="full_id">w953190666</SimpleData>
+		<SimpleData name="osm_id">953190666</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="frequency">0</SimpleData>
+		<SimpleData name="voltage">320000</SimpleData>
+		<SimpleData name="cables">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.4784184,10.5974792 76.4777921,10.5975543 76.4769901,10.5976624 76.4763907,10.5987869 76.4757174,10.6020165 76.4762297,10.6044156 76.4769083,10.6062189 76.4775547,10.6071759 76.4782682,10.6093562 76.4803013,10.6126384 76.4822432,10.6157862 76.4852849,10.6178135 76.4871785,10.6213277 76.4909899,10.6227512 76.4946592,10.6218734 76.4976794,10.6211431 76.5008068,10.6204155 76.5040228,10.620318 76.506815,10.6202283 76.5080595,10.6191343 76.5102911,10.6177502 76.5123779,10.6164585 76.5161115,10.6153881 76.5196118,10.614447 76.5222511,10.6136772 76.5253651,10.6128124 76.5287447,10.6118897 76.5315181,10.6116946 76.5347314,10.6106243 76.5375102,10.6097569 76.540251,10.6088335 76.5407342,10.6086707 76.5443015,10.6075186 76.5469623,10.6060396 76.5501407,10.604297 76.5536034,10.6051327 76.5560067,10.6075635 76.5583509,10.6099573 76.5606952,10.6123089 76.5625459,10.6149979 76.5652737,10.617455 76.567516,10.6195139 76.5698898,10.6216651 76.571998,10.623637 76.5743637,10.6257776 76.5774804,10.6280922 76.5800607,10.6300166 76.582472,10.629463 76.585637,10.6287249 76.5883327,10.6280975 76.5924686,10.6267741 76.5943971,10.6261282 76.5979457,10.6234867 76.6016901,10.6239744 76.6047397,10.624362 76.6074514,10.6247284 76.6113836,10.6244279 76.6145593,10.6241643 76.6174319,10.6239481 76.6209269,10.6236924 76.622909,10.6232679 76.626007,10.6226273 76.6290861,10.6219815 76.6322136,10.6213303 76.6354296,10.6206475 76.638549,10.6191976 76.6418159,10.6176712 76.6452223,10.6173943 76.6481513,10.6171307 76.6517696,10.6167827 76.6552243,10.6183355 76.6582847,10.6196747 76.6614845,10.6210667 76.6641305,10.6213889 76.6676536,10.621818 76.6711351,10.6222266 76.6739219,10.6225772 76.67658,10.6239454 76.6805899,10.6260202 76.6833982,10.6293075 76.6851416,10.6298716 76.6878024,10.6292152 76.6894546,10.6298242 76.6930327,10.6303198 76.6953608,10.6324155 76.6978392,10.6346984 76.700795,10.6373768 76.7048505,10.6386948 76.7066261,10.6408643 76.7082757,10.6428598 76.7112502,10.6428361 76.7139244,10.6446075 76.7170143,10.6453931 76.7180523,10.6486459 76.7191386,10.6522414 76.7202249,10.6556208 76.7213193,10.6591687 76.7222714,10.6622449 76.7252004,10.6652287 76.7284083,10.6669736 76.7317101,10.6697149 76.73421,10.6714651 76.7362856,10.6728728 76.737143,10.6734543 76.7373696,10.673608 76.7390808,10.6731995 76.7416745,10.6722084 76.7459366,10.6720924 76.7482325,10.673753 76.749799,10.6748811 76.7529237,10.6779333 76.7552519,10.6790193 76.7581111,10.6803292 76.7599726,10.6846255 76.7607129,10.6863861 76.7629418,10.6871874 76.7643365,10.6872664 76.7656267,10.6872928 76.7675632,10.685063 76.7705378,10.682878 76.7733917,10.6825459 76.7768463,10.6849655 76.7790592,10.6882021 76.7810038,10.691133 76.7837155,10.6929173 76.7874706,10.6947332 76.789963,10.6959369 76.7901447,10.6960247 76.7929637,10.698568 76.7936419,10.6991945 76.7953831,10.700803 76.7953938,10.7029615 76.7953375,10.7061927 76.7977622,10.707716 76.7989799,10.710109 76.7979178,10.7138883 76.7969549,10.7171378 76.7959142,10.7208063 76.7947152,10.7248121 76.7970273,10.7298376 76.7982021,10.7323148 76.7975208,10.7359067 76.7979231,10.737696 76.7990282,10.7404235 76.8000957,10.743006 76.7983067,10.7467084 76.7981914,10.7507112 76.7998785,10.7520077 76.8009326,10.7554228 76.801917,10.7588721 76.8043524,10.7611488 76.8065116,10.763162 76.808145,10.7636547 76.8113342,10.7645691 76.8144563,10.7654597 76.8173584,10.7645269 76.8209553,10.7633728 76.8214718,10.7626431 76.822755,10.76083 76.8257296,10.760129 76.8288544,10.7593965 76.8319389,10.7586877 76.8339747,10.757378 76.8369117,10.756353 76.8395242,10.7554044 76.842657,10.7575151 76.8452373,10.7592463 76.848228,10.7611857 76.8494045,10.7619735 76.8498748,10.7622607 76.8509826,10.7630302 76.8541181,10.7654781 76.8571168,10.7679287 76.8597266,10.7684952 76.8626556,10.7691012 76.8649971,10.771196 76.8674245,10.773383 76.8697742,10.7754646 76.8724725,10.7778545 76.8766138,10.7767426 76.8791592,10.776985 76.8823323,10.7773723 76.8851647,10.777757 76.8872917,10.778031 76.8896413,10.7767742 76.8926883,10.7751405 76.8960732,10.7741709 76.8965060804977,10.7743503634264</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">r13561049</SimpleData>
+		<SimpleData name="osm_id">13561049</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+		<SimpleData name="generator:type">solar_photovoltaic_panel</SimpleData>
+		<SimpleData name="generator:source">solar</SimpleData>
+		<SimpleData name="generator:output:electricity">yes</SimpleData>
+		<SimpleData name="generator:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>73.9460427,15.1331442 73.9460439,15.1330946 73.9459869,15.1330932 73.9459883,15.1330381 73.9459257,15.1330365 73.9459269,15.132987 73.9458575,15.1329853 73.9458589,15.1329332 73.9457174,15.1329298 73.9457188,15.1328754 73.9456429,15.1328736 73.9456443,15.1328186 73.9456041,15.1328177 73.9456053,15.1327707 73.9455452,15.1327692 73.9455463,15.1327298 73.9456004,15.1327311 73.9456017,15.1326807 73.9456272,15.1326813 73.9456299,15.132575 73.9456449,15.1325753 73.9456471,15.1324876 73.9458157,15.1324917 73.9458169,15.132445 73.9459008,15.1324471 73.945902,15.1324014 73.9460802,15.1324057 73.9460789,15.1324576 73.9461868,15.1324602 73.9461854,15.1325117 73.9462942,15.1325143 73.9462927,15.1325704 73.9463896,15.1325727 73.9463882,15.1326244 73.9464879,15.1326268 73.9464852,15.132728 73.9464546,15.1327272 73.9464535,15.1327703 73.9464003,15.132769 73.9463991,15.1328143 73.946349,15.1328131 73.9463478,15.1328614 73.9463064,15.1328604 73.9463052,15.1329082 73.9462739,15.1329075 73.9462727,15.1329523 73.9462364,15.1329515 73.946235,15.1330029 73.946188,15.1330018 73.9461856,15.133097 73.9461204,15.1330954 73.9461191,15.133146 73.9460427,15.1331442</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>73.9463504,15.1331992 73.9463517,15.1331597 73.9463892,15.1331609 73.9463908,15.1331132 73.9464406,15.1331148 73.9464425,15.1330598 73.9464691,15.1330607 73.9464705,15.1330199 73.9466067,15.1330243 73.9466119,15.1328756 73.9466671,15.1328774 73.9466705,15.1327796 73.9467696,15.1327828 73.9467681,15.1328267 73.9468687,15.1328299 73.9468667,15.1328879 73.946996,15.1328921 73.9469942,15.1329435 73.9470916,15.1329466 73.9470898,15.1330007 73.9471713,15.1330033 73.9471696,15.1330531 73.9473371,15.1330585 73.9473352,15.1331128 73.9474093,15.1331152 73.9474078,15.133161 73.9475617,15.133166 73.9475597,15.1332228 73.9476912,15.1332271 73.9476892,15.1332839 73.9477694,15.1332865 73.9477678,15.1333329 73.9476866,15.1333302 73.9476851,15.1333725 73.9475059,15.1333668 73.9475077,15.1333124 73.9473903,15.1333086 73.9473886,15.1333579 73.947298,15.133355 73.9472964,15.1333996 73.9470229,15.1333908 73.947025,15.1333306 73.9467169,15.1333207 73.9467189,15.1332618 73.9464236,15.1332523 73.9464253,15.1332016 73.9463504,15.1331992</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="street_cabinet" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="roof:shape" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="building:colour" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="waterway" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="hydroelectric" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="name:fr" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="name:etymology:wikidata" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>Rihand Unit-IV</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196563903</SimpleData>
+		<SimpleData name="osm_id">196563903</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7929034,24.0268702 82.7931842,24.0271226 82.7936525,24.0275437 82.7935385,24.0276495 82.7933018,24.0278691 82.7931414,24.0277248 82.7927618,24.0280769 82.7929047,24.0282054 82.7927305,24.0283651 82.7926366,24.028456 82.791999,24.0290457 82.7913898,24.028498 82.7920256,24.0279088 82.7921238,24.0278163 82.792304,24.0276498 82.7924365,24.0277689 82.792796,24.0274354 82.7926925,24.0273423 82.7925591,24.027466 82.7924078,24.02733 82.7927926,24.026973 82.7929034,24.0268702</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w335875708</SimpleData>
+		<SimpleData name="osm_id">335875708</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">diesel</SimpleData>
+		<SimpleData name="generator:output:electricity">yes</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3796941,27.6541702 77.3798927,27.6540955 77.379929,27.6541712 77.3797305,27.6542459 77.3796941,27.6541702</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<name>Anpara C Unit-VI</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196923448</SimpleData>
+		<SimpleData name="osm_id">196923448</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">600 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="operator">Lanco Anpara Power Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7965147,24.2049174 82.797038,24.2049524 82.7975123,24.2049841 82.7975238,24.204841 82.7975541,24.2044645 82.7973844,24.2044532 82.7974354,24.2038186 82.7976012,24.2038297 82.7976236,24.2035504 82.7976545,24.2035525 82.7976862,24.2031582 82.7968949,24.2031053 82.7968628,24.2035044 82.7968781,24.2035054 82.796868,24.203631 82.7968558,24.2037835 82.7969567,24.2037903 82.7969061,24.2044195 82.7966639,24.2044033 82.7966596,24.2044563 82.7966528,24.2045414 82.7966472,24.2046108 82.79654,24.2046037 82.7965256,24.2047822 82.7965147,24.2049174</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<name>Anpara C Unit-VII</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196923449</SimpleData>
+		<SimpleData name="osm_id">196923449</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">600 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="operator">Lanco Anpara Power Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7975123,24.2049841 82.7981492,24.2050267 82.7986452,24.2050598 82.7986566,24.2049183 82.7986744,24.2046965 82.7988038,24.2047052 82.7988167,24.2045449 82.7984931,24.2045233 82.7985434,24.2038971 82.7986949,24.2039072 82.798708,24.2037435 82.7987189,24.2036078 82.7987464,24.2036096 82.7987771,24.2032277 82.7979719,24.2031738 82.7979405,24.2035642 82.7979715,24.2035662 82.7979469,24.2038722 82.7980436,24.2038787 82.7979942,24.204494 82.7978975,24.2044875 82.7975541,24.2044645 82.7975238,24.204841 82.7975123,24.2049841</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<name>Anpara A Unit-I</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196923442</SimpleData>
+		<SimpleData name="osm_id">196923442</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">210 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="operator">Uttar Pradesh Rajya Vidyut Utpadan Nigam Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7861346,24.2025707 82.7860755,24.2033901 82.7858574,24.2033771 82.7858316,24.203735 82.7858202,24.2038925 82.7866442,24.2039419 82.7866555,24.2037851 82.7866813,24.2034265 82.7866019,24.2034217 82.786661,24.2026022 82.7861346,24.2025707</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<name>Anpara B Unit-V</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196923447</SimpleData>
+		<SimpleData name="osm_id">196923447</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="operator">Uttar Pradesh Rajya Vidyut Utpadan Nigam Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7907213,24.2041819 82.7912201,24.2042122 82.7917146,24.2042423 82.7917248,24.2041025 82.791753,24.2037178 82.7916901,24.203714 82.7917188,24.2033211 82.7922015,24.2033504 82.7922325,24.202926 82.7921658,24.2029219 82.7922092,24.2023276 82.7912037,24.2022665 82.7911629,24.2028238 82.7910152,24.2028149 82.7909901,24.2031573 82.7913229,24.2031775 82.791281,24.20375 82.7907552,24.203718 82.7907314,24.204043 82.7907213,24.2041819</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<name>Unit 1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w522129787</SimpleData>
+		<SimpleData name="osm_id">522129787</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="generator:type">steam_generator</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">660 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.6586656,25.198014 81.6589029,25.197924 81.6589609,25.1980493 81.6598081,25.1977279 81.6598373,25.1977909 81.6603997,25.1975775 81.6599747,25.1966602 81.6594134,25.1968732 81.6594473,25.1969465 81.6586003,25.1972678 81.6586762,25.1974316 81.6584403,25.1975211 81.6583509,25.197328 81.6580142,25.1974558 81.6578984,25.1974997 81.6581912,25.1981346 81.6583081,25.198388 81.6584232,25.1986374 81.658539,25.198594 81.6588757,25.198468 81.6586656,25.198014</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<name>Unit-II</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196411768</SimpleData>
+		<SimpleData name="osm_id">196411768</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">200 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7050674,24.1021051 82.7050219,24.1022198 82.7048734,24.1025941 82.7049173,24.1026086 82.7051225,24.1026765 82.7048463,24.1033725 82.7048911,24.1033873 82.7048409,24.1035138 82.7052316,24.1036429 82.705283,24.1035135 82.705342,24.103533 82.7056177,24.1028384 82.7055616,24.1028199 82.7057104,24.1024452 82.7057551,24.1023325 82.7051408,24.1021294 82.7050674,24.1021051</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<name>Unit-III</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196411769</SimpleData>
+		<SimpleData name="osm_id">196411769</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">200 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7057551,24.1023325 82.7057104,24.1024452 82.7055616,24.1028199 82.7056177,24.1028384 82.7058153,24.1029038 82.7055407,24.1035957 82.7055756,24.1036072 82.7055235,24.1037383 82.7059285,24.1038722 82.7059802,24.1037421 82.7060209,24.1037556 82.7062958,24.1030627 82.70626,24.1030509 82.7064118,24.1026683 82.7064534,24.1025634 82.7058282,24.1023567 82.7057551,24.1023325</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w467185026</SimpleData>
+		<SimpleData name="osm_id">467185026</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:method">water-pumped-storage</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.0485813,24.5200118 83.0489173,24.5193791 83.0490397,24.5194329 83.0487036,24.5200656 83.0485813,24.5200118</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<name>Unit-IV</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196411770</SimpleData>
+		<SimpleData name="osm_id">196411770</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">200 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7064534,24.1025634 82.7064118,24.1026683 82.70626,24.1030509 82.7062958,24.1030627 82.7065167,24.1031357 82.7062415,24.1038295 82.706275,24.1038406 82.7062262,24.1039637 82.7066325,24.104098 82.7066852,24.1039651 82.7067356,24.1039818 82.7070081,24.1032951 82.7069585,24.1032787 82.7071111,24.1028941 82.7071508,24.102794 82.7065271,24.1025878 82.7064534,24.1025634</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w467185029</SimpleData>
+		<SimpleData name="osm_id">467185029</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.058569,24.6156016 83.0586009,24.6153704 83.0591564,24.6154337 83.0598012,24.6155073 83.0597693,24.6157386 83.05915,24.6156679 83.058569,24.6156016</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<name>Unit-VI</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196411772</SimpleData>
+		<SimpleData name="osm_id">196411772</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7088646,24.1033414 82.7088204,24.1034535 82.7087411,24.1036543 82.7088306,24.1036837 82.7087957,24.1037723 82.709099,24.103872 82.7088779,24.1044312 82.7088513,24.1045005 82.7087959,24.1046399 82.7087267,24.1046172 82.7085867,24.1049717 82.7086506,24.1049927 82.708509,24.1053514 82.7086052,24.105383 82.7092351,24.1055902 82.7093747,24.1052365 82.709404,24.1052461 82.7095451,24.1048887 82.7094361,24.1048528 82.7097386,24.1040865 82.7097858,24.104102 82.7099046,24.1038009 82.7099456,24.103697 82.7093912,24.1035146 82.7088646,24.1033414</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<name>Unit-VII</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196411773</SimpleData>
+		<SimpleData name="osm_id">196411773</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7097858,24.104102 82.7097067,24.1043023 82.7099206,24.1043727 82.709702,24.1049265 82.7096317,24.1049033 82.7094887,24.1052656 82.7095279,24.1052785 82.7093911,24.1056248 82.7101375,24.1058704 82.7102736,24.1055258 82.71031,24.1055378 82.7104653,24.1051442 82.7103632,24.1051106 82.7106491,24.1043863 82.7106971,24.1044021 82.7108187,24.1040941 82.7108571,24.1039968 82.7103367,24.1038256 82.7100144,24.1037196 82.7099456,24.103697 82.7099046,24.1038009 82.7097858,24.104102</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w467185030</SimpleData>
+		<SimpleData name="osm_id">467185030</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.0712589,24.622211 83.0713579,24.6220779 83.0709256,24.6218124 83.0708267,24.6219455 83.0708763,24.6219746 83.0709647,24.6220292 83.0710518,24.6220831 83.0712589,24.622211</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w467185031</SimpleData>
+		<SimpleData name="osm_id">467185031</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.0773637,24.6260885 83.0772127,24.625739 83.0773225,24.6257004 83.0773299,24.6257195 83.0773476,24.6257654 83.0773657,24.6258126 83.0773854,24.6258638 83.0774043,24.6259129 83.0774254,24.6259676 83.0774463,24.6260221 83.0774216,24.6260768 83.0773637,24.6260885</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<name>Unit-I</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196411767</SimpleData>
+		<SimpleData name="osm_id">196411767</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">200 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7040125,24.102087 82.7043139,24.1021867 82.7042335,24.1023894 82.704426,24.1024531 82.7041514,24.1031451 82.7041944,24.1031593 82.7041426,24.1032898 82.7045471,24.1034235 82.704601,24.1032877 82.7046424,24.1033014 82.7049173,24.1026086 82.7048734,24.1025941 82.7050219,24.1022198 82.7050674,24.1021051 82.7041285,24.1017947 82.704082,24.1019118 82.7040125,24.102087</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<name>Unit-X</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196524267</SimpleData>
+		<SimpleData name="osm_id">196524267</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">xx MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7920451,24.1821609 82.7927267,24.1821702 82.792732,24.1818464 82.7923558,24.1818413 82.79236,24.1815861 82.7924474,24.1815873 82.7924532,24.1812309 82.7923233,24.1812291 82.7923184,24.1815277 82.7921863,24.181526 82.7921912,24.1812276 82.7920818,24.1812261 82.792076,24.1815823 82.7921253,24.1815829 82.7921212,24.1818361 82.7920496,24.1818356 82.7920451,24.1821609</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<name>Unit 2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w522129788</SimpleData>
+		<SimpleData name="osm_id">522129788</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="generator:type">steam_generator</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">660 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.6581573,25.1969102 81.6583902,25.1968218 81.6584482,25.1969471 81.6592955,25.1966258 81.6593246,25.1966887 81.659887,25.1964754 81.6594621,25.1955581 81.6589007,25.195771 81.6589347,25.1958444 81.6580877,25.1961657 81.6581636,25.1963294 81.6579321,25.1964172 81.657826,25.1961882 81.6574887,25.1963162 81.6573708,25.1963609 81.657675,25.1970176 81.6578984,25.1974997 81.6580142,25.1974558 81.6583509,25.197328 81.6581573,25.1969102</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.20">
+	<name>Unit-X</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196524270</SimpleData>
+		<SimpleData name="osm_id">196524270</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">xx MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7912952,24.1821515 82.7907792,24.1821449 82.7907841,24.1818271 82.7907938,24.1811951 82.7912755,24.1812013 82.7912658,24.181829 82.7913002,24.1818294 82.7912952,24.1821515</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.21">
+	<name>Unit 3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w522129796</SimpleData>
+		<SimpleData name="osm_id">522129796</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="generator:type">steam_generator</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">660 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.6576518,25.1958123 81.6578698,25.1957296 81.6579279,25.195855 81.6587751,25.1955336 81.6588043,25.1955966 81.6593667,25.1953832 81.6589417,25.1944659 81.6583803,25.1946789 81.6584143,25.1947522 81.6575674,25.1950735 81.6576432,25.1952372 81.6574264,25.1953195 81.6573009,25.1950486 81.6569633,25.1951767 81.6568433,25.1952222 81.6571699,25.1959272 81.6573708,25.1963609 81.6574887,25.1963162 81.657826,25.1961882 81.6576518,25.1958123</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.22">
+	<name>Unit-X</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196524273</SimpleData>
+		<SimpleData name="osm_id">196524273</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">xx MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.792744,24.1810572 82.792732,24.1818464 82.7927267,24.1821702 82.793076,24.1821744 82.7930809,24.1818556 82.7930082,24.1818547 82.7930205,24.1810607 82.792744,24.1810572</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.23">
+	<name>Unit-V</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196411771</SimpleData>
+		<SimpleData name="osm_id">196411771</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">200 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7071508,24.102794 82.7071111,24.1028941 82.7069585,24.1032787 82.7070081,24.1032951 82.7072016,24.1033591 82.7069298,24.1040442 82.7069718,24.1040581 82.7069165,24.1041976 82.7073128,24.1043286 82.7073682,24.1041891 82.7074139,24.1042042 82.7076937,24.1034992 82.7081578,24.1036527 82.7081992,24.1035482 82.7085434,24.103662 82.7086488,24.1033965 82.7086864,24.1033017 82.7072277,24.1028194 82.7071508,24.102794</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.24">
+	<name>Unit-X</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196524278</SimpleData>
+		<SimpleData name="osm_id">196524278</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">xx MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7894497,24.1811807 82.7894442,24.1815393 82.7895224,24.1815403 82.7895133,24.1821286 82.789108,24.1821234 82.789117,24.181545 82.7892015,24.1815461 82.7892072,24.1811776 82.7894497,24.1811807</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.25">
+	<name>Unit-X</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196524279</SimpleData>
+		<SimpleData name="osm_id">196524279</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">xx MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.789838,24.1815519 82.7897997,24.1815514 82.7898052,24.181192 82.7895688,24.1811889 82.7895634,24.1815408 82.7895224,24.1815403 82.7895133,24.1821286 82.789829,24.1821327 82.789838,24.1815519</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.26">
+	<name>Unit-X</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196524282</SimpleData>
+		<SimpleData name="osm_id">196524282</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">xx MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7899158,24.181152 82.7899096,24.1815528 82.789838,24.1815519 82.789829,24.1821327 82.7901535,24.1821369 82.7901586,24.1818082 82.7901625,24.1815525 82.7900936,24.1815516 82.7900997,24.1811544 82.7899158,24.181152</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.27">
+	<name>Unit-X</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196524264</SimpleData>
+		<SimpleData name="osm_id">196524264</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">xx MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7901535,24.1821369 82.7907792,24.1821449 82.7907841,24.1818271 82.790757,24.1818268 82.7907138,24.1818261 82.7906473,24.1818253 82.7906571,24.1811895 82.7904241,24.1811865 82.7904144,24.1818115 82.7902321,24.181809 82.7901774,24.1818085 82.7901586,24.1818082 82.7901535,24.1821369</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.28">
+	<name>Rihand Unit-I</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196563895</SimpleData>
+		<SimpleData name="osm_id">196563895</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7901005,24.0250068 82.7903622,24.0247675 82.7904473,24.0246896 82.7909646,24.0251616 82.7910333,24.0252242 82.7909532,24.0252975 82.7906905,24.0255377 82.7906612,24.025511 82.7901914,24.0259406 82.7897964,24.0263019 82.7897676,24.0262756 82.7893954,24.026616 82.7890131,24.0262673 82.7894045,24.0259093 82.7893227,24.0258347 82.7896923,24.0254969 82.7897482,24.0254453 82.7901643,24.025065 82.7901005,24.0250068</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.29">
+	<name>Rihand Unit-II</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196563897</SimpleData>
+		<SimpleData name="osm_id">196563897</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7906905,24.0255377 82.7909532,24.0252975 82.7910333,24.0252242 82.7915632,24.0257075 82.791776,24.0259016 82.791698,24.0259729 82.7913936,24.0262514 82.7912067,24.0260808 82.790776,24.0264747 82.790381,24.026836 82.7903208,24.0267811 82.7899486,24.0271215 82.7895663,24.0267728 82.7899564,24.0264161 82.7898931,24.0263583 82.7907405,24.0255833 82.7906905,24.0255377</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.30">
+	<name>Rihand Unit-III</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196563900</SimpleData>
+		<SimpleData name="osm_id">196563900</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7919869,24.0260462 82.7918807,24.0261447 82.7916481,24.0263605 82.7919742,24.0266537 82.7915968,24.0270038 82.7914791,24.0268979 82.7912919,24.0270704 82.7911971,24.0271608 82.7905556,24.0277548 82.7906582,24.027847 82.7911562,24.0282947 82.7917939,24.0277037 82.791892,24.0276112 82.7923002,24.0272332 82.7924078,24.02733 82.7927926,24.026973 82.7929034,24.0268702 82.7923623,24.0263837 82.7919869,24.0260462</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.31">
+	<name>Unit-X</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196524275</SimpleData>
+		<SimpleData name="osm_id">196524275</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">xx MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7930809,24.1818556 82.7931579,24.1818566 82.7931701,24.1810673 82.7934477,24.1810709 82.7934357,24.1818446 82.7935486,24.1818461 82.7935434,24.1821804 82.793076,24.1821744 82.7930809,24.1818556</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.32">
+	<name>Rihand Unit-V</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196564251</SimpleData>
+		<SimpleData name="osm_id">196564251</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7946388,24.0285 82.7945556,24.0285788 82.7944097,24.0287169 82.7946792,24.0289545 82.7946101,24.0290199 82.7947132,24.0291107 82.7939484,24.0298346 82.7938095,24.0297122 82.7933887,24.0301105 82.7934306,24.0301474 82.7932752,24.0302945 82.7937996,24.0307567 82.7939312,24.0306321 82.7939829,24.0306777 82.7944418,24.0302433 82.7949756,24.0297381 82.7950808,24.0298308 82.7955123,24.0294224 82.7955958,24.0293434 82.7950584,24.0288698 82.7948677,24.0287018 82.7946388,24.0285</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.33">
+	<name>Rihand Unit-VI</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196564252</SimpleData>
+		<SimpleData name="osm_id">196564252</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7950808,24.0298308 82.795331,24.0300512 82.7947759,24.0305767 82.7946326,24.0304504 82.7941938,24.0308658 82.7942517,24.0309168 82.7941333,24.0310289 82.7946447,24.0314796 82.7947653,24.0313655 82.7948048,24.0314003 82.795243,24.0309854 82.7951161,24.0308735 82.7957985,24.0302276 82.7959592,24.0300755 82.7961464,24.0302405 82.7962934,24.0301013 82.7963717,24.0300272 82.7958938,24.029606 82.7956812,24.0294187 82.7955958,24.0293434 82.7955123,24.0294224 82.7950808,24.0298308</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.34">
+	<name>Unit-X</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196524284</SimpleData>
+		<SimpleData name="osm_id">196524284</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">xx MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7913817,24.1811914 82.7913718,24.1818303 82.7913002,24.1818294 82.7912952,24.1821515 82.7920451,24.1821609 82.7920496,24.1818356 82.7919787,24.1818337 82.7918188,24.1818322 82.7918286,24.1811972 82.7913817,24.1811914</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.35">
+	<name>Anpara A Unit-II</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196923444</SimpleData>
+		<SimpleData name="osm_id">196923444</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">210 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="operator">Uttar Pradesh Rajya Vidyut Utpadan Nigam Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7866442,24.2039419 82.7873915,24.2039867 82.7874026,24.2038322 82.7874286,24.2034712 82.7873189,24.2034647 82.7873788,24.2026336 82.7868623,24.2026026 82.7868024,24.2034337 82.7866813,24.2034265 82.7866555,24.2037851 82.7866442,24.2039419</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.36">
+	<name>Anpara A Unit-III</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196923445</SimpleData>
+		<SimpleData name="osm_id">196923445</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">210 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="operator">Uttar Pradesh Rajya Vidyut Utpadan Nigam Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7873915,24.2039867 82.7881463,24.2040319 82.7884927,24.2040527 82.7885038,24.2038975 82.7885224,24.2036382 82.7885277,24.2035694 82.7885298,24.2035373 82.7883761,24.2035282 82.7883034,24.2035236 82.7880589,24.203509 82.7881187,24.2026788 82.78759,24.2026471 82.7875302,24.2034773 82.7874286,24.2034712 82.7874026,24.2038322 82.7873915,24.2039867</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.37">
+	<name>Anpara B Unit-IV</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w196923446</SimpleData>
+		<SimpleData name="osm_id">196923446</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="operator">Uttar Pradesh Rajya Vidyut Utpadan Nigam Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7896574,24.2041172 82.7902378,24.2041525 82.7907213,24.2041819 82.7907314,24.204043 82.7907552,24.203718 82.790797,24.2031455 82.7909901,24.2031573 82.7910152,24.2028149 82.7910551,24.2022679 82.7900345,24.2022058 82.7899941,24.2027584 82.789926,24.2027542 82.7899128,24.2029348 82.7899058,24.2030303 82.7898438,24.2038778 82.7896756,24.2038676 82.7896675,24.2039793 82.7896574,24.2041172</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

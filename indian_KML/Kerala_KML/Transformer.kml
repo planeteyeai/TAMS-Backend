@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="reprojected" id="reprojected">
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="generator:place" type="string"></SimpleField>
+	<SimpleField name="panoramax" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="generator:solar:tracking" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="operator:website" type="string"></SimpleField>
+	<SimpleField name="postal_code" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="contact:phone" type="string"></SimpleField>
+	<SimpleField name="air_conditioning" type="string"></SimpleField>
+	<SimpleField name="branch" type="string"></SimpleField>
+	<SimpleField name="industrial" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="covered" type="string"></SimpleField>
+	<SimpleField name="phone" type="string"></SimpleField>
+	<SimpleField name="operator:type" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="district" type="string"></SimpleField>
+	<SimpleField name="voltage_1" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="conductor" type="string"></SimpleField>
+	<SimpleField name="capacity" type="string"></SimpleField>
+	<SimpleField name="operator:wikipedia" type="string"></SimpleField>
+	<SimpleField name="government" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="survey:date" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="image" type="string"></SimpleField>
+	<SimpleField name="name:ta" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="gas_insulated" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="name:kn" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="name:ml" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+</Schema>
+<Folder><name>reprojected</name>
+  <Placemark id="reprojected.1">
+	<name>Transformer</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.299</SimpleData>
+		<SimpleData name="full_id">w433067101</SimpleData>
+		<SimpleData name="osm_id">433067101</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.16299,10.6567248 76.1629834,10.6566998 76.163011,10.6566966 76.1630165,10.6567194 76.16299,10.6567248</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.292</SimpleData>
+		<SimpleData name="full_id">w432758796</SimpleData>
+		<SimpleData name="osm_id">432758796</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+		<SimpleData name="addr:housenumber">KRY/KM/132</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.1464969,10.6368886 76.1465216,10.636859 76.1465566,10.6368846 76.1465346,10.6369203 76.1464969,10.6368886</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.3">
+	<name>KYR 1896</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.293</SimpleData>
+		<SimpleData name="full_id">w432863864</SimpleData>
+		<SimpleData name="osm_id">432863864</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.141551,10.6732251 76.1415877,10.6732405 76.1416001,10.6732119 76.1415635,10.6731965 76.141551,10.6732251</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.4">
+	<name>Transformer</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.294</SimpleData>
+		<SimpleData name="full_id">w433005685</SimpleData>
+		<SimpleData name="osm_id">433005685</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.1387428,10.6544119 76.1387729,10.6544212 76.1387841,10.6543864 76.1387539,10.6543771 76.1387428,10.6544119</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.800</SimpleData>
+		<SimpleData name="full_id">w798282610</SimpleData>
+		<SimpleData name="osm_id">798282610</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3728614,10.1721085 76.3730881,10.1720717 76.3731009,10.172238 76.3731523,10.1722354 76.3731725,10.1723962 76.3731296,10.1724013 76.3731514,10.1725898 76.3729304,10.1726368 76.3728614,10.1721085</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.295</SimpleData>
+		<SimpleData name="full_id">w433009236</SimpleData>
+		<SimpleData name="osm_id">433009236</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.1423489,10.6628582 76.142369,10.6628555 76.1423703,10.6628292 76.1423516,10.6628331 76.1423489,10.6628582</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.300</SimpleData>
+		<SimpleData name="full_id">w433097320</SimpleData>
+		<SimpleData name="osm_id">433097320</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.1551042,10.667535 76.1551031,10.6675165 76.1551239,10.6675153 76.155125,10.6675338 76.1551042,10.667535</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.301</SimpleData>
+		<SimpleData name="full_id">w433112058</SimpleData>
+		<SimpleData name="osm_id">433112058</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.1500487,10.6576915 76.1500482,10.6576761 76.1500718,10.657677 76.1500706,10.657693 76.1500487,10.6576915</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.302</SimpleData>
+		<SimpleData name="full_id">w433777788</SimpleData>
+		<SimpleData name="osm_id">433777788</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.1717666,10.6304632 76.1718179,10.6304214 76.1718568,10.6304649 76.1718073,10.6305084 76.1717666,10.6304632</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.296</SimpleData>
+		<SimpleData name="full_id">w433052880</SimpleData>
+		<SimpleData name="osm_id">433052880</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.1666618,10.6631658 76.1667943,10.6631745 76.166812,10.663079 76.1666618,10.6630703 76.1666618,10.6631658</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.11">
+	<name>Transformer</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.297</SimpleData>
+		<SimpleData name="full_id">w433056349</SimpleData>
+		<SimpleData name="osm_id">433056349</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.1582542,10.6582765 76.1582406,10.658163 76.1583527,10.6581529 76.1583663,10.6582732 76.1582542,10.6582765</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.12">
+	<name>Transformer,Chembanchira</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.298</SimpleData>
+		<SimpleData name="full_id">w433058501</SimpleData>
+		<SimpleData name="osm_id">433058501</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">transformer</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.1598375,10.6550846 76.1598325,10.6550317 76.1598926,10.655028 76.1598889,10.6550846 76.1598375,10.6550846</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

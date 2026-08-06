@@ -66,12 +66,15 @@ LINE_GLOBS = [
     "Portal_L.kml",
     "Transformar_Line.kml",
     "Transformer_LIne.kml",
+    "Transformer_L.kml",
     "Unidentified_voltage_line.kml",
     # Multi-state pack naming
     "*kv.kml",
     "*Kv.kml",
+    "*KV.kml",
     "* kv.kml",
     "Minor_lines.kml",
+    "Minor_Lines.kml",
     "Minor_Line.kml",
     "Minor_Liner.kml",
     "Substation_L.kml",
@@ -87,32 +90,90 @@ LINE_GLOBS = [
     "Unindentified_Line.kml",
     "Unindentified_Lines.kml",
     "Unidentified_Line.kml",
+    "Unidentified_Lines.kml",
+    "Unidentified_LINES.kml",
     "unidentified_lines.kml",
+    "Unidentified Lines.kml",  # Sikkim
+    "Unidentified_lines.kml",
+    "Undentifeiad_Line.kml",  # Andhra typo
+    "Undentified-Lines.kml",  # West Bengal typo
+    "Onidentified_Line.kml",  # Jharkhand typo
+    "Unidentifier=d_Lines.kml",  # Mizoram typo
+    "minor_line.kml",
+    "cable.kml",
+    "cabler.kml",
+    "*kvv.kml",
+    "*klv.kml",
 ]
 
 # Prefer named voltage files; skip mega "ALL Lines" when siblings exist (dedupe by osm_id anyway).
-LINE_SKIP_NAMES = {"all lines.kml", "all polygon.kml"}
+LINE_SKIP_NAMES = {
+    "all lines.kml",
+    "all polygon.kml",
+    "all_line.kml",
+    "line.kml",  # Kerala catch-all when voltage files exist
+    "mh.kml",
+    "chhatisgadh.kml",
+    "telangana.kmz",
+}
 
 TOWER_FILES = [
     "Towers Locations.kml",
     "Tower_Locations.kml",
     "tower_Locations.kml",
+    "Tower_locations.kml",
+    "Tower_Location.kml",  # Sikkim
+    "Tower_Locatins.kml",  # Assam typo
+    "Tower_Locarions.kml",  # Telangana typo
+    "Towers_locations.kml",  # Goa
     "transsmition_Towers.kml",  # Rajasthan spelling
     "transmission_Towers.kml",
     "Transmitions_Towers.kml",  # Uttarakhand spelling
+    "Transmition_tower_Locations.kml",  # Maharashtra spelling
     "Pole.kml",
+    "pole.kml",
 ]
 SUBSTATION_FILES = [
     "substation.kml",
+    "Substation.kml",
+    "SubStation.kml",
     "Substations.kml",
+    "substations.kml",
+    "substationss.kml",
+    "Substationss.kml",
+    "Sub_Stations.kml",
+    "Substaions.kml",  # Tamil Nadu typo
+    "substaions.kml",
+    "Substaion.kml",  # Arunachal typo
     "Substaion_KML.kml",  # Uttarakhand typo
+    "Subsations_Points.kml",  # Kerala typo
+    "Subsation.kml",  # UP typo
+    "Subsations.kml",
     "Power_Plant.kml",
     "Power_plant.kml",
+    "power_plant.kml",
+    "power_Plant.kml",
+    "Power_Plants.kml",
+    "Power_plants.kml",
+    "power_plants.kml",
+    "power_Plants.kml",
+    "Power_Plantss.kml",
+    "PowerPLants.kml",
+    "Power-plant.kml",
+    "Plant.kml",
     "Portal.kml",
+    "portal.kml",
+    "POrtal.kml",
+    "Portals.kml",
+    "portals.kml",
+    "portalS.kml",
     "Portal_Point.kml",
     "Transformar.kml",
     "Transformer.kml",
     "transformer.kml",
+    "tRANSFORMER.kml",
+    "Transformers.kml",
+    "transformers.kml",
     "transformer_Point.kml",
     "Transformer_points.kml",
     "Substation_Points.kml",
@@ -122,8 +183,21 @@ SUBSTATION_FILES = [
     "Generator_PO.kml",
     "Generator_point.kml",
     "Generator.kml",
+    "Generators.kml",
+    "generators.kml",
+    "Generatorr.kml",
+    "generatorss.kml",
+    "Generatorss.kml",
+    "generator.kml",
+    "Genenrator.kml",  # Sikkim typo
     "Power_Plant_Point.kml",
+    "Terminal.kml",
+    "terminal.kml",
     "switchgear.kml",
+    "Switchgear.kml",
+    "SwitchGear.kml",
+    "Switch_Gear.kml",
+    "Swichgear.kml",
     "switch.kml",
     "Switch.kml",
 ]
@@ -136,7 +210,38 @@ DIR_STATE_HINTS: dict[str, str] = {
     "Rajasthan_KML": "Rajasthan",
     "Himachal_Pradesh_KML": "Himachal Pradesh",
     "Uttarakhand_KML": "Uttarakhand",
+    "Karnataka_KML": "Karnataka",
+    "Kerala_KML": "Kerala",
+    "Madhya_Pradesh_KML": "Madhya Pradesh",
+    "Maharashtra_KML": "Maharashtra",
+    "Tamil_Nadu_KML": "Tamil Nadu",
+    "Assam_KML": "Assam",
+    "Andhra_Pradesh_KML": "Andhra Pradesh",
+    "Bihar_KML": "Bihar",
+    "Goa_KML": "Goa",
+    "Jharkhand_KML": "Jharkhand",
+    "Odisha_KML": "Odisha",
+    "Sikkim_KML": "Sikkim",
+    "Arunachal_Pradesh_KML": "Arunachal Pradesh",
+    "Chhattisgarh_KML": "Chhattisgarh",
+    "Manipur_KML": "Manipur",
+    "Meghalaya_KML": "Meghalaya",
+    "Mizoram_KML": "Mizoram",
+    "Nagaland_KML": "Nagaland",
+    "Telangana_KML": "Telangana",
+    "Tripura_KML": "Tripura",
+    "Uttar_Pradesh_KML": "Uttar Pradesh",
+    "West_Bengal_KML": "West Bengal",
 }
+
+# When set, only parse KML dirs mapped to this state (speeds up per-state upsert).
+_STATE_DIR_FILTER: str | None = None
+
+
+def set_state_dir_filter(state: str | None) -> None:
+    """Restrict KML directory iteration to one state pack (or clear with None)."""
+    global _STATE_DIR_FILTER
+    _STATE_DIR_FILTER = state
 
 
 def _iter_kml_dirs() -> list[Path]:
@@ -147,7 +252,17 @@ def _iter_kml_dirs() -> list[Path]:
         for child in sorted(KML_ROOT.iterdir()):
             if child.is_dir() and child.name != "Towers_KML" and child not in dirs:
                 dirs.append(child)
-    return dirs
+    if not _STATE_DIR_FILTER:
+        return dirs
+    needle = _STATE_DIR_FILTER.lower()
+    filtered: list[Path] = []
+    for d in dirs:
+        hinted = DIR_STATE_HINTS.get(d.name)
+        if hinted and hinted.lower() == needle:
+            filtered.append(d)
+        elif d.name == "Towers_KML" and needle == "gujarat":
+            filtered.append(d)
+    return filtered
 
 _NOW = datetime.now(timezone.utc)
 
@@ -611,7 +726,37 @@ def warmup_tower_counts() -> None:
     logger.info("Counting towers from KML…")
     india = _get_tower_count_for_box(INDIA_BOUNDS)
     _cache["tower_counts"]["India"] = india
-    for state in ("Gujarat", "Rajasthan", "Delhi", "Haryana", "Punjab", "Himachal Pradesh", "Uttarakhand"):
+    for state in (
+        "Gujarat",
+        "Rajasthan",
+        "Delhi",
+        "Haryana",
+        "Punjab",
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Karnataka",
+        "Kerala",
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Tamil Nadu",
+        "Assam",
+        "Andhra Pradesh",
+        "Bihar",
+        "Goa",
+        "Jharkhand",
+        "Odisha",
+        "Sikkim",
+        "Arunachal Pradesh",
+        "Chhattisgarh",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "Nagaland",
+        "Telangana",
+        "Tripura",
+        "Uttar Pradesh",
+        "West Bengal",
+    ):
         box = STATE_BOUNDS.get(state)
         if not box:
             continue

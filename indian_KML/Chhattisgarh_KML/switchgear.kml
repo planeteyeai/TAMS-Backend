@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="purpose" type="string"></SimpleField>
+	<SimpleField name="generator:output" type="string"></SimpleField>
+	<SimpleField name="utility" type="string"></SimpleField>
+	<SimpleField name="imagery_used" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="source:name" type="string"></SimpleField>
+	<SimpleField name="old_name" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:country" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="name:fr" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="name:etymology:wikidata" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="name:de" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w975716764</SimpleData>
+		<SimpleData name="osm_id">975716764</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+		<SimpleData name="utility">power</SimpleData>
+		<SimpleData name="imagery_used">MaxarPremium, retreived 08/2021</SimpleData>
+		<SimpleData name="building">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.3506691,21.8548484 83.3509404,21.854842 83.3511837,21.8548362 83.3511821,21.8547815 83.3511421,21.8547825 83.3511417,21.8547664 83.3512112,21.8547648 83.3512086,21.8546701 83.3511501,21.8546715 83.351149,21.854629 83.3509239,21.8546344 83.3506494,21.8546409 83.3506511,21.854703 83.3506092,21.854704 83.3506116,21.8547927 83.3506501,21.8547918 83.3506505,21.8548039 83.3506679,21.8548035 83.3506691,21.8548484</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w975716772</SimpleData>
+		<SimpleData name="osm_id">975716772</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+		<SimpleData name="utility">power</SimpleData>
+		<SimpleData name="imagery_used">MaxarPremium, retreived 08/2021</SimpleData>
+		<SimpleData name="building">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.3444659,21.855286 83.3447502,21.8552774 83.3449635,21.855271 83.3449606,21.8551861 83.345011,21.8551846 83.345008,21.8550973 83.3449777,21.8550982 83.3449768,21.8550713 83.3449586,21.8550719 83.3447337,21.8550786 83.344458,21.8550869 83.3444593,21.8551227 83.3444243,21.8551238 83.3444274,21.8552109 83.3444632,21.8552099 83.3444659,21.855286</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

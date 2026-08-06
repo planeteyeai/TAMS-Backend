@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="gas_insulated" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="name:kn" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>400 kV Kolhapur – Mapusa Goa DC line (PG)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w250822040</SimpleData>
+		<SimpleData name="osm_id">250822040</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="operator">Interstate Line</SimpleData>
+		<SimpleData name="circuits">2</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.8212935,15.6404691 73.8222945,15.639763 73.8237506,15.6379952 73.8255066,15.635832 73.8273783,15.6334807 73.8293271,15.6324751 73.8313937,15.6316783 73.8334014,15.6308851 73.8380169,15.6314936 73.8406644,15.6318513 73.8416756,15.633852 73.8431428,15.6367592 73.8461507,15.6381862 73.849246,15.6396725 73.8513053,15.640599 73.8536766,15.6417507 73.8566719,15.6431579 73.8600885,15.6447803 73.8631462,15.6462475 73.8649559,15.647865 73.8672596,15.6494974 73.8697505,15.6508795 73.8729071,15.6517458 73.87584,15.652557 73.8787158,15.6533531 73.8819087,15.6545199 73.8852557,15.6558412 73.8886791,15.6571265 73.8919113,15.6583869 73.8946765,15.659396 73.8971401,15.6603449 73.9004128,15.6615735 73.9034501,15.6627702 73.9068956,15.6642325 73.9101976,15.6655106 73.9134004,15.6652628 73.9159964,15.665939 73.9192544,15.6668135 73.9223542,15.668035 73.924406,15.668867 73.9272117,15.6699787 73.929896,15.6710621 73.9328451,15.6722942 73.9357022,15.6734625 73.9388748,15.6751984 73.9416075,15.6766476 73.9457905,15.6789028 73.9481202,15.6804649 73.9504169,15.6820647 73.953427,15.6841095 73.9556752,15.6856368 73.9581132,15.6887096 73.960051,15.6921825 73.9632538,15.6932551 73.9663077672833,15.6942235836099</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="name:te" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="name:etymology:wikidata" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="name:fr" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="name:kn" type="string"></SimpleField>
+	<SimpleField name="last_check" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>Project Koppal</name>
+	<description>56360</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w899925780</SimpleData>
+		<SimpleData name="osm_id">899925780</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="operator">Rays Power Infra</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">5.5 MW</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="last_check">20.3.24</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.1902875,15.5843847 76.1887103,15.5848859 76.1902606,15.588074 76.1921114,15.5874436 76.1914086,15.5862655 76.1908829,15.5852682 76.1902875,15.5843847</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1116445601</SimpleData>
+		<SimpleData name="osm_id">1116445601</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">gas</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.562423,13.017318 77.5624258,13.0173468 77.5624188,13.0173749 77.5624029,13.0173992 77.5623797,13.0174172 77.5623518,13.017427 77.5623221,13.0174273 77.5622938,13.0174182 77.5622702,13.0174007 77.5622536,13.0173767 77.562246,13.0173487 77.5622482,13.0173198 77.5622598,13.0172931 77.5622797,13.0172717 77.5623058,13.0172576 77.562335,13.0172526 77.5623643,13.0172571 77.5623905,13.0172706 77.5624108,13.0172917 77.562423,13.017318</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<description>145560</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w899905597</SimpleData>
+		<SimpleData name="osm_id">899905597</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="operator">Rays Power Infra</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="last_check">20.3.24</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.2318456,15.7705181 76.2318188,15.7711066 76.2317866,15.7717416 76.2317651,15.7722346 76.2317222,15.7732025 76.2316981,15.7736233 76.2317356,15.7740492 76.2324223,15.7739253 76.2327227,15.7753501 76.2328649,15.7759851 76.2338895,15.7757166 76.2339538,15.7759593 76.2358502,15.7756315 76.2379959,15.7752391 76.238881,15.7750765 76.2390178,15.7762948 76.2405708,15.7760986 76.2403938,15.7751281 76.2403482,15.7745061 76.2394014,15.7743331 76.2390098,15.7742273 76.2387469,15.7739924 76.2385726,15.7736878 76.2380764,15.7731767 76.238181,15.7726476 76.2382078,15.7722423 76.238181,15.7716693 76.2381461,15.770882 76.2381273,15.7702341 76.2378296,15.7692042 76.2376124,15.7684686 76.2384975,15.7683756 76.2382802,15.7674438 76.2380549,15.7665481 76.2379101,15.7657814 76.23743,15.7636931 76.2372744,15.7624515 76.2371618,15.7611144 76.2355122,15.7610937 76.2354478,15.761006 76.2355578,15.7596378 76.2340558,15.75923 76.2339646,15.759563 76.2338304,15.7605465 76.2336776,15.7616332 76.2335891,15.7625858 76.23353,15.7632466 76.2335515,15.7648186 76.2335542,15.7653013 76.233876,15.7656833 76.2356222,15.7651851 76.2366065,15.7649735 76.2370706,15.767165 76.2358099,15.7673715 76.2356651,15.7665145 76.2343776,15.7668036 76.2343293,15.7672373 76.234324,15.7674231 76.2343401,15.7675212 76.2344742,15.7676451 76.234501,15.7685847 76.2346888,15.7693023 76.2345225,15.7697463 76.2346727,15.7701231 76.2347102,15.7702238 76.2334228,15.7703968 76.2318456,15.7705181</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<name>Project Jamkhandi</name>
+	<description>590000</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w899907048</SimpleData>
+		<SimpleData name="osm_id">899907048</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="operator">Rays Power Infra</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">56 MW</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="last_check">20.3.24</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.2266502,16.5486039 75.2248853,16.5491027 75.2250999,16.5507173 75.2252538,16.5506861 75.2268755,16.5503574 75.2269453,16.5520183 75.2269828,16.5538129 75.2288604,16.5539157 75.229547,16.553962 75.2295953,16.5540186 75.2321488,16.5543014 75.2321273,16.5567027 75.2327174,16.556713 75.2327657,16.5571861 75.2332592,16.5572272 75.2331465,16.561675 75.2367997,16.5614487 75.2369714,16.559284 75.2370894,16.5575357 75.2371108,16.5574329 75.2360058,16.557366 75.2358931,16.5553195 75.2360702,16.5540494 75.236097,16.5539774 75.2346754,16.5526096 75.2346298,16.5525685 75.235059,16.5518795 75.23397,16.5514938 75.2337742,16.5514758 75.2322373,16.5508279 75.2297938,16.5498432 75.2282166,16.5492055 75.2266502,16.5486039</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<name>Raichur Thermal Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w828881768</SimpleData>
+		<SimpleData name="osm_id">828881768</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="name:te">రాయచూరు థర్మల్ పవర్ స్టేషన్</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="wikidata">Q7283704</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:output:electricity">1720 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="name:kn">ರಾಯಚೂರು ಶಾಖೋತ್ಪನ್ನ ವಿದ್ಯುತ್ ಸ್ಥಾವರದ</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3469049,16.3591616 77.3481274,16.3578829 77.3485351,16.351284 77.3481917,16.347516 77.3385894,16.3451893 77.3304891,16.3571005 77.3272169,16.362083 77.3262405,16.3648522 77.3258114,16.367961 77.3261654,16.3721918 77.3265839,16.3743432 77.3266911,16.3761034 77.3272812,16.3767313 77.3329031,16.3716977 77.3329675,16.3712448 77.3335576,16.3707095 77.3343301,16.3703595 77.3469049,16.3591616</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w822566040</SimpleData>
+		<SimpleData name="osm_id">822566040</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0223758,12.2132761 77.0225863,12.2133836 77.0224509,12.21363 77.0222269,12.2135173 77.0223758,12.2132761</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<name>Bhadra Right Bank Canal Powerhouse</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w822566043</SimpleData>
+		<SimpleData name="osm_id">822566043</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">13.2 MW</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.6375191,13.7006074 75.6376478,13.7007195 75.6373769,13.7009722 75.6372535,13.7008654 75.6375191,13.7006074</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<name>Vijayanagar Toranagallu Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w822601316</SimpleData>
+		<SimpleData name="osm_id">822601316</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="operator">JSW Energy</SimpleData>
+		<SimpleData name="wikidata">Q16930658</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:output:electricity">860 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.6680425,15.1827473 76.66565,15.1839898 76.6630053,15.1794649 76.6613156,15.1803658 76.6627532,15.1829906 76.6593146,15.1848388 76.6626513,15.1907096 76.665709,15.1889598 76.6665029,15.1901505 76.6683644,15.1892342 76.6675544,15.1878623 76.6700596,15.186335 76.6680425,15.1827473</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w822566044</SimpleData>
+		<SimpleData name="osm_id">822566044</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.9474323,13.6568817 74.9473867,13.6566445 74.9470112,13.6567097 74.9470648,13.6569443 74.9474323,13.6568817</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<name>Neerakatte Hydel Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w199356084</SimpleData>
+		<SimpleData name="osm_id">199356084</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.3240887,12.8547921 75.3241694,12.8544561 75.3244021,12.8545092 75.3243214,12.8548452 75.3240887,12.8547921</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<name>Bidar</name>
+	<description>12700</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w999720610</SimpleData>
+		<SimpleData name="osm_id">999720610</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="name:kn">ಬೀದರ</SimpleData>
+		<SimpleData name="last_check">23.4.24</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5410077,17.9316284 77.5416622,17.9315748 77.541689,17.9316603 77.5421959,17.9316194 77.5422898,17.9313655 77.5426586,17.9313132 77.5425741,17.9304634 77.5411203,17.9307263 77.5410077,17.9316284</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w199516683</SimpleData>
+		<SimpleData name="osm_id">199516683</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:method">run-of-the-river</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.3593781,12.9581339 75.3594096,12.9583366 75.3597316,12.958289 75.3597001,12.9580864 75.3593781,12.9581339</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w433546019</SimpleData>
+		<SimpleData name="osm_id">433546019</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3583479,16.3051903 77.3648871,16.3036509 77.3645733,16.3019518 77.3648576,16.3002012 77.3648791,16.2991328 77.3643112,16.2991668 77.3629425,16.2992487 77.3594449,16.3000982 77.3569773,16.3006672 77.3574306,16.3026752 77.3580998,16.3050063 77.3582969,16.3049329 77.3583479,16.3051903</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w255614928</SimpleData>
+		<SimpleData name="osm_id">255614928</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.77194,14.2369347 74.7721192,14.2371494 74.7722632,14.2370365 74.7720841,14.2368218 74.77194,14.2369347</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<name>Yermarus Thermal Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w433546020</SimpleData>
+		<SimpleData name="osm_id">433546020</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="wikidata">Q19899118</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:output:electricity">1600 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="name:kn">ಯರಮರಸ್ ಶಾಖೋತ್ಪನ್ನ ವಿದ್ಯುತ್ ಸ್ಥಾವರದ</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.347662,16.2956792 77.3476137,16.2971518 77.3477719,16.2987917 77.3480294,16.3003055 77.3463665,16.300375 77.3465971,16.3013635 77.3469673,16.3013532 77.3469297,16.3026276 77.3455082,16.3026533 77.3452453,16.3059922 77.3451782,16.3071816 77.3456128,16.3067748 77.3457147,16.3065663 77.3458059,16.3066204 77.3459987,16.3076345 77.3460406,16.3079398 77.3508632,16.3067813 77.3550099,16.3057542 77.3580998,16.3050063 77.3574306,16.3026752 77.3569773,16.3006672 77.3594449,16.3000982 77.3629425,16.2992487 77.3643112,16.2991668 77.3643051,16.298385 77.3644285,16.2973475 77.3649113,16.297435 77.3656408,16.2969201 77.3668129,16.2956071 77.3676766,16.2946803 77.3684625,16.2940779 77.3710347,16.293509 77.3707075,16.2922706 77.3700772,16.2924019 77.3700477,16.2922191 77.3688192,16.2925332 77.3672153,16.2927109 77.3660914,16.290399 77.3660458,16.2900179 77.3661075,16.2895519 77.3639054,16.2897733 77.3636855,16.288656 77.363487,16.2875541 77.3619984,16.2876184 77.3615504,16.2861097 77.3583023,16.2855073 77.3576773,16.2854635 77.3576532,16.285721 77.3557381,16.2861509 77.3556308,16.2851546 77.3534099,16.2849512 77.3534394,16.284704 77.3514439,16.2842715 77.3481179,16.2836922 77.3477505,16.2855742 77.3489923,16.2856386 77.3486088,16.2877111 77.3473401,16.2876468 77.3466025,16.2916527 77.3462458,16.2938771 77.3461492,16.2946417 77.3460661,16.2955685 77.3472194,16.2955248 77.347324,16.2948786 77.3480107,16.2949893 77.3480214,16.2955119 77.347662,16.2956792</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<name>Mahathma Gandhi Hydro Electric Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w255614918</SimpleData>
+		<SimpleData name="osm_id">255614918</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="name:etymology:wikidata">Q1001</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator:wikidata">Q6372867</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="wikidata">Q56366915</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">139.2 MW</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="name:kn">ಮಹಾತ್ಮ ಗಾಂಧಿ ವಿದ್ಯುತ್ ಸ್ಥಾವರ</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.7987874,14.2274109 74.8001122,14.2274646 74.8001201,14.2272824 74.7987953,14.2272287 74.7987874,14.2274109</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<name>Kudgi Super Thermal Power Project</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w409304651</SimpleData>
+		<SimpleData name="osm_id">409304651</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="operator">NTPS</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="generator:type">steam_generator</SimpleData>
+		<SimpleData name="wikidata">Q15717503</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:output:electricity">2400 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="name:kn">ಕುಡಗಿ ಉಷ್ಣ ವಿದ್ಯುತ್ ಸ್ಥಾವರ ಯೋಜನೆ</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.8481181,16.5002679 75.8442109,16.4965773 75.8437011,16.4965011 75.8438137,16.4958119 75.8387305,16.4912728 75.8374853,16.4898976 75.8374435,16.4899445 75.8366653,16.4890761 75.8313018,16.4887795 75.830121,16.488567 75.8288968,16.4885734 75.827471,16.4890145 75.8270311,16.4896472 75.8265328,16.4915528 75.8260924,16.4939679 75.825593,16.4975037 75.8255237,16.4997442 75.8251172,16.5012829 75.824695,16.5022911 75.8248217,16.5023269 75.8246367,16.5032236 75.8245661,16.5033618 75.823889,16.5070098 75.8237351,16.5070023 75.8235282,16.5088094 75.8223282,16.5089336 75.8224901,16.5113887 75.8230427,16.5114299 75.8228066,16.5131631 75.8222256,16.5144139 75.8225277,16.5144746 75.8220258,16.517071 75.8216694,16.5169845 75.8214494,16.5179051 75.8220449,16.5179976 75.821484,16.5198305 75.8223453,16.520492 75.8224526,16.5216286 75.8249685,16.5220812 75.8251331,16.5211673 75.8266476,16.5214331 75.8266569,16.5213566 75.8301162,16.5218509 75.8300111,16.5201166 75.8304219,16.517896 75.831112,16.5170382 75.8321293,16.5110506 75.835723,16.511599 75.8367226,16.5124475 75.8443729,16.5138575 75.8443609,16.5129111 75.8459547,16.5125868 75.8480797,16.5096432 75.8504979,16.5082417 75.8511972,16.5071686 75.8526456,16.5064177 75.852828,16.505389 75.8481181,16.5002679</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1227460024</SimpleData>
+		<SimpleData name="osm_id">1227460024</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="name:en">UltraTech Cement Captive Power Plant (Unit 4)</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.1857534,17.1370701 77.1861317,17.1338019 77.1874588,17.133942 77.1870812,17.1372103 77.1857534,17.1370701</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<name>Udupi Power Corporation Limited</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w256638645</SimpleData>
+		<SimpleData name="osm_id">256638645</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="alt_name">Nagarjuna Power Corporation Limited</SimpleData>
+		<SimpleData name="operator">Adani Power</SimpleData>
+		<SimpleData name="wikidata">Q11990788</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:output:electricity">1200 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="name:kn">ನಾಗಾರ್ಜುನ ವಿದ್ಯುತ್‌ ಸ್ಥಾವರ</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.8083415,13.1650084 74.8083265,13.1657008 74.8084996,13.1656732 74.8086672,13.1659769 74.808676,13.1659929 74.8089415,13.1660849 74.8096671,13.165939 74.8096441,13.1650575 74.8099946,13.1650804 74.8100051,13.1647513 74.8113596,13.1648329 74.8114067,13.1637947 74.8112417,13.1637845 74.8112574,13.1634171 74.810736,13.1633891 74.8079381,13.163259 74.8080114,13.1619605 74.8081791,13.1619579 74.8082996,13.1600625 74.8078778,13.159287 74.806657,13.1592181 74.8068063,13.1565701 74.8062142,13.156537 74.806243,13.1561365 74.8058448,13.155787 74.8055914,13.1552554 74.805232,13.1546277 74.8043169,13.1545699 74.8040786,13.1542988 74.8037299,13.1541946 74.8025906,13.1542217 74.8014902,13.1541946 74.8014958,13.1541585 74.8000823,13.1540882 74.7980538,13.15398 74.7980038,13.1548061 74.7970442,13.1547484 74.7958419,13.1546618 74.7958308,13.1547214 74.7949787,13.1546672 74.7945698,13.154627 74.7944938,13.1557851 74.7946161,13.1563768 74.7953552,13.1577099 74.795483,13.1579372 74.7961425,13.1579786 74.7960777,13.1594578 74.7962944,13.1594596 74.7962389,13.160385 74.7969834,13.1625847 74.7973761,13.1626009 74.797378,13.162545 74.7979374,13.1625558 74.7983283,13.1624494 74.7983061,13.1624079 74.7986618,13.1622942 74.7987266,13.1622546 74.7987229,13.1622185 74.7990638,13.1621229 74.7997158,13.1624025 74.7998678,13.1624584 74.8018143,13.1628742 74.8021336,13.1635235 74.8036231,13.1636353 74.8037734,13.1643452 74.8043078,13.1643728 74.804277,13.16494 74.805702,13.1650134 74.8057124,13.1649563 74.8069994,13.1649627 74.8083415,13.1650084</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w429778835</SimpleData>
+		<SimpleData name="osm_id">429778835</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="name:en">Nagjhari hydroelectric power station</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="wikidata">Q19382498</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">900 MW</SimpleData>
+		<SimpleData name="plant:method">run-of-the-river</SimpleData>
+		<SimpleData name="name:kn">ನಾಗಝರಿ ವಿದ್ಯುದಾಗಾರ</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.6476302,15.0786343 74.6476714,15.0789667 74.6490149,15.0788114 74.6489736,15.078479 74.6476302,15.0786343</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1228760183</SimpleData>
+		<SimpleData name="osm_id">1228760183</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="name:en">ACC Wadi Cement Captive Power Plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.9749561,17.0565861 76.9760233,17.0528484 76.9767846,17.0527116 76.9782117,17.0529151 76.9799345,17.0534683 76.9800659,17.0536981 76.9787235,17.0577145 76.9749561,17.0565861</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.22">
+	<name>Sharavati Generating Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w255614923</SimpleData>
+		<SimpleData name="osm_id">255614923</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="wikidata">Q12000161</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">1035 MW</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="name:kn">ಶರಾವತಿ ವಿದ್ಯುತ್ ಸ್ಥಾವರ</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.7664749,14.2350884 74.7684942,14.2354734 74.76858,14.2350504 74.7665607,14.2346654 74.7664749,14.2350884</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.23">
+	<name>Kadra Dam Power House</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w255614915</SimpleData>
+		<SimpleData name="osm_id">255614915</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="wikidata">Q56366959</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">150 MW</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.3536888,14.8971522 74.3541418,14.8970008 74.3537517,14.8959111 74.3532987,14.8960625 74.3534171,14.8963931 74.3536607,14.8970763 74.3536888,14.8971522</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.24">
+	<name>Bhadra Left Bank Canal Powerhouse</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w256638747</SimpleData>
+		<SimpleData name="osm_id">256638747</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">26 MW</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.6364256,13.7024322 75.6367851,13.7020241 75.6368366,13.7020669 75.6369112,13.7019823 75.6367418,13.7018414 75.6363077,13.7023342 75.6364256,13.7024322</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.25">
+	<name>Kodasalli Dam Power House</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w255614926</SimpleData>
+		<SimpleData name="osm_id">255614926</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="wikidata">Q56366954</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">120 MW</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="name:kn">ಕೊಡಸಳ್ಳಿ ಅಣೆಕಟ್ಟು</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.5342719,14.9206073 74.5343493,14.9203034 74.5343696,14.920224 74.5344222,14.9200173 74.5345282,14.9196013 74.5349034,14.9196905 74.5346471,14.9206965 74.5342719,14.9206073</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.26">
+	<name>Linganamakki Power House</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w255614930</SimpleData>
+		<SimpleData name="osm_id">255614930</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="wikidata">Q3536409</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">55 MW</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="name:kn">ಲಿಂಗನಮಕ್ಕಿ ವಿದ್ಯುತ್ ಸ್ಥಾವರ</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.8383796,14.1702247 74.8388149,14.1706998 74.8390267,14.1705174 74.8385914,14.1700423 74.8383796,14.1702247</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.27">
+	<name>Gerusoppa Dam Powerhouse</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w255614914</SimpleData>
+		<SimpleData name="osm_id">255614914</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="wikidata">Q11971917</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">240 MW</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.6747578,14.2511088 74.6751831,14.2512346 74.6748231,14.2523782 74.6743978,14.2522525 74.6747578,14.2511088</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.28">
+	<name>Barapole Hydro Electric Project 15 MW</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w955119390</SimpleData>
+		<SimpleData name="osm_id">955119390</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">15 MW</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.7615367,12.0828276 75.7614993,12.0826844 75.7619898,12.0827377 75.7619966,12.0828576 75.7615367,12.0828276</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w256638738</SimpleData>
+		<SimpleData name="osm_id">256638738</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.976436,13.6879416 74.9767271,13.6875096 74.9765361,13.6873881 74.9763177,13.6877123 74.9763883,13.6877573 74.9763157,13.6878651 74.976436,13.6879416</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1218347786</SimpleData>
+		<SimpleData name="osm_id">1218347786</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="name:en">Ugar Power Station</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.8211276,16.6521846 74.8209771,16.651903 74.8209441,16.6512115 74.8203843,16.6512401 74.8203583,16.6509756 74.8199603,16.6509295 74.8198859,16.6504218 74.8198753,16.6502483 74.8200486,16.6501404 74.8216658,16.6499627 74.8216703,16.6501161 74.821995,16.6502669 74.8219172,16.6513725 74.8215791,16.6522889 74.8211276,16.6521846</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.31">
+	<name>Supa Dam Powerhouse</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w251093125</SimpleData>
+		<SimpleData name="osm_id">251093125</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="alt_name">Kalinadi Supa Hydro Power Project</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="wikidata">Q7641875</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">100 MW</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="name:kn">ಸೂಪ ಅಣೆಕಟ್ಟು</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.5276955,15.2754882 74.5275443,15.2761208 74.5277734,15.2761718 74.5279246,15.2755391 74.5276955,15.2754882</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1212902227</SimpleData>
+		<SimpleData name="osm_id">1212902227</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="name:en">Dandeli West Coast Paper Mill Power Station</SimpleData>
+		<SimpleData name="plant:source">biomass</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.6289783,15.2531874 74.6298399,15.2523135 74.6303763,15.2528058 74.6295149,15.2536798 74.6289783,15.2531874</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1215191948</SimpleData>
+		<SimpleData name="osm_id">1215191948</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="name:en">Vasavadatta Cement Factory Captive Power Station</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.292868,17.1643849 77.2946803,17.1629658 77.2959698,17.1645819 77.2944528,17.1657229 77.2938954,17.1655655 77.292868,17.1643849</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.34">
+	<name>Danapuram BMM Captive Power Plants</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">r16053036</SimpleData>
+		<SimpleData name="osm_id">16053036</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:output:electricity">235 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3761093,15.1727918 76.3765215,15.1699561 76.3767505,15.1698494 76.3778346,15.1699958 76.377799,15.1702412 76.3783116,15.1703106 76.3781245,15.1715985 76.3772181,15.1714759 76.3770091,15.1729137 76.3761093,15.1727918</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3884956,15.1758319 76.3887981,15.1748573 76.3902742,15.175284 76.390387,15.1749208 76.3917913,15.175327 76.3913759,15.1766649 76.3884956,15.1758319</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.35">
+	<name>KPCL Bellary Thermal Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">r19280842</SimpleData>
+		<SimpleData name="osm_id">19280842</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="operator:wikidata">Q6372867</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="wikidata">Q15198264</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:output:electricity">1700 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="name:kn">ಬಳ್ಳಾರಿ ಶಾಖೋತ್ಪನ್ನ ವಿದ್ಯುತ್ ಸ್ಥಾವರದ</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7377347,15.2060111 76.7353595,15.206931 76.7348335,15.2070541 76.7346804,15.2072141 76.732895,15.2079586 76.7311511,15.2089369 76.7306792,15.2092754 76.7286994,15.2102814 76.7272774,15.2110413 76.7249596,15.212318 76.7231455,15.213404 76.7221221,15.2114689 76.7216471,15.2104998 76.7212231,15.2101091 76.720968,15.209743 76.7200689,15.2090938 76.7192464,15.208697 76.7171071,15.2086601 76.716935,15.2086293 76.7166671,15.2089954 76.7152739,15.2097399 76.7145534,15.2101706 76.7139157,15.2106813 76.7135172,15.2111151 76.7118147,15.2131979 76.7114481,15.2119981 76.7089613,15.2124318 76.7093821,15.213764 76.7072492,15.21413 76.7067838,15.2123395 76.7087509,15.211672 76.7081419,15.2096784 76.7085118,15.2095307 76.7090123,15.2105798 76.7110304,15.210346 76.7104374,15.2079832 76.7101186,15.206811 76.710922,15.2066757 76.7106733,15.204239 76.7118498,15.2041344 76.711464,15.2031038 76.7114417,15.2018208 76.7093247,15.1997041 76.710007,15.1985257 76.710769,15.1969381 76.7117541,15.1949906 76.7119805,15.1927937 76.712752,15.1895015 76.7132367,15.1895231 76.7133961,15.1887785 76.7131952,15.1885385 76.7132239,15.1880216 76.7136766,15.1880616 76.7136033,15.1877601 76.7139636,15.1877293 76.7140241,15.1874954 76.7141007,15.1874524 76.7142473,15.187477 76.7143621,15.1864339 76.714039,15.1855267 76.7187516,15.1843187 76.7196689,15.18424 76.7204125,15.1844294 76.7215903,15.1848332 76.7222947,15.185126 76.7236238,15.1864832 76.7244686,15.1868801 76.7253677,15.1872247 76.7292551,15.1878758 76.7328006,15.1887734 76.7370357,15.190192 76.7355731,15.1942983 76.7355859,15.1964982 76.7357835,15.1978673 76.7362076,15.2000025 76.7363829,15.2024085 76.7371321,15.2023931 76.7376072,15.205202 76.7377347,15.2060111</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.36">
+	<name>Kaiga Atomic Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w152627181</SimpleData>
+		<SimpleData name="osm_id">152627181</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="name:fr">Centrale nucléaire de Kaiga</SimpleData>
+		<SimpleData name="wikidata">Q1739416</SimpleData>
+		<SimpleData name="plant:source">nuclear</SimpleData>
+		<SimpleData name="plant:output:electricity">880 MW</SimpleData>
+		<SimpleData name="plant:method">fission</SimpleData>
+		<SimpleData name="name:kn">ಕೈಗ ಪರಮಾಣು ವಿದ್ಯುತ್‌ ಸ್ಥಾವರ</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>74.4336233,14.8629689 74.4336246,14.8622248 74.4336249,14.8620745 74.4349123,14.8620019 74.4349231,14.8624893 74.4363929,14.8625204 74.436468,14.8629144 74.4376217,14.862889 74.4376217,14.8601513 74.4395868,14.8600942 74.4396225,14.86283 74.4390561,14.8630533 74.4390429,14.8637337 74.4411994,14.8636818 74.4419075,14.8630078 74.4429053,14.8630389 74.4430126,14.8666787 74.4426156,14.8670623 74.441929,14.8674149 74.4390215,14.8697066 74.4388069,14.8700695 74.4386352,14.8710857 74.4385065,14.8713242 74.4381203,14.8718738 74.4378091,14.8720605 74.4374873,14.8721331 74.4370474,14.872102 74.4369616,14.8717805 74.436747,14.8701525 74.4362534,14.8701318 74.4361569,14.8688874 74.4362964,14.8682963 74.4353844,14.8675808 74.4352235,14.8670105 74.4350947,14.8667824 74.4341077,14.8662846 74.4337,14.8658698 74.4336463,14.8653202 74.4337214,14.8643973 74.4342686,14.8644077 74.4347085,14.8641692 74.434687,14.8638892 74.4344188,14.86363 74.4339575,14.8634952 74.4337107,14.8635366 74.4336233,14.8629689</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.37">
+	<name>Yelahanka Combined Cycle Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w487587784</SimpleData>
+		<SimpleData name="osm_id">487587784</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="alt_name">Yelahanka Raichur power station</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="plant:source">gas</SimpleData>
+		<SimpleData name="plant:output:electricity">370 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5822353,13.1137314 77.5821903,13.1151903 77.5814259,13.1151435 77.5814062,13.115481 77.5791096,13.1149643 77.5779283,13.1177345 77.5812354,13.1190864 77.5826056,13.1191162 77.5829967,13.1181838 77.5836442,13.1184784 77.5859011,13.1149211 77.5853619,13.1145878 77.5846673,13.1141584 77.5831331,13.1138449 77.5822353,13.1137314</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.38">
+	<description>614070</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w984818611</SimpleData>
+		<SimpleData name="osm_id">984818611</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="last_check">20.3.24</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.730228,14.4936801 76.7317172,14.4956927 76.7314641,14.4958964 76.7322147,14.497016 76.7335343,14.4959665 76.7342713,14.4953758 76.7360151,14.4973344 76.7363795,14.4973784 76.7367377,14.4970461 76.7371211,14.4965149 76.7385929,14.4973372 76.7387357,14.4974754 76.7386142,14.4976537 76.7379353,14.4989453 76.7376121,14.4994037 76.7373591,14.4991114 76.7361127,14.497438 76.7360454,14.49745 76.7357835,14.4976504 76.7349607,14.4982347 76.7348484,14.4984254 76.732674,14.5002022 76.7324446,14.5003229 76.7314871,14.501163 76.7303693,14.4998855 76.7287391,14.5010827 76.7298996,14.502528 76.7270565,14.5047819 76.7240861,14.5057911 76.7227884,14.5060931 76.7224552,14.506184 76.7224214,14.5061088 76.7226769,14.5059585 76.7218451,14.504365 76.7242515,14.5031086 76.7244068,14.5035124 76.7255223,14.5025383 76.7234409,14.4985082 76.7253291,14.4969812 76.7256939,14.4973136 76.7281186,14.4955374 76.7276573,14.495018 76.7291311,14.4938383 76.7294168,14.4942494 76.730228,14.4936801</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.39">
+	<description>32010</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w984818656</SimpleData>
+		<SimpleData name="osm_id">984818656</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="last_check">20.3.24</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7609489,14.5542906 76.7636901,14.5535896 76.7630625,14.5515283 76.7603373,14.5529043 76.7609489,14.5542906</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.40">
+	<name>Vedanta Energy Solar pvt ltd</name>
+	<description>36800</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w984818610</SimpleData>
+		<SimpleData name="osm_id">984818610</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="last_check">20.3.24</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.4581774,14.5577542 76.4598905,14.5575152 76.4597209,14.5556701 76.4588693,14.5556809 76.4588019,14.5549065 76.4575989,14.5549339 76.4578956,14.5563555 76.4580764,14.5571303 76.45811,14.5571496 76.4581774,14.5577542</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.41">
+	<name>Jindal Vijayanagara Solar Plant</name>
+	<description>2324000</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">r17432765</SimpleData>
+		<SimpleData name="osm_id">17432765</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="name:kn">ಜಿಂದಾಲ್ ಸೌರ ಶಕ್ತಿ</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7087391,15.0381823 76.7087847,15.037344 76.7088712,15.036205 76.7095273,15.0362187 76.7095592,15.0385514 76.7087391,15.0381823</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.6988754,15.0230564 76.6993492,15.0239312 76.6993857,15.0243002 76.6992763,15.024897 76.6990667,15.0250884 76.6982467,15.0244095 76.6982649,15.0240678 76.6984745,15.0233799 76.698602,15.0231202 76.6988754,15.0230564</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.6887793,15.0338314 76.6889479,15.0360046 76.6891164,15.0375582 76.6890891,15.0389933 76.6891346,15.0396858 76.6904832,15.0400275 76.6905288,15.0391528 76.6909981,15.0389705 76.6913625,15.0393259 76.6916678,15.0387427 76.6919594,15.0376538 76.6913033,15.0375217 76.690465,15.0377222 76.6904103,15.0348975 76.6902964,15.0341867 76.69026,15.0336309 76.689654,15.0336673 76.6887793,15.0338314</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.6926245,15.0360137 76.6919821,15.0379682 76.6915584,15.0392986 76.6914901,15.0403647 76.6912987,15.0416176 76.691563,15.0418089 76.6920004,15.042301 76.6922145,15.0423556 76.692743,15.0424149 76.6929116,15.0426882 76.6929298,15.0428887 76.6927476,15.0436678 76.6925425,15.0446245 76.6925653,15.0450209 76.6929344,15.045276 76.6937772,15.0455585 76.6944105,15.0459275 76.694939,15.045358 76.695185,15.0449981 76.6950483,15.0445106 76.6947157,15.0435174 76.6945654,15.0426427 76.6945882,15.0420732 76.6947385,15.0417132 76.695021,15.0414399 76.6955859,15.0412394 76.6957044,15.0409205 76.6955723,15.0405469 76.6954538,15.0402462 76.6954857,15.0400366 76.6961053,15.0399683 76.6965381,15.0400822 76.6971122,15.0415583 76.6975131,15.0424194 76.6987524,15.0432349 76.6991351,15.0432349 76.7000189,15.0429525 76.7002923,15.042629 76.7003925,15.0423647 76.7005338,15.0422508 76.7003333,15.0417269 76.6997091,15.0420185 76.6999141,15.0415447 76.7000508,15.0411027 76.6999096,15.0408066 76.6997091,15.0409023 76.6995178,15.0408749 76.6994677,15.040802 76.699536,15.0405423 76.6982831,15.0405742 76.6983469,15.0397086 76.6998914,15.0397496 76.7001465,15.0398726 76.7004882,15.0397587 76.7008618,15.0399136 76.7014769,15.040023 76.7017183,15.0398316 76.7018687,15.03954 76.7024427,15.03954 76.7027343,15.0395856 76.7026842,15.0400913 76.7033038,15.0398999 76.7041148,15.0398225 76.7047845,15.0399273 76.70519,15.0400731 76.7057504,15.0400731 76.7058597,15.0402963 76.7055909,15.0402644 76.7054224,15.040392 76.7053495,15.0407793 76.7053677,15.0412804 76.7055636,15.0415401 76.7061468,15.0414991 76.7070215,15.041326 76.7079555,15.0411939 76.7083473,15.0412667 76.7086434,15.041244 76.7087209,15.0407018 76.7088621,15.0404649 76.7091492,15.0402644 76.7096412,15.0403328 76.7100148,15.0403601 76.7103383,15.0405697 76.7105797,15.0405833 76.7108668,15.0408658 76.7111766,15.0408248 76.7118737,15.0406107 76.711737,15.0402052 76.7118008,15.0397359 76.7115775,15.0396494 76.710197,15.0392029 76.7094043,15.0387974 76.7084977,15.0383053 76.7065112,15.0373304 76.7056638,15.0369067 76.7053403,15.0365148 76.7046615,15.036041 76.7036273,15.0353849 76.7020919,15.0344373 76.7011625,15.0340364 76.6996089,15.0333621 76.6992034,15.0332527 76.6986795,15.033435 76.6981783,15.0334714 76.697905,15.0334714 76.6977637,15.0332482 76.697586,15.0331844 76.6968434,15.0331161 76.6964561,15.0330978 76.696201,15.0333256 76.6956634,15.03364 76.6946064,15.0336491 76.6933398,15.0334669 76.6926245,15.0360137</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.6925198,15.042998 76.6921644,15.0445835 76.6920733,15.0451849 76.6926655,15.0457772 76.692784,15.0461781 76.6927749,15.0473991 76.6923922,15.0478183 76.6918637,15.0479185 76.6909069,15.0476816 76.6904787,15.047472 76.6897497,15.0466519 76.6899775,15.0464241 76.6900686,15.0461508 76.690424,15.0459139 76.6907338,15.0454856 76.6909616,15.0448478 76.6910527,15.0445288 76.6903329,15.0442646 76.6898864,15.0437452 76.6898044,15.0434719 76.6899228,15.0430892 76.6905242,15.0424149 76.6914354,15.0435447 76.691563,15.0429707 76.6917225,15.0425424 76.6918227,15.0424331 76.6924879,15.0427748 76.6925198,15.042998</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.6895401,15.0474128 76.6890754,15.0474994 76.689039,15.0481691 76.6887975,15.0485609 76.6887884,15.0491259 76.6888886,15.0498867 76.6895492,15.0500052 76.6896677,15.0507205 76.6898089,15.0513947 76.6903557,15.0518458 76.6908933,15.0523743 76.6910345,15.0527069 76.6912805,15.0531944 76.691481,15.0537411 76.691645,15.0544746 76.6919229,15.0548983 76.6920414,15.0550487 76.6924514,15.0552263 76.6929252,15.0552765 76.6931348,15.0553904 76.6928569,15.0558961 76.6916906,15.0552446 76.690506,15.0549894 76.6899411,15.0550805 76.689572,15.0552263 76.6896267,15.0557412 76.6891164,15.0554769 76.6885697,15.0553357 76.6883647,15.0553493 76.6883055,15.0554177 76.6883191,15.0560555 76.6883647,15.0567617 76.68831,15.0574406 76.688187,15.0584201 76.6882007,15.0590397 76.6885196,15.0592812 76.6887155,15.0591946 76.6893488,15.0572264 76.689777,15.0572674 76.6897269,15.0581513 76.6895492,15.0587436 76.6893533,15.0591081 76.6892531,15.0596867 76.6893078,15.0600101 76.6891665,15.0603837 76.6891438,15.0610352 76.6890709,15.0615546 76.6895447,15.061345 76.6898089,15.0612904 76.6898408,15.0610079 76.689818,15.0606708 76.6897224,15.0602516 76.6897224,15.0598051 76.6897269,15.0594589 76.6905789,15.0597915 76.6911302,15.0598962 76.6910755,15.0602881 76.6920642,15.0601514 76.6924013,15.0598097 76.6924514,15.0594179 76.6932669,15.0594634 76.6930893,15.0610762 76.6941599,15.0610033 76.6950028,15.0610352 76.694734,15.0594452 76.6946064,15.0586023 76.6945517,15.0576547 76.6957272,15.0575818 76.6958411,15.0575385 76.6958912,15.0573585 76.6958183,15.0570032 76.6955768,15.0566524 76.695308,15.0564063 76.6948069,15.0562378 76.6945927,15.0560555 76.6942465,15.0560464 76.6938,15.0560555 76.6933717,15.0560464 76.6933808,15.0553904 76.6938319,15.0551808 76.6939868,15.0548072 76.6939959,15.0544381 76.6932806,15.054306 76.6929708,15.0542832 76.6927886,15.0530395 76.6942784,15.0529985 76.6966839,15.0529757 76.6966657,15.0524198 76.6957819,15.0523925 76.6950711,15.0523788 76.6950711,15.052192 76.6940825,15.0524062 76.693112,15.0524791 76.6926154,15.0524153 76.6924423,15.0507842 76.6924833,15.0505245 76.6936223,15.0505245 76.6936132,15.0502831 76.6932123,15.0501601 76.6927066,15.0500006 76.6921598,15.0498457 76.6918455,15.0497136 76.6917908,15.0493855 76.6918682,15.0483969 76.6917498,15.0483468 76.6917179,15.0481919 76.6911074,15.0481964 76.6906108,15.0482784 76.6903329,15.0483331 76.6901506,15.0482283 76.6900322,15.0478684 76.6898955,15.0476816 76.6897133,15.0475267 76.6895401,15.0474128</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7015771,15.0339771 76.7016773,15.0334441 76.7022742,15.0335762 76.7026569,15.0335307 76.7027343,15.0336673 76.7030851,15.0336263 76.7037503,15.0333758 76.7042378,15.0334623 76.7046934,15.033476 76.7054087,15.0332482 76.7055818,15.033189 76.7058871,15.0333302 76.7059281,15.0336856 76.7057549,15.0337448 76.7057413,15.0339771 76.7058825,15.0345056 76.7059372,15.0350569 76.7062014,15.0354487 76.7068848,15.0358087 76.7072356,15.0358679 76.7074361,15.035795 76.7076548,15.036729 76.7079145,15.0374762 76.7082106,15.0379272 76.7062014,15.0369568 76.705313,15.036205 76.7047344,15.0357995 76.703158,15.0348747 76.7015771,15.0339771</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7013242,15.0332983 76.7012445,15.0338427 76.7009074,15.0336628 76.7003538,15.0334669 76.6997706,15.0332573 76.6999005,15.0330523 76.7002877,15.0329475 76.7007502,15.032845 76.700937,15.0328222 76.7011488,15.0326992 76.7011876,15.0332482 76.7013242,15.0332983</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.6966475,15.0316217 76.698643,15.0327106 76.6988162,15.0328017 76.6989756,15.0315442 76.7001419,15.0316718 76.7008618,15.0316399 76.701003,15.0316536 76.7009484,15.0311479 76.6994996,15.031034 76.6986977,15.0308381 76.6987114,15.0305738 76.699946,15.0307811 76.7008299,15.0308267 76.7007114,15.0300385 76.7006591,15.0298722 76.7005042,15.0297856 76.700044,15.0295738 76.6995109,15.0292321 76.6992262,15.0291296 76.6994882,15.0280817 76.6998731,15.0280202 76.7005201,15.0280111 76.7009279,15.0279496 76.7009324,15.028125 76.7007479,15.0284188 76.7005907,15.0288152 76.7005998,15.029412 76.7014062,15.0293369 76.7015748,15.0291341 76.7016682,15.0288995 76.7018687,15.0284849 76.7018505,15.0283368 76.7018026,15.0281819 76.7016409,15.0281067 76.7013835,15.0280589 76.7012946,15.0279701 76.7013106,15.0274871 76.7012627,15.0272639 76.701281,15.027052 76.7012878,15.0269176 76.7012901,15.0268356 76.7007547,15.0266215 76.7005042,15.0265007 76.7003424,15.0263185 76.70029,15.0262821 76.7001032,15.0262889 76.6999734,15.0262092 76.699823,15.0261089 76.6998413,15.0259404 76.6998299,15.0258173 76.6996932,15.0257353 76.6993697,15.0255918 76.6990576,15.0254688 76.6990189,15.0253412 76.698987,15.0252068 76.6989118,15.0251134 76.6985496,15.0249563 76.6983947,15.0248424 76.6983241,15.0247444 76.6982444,15.0245736 76.6980621,15.0245166 76.6979186,15.0246738 76.6975086,15.0255258 76.6980075,15.0255918 76.6985701,15.0256305 76.6989893,15.0256875 76.6990827,15.0257877 76.6991579,15.0266192 76.699249,15.027093 76.6981601,15.0269358 76.6980052,15.0276397 76.6977797,15.0284074 76.6975906,15.0288858 76.6974562,15.0298426 76.6973719,15.0301752 76.6969892,15.0300931 76.69675,15.0300977 76.6966931,15.0301501 76.6967044,15.0305943 76.6975883,15.0306604 76.698176,15.0307219 76.698618,15.030813 76.6985496,15.031444 76.6980234,15.0313255 76.6974812,15.0313438 76.6966407,15.0313415 76.6966475,15.0316217</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.6951919,15.0276375 76.6949481,15.0286307 76.6950096,15.0287446 76.6949458,15.0289473 76.6950096,15.0290772 76.6951759,15.0291546 76.6952374,15.0292366 76.6955153,15.029289 76.6957409,15.0288266 76.6958593,15.0283231 76.69598,15.0277309 76.6955039,15.0276443 76.6951919,15.0276375</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.6958547,15.0266146 76.6951668,15.026519 76.6953991,15.025749 76.6948934,15.0257126 76.6942237,15.0256442 76.6937681,15.0255531 76.6931804,15.0255166 76.6927157,15.025339 76.693071,15.0247922 76.6933398,15.0244642 76.6936269,15.0242956 76.6940369,15.0239904 76.694529,15.0234847 76.6947294,15.0228969 76.6949527,15.0224596 76.6950757,15.0220495 76.6951896,15.0215666 76.6951713,15.0210108 76.6951713,15.0206326 76.6953536,15.0201679 76.6954675,15.0197852 76.6961646,15.0198763 76.696766,15.0200403 76.6971259,15.0204458 76.6972261,15.0210654 76.6972626,15.0218627 76.6960917,15.0219265 76.6962329,15.0225051 76.696201,15.0227056 76.695832,15.0228468 76.6958274,15.0233252 76.6958411,15.0236578 76.6979004,15.0241726 76.6977728,15.024528 76.6976225,15.0245827 76.6964242,15.0242865 76.6963058,15.0248241 76.6974949,15.0250656 76.6971395,15.0259631 76.6967796,15.0265099 76.6966612,15.0267604 76.6958547,15.0266146</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.6917726,15.0324646 76.6932943,15.0329202 76.6942328,15.0332482 76.6948069,15.0334942 76.6953171,15.0335033 76.6955358,15.0332026 76.6961372,15.0330022 76.6966566,15.0329019 76.6974585,15.0328381 76.6977136,15.0326195 76.6975746,15.032403 76.6970985,15.032132 76.6963149,15.0317629 76.6950848,15.0312845 76.6946611,15.0311934 76.6941144,15.0314121 76.6937408,15.0314486 76.6924059,15.0314258 76.6918682,15.0314486 76.6917726,15.0324646</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7107848,15.041244 76.7106253,15.0415674 76.7107574,15.0419228 76.7106936,15.0422964 76.7106208,15.0425607 76.7104522,15.0428568 76.7102882,15.0431757 76.7103109,15.0434081 76.710639,15.0439047 76.7105934,15.0441871 76.7104932,15.0446564 76.7104112,15.0450346 76.7117142,15.0448797 76.7116777,15.0454446 76.7124204,15.0453626 76.7127712,15.0453785 76.7129625,15.0452851 76.7132131,15.0451849 76.7134819,15.0452305 76.7137052,15.0452077 76.7139466,15.0448295 76.7137325,15.0442373 76.7136733,15.0441234 76.7133498,15.0441051 76.7130081,15.0436997 76.712712,15.0432896 76.7124842,15.0430664 76.7123247,15.0428841 76.7119602,15.0426062 76.7116459,15.0422235 76.7113953,15.0418864 76.7112176,15.0416221 76.7109032,15.0413806 76.7107848,15.041244</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7229083,15.0380639 76.7228536,15.0391345 76.7225301,15.0399865 76.7220335,15.0407565 76.7220472,15.0419228 76.7220928,15.0438318 76.7221338,15.0445881 76.7215779,15.0446519 76.7215324,15.0436222 76.7215187,15.0424012 76.7203159,15.0421871 76.719186,15.0420458 76.7187213,15.0421506 76.7176097,15.042301 76.7175413,15.0411118 76.717473,15.040556 76.7183477,15.0404831 76.718489,15.0404011 76.7190311,15.0404603 76.7194412,15.0404284 76.7200745,15.0404011 76.7202476,15.0403419 76.7203569,15.0401004 76.7208444,15.040105 76.7214686,15.0401004 76.7215324,15.0397086 76.7203979,15.0395674 76.7204936,15.0392393 76.7183614,15.0395309 76.7182794,15.0389386 76.7196052,15.0384921 76.7208923,15.0380138 76.7216235,15.0378315 76.7221611,15.0377928 76.7228946,15.0378907 76.7229083,15.0380639</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7186621,15.0355216 76.7179741,15.0368064 76.7181473,15.0371253 76.7193774,15.0383099 76.7206166,15.0378816 76.7205528,15.0361276 76.7205881,15.0352699 76.7206645,15.0346924 76.7200471,15.0346548 76.7196063,15.0346047 76.7192088,15.0347961 76.7188455,15.0353109 76.7186621,15.0355216</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7130719,15.0485108 76.7129489,15.0488206 76.7126482,15.0493218 76.7124477,15.0496179 76.7122154,15.0499687 76.7116777,15.050397 76.7114909,15.0507022 76.7109625,15.051094 76.7106526,15.0514312 76.7103064,15.0516544 76.7101879,15.051946 76.7103656,15.0528253 76.7117324,15.0532991 76.71227,15.0533174 76.7133316,15.053331 76.7125434,15.0517137 76.7134045,15.0513264 76.7136277,15.0523515 76.7151084,15.0514221 76.7154638,15.0512262 76.7168397,15.0512079 76.716662,15.0501601 76.7177236,15.0499778 76.7178557,15.050397 76.7186074,15.0502238 76.7187077,15.0499733 76.7182612,15.0492033 76.7180972,15.0487113 76.7172042,15.0490393 76.7168351,15.0492261 76.7165663,15.0492808 76.7162748,15.0492808 76.7160378,15.0484698 76.7150218,15.0486338 76.7141881,15.0488434 76.7138646,15.0487568 76.7136323,15.0485153 76.7130719,15.0485108</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7203569,15.0488798 76.7204891,15.0494858 76.7208262,15.0502785 76.7209355,15.0507364 76.7211656,15.0514745 76.7216394,15.051438 76.7214549,15.0507546 76.7218445,15.0506065 76.7216326,15.0499391 76.7215028,15.0491851 76.7213023,15.0485404 76.7213296,15.0481577 76.721398,15.0481053 76.7219493,15.048062 76.7220267,15.0480575 76.7227078,15.0479755 76.7233639,15.0479208 76.723193,15.0468 76.722881,15.0467704 76.7219652,15.0469344 76.7219743,15.0471622 76.7214868,15.0471964 76.721398,15.0473604 76.7212886,15.04757 76.7212431,15.0477067 76.7212203,15.047955 76.7211611,15.0480597 76.7207169,15.0481099 76.7205597,15.0484379 76.7204093,15.0486247 76.7203569,15.0488798</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7196553,15.0497956 76.7193819,15.049996 76.7192225,15.0507797 76.7206941,15.0505018 76.7202111,15.0492489 76.7201155,15.049504 76.7196553,15.0497956</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.42">
+	<name>MCR</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1467104343</SimpleData>
+		<SimpleData name="osm_id">1467104343</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.6860474,15.0768329 76.6860485,15.0767636 76.6861155,15.0767646 76.6861144,15.0768339 76.6860474,15.0768329</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.43">
+	<description>553690</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">r17365888</SimpleData>
+		<SimpleData name="osm_id">17365888</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="last_check">23.4.24</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.4300849,17.9768605 77.4300098,17.9739877 77.4318981,17.9724365 77.4321449,17.9721814 77.4328154,17.972559 77.4333841,17.9727529 77.4346447,17.9728856 77.4352616,17.9732581 77.4373752,17.9743449 77.4387002,17.9751868 77.4389148,17.9753144 77.4383461,17.9762023 77.4371123,17.9760747 77.4371123,17.9762482 77.4350846,17.976636 77.4349183,17.97584 77.4333572,17.975794 77.4333626,17.9764931 77.4300849,17.9768605</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>77.4263996,17.9828814 77.4263781,17.9848509 77.4290818,17.984856 77.4291247,17.984509 77.4294841,17.9844835 77.4294734,17.9842335 77.4298596,17.9842131 77.4310988,17.9850294 77.4312222,17.9859632 77.4311203,17.986356 77.4310183,17.987351 77.4311954,17.987402 77.4331266,17.9861724 77.432794,17.9859479 77.4328101,17.9857948 77.4338239,17.9855193 77.4334538,17.9828074 77.4346286,17.9827334 77.4346366,17.984185 77.4366295,17.9838865 77.4367583,17.9833942 77.4368763,17.9833763 77.4370748,17.9820548 77.4371713,17.981144 77.4360207,17.9810394 77.4344194,17.9812843 77.4340922,17.9801057 77.4339285,17.9794449 77.4338561,17.9793428 77.4337113,17.9789372 77.4317157,17.9790137 77.4319786,17.9805496 77.4311686,17.9806312 77.4311095,17.9799679 77.4303907,17.9802026 77.4303102,17.9804526 77.4292535,17.9801312 77.429055,17.9816364 77.4290818,17.9828048 77.4263996,17.9828814</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.44">
+	<description>606933</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">r17365917</SimpleData>
+		<SimpleData name="osm_id">17365917</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="last_check">23.4.24</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3794019,17.9189781 77.3790425,17.9212596 77.3788708,17.9212749 77.3782271,17.9225663 77.3783934,17.9226735 77.3771596,17.9254399 77.3790801,17.9251489 77.3796165,17.9250724 77.3797613,17.9248427 77.381655,17.9240107 77.3812312,17.9233421 77.3810273,17.9231175 77.3795253,17.922357 77.3799008,17.9215608 77.3816442,17.9221171 77.3807377,17.9191057 77.3794019,17.9189781</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3720983,17.9168624 77.3724014,17.9181869 77.3726602,17.9191924 77.3727876,17.9196569 77.3728922,17.920004 77.3749441,17.9190138 77.3751399,17.9204532 77.3762235,17.9204455 77.3766607,17.9205859 77.3781252,17.9205604 77.378608,17.9190648 77.378329,17.9188709 77.3783237,17.9171763 77.3767465,17.9172018 77.3769021,17.9165791 77.3765588,17.9155582 77.3754376,17.9155735 77.3747724,17.9162166 77.3736352,17.9166607 77.3728466,17.916773 77.3720983,17.9168624</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3680401,17.9252868 77.3662671,17.9249243 77.3650924,17.9250622 77.3645371,17.9255215 77.3645854,17.9264096 77.3651889,17.9265308 77.3653887,17.9268141 77.3652358,17.9270642 77.3656086,17.9276257 77.3651688,17.9276716 77.3653203,17.9280927 77.3650199,17.9286783 77.364521,17.9286452 77.3644513,17.9291913 77.3641119,17.9293686 77.3639578,17.9300641 77.3643762,17.9300641 77.3644298,17.929814 77.3648375,17.9297935 77.3648697,17.9294108 77.3661438,17.9292475 77.3662484,17.9283338 77.3671094,17.9284742 77.3669203,17.9301967 77.3686758,17.9303652 77.3687884,17.9290152 77.3689332,17.9281526 77.3666882,17.9280276 77.3667633,17.9276397 77.3664039,17.9275887 77.3666024,17.9267618 77.3674071,17.9268894 77.3681581,17.9253276 77.3686784,17.9253939 77.3688984,17.9243068 77.3686516,17.9242404 77.3688877,17.9231482 77.3701,17.9233472 77.3702663,17.9226939 77.3709798,17.922699 77.371307,17.9214638 77.3705506,17.9214434 77.3707277,17.9205757 77.3695207,17.9207952 77.3694134,17.9198917 77.3700088,17.9198407 77.3698747,17.9187573 77.368952,17.9189118 77.3690325,17.9195702 77.3678523,17.9196927 77.3678309,17.919269 77.367391,17.9193711 77.3674875,17.9211269 77.3670423,17.9220304 77.3670745,17.92275 77.3677987,17.9229389 77.3677558,17.924317 77.3682386,17.9244293 77.3680401,17.9252868</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3672998,17.9098362 77.3670208,17.9094916 77.3662564,17.9082793 77.3677289,17.9071359 77.3679811,17.9075596 77.3686784,17.9072584 77.3695528,17.9087541 77.369011,17.9098362 77.3720902,17.9098719 77.3720527,17.9110868 77.3698479,17.9112144 77.3689467,17.9110817 77.3680884,17.9106529 77.3675519,17.9101884 77.3672998,17.9098362</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.45">
+	<description>628870</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">r17365656</SimpleData>
+		<SimpleData name="osm_id">17365656</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="last_check">23.4.24</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.4546432,18.1893444 77.4541926,18.1889673 77.4527442,18.1866994 77.4534738,18.1867707 77.4544984,18.1865312 77.4545199,18.1858483 77.4555284,18.1857769 77.455523,18.1850685 77.4562901,18.185201 77.4565476,18.1852316 77.4569875,18.1851246 77.4583018,18.1854406 77.4597609,18.1858738 77.460764,18.1859298 77.4609303,18.1845742 77.4629474,18.1844671 77.4630171,18.1851857 77.4651307,18.1851093 77.4649376,18.1864446 77.4659032,18.1870867 77.4660587,18.1856648 77.4669707,18.1857515 77.4669224,18.1865618 77.4681026,18.1866382 77.4681723,18.1872294 77.466563,18.1876371 77.4670619,18.1884169 77.468006,18.1900732 77.4696153,18.1899407 77.4708331,18.190012 77.4707848,18.1898133 77.471568,18.189691 77.4715036,18.1898744 77.4721956,18.1899713 77.4722332,18.1893495 77.4728984,18.1891559 77.4743897,18.1890539 77.4746042,18.1904962 77.4754035,18.1903586 77.4756718,18.1913269 77.4768788,18.1912505 77.4772006,18.1909854 77.4783325,18.1910925 77.4783647,18.1927793 77.4763691,18.1929883 77.4760204,18.1931565 77.4757147,18.1932176 77.4754572,18.1928099 77.474041,18.1926621 77.4725175,18.1923411 77.4723941,18.1921168 77.4721366,18.1921117 77.4719918,18.192922 77.4715894,18.1927742 77.4710423,18.1927233 77.4708277,18.1916531 77.4693686,18.1915715 77.4691325,18.193396 77.4688321,18.1947414 77.4681294,18.1946344 77.4676466,18.1947618 77.4664289,18.1946395 77.4664825,18.1943133 77.4666542,18.193977 77.4669385,18.1937731 77.4673194,18.1935896 77.4674749,18.1933603 77.4677807,18.1929985 77.4679792,18.1927895 77.4677217,18.1925908 77.4677861,18.1917703 77.4671262,18.1920353 77.4670243,18.191332 77.4670887,18.1901904 77.4667025,18.1900273 77.4656403,18.1901547 77.4653989,18.1902516 77.4651951,18.1906083 77.4639666,18.1905726 77.4644977,18.1893393 77.4647444,18.1886972 77.464841,18.1876422 77.4636126,18.1875505 77.4633712,18.1873772 77.4631834,18.1874588 77.4627864,18.1887227 77.4620891,18.1887532 77.4618423,18.1884118 77.4617135,18.1882844 77.4617296,18.1875301 77.4613702,18.1873415 77.4612254,18.1872804 77.4607962,18.1870052 77.4596858,18.1870307 77.4585861,18.1868829 77.4581408,18.1868421 77.4579477,18.1872345 77.4583393,18.187576 77.4587363,18.18779 77.4588221,18.1879939 77.4592459,18.1881774 77.4593854,18.1885035 77.4580175,18.1886411 77.4580175,18.1897878 77.4571967,18.1896247 77.4567139,18.1888144 77.4561882,18.1876524 77.4560916,18.1874027 77.4549597,18.1874027 77.4547344,18.1884424 77.4560648,18.1893088 77.4556732,18.1897674 77.4546432,18.1893444</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>77.4528623,18.1906542 77.4511027,18.1904809 77.4503195,18.1904096 77.4493861,18.1903382 77.4489891,18.189798 77.4490535,18.1892782 77.4491608,18.1885137 77.4494183,18.1878002 77.4494183,18.187209 77.4494076,18.1868523 77.449547,18.1863019 77.4498099,18.1852673 77.4499065,18.184936 77.450121,18.1849054 77.4505395,18.1851603 77.4510759,18.1855731 77.4514675,18.1859196 77.4517947,18.1861796 77.4521381,18.1864395 77.4523634,18.1866077 77.4525887,18.1868625 77.4530178,18.1876218 77.4536884,18.1887431 77.4527603,18.1885137 77.4528623,18.1906542</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.46">
+	<name>Sir Sheshadri Iyer Hydro Electric Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">r11267931</SimpleData>
+		<SimpleData name="osm_id">11267931</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="alt_name">Shivanasamudram Hydro Electric Station</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">42 MW</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.1650835,12.3093482 77.1652755,12.3090542 77.1653805,12.3091196 77.1651885,12.3094137 77.1650835,12.3093482</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>77.1655656,12.3069985 77.1657703,12.3070643 77.165368,12.3082593 77.1651633,12.3081935 77.1655656,12.3069985</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.47">
+	<name>Diesel Captive Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w102654158</SimpleData>
+		<SimpleData name="osm_id">102654158</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">university</SimpleData>
+		<SimpleData name="plant:source">diesel</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5712849,13.016369 77.5714974,13.0163868 77.5715126,13.0162144 77.5713001,13.0161966 77.5712849,13.016369</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.48">
+	<description>838010</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">r17362207</SimpleData>
+		<SimpleData name="osm_id">17362207</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikipedia">en:Pavagada Solar Park</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="last_check">24.3.24</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.9504037,16.131113 76.9504583,16.1323977 76.9504765,16.133927 76.950193,16.1339244 76.9501774,16.1345121 76.9497431,16.134598 76.9498991,16.1362988 76.9480214,16.1367254 76.943184,16.133152 76.9434961,16.1324966 76.9441931,16.1318256 76.9464662,16.1316227 76.946513,16.131035 76.9474752,16.1309361 76.9483387,16.1307905 76.9498627,16.130624 76.9500344,16.1309829 76.9504037,16.131113</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.9362765,16.1318204 76.9356003,16.1330167 76.9351738,16.1336409 76.9351113,16.1347488 76.9346484,16.1358619 76.9327083,16.1359972 76.9319697,16.1360596 76.9320321,16.1367566 76.9310733,16.1362636 76.9299463,16.1354614 76.9300659,16.1341871 76.9300347,16.1323405 76.9300399,16.1298334 76.9300607,16.1288399 76.9310958,16.1288035 76.9311062,16.1297086 76.9333324,16.129745 76.9340138,16.1297138 76.9349813,16.1298126 76.936625,16.1301975 76.9364221,16.131165 76.9362765,16.1318204</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.9236005,16.1292457 76.9234497,16.133875 76.9234132,16.1342287 76.9221649,16.1342079 76.9212338,16.133927 76.9200583,16.1332612 76.9197046,16.1329543 76.9188308,16.1329335 76.9175044,16.1328919 76.915455,16.1329751 76.9153562,16.1323457 76.9150857,16.1323093 76.9148828,16.1302755 76.9151377,16.1302287 76.9152105,16.1282366 76.916693,16.1282054 76.9193665,16.1281638 76.919637,16.1281742 76.919663,16.1292561 76.9236005,16.1292457</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.49">
+	<name>Mani Dam Powerhouse</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w172289856</SimpleData>
+		<SimpleData name="osm_id">172289856</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Karnataka Power Corporation Limited</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">9 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.0464385,13.6765785 75.046474,13.6767541 75.0469076,13.6766713 75.0468721,13.6764958 75.0464385,13.6765785</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.50">
+	<name>Moyar Hydroelectric Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1036169314</SimpleData>
+		<SimpleData name="osm_id">1036169314</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="operator:wikidata">Q17074901</SimpleData>
+		<SimpleData name="operator">TANGEDCO</SimpleData>
+		<SimpleData name="wikidata">Q6927596</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">36 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.6921011,11.614111 76.6920784,11.6139103 76.6925011,11.6138643 76.6925239,11.614065 76.6921011,11.614111</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1074881572</SimpleData>
+		<SimpleData name="osm_id">1074881572</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0795744,13.0314424 77.0802793,13.0316731 77.0804649,13.0310263 77.079651,13.0307275 77.0795744,13.0314424</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.52">
+	<name>Kempuhole Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w186638787</SimpleData>
+		<SimpleData name="osm_id">186638787</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="name:kn">ಕಿರು ಜಲ ವಿದ್ಯುತ್</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.6696694,12.838439 75.6701699,12.8381717 75.6703123,12.8384253 75.6698118,12.8386925 75.6696694,12.838439</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

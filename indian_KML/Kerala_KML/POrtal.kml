@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="check_date" type="string"></SimpleField>
+	<SimpleField name="panoramax" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="resort" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="mobile" type="string"></SimpleField>
+	<SimpleField name="contact:facebook" type="string"></SimpleField>
+	<SimpleField name="voltage:secondary" type="string"></SimpleField>
+	<SimpleField name="wikimedia_commons" type="string"></SimpleField>
+	<SimpleField name="tower:construction" type="string"></SimpleField>
+	<SimpleField name="bridge:support" type="string"></SimpleField>
+	<SimpleField name="wheelchair" type="string"></SimpleField>
+	<SimpleField name="trolleybus" type="string"></SimpleField>
+	<SimpleField name="network" type="string"></SimpleField>
+	<SimpleField name="air_conditioning" type="string"></SimpleField>
+	<SimpleField name="utility" type="string"></SimpleField>
+	<SimpleField name="lamp_type" type="string"></SimpleField>
+	<SimpleField name="lamp_mount" type="string"></SimpleField>
+	<SimpleField name="support" type="string"></SimpleField>
+	<SimpleField name="mapillary" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="manufacturer" type="string"></SimpleField>
+	<SimpleField name="addr:full" type="string"></SimpleField>
+	<SimpleField name="short_name" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:abbr" type="string"></SimpleField>
+	<SimpleField name="branch" type="string"></SimpleField>
+	<SimpleField name="operator:type" type="string"></SimpleField>
+	<SimpleField name="internet_access:ssid" type="string"></SimpleField>
+	<SimpleField name="switch" type="string"></SimpleField>
+	<SimpleField name="shelter" type="string"></SimpleField>
+	<SimpleField name="windings:auto" type="string"></SimpleField>
+	<SimpleField name="surveillance:type" type="string"></SimpleField>
+	<SimpleField name="surveillance" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="camera:type" type="string"></SimpleField>
+	<SimpleField name="camera:mount" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="brand:wikipedia" type="string"></SimpleField>
+	<SimpleField name="brand:wikidata" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="devices" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="pole:type" type="string"></SimpleField>
+	<SimpleField name="feeder" type="string"></SimpleField>
+	<SimpleField name="capacity" type="string"></SimpleField>
+	<SimpleField name="public_transport" type="string"></SimpleField>
+	<SimpleField name="bus" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="rooms" type="string"></SimpleField>
+	<SimpleField name="phone" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="internet_access:fee" type="string"></SimpleField>
+	<SimpleField name="internet_access" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="email" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="power_supply" type="string"></SimpleField>
+	<SimpleField name="address" type="string"></SimpleField>
+	<SimpleField name="generator:place" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="generator:output:compressed_air" type="string"></SimpleField>
+	<SimpleField name="name:ml" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="entrance" type="string"></SimpleField>
+	<SimpleField name="triple_tower" type="string"></SimpleField>
+	<SimpleField name="design:incomplete" type="string"></SimpleField>
+	<SimpleField name="rotor:diameter" type="string"></SimpleField>
+	<SimpleField name="line_management" type="string"></SimpleField>
+	<SimpleField name="voltage-low" type="string"></SimpleField>
+	<SimpleField name="voltage-high" type="string"></SimpleField>
+	<SimpleField name="tower:structure" type="string"></SimpleField>
+	<SimpleField name="tower:design" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="survey:date" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="junction" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="operator:wikipedia" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13286223981</SimpleData>
+		<SimpleData name="osm_id">13286223981</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.3435235,11.9252798</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13289672210</SimpleData>
+		<SimpleData name="osm_id">13289672210</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7069346,9.3229869</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n11953882728</SimpleData>
+		<SimpleData name="osm_id">11953882728</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.2696082,9.8560893</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13289641829</SimpleData>
+		<SimpleData name="osm_id">13289641829</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7075971,9.3228942</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13290416292</SimpleData>
+		<SimpleData name="osm_id">13290416292</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.9712797,9.3272428</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n4698217241</SimpleData>
+		<SimpleData name="osm_id">4698217241</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.6725537,8.958738</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13285187998</SimpleData>
+		<SimpleData name="osm_id">13285187998</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>74.9123208,12.7183634</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13285187997</SimpleData>
+		<SimpleData name="osm_id">13285187997</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>74.9124268,12.7183268</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13290416514</SimpleData>
+		<SimpleData name="osm_id">13290416514</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.3218901,10.8874144</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n5306788823</SimpleData>
+		<SimpleData name="osm_id">5306788823</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.6723984,8.958658</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

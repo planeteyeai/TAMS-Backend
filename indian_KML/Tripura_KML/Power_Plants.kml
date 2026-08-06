@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="construction" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="name:bn" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>MONARCHAK</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w925614919</SimpleData>
+		<SimpleData name="osm_id">925614919</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.2734414,23.4399372 91.272345,23.439761 91.2720609,23.4394563 91.2718975,23.4392274 91.2716408,23.439285 91.2713801,23.4385501 91.2727483,23.4384937 91.2727913,23.4375225 91.2724352,23.4374974 91.2724432,23.4364342 91.2730654,23.4356967 91.2740807,23.4358066 91.274299,23.4372856 91.2754837,23.4372874 91.2754871,23.4383032 91.2758229,23.4383534 91.2757875,23.4392364 91.2744543,23.4392776 91.2744801,23.4405748 91.2738002,23.4406079 91.2736581,23.4411057 91.2724748,23.4411203 91.2721481,23.4409823 91.2721354,23.4406324 91.2725193,23.4405124 91.273455,23.4404457 91.2734414,23.4399372</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w438832955</SimpleData>
+		<SimpleData name="osm_id">438832955</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">gas</SimpleData>
+		<SimpleData name="plant:output:electricity">135 MW</SimpleData>
+		<SimpleData name="operator">North Eastern Electric Power Corporation</SimpleData>
+		<SimpleData name="name:en">Agartala gas turbine combined cycle power plant</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.3586811,23.8722651 91.3613311,23.8728488 91.3620553,23.8726771 91.3623557,23.8723289 91.3626561,23.872113 91.3626883,23.8717157 91.3624523,23.871181 91.3620231,23.866761 91.3588742,23.8672221 91.3580642,23.8676636 91.3575224,23.8684191 91.3575438,23.8693316 91.3578496,23.8699251 91.3579461,23.8702882 91.3578657,23.8708719 91.3581339,23.8717647 91.3586811,23.8722651</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<name>Dumbur Hydroelectric Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1311032672</SimpleData>
+		<SimpleData name="osm_id">1311032672</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.802261,23.4230148 91.8023827,23.4230939 91.8026909,23.4227829 91.8025692,23.4226925 91.802261,23.4230148</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

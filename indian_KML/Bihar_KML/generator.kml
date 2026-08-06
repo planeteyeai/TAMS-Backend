@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="catenary_mast:supporting" type="string"></SimpleField>
+	<SimpleField name="tensioning" type="string"></SimpleField>
+	<SimpleField name="guyed" type="string"></SimpleField>
+	<SimpleField name="construction" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="mapillary:map_feature" type="string"></SimpleField>
+	<SimpleField name="mapillary:image" type="string"></SimpleField>
+	<SimpleField name="religion" type="string"></SimpleField>
+	<SimpleField name="mobile" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="information" type="string"></SimpleField>
+	<SimpleField name="support" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="billboard" type="string"></SimpleField>
+	<SimpleField name="lamp_type" type="string"></SimpleField>
+	<SimpleField name="lamp_mount" type="string"></SimpleField>
+	<SimpleField name="direction" type="string"></SimpleField>
+	<SimpleField name="motor_vehicle" type="string"></SimpleField>
+	<SimpleField name="moped" type="string"></SimpleField>
+	<SimpleField name="mofa" type="string"></SimpleField>
+	<SimpleField name="addr:province" type="string"></SimpleField>
+	<SimpleField name="addr:municipality" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="devices" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="switch" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="addr:place" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="name_1" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="voltage:secondary" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="source:date" type="string"></SimpleField>
+	<SimpleField name="condition" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="communication" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="name:ne" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="voltage-low" type="string"></SimpleField>
+	<SimpleField name="voltage-high" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="compensator" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="tower" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="motorcycle" type="string"></SimpleField>
+	<SimpleField name="motorcar" type="string"></SimpleField>
+	<SimpleField name="horse" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="foot" type="string"></SimpleField>
+	<SimpleField name="bicycle" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6487971174</SimpleData>
+		<SimpleData name="osm_id">6487971174</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:electricity">6 MW</SimpleData>
+		<SimpleData name="generator:source">hydro</SimpleData>
+		<SimpleData name="operator">Bihar State Hydro Electric Power Corporation Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>84.1744691,24.9014276</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n10981624784</SimpleData>
+		<SimpleData name="osm_id">10981624784</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:type">steam_turbine</SimpleData>
+		<SimpleData name="generator:output:electricity">660 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.8830918,25.4625827</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6872442258</SimpleData>
+		<SimpleData name="osm_id">6872442258</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:electricity">210 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.2625911,25.2363258</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n11033536518</SimpleData>
+		<SimpleData name="osm_id">11033536518</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:type">steam_turbine</SimpleData>
+		<SimpleData name="generator:output:electricity">195 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.3046429,26.1955024</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6872442259</SimpleData>
+		<SimpleData name="osm_id">6872442259</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:electricity">210 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.2631865,25.2363243</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9569658568</SimpleData>
+		<SimpleData name="osm_id">9569658568</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:type">steam_turbine</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>84.0874565,24.7069055</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12595870781</SimpleData>
+		<SimpleData name="osm_id">12595870781</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="ref">south bihar power distribution limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.3968147,25.3362202</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7680713713</SimpleData>
+		<SimpleData name="osm_id">7680713713</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:type">steam_turbine</SimpleData>
+		<SimpleData name="generator:output:electricity">660 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>84.1574299,24.7772957</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9569658566</SimpleData>
+		<SimpleData name="osm_id">9569658566</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:type">steam_turbine</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>84.0893542,24.7068158</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9569658567</SimpleData>
+		<SimpleData name="osm_id">9569658567</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:type">steam_turbine</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>84.0884966,24.7068563</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12595859430</SimpleData>
+		<SimpleData name="osm_id">12595859430</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:source">electricity_network</SimpleData>
+		<SimpleData name="operator">pss chandi sbpdcl</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.396819,25.3364122</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12592682038</SimpleData>
+		<SimpleData name="osm_id">12592682038</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.4668874,25.7663482</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9569658565</SimpleData>
+		<SimpleData name="osm_id">9569658565</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:type">steam_turbine</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>84.0903425,24.7067691</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6873286667</SimpleData>
+		<SimpleData name="osm_id">6873286667</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:electricity">110 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0222518,25.4008035</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6873286668</SimpleData>
+		<SimpleData name="osm_id">6873286668</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0238075,25.3907237</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6872442264</SimpleData>
+		<SimpleData name="osm_id">6872442264</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.2688085,25.2365442</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6873286666</SimpleData>
+		<SimpleData name="osm_id">6873286666</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:electricity">110 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0228097,25.4007841</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6872442262</SimpleData>
+		<SimpleData name="osm_id">6872442262</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.2665769,25.2364763</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n10905614025</SimpleData>
+		<SimpleData name="osm_id">10905614025</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>84.0260858,24.9575819</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.20">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6872442263</SimpleData>
+		<SimpleData name="osm_id">6872442263</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:electricity">500 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.2677236,25.2365112</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.21">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6872442260</SimpleData>
+		<SimpleData name="osm_id">6872442260</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:electricity">210 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.2637713,25.2363228</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.22">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6872442261</SimpleData>
+		<SimpleData name="osm_id">6872442261</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:electricity">210 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.2644794,25.2363209</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.23">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n10981624783</SimpleData>
+		<SimpleData name="osm_id">10981624783</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:type">steam_turbine</SimpleData>
+		<SimpleData name="generator:output:electricity">660 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>83.8830709,25.4614253</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.24">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7680713711</SimpleData>
+		<SimpleData name="osm_id">7680713711</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="start_date">2022-06</SimpleData>
+		<SimpleData name="generator:type">steam_turbine</SimpleData>
+		<SimpleData name="generator:output:electricity">660 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>84.1566896,24.7749675</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.25">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7680713712</SimpleData>
+		<SimpleData name="osm_id">7680713712</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="start_date">2021</SimpleData>
+		<SimpleData name="generator:type">steam_turbine</SimpleData>
+		<SimpleData name="generator:output:electricity">660 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>84.1571081,24.7761852</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.26">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6873286669</SimpleData>
+		<SimpleData name="osm_id">6873286669</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:electricity">250 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0229599,25.3909564</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.27">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n11033536519</SimpleData>
+		<SimpleData name="osm_id">11033536519</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:type">steam_turbine</SimpleData>
+		<SimpleData name="generator:output:electricity">195 MW</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">coal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.3056246,26.1953725</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="reprojected" id="reprojected">
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>reprojected</name>
+  <Placemark id="reprojected.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.989</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1443562406</SimpleData>
+		<SimpleData name="osm_id">1443562406</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.4651413,23.7884467 79.4649677,23.7884357</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1900</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1453474349</SimpleData>
+		<SimpleData name="osm_id">1453474349</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0463059,26.44145 78.0464158,26.4415443 78.0466131,26.4417133 78.0466814,26.4417719</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.980</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1443566324</SimpleData>
+		<SimpleData name="osm_id">1443566324</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.8394084,24.7946763 78.8394821,24.7946573 78.839722,24.7945956 78.8399475,24.7945375</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1894</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1453474351</SimpleData>
+		<SimpleData name="osm_id">1453474351</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0466131,26.4417133 78.0468158,26.4415218</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.979</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1443566331</SimpleData>
+		<SimpleData name="osm_id">1443566331</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.839722,24.7945956 78.8396565,24.79439</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1893</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1453474350</SimpleData>
+		<SimpleData name="osm_id">1453474350</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0466156,26.4413571 78.0464158,26.4415443</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1240</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w230238110</SimpleData>
+		<SimpleData name="osm_id">230238110</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="circuits">1</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.9548953731078,25.3406484847329 78.9533981,25.3409273 78.9507652,25.3414585 78.9480856,25.3419458 78.9457283,25.3423744 78.9431886,25.34288 78.9412476739133,25.3432502146871</coordinates></LineString><LineString><coordinates>78.8522674536423,25.3678402069539 78.8514816,25.36809 78.8490113,25.3688804 78.8465076,25.3696816 78.8439549,25.3704627 78.8413897,25.3712908 78.839326,25.3719569 78.8374569,25.3725602 78.8351906,25.3732918 78.8326537,25.3741107 78.8302813,25.3748618 78.8276873,25.3756729 78.8254339,25.3763775 78.8228747,25.3771904 78.8203654,25.3780145 78.8180924,25.3787258</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.482</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1443476247</SimpleData>
+		<SimpleData name="osm_id">1443476247</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.7975845,22.5691547 77.7979005,22.5693433</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.972</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1443566332</SimpleData>
+		<SimpleData name="osm_id">1443566332</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.8394159,24.7944612 78.8394821,24.7946573</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.2378</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1354521930</SimpleData>
+		<SimpleData name="osm_id">1354521930</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.7030542,23.0753242 76.7030514,23.0755949</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.483</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1443476248</SimpleData>
+		<SimpleData name="osm_id">1443476248</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.7975956,22.5697925 77.797705,22.5696312 77.7979005,22.5693433 77.7979604,22.5692551</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.999</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1443562400</SimpleData>
+		<SimpleData name="osm_id">1443562400</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.4650982,23.7889133 79.4651152,23.7887297 79.4651413,23.7884467 79.4651626,23.7882162</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.2377</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1354521929</SimpleData>
+		<SimpleData name="osm_id">1354521929</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.7024405,23.0756066 76.702758,23.0756005 76.7030514,23.0755949 76.7030892,23.0755942</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.887</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1363196179</SimpleData>
+		<SimpleData name="osm_id">1363196179</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>80.7470659,24.2395064 80.7470276,24.2394027 80.7469609,24.2392224 80.7469104,24.2390857</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.884</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1363196184</SimpleData>
+		<SimpleData name="osm_id">1363196184</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>80.746853,24.2394558 80.7470276,24.2394027</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1151</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1476889241</SimpleData>
+		<SimpleData name="osm_id">1476889241</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>81.6383703,23.1629333 81.6384029,23.162831</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.885</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1363196185</SimpleData>
+		<SimpleData name="osm_id">1363196185</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>80.7469609,24.2392224 80.7467932,24.2392751</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1157</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1476889239</SimpleData>
+		<SimpleData name="osm_id">1476889239</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>81.6380812,23.1627634 81.6384029,23.162831 81.6385506,23.162862</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.2371</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1354521931</SimpleData>
+		<SimpleData name="osm_id">1354521931</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.702758,23.0756005 76.7027446,23.0753292</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1468</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w194040864</SimpleData>
+		<SimpleData name="osm_id">194040864</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="circuits">2</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.5390538,25.3560071 78.5388231,25.3539008 78.5382399,25.3508471 78.5379088,25.3483915 78.5372353,25.3433969 78.5368004,25.3399035 78.5363491,25.3364094 78.5359521,25.3333362 78.535563019795,25.3302218684354</coordinates></LineString><LineString><coordinates>78.5215945520839,25.3061369289503 78.5207623,25.3046678 78.5198351,25.3024644 78.5189307,25.3003155 78.5177566,25.2974415 78.5165715,25.2945402 78.5155023,25.2918879 78.5144009,25.2892334 78.5131921,25.286334 78.5108539,25.2842372 78.5100248634968,25.2835144567815</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1066</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1443568860</SimpleData>
+		<SimpleData name="osm_id">1443568860</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.8426382,23.8318762 78.8426006,23.831826 78.8424572,23.8316349 78.842134,23.831204</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1836</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w194040864</SimpleData>
+		<SimpleData name="osm_id">194040864</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="circuits">2</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.4300357870343,25.1698301516313 78.4283532,25.1675585 78.4263851,25.164902 78.4245426,25.1623989 78.4228493,25.1601446 78.4210233857089,25.157651510734</coordinates></LineString><LineString><coordinates>78.4202590720875,25.1566228161633 78.4190455,25.1549969 78.4171962,25.1525059 78.415435,25.1501132 78.413545,25.1475269 78.4115412,25.1448682 78.4096285,25.1422721 78.4076542,25.1395923 78.4061042,25.137633 78.4039897,25.1349528 78.4020827,25.1326012 78.400767723433,25.1308745187926</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.2703</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1453575134</SimpleData>
+		<SimpleData name="osm_id">1453575134</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.1152002,21.6631368 75.1153583,21.662952</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1062</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1443568864</SimpleData>
+		<SimpleData name="osm_id">1443568864</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.8429775,23.8312911 78.8424572,23.8316349</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1063</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1443568865</SimpleData>
+		<SimpleData name="osm_id">1443568865</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.8426006,23.831826 78.8431519,23.8315217</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.990</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1443562407</SimpleData>
+		<SimpleData name="osm_id">1443562407</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.4649188,23.7887178 79.4651152,23.7887297</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1833</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w194040885</SimpleData>
+		<SimpleData name="osm_id">194040885</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="circuits">2</SimpleData>
+		<SimpleData name="cables">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.3976833,25.1489086 78.3991789,25.1518291 78.4015877,25.1535114 78.4038231,25.1550944 78.4059782,25.1566384 78.4085548,25.158479 78.4110167,25.1615653 78.4103672,25.1637757 78.4098229,25.1657946 78.4075556,25.1668309 78.4061512,25.167446 78.4036499,25.1685741 78.400091,25.1677446 78.3965929,25.1670328 78.3937094,25.166383 78.3907682,25.1657676 78.3882655,25.1652211 78.3850431,25.1649612 78.3822215,25.1640389 78.3790031,25.1630426 78.3756427,25.1619687 78.3722747,25.1609092 78.3689701,25.1598647 78.3656546,25.1588552 78.3625607,25.1578873 78.359166,25.1586948 78.355744,25.1595659 78.3520136,25.1605006 78.348572,25.1613787 78.3453062,25.1622586 78.3423193,25.1629462 78.3389926,25.1637783 78.3357737,25.1645853 78.3323008,25.1655082 78.3295348,25.1646541 78.3270381,25.1639314 78.3246253,25.1631858 78.322559,25.1629035 78.3196084,25.1625003 78.3167091,25.162104 78.3143211,25.1617866 78.3116598,25.1613793 78.3089792,25.1610245 78.3062958,25.1606597 78.3039768,25.1583283 78.3024888,25.1568141 78.3002278,25.1545351 78.2977764,25.1520462 78.2954022,25.1496597 78.2929562,25.1472007 78.2912418,25.1454714 78.2887545,25.1429673 78.2863416,25.1405332 78.2833435,25.1390162 78.2799286,25.1372892 78.2769001,25.1357222 78.2738137,25.1341477 78.2707604,25.1325981 78.2674558,25.130901 78.2645461,25.1294239 78.2613934,25.1277993 78.2582959,25.1262247 78.2552299,25.1246625 78.2518646,25.1241451 78.248273,25.1236067 78.2450252,25.1221832 78.2422455,25.1209649 78.2394574,25.1197428 78.2372515,25.1186947 78.2351901,25.1193451 78.2322464,25.1202589 78.2294619,25.1211374 78.2266979,25.1220142 78.2234664,25.1230391 78.2205532,25.1239632 78.2174871,25.1249205 78.2148707,25.1257374 78.2117688,25.1266936 78.2088075,25.1276603 78.207078,25.1295469 78.2047374,25.1309514 78.2026083,25.1322289 78.2009686,25.1342548 78.1992812,25.1362703 78.1975957,25.1383066 78.1976282,25.1410365 78.1976397,25.1442299 78.1976626,25.1473022 78.1976874,25.1504263 78.1976817,25.1533791 78.1977048,25.156638 78.1977251,25.1594747 78.1984062,25.161567 78.198596,25.1640399 78.1986353,25.1662103 78.1986598,25.1695318 78.2001525,25.1729 78.1995519,25.1748768 78.1983997,25.1756422 78.1967376,25.1767471 78.1939707,25.1785886 78.1936002,25.1789644</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.2699</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="full_id">w1453575138</SimpleData>
+		<SimpleData name="osm_id">1453575138</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.1153261,21.6632201 75.1154796,21.6630428</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

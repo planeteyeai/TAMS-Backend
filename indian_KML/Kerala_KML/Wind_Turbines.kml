@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="check_date" type="string"></SimpleField>
+	<SimpleField name="panoramax" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="resort" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="mobile" type="string"></SimpleField>
+	<SimpleField name="contact:facebook" type="string"></SimpleField>
+	<SimpleField name="voltage:secondary" type="string"></SimpleField>
+	<SimpleField name="wikimedia_commons" type="string"></SimpleField>
+	<SimpleField name="tower:construction" type="string"></SimpleField>
+	<SimpleField name="bridge:support" type="string"></SimpleField>
+	<SimpleField name="wheelchair" type="string"></SimpleField>
+	<SimpleField name="trolleybus" type="string"></SimpleField>
+	<SimpleField name="network" type="string"></SimpleField>
+	<SimpleField name="air_conditioning" type="string"></SimpleField>
+	<SimpleField name="utility" type="string"></SimpleField>
+	<SimpleField name="lamp_type" type="string"></SimpleField>
+	<SimpleField name="lamp_mount" type="string"></SimpleField>
+	<SimpleField name="support" type="string"></SimpleField>
+	<SimpleField name="mapillary" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="manufacturer" type="string"></SimpleField>
+	<SimpleField name="addr:full" type="string"></SimpleField>
+	<SimpleField name="short_name" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:abbr" type="string"></SimpleField>
+	<SimpleField name="branch" type="string"></SimpleField>
+	<SimpleField name="operator:type" type="string"></SimpleField>
+	<SimpleField name="internet_access:ssid" type="string"></SimpleField>
+	<SimpleField name="switch" type="string"></SimpleField>
+	<SimpleField name="shelter" type="string"></SimpleField>
+	<SimpleField name="windings:auto" type="string"></SimpleField>
+	<SimpleField name="surveillance:type" type="string"></SimpleField>
+	<SimpleField name="surveillance" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="camera:type" type="string"></SimpleField>
+	<SimpleField name="camera:mount" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="brand:wikipedia" type="string"></SimpleField>
+	<SimpleField name="brand:wikidata" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="devices" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="pole:type" type="string"></SimpleField>
+	<SimpleField name="feeder" type="string"></SimpleField>
+	<SimpleField name="capacity" type="string"></SimpleField>
+	<SimpleField name="public_transport" type="string"></SimpleField>
+	<SimpleField name="bus" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="rooms" type="string"></SimpleField>
+	<SimpleField name="phone" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="internet_access:fee" type="string"></SimpleField>
+	<SimpleField name="internet_access" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="email" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="power_supply" type="string"></SimpleField>
+	<SimpleField name="address" type="string"></SimpleField>
+	<SimpleField name="generator:place" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="generator:output:compressed_air" type="string"></SimpleField>
+	<SimpleField name="name:ml" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="entrance" type="string"></SimpleField>
+	<SimpleField name="triple_tower" type="string"></SimpleField>
+	<SimpleField name="design:incomplete" type="string"></SimpleField>
+	<SimpleField name="rotor:diameter" type="string"></SimpleField>
+	<SimpleField name="line_management" type="string"></SimpleField>
+	<SimpleField name="voltage-low" type="string"></SimpleField>
+	<SimpleField name="voltage-high" type="string"></SimpleField>
+	<SimpleField name="tower:structure" type="string"></SimpleField>
+	<SimpleField name="tower:design" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="survey:date" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="junction" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="operator:wikipedia" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3739046069</SimpleData>
+		<SimpleData name="osm_id">3739046069</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="rotor:diameter">13</SimpleData>
+		<SimpleData name="generator:type">horizontal_axis</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">225 kW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7769521,10.7886299</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9096790593</SimpleData>
+		<SimpleData name="osm_id">9096790593</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7830717,10.7761023</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9096790592</SimpleData>
+		<SimpleData name="osm_id">9096790592</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7844129,10.7783788</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9096790595</SimpleData>
+		<SimpleData name="osm_id">9096790595</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7862743,10.7736175</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191706011</SimpleData>
+		<SimpleData name="osm_id">8191706011</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7168187,11.0733765</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9096790594</SimpleData>
+		<SimpleData name="osm_id">9096790594</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7853355,10.7755332</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191706010</SimpleData>
+		<SimpleData name="osm_id">8191706010</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7177083,11.0720314</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9096790589</SimpleData>
+		<SimpleData name="osm_id">9096790589</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7896271,10.7857354</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191847907</SimpleData>
+		<SimpleData name="osm_id">8191847907</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7212899,11.0776475</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9096790588</SimpleData>
+		<SimpleData name="osm_id">9096790588</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.8294686,10.7904411</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191847906</SimpleData>
+		<SimpleData name="osm_id">8191847906</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7188721,11.0764059</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9096790591</SimpleData>
+		<SimpleData name="osm_id">9096790591</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7863226,10.7811929</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9096790590</SimpleData>
+		<SimpleData name="osm_id">9096790590</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7880821,10.7835432</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191692371</SimpleData>
+		<SimpleData name="osm_id">8191692371</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7195577,11.0709019</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9096790587</SimpleData>
+		<SimpleData name="osm_id">9096790587</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.8220496,10.7947358</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9096790586</SimpleData>
+		<SimpleData name="osm_id">9096790586</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.8222535,10.791553</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3739046045</SimpleData>
+		<SimpleData name="osm_id">3739046045</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="rotor:diameter">13</SimpleData>
+		<SimpleData name="generator:type">horizontal_axis</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">225 kW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7733686,10.7850252</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3739046044</SimpleData>
+		<SimpleData name="osm_id">3739046044</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="rotor:diameter">13</SimpleData>
+		<SimpleData name="generator:type">horizontal_axis</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">225 kW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7746353,10.7848506</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3739046049</SimpleData>
+		<SimpleData name="osm_id">3739046049</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="rotor:diameter">13</SimpleData>
+		<SimpleData name="generator:type">horizontal_axis</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">225 kW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7770405,10.7854542</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.20">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6556942217</SimpleData>
+		<SimpleData name="osm_id">6556942217</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="operator">Ahalia Group</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">2.1 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.8205637,10.8011742</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.21">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3739046042</SimpleData>
+		<SimpleData name="osm_id">3739046042</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="rotor:diameter">13</SimpleData>
+		<SimpleData name="generator:type">horizontal_axis</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">225 kW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7763477,10.7846671</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.22">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3739046038</SimpleData>
+		<SimpleData name="osm_id">3739046038</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="rotor:diameter">13</SimpleData>
+		<SimpleData name="generator:type">horizontal_axis</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">225 kW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7754259,10.7840132</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.23">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191848777</SimpleData>
+		<SimpleData name="osm_id">8191848777</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.8696644,10.7870187</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.24">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8194785530</SimpleData>
+		<SimpleData name="osm_id">8194785530</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.8446857,10.7722855</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.25">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8194785529</SimpleData>
+		<SimpleData name="osm_id">8194785529</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.8598502,10.7792483</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.26">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9096790596</SimpleData>
+		<SimpleData name="osm_id">9096790596</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7892408,10.7717916</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.27">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191847913</SimpleData>
+		<SimpleData name="osm_id">8191847913</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7136706,11.0811096</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.28">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191847912</SimpleData>
+		<SimpleData name="osm_id">8191847912</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7193831,11.080086</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.29">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191848549</SimpleData>
+		<SimpleData name="osm_id">8191848549</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7173564,11.0942361</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.30">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191847914</SimpleData>
+		<SimpleData name="osm_id">8191847914</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7128535,11.0855262</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.31">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191847909</SimpleData>
+		<SimpleData name="osm_id">8191847909</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7161575,11.0756848</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.32">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3739046066</SimpleData>
+		<SimpleData name="osm_id">3739046066</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="rotor:diameter">13</SimpleData>
+		<SimpleData name="generator:type">horizontal_axis</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">225 kW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7769531,10.787558</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.33">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191847908</SimpleData>
+		<SimpleData name="osm_id">8191847908</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7204161,11.0789151</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.34">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191847911</SimpleData>
+		<SimpleData name="osm_id">8191847911</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7154187,11.0786423</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.35">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n5834203952</SimpleData>
+		<SimpleData name="osm_id">5834203952</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.1976501,9.8315346</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.36">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8191847910</SimpleData>
+		<SimpleData name="osm_id">8191847910</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7153223,11.0772206</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.37">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n5834203951</SimpleData>
+		<SimpleData name="osm_id">5834203951</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.198562,9.8306202</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.38">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n5834203953</SimpleData>
+		<SimpleData name="osm_id">5834203953</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.1984145,9.8326288</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.39">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3739046058</SimpleData>
+		<SimpleData name="osm_id">3739046058</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="rotor:diameter">13</SimpleData>
+		<SimpleData name="generator:type">horizontal_axis</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">225 kW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7768959,10.7865756</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.40">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3739046055</SimpleData>
+		<SimpleData name="osm_id">3739046055</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="rotor:diameter">13</SimpleData>
+		<SimpleData name="generator:type">horizontal_axis</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">225 kW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7738295,10.7860105</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

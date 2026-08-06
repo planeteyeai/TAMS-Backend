@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="locked" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="check_date" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7370624243</SimpleData>
+		<SimpleData name="osm_id">7370624243</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>74.1535745,15.2277779</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n5198050767</SimpleData>
+		<SimpleData name="osm_id">5198050767</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.953775,15.2241973</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n4865538882</SimpleData>
+		<SimpleData name="osm_id">4865538882</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.9577709,15.2840328</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n4933507466</SimpleData>
+		<SimpleData name="osm_id">4933507466</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.9573468,15.2846649</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<name>Power Generator</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n4781261744</SimpleData>
+		<SimpleData name="osm_id">4781261744</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.9586216,15.2840256</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

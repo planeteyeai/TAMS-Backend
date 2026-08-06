@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="generator:place" type="string"></SimpleField>
+	<SimpleField name="panoramax" type="string"></SimpleField>
+	<SimpleField name="wikimedia_commons" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="full_name" type="string"></SimpleField>
+	<SimpleField name="fence_type" type="string"></SimpleField>
+	<SimpleField name="generator:solar:tracking" type="string"></SimpleField>
+	<SimpleField name="wire" type="string"></SimpleField>
+	<SimpleField name="government" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="branch" type="string"></SimpleField>
+	<SimpleField name="postal_code" type="string"></SimpleField>
+	<SimpleField name="contact:phone" type="string"></SimpleField>
+	<SimpleField name="air_conditioning" type="string"></SimpleField>
+	<SimpleField name="covered" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="internet_access" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="district" type="string"></SimpleField>
+	<SimpleField name="voltage_1" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="devices" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="conductor" type="string"></SimpleField>
+	<SimpleField name="mapillary" type="string"></SimpleField>
+	<SimpleField name="capacity" type="string"></SimpleField>
+	<SimpleField name="power:source" type="string"></SimpleField>
+	<SimpleField name="operator:wikipedia" type="string"></SimpleField>
+	<SimpleField name="survey:date" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="phone" type="string"></SimpleField>
+	<SimpleField name="image" type="string"></SimpleField>
+	<SimpleField name="name:ta" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="source:barrier" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="addr:plot" type="string"></SimpleField>
+	<SimpleField name="official_name" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="name:ml" type="string"></SimpleField>
+	<SimpleField name="gas_insulated" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="name:kn" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w974689378</SimpleData>
+		<SimpleData name="osm_id">974689378</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0058292,11.6719141 78.0066714,11.6717197 78.0066016,11.6713125 78.0057648,11.6714491 78.0058292,11.6719141</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w974689375</SimpleData>
+		<SimpleData name="osm_id">974689375</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0017302,11.6717395 78.0056227,11.6710021 78.0054828,11.6702938 78.0051475,11.6703573 78.0050379,11.6698023 78.0046744,11.6698711 78.0045485,11.6692337 78.0012041,11.6698672 78.0013205,11.6704289 78.0016058,11.6713288 78.0017302,11.6717395</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w974689374</SimpleData>
+		<SimpleData name="osm_id">974689374</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0030074,11.6718235 78.0032297,11.6717777 78.0031953,11.6716178 78.002973,11.6716636 78.0030074,11.6718235</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w732227046</SimpleData>
+		<SimpleData name="osm_id">732227046</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.246372,13.0439042 79.2470593,13.0439766 79.2471084,13.0435349 79.2474192,13.0435677 79.247489,13.0429384 79.2471514,13.0429029 79.2472434,13.0420742 79.2445876,13.0417944 79.2443768,13.043694 79.246372,13.0439042</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w732227045</SimpleData>
+		<SimpleData name="osm_id">732227045</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.244201,13.0399179 79.2478422,13.0402746 79.2479817,13.0389238 79.2443404,13.0385671 79.244201,13.0399179</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1449372616</SimpleData>
+		<SimpleData name="osm_id">1449372616</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.332752,12.9226402 79.3326252,12.9226731 79.3326007,12.9225834 79.3327275,12.9225505 79.332752,12.9226402</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1449372615</SimpleData>
+		<SimpleData name="osm_id">1449372615</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+		<SimpleData name="wikimedia_commons">File:Power Substation 4 ranipet.jpg</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.3329147,12.9225451 79.3328025,12.92257 79.3328185,12.9226386 79.3329307,12.9226137 79.3329147,12.9225451</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w30787160</SimpleData>
+		<SimpleData name="osm_id">30787160</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.9741654,12.9793254 79.9727922,12.9816756 79.9748521,12.9828716 79.9762769,12.9804629 79.9750237,12.9796767 79.9749465,12.9797854 79.9741654,12.9793254</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w102565498</SimpleData>
+		<SimpleData name="osm_id">102565498</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>80.2708112,13.174841 80.271217,13.1765573 80.272677,13.1762409 80.2722712,13.1745245 80.2708112,13.174841</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1449372613</SimpleData>
+		<SimpleData name="osm_id">1449372613</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+		<SimpleData name="wikimedia_commons">File:Substation Ranipet 2.jpg</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.3327626,12.9223606 79.3327301,12.9222476 79.3328208,12.9222229 79.3328533,12.9223359 79.3327626,12.9223606</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w732227047</SimpleData>
+		<SimpleData name="osm_id">732227047</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.2460463,13.0468335 79.2423874,13.0464474 79.2427125,13.0435238 79.2443768,13.043694 79.246372,13.0439042 79.2462707,13.0448155 79.2460463,13.0468335</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w974689377</SimpleData>
+		<SimpleData name="osm_id">974689377</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0053123,11.6693522 78.0076973,11.6689279 78.0081437,11.6688451 78.0081543,11.6689017 78.0085891,11.6688618 78.0084202,11.6679056 78.005231,11.6685649 78.0053123,11.6693522</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w974689376</SimpleData>
+		<SimpleData name="osm_id">974689376</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">switchgear</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.0076973,11.6689279 78.0080139,11.6706348 78.005629,11.6710591 78.0056227,11.6710021 78.0054828,11.6702938 78.0053123,11.6693522 78.0076973,11.6689279</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

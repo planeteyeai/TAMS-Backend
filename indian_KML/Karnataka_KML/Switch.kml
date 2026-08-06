@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="locked" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="devices" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="node" type="string"></SimpleField>
+	<SimpleField name="horse" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="manufacturer" type="string"></SimpleField>
+	<SimpleField name="diameter" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="voltage-low" type="string"></SimpleField>
+	<SimpleField name="voltage-high" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="compensator" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="line_arrangement" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="line_management" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>NITK PowerHouse</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12620334768</SimpleData>
+		<SimpleData name="osm_id">12620334768</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>74.7957689,13.0069016</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<name>ICR-2</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13456437221</SimpleData>
+		<SimpleData name="osm_id">13456437221</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.6859849,15.0785555</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<name>ICR-1</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13456437219</SimpleData>
+		<SimpleData name="osm_id">13456437219</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">switch</SimpleData>
+		<SimpleData name="voltage">33000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.6859583,15.0768128</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

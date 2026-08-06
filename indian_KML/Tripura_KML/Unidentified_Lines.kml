@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="construction" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="name:bn" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w373836910</SimpleData>
+		<SimpleData name="osm_id">373836910</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.4439146,23.488477 91.443926,23.4917992 91.4432473,23.4936111 91.4422798,23.4971269</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w373836915</SimpleData>
+		<SimpleData name="osm_id">373836915</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.2657388,23.7082519 91.267704,23.7090387 91.2692685,23.7088547 91.2706986,23.7098078 91.2723549,23.7100193</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w413308910</SimpleData>
+		<SimpleData name="osm_id">413308910</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.2746223,23.7005134 91.2745982,23.7028343 91.2732396,23.7059079 91.272789,23.7069087 91.272211,23.7082189 91.2723549,23.7100193 91.2721346,23.7118657 91.2732678,23.7143031 91.272439,23.7152583 91.2726375,23.7165451 91.272785,23.7199168 91.2731002,23.7226155 91.2734568,23.7279083 91.2740886,23.7303649 91.2747268,23.732846 91.275282,23.7350045 91.2759884,23.738073 91.2755854,23.7399235 91.2755653,23.7418108</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w507037906</SimpleData>
+		<SimpleData name="osm_id">507037906</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.3087635,23.630937 91.3067746,23.6318683 91.3047791,23.6327726 91.3025568,23.6338083 91.3007973,23.6351795 91.2992282,23.6364081 91.2981949,23.6379831 91.2990854,23.6395287 91.3003487,23.6417425 91.3017207,23.6441455</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w507037907</SimpleData>
+		<SimpleData name="osm_id">507037907</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.3042017,23.6720251 91.299308,23.6740456 91.2971462,23.674968 91.2952914,23.6757344 91.2932422,23.6766022 91.2910334,23.677543 91.2886384,23.6785441 91.2861384,23.6795916 91.2833167,23.6823121 91.2821302,23.6844953 91.2808526,23.6868461 91.2795106,23.6892461 91.2779764,23.6921382 91.2770081,23.6939288</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w507037909</SimpleData>
+		<SimpleData name="osm_id">507037909</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.5088013,23.5301283 91.512095,23.5307849 91.515885,23.5315423</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w507037910</SimpleData>
+		<SimpleData name="osm_id">507037910</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.4995249,23.5228637 91.4970116,23.522116 91.4944394,23.5213364 91.4909579,23.5202961 91.4884044,23.5195288 91.4856283,23.5186877 91.4827477,23.5178047 91.4802934,23.5170571 91.4775093,23.5162332 91.4749827,23.5154978 91.4724211,23.5147501 91.469224,23.5138057 91.4668878,23.5131219 91.4641868,23.5122955 91.4621134,23.513636 91.4603458,23.5147157 91.4584938,23.5159024 91.4568442,23.515681 91.4540386,23.5153072 91.4511204,23.514926 91.4491329,23.5146702 91.446676,23.514407 91.4435163,23.5144513 91.440582,23.514498 91.4378756,23.5145718 91.4359498,23.514621 91.4339569,23.5146653 91.4318192,23.5146038 91.4293087,23.5145152 91.4279863,23.5127026 91.4267767,23.509975 91.4257842,23.5078499 91.4236881,23.5061343 91.4221217,23.5047471 91.4197694,23.5026121 91.417798,23.5007525 91.4163442,23.4993751 91.4143969,23.4975425 91.4126749,23.4959215 91.410328,23.4954418 91.4078979,23.4949622 91.4051648,23.4953311 91.4026569,23.4956854 91.400436,23.4953828 91.3970859,23.4949351</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1099937831</SimpleData>
+		<SimpleData name="osm_id">1099937831</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.3091996,23.722345 91.3085613,23.7218711 91.3074535,23.7220552 91.3065979,23.7227846 91.3042536,23.7223769 91.3027623,23.722124 91.3007534,23.7229319 91.2988168,23.7259841 91.2968534,23.7290731 91.2945789,23.7299669 91.2910598,23.7309147 91.2884903,23.7325303 91.2880987,23.7340281 91.2900674,23.7367437 91.2894291,23.7383544 91.2909955,23.74024 91.2918377,23.7423908 91.2909096,23.743476 91.2916338,23.746594 91.2916929,23.7492799 91.2921461,23.751352 91.2932029,23.7537628 91.2952656,23.7545042 91.2973765,23.7535492 91.2990206,23.7530729 91.2997811,23.7536167 91.3002826,23.753459</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1312743171</SimpleData>
+		<SimpleData name="osm_id">1312743171</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.9801998,24.0831317 91.9808516,24.0835357 91.9821149,24.083881 91.98414,24.0860187 91.9860551,24.0859036 91.9869268,24.0850613 91.9875276,24.0832076 91.9879675,24.0814592 91.989727,24.0796251 91.9920766,24.0788953 91.9943243,24.0785329 91.9963548,24.0759298 91.999332,24.0749233 92.0001489,24.0748484</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1312743408</SimpleData>
+		<SimpleData name="osm_id">1312743408</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>92.0097524,24.1367159 92.0094761,24.1358323 92.0092428,24.134628 92.0082933,24.1346623 92.0057398,24.1350099 92.0030791,24.1333283 92.0011237,24.1319428 91.9994527,24.128954 92.000142,24.1263446 92.0008555,24.1236984 91.9994929,24.1210619 91.9981894,24.1186334 91.9954106,24.1165354 91.9930932,24.1148609 91.9905961,24.1129587 91.9904137,24.1103636 91.9902045,24.1069875 91.9893005,24.1030555 91.9899684,24.1001125 91.9904941,24.0976347 91.9899362,24.0956196 91.9889921,24.0922603 91.988402,24.0901349 91.9872916,24.0863322 91.9855723,24.0843438 91.984199,24.0827399 91.9821739,24.0803646 91.980755,24.0787949 91.9783598,24.077093 91.9749078,24.0776905 91.9724295,24.0790031</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1382595549</SimpleData>
+		<SimpleData name="osm_id">1382595549</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.2263127,23.6640968 91.22563,23.6616831 91.2252371,23.6586613 91.2240086,23.6568752 91.2224704,23.654637 91.2208329,23.6522821 91.2189513,23.6509578 91.2163644,23.6492527 91.2137813,23.6476279 91.2110831,23.6445869 91.2109579,23.6417394 91.2111233,23.6388594 91.2109147,23.6371621 91.2080796,23.6359396 91.206968,23.6345227 91.205223,23.6322219 91.2034826,23.6300168 91.2019917,23.6281445 91.1998191,23.6258432 91.1984244,23.6250372</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1382595553</SimpleData>
+		<SimpleData name="osm_id">1382595553</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.2197875,23.5434543 91.2216053,23.5350598 91.2230724,23.533971 91.2247307,23.5327249 91.2255166,23.530292 91.2259973,23.5288363 91.2257536,23.5264763 91.2247421,23.5247246 91.2253253,23.5224488 91.2250724,23.5201435 91.2247877,23.5178313 91.2246738,23.5163734 91.2252433,23.5142868</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1382595554</SimpleData>
+		<SimpleData name="osm_id">1382595554</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.2625319,23.4687677 91.2615182,23.470638 91.2602334,23.4729843 91.2591901,23.4748705 91.2581194,23.4768638 91.2572811,23.4783718</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1382595565</SimpleData>
+		<SimpleData name="osm_id">1382595565</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.490799,23.5272828 91.4931043,23.5274058 91.4982207,23.5276768 91.5001342,23.5281256</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1382595567</SimpleData>
+		<SimpleData name="osm_id">1382595567</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.6417689,23.5079266 91.6409534,23.5060905 91.6407803,23.5051702 91.6383565,23.5035209 91.6352402,23.5026325 91.6340328,23.5019127 91.6323016,23.4999399 91.6305657,23.4985412 91.6275815,23.4974432 91.625627,23.497589 91.6236543,23.4983726 91.6218273,23.4983544 91.6195129,23.4981858 91.6167519,23.4978715 91.6157633,23.4974022 91.6126925,23.496245 91.6109704,23.4961721 91.6091525,23.4960673 91.6069975,23.497589 91.6038675,23.4984729 91.6024187,23.4988328 91.5995803,23.500113 91.5969925,23.5013796 91.5958308,23.5007144 91.5939628,23.5012065 91.5915117,23.5026097 91.5899262,23.5028239 91.5861948,23.5034981 91.5833018,23.5036439 91.578543,23.5061019 91.5767411,23.5069197 91.5747274,23.5074117 91.5726293,23.5078286 91.5699276,23.5080131 91.5681212,23.5079972 91.5649456,23.5071384 91.5620366,23.5078879 91.5607564,23.507635 91.559729,23.5086943 91.5592825,23.5112547 91.5590456,23.5127901 91.5577745,23.5135213 91.5561753,23.5145601 91.5527811,23.5157037 91.5490907,23.5168928 91.5460587,23.5179543 91.5439174,23.5175899 91.5410631,23.5175625 91.5372952,23.5174509 91.5353908,23.5167014 91.5328281,23.517476 91.5314841,23.5209043 91.5302699,23.5221595 91.5293222,23.5233669 91.5281673,23.5258408 91.5265727,23.52767 91.524666,23.5283329 91.523609,23.5294377 91.5223903,23.5305722 91.5198526,23.5316064 91.5167408,23.5324743 91.5165199,23.532472</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1382595569</SimpleData>
+		<SimpleData name="osm_id">1382595569</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.4790377,23.2471866 91.4801265,23.2481342 91.4800741,23.2493461 91.4804751,23.2515786 91.4813999,23.2528246 91.4828465,23.2534488 91.4835754,23.2538065 91.4869059,23.2547177 91.4876827,23.2551323 91.489619,23.2562371 91.490812,23.2574805</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1382595574</SimpleData>
+		<SimpleData name="osm_id">1382595574</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.473919,23.2523053 91.4724679,23.2528292 91.4715499,23.2547382</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1382595575</SimpleData>
+		<SimpleData name="osm_id">1382595575</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.5189323,23.2695224 91.5199756,23.2713607 91.520151,23.2735544 91.5205314,23.2744679 91.5213128,23.2762653 91.5224108,23.2788098 91.5242901,23.2797506 91.5249052,23.2807689 91.5262788,23.2815707 91.5273267,23.2836528 91.5280033,23.2847554 91.5294817,23.2862589 91.5303132,23.2879719 91.5311515,23.2895005 91.5327347,23.291537 91.5345366,23.293799 91.5358442,23.2954346 91.5368328,23.2966352 91.5374866,23.2979587 91.5382133,23.299412 91.5389673,23.3009155 91.5396302,23.302321 91.5406963,23.3044487 91.5409332,23.3056697 91.5412248,23.307139 91.5422658,23.3104262 91.5433001,23.3136951 91.5444573,23.3146633 91.545717,23.3156724 91.5492001,23.3171486</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1429591781</SimpleData>
+		<SimpleData name="osm_id">1429591781</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.2448051,23.7756852 91.2450787,23.7773752 91.2453456,23.7791142 91.2468088,23.7809354</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1455965818</SimpleData>
+		<SimpleData name="osm_id">1455965818</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.7010449,23.0263523 91.7005151,23.0271718 91.7000189,23.0279531 91.6995603,23.028448 91.6989943,23.029101 91.6976532,23.0304993 91.6954297,23.0312115</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1455965819</SimpleData>
+		<SimpleData name="osm_id">1455965819</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.6516279,23.0739737 91.6510954,23.074519 91.6506864,23.0749336 91.6495921,23.0766128 91.6496471,23.0781957 91.6496806,23.0791124 91.6497248,23.0800846 91.6497578,23.0810631 91.6497946,23.0821524 91.6498308,23.0829642 91.6482724,23.0865642 91.6478533,23.0874302 91.6475254,23.0881211 91.647103,23.0889785 91.6467221,23.0897829 91.6463225,23.0905761 91.6458651,23.0914878</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1455965823</SimpleData>
+		<SimpleData name="osm_id">1455965823</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.1962558,23.6249487 91.1971396,23.6254746 91.1984619,23.6265841</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1455965824</SimpleData>
+		<SimpleData name="osm_id">1455965824</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.2395588,23.769124 91.2389392,23.7632497 91.2388144,23.7606636 91.2386937,23.7582934 91.2339167,23.7497488 91.2337638,23.7446987 91.2330262,23.7377884 91.2327795,23.7354461 91.2326467,23.7341006 91.2317093,23.7319705 91.2311551,23.7306489 91.2298518,23.727304 91.229821,23.7252708 91.2297955,23.7234795 91.2286395,23.7208238 91.2276618,23.7185437 91.2265339,23.7159346 91.2263301,23.7131977 91.2261128,23.7104681 91.2259157,23.7083241 91.2249877,23.7062612 91.2241293,23.7034074 91.2237163,23.7019449 91.2230739,23.6999666 91.2231477,23.6973411 91.2231946,23.6954733 91.2232362,23.6923479 91.2232509,23.6907035 91.2232724,23.6881994 91.22333,23.6858463 91.2233314,23.6847901 91.2232053,23.682308 91.2230176,23.6797596 91.2228285,23.67727 91.2232617,23.6753527 91.2234655,23.6726862 91.2242232,23.6685334 91.224128,23.6638253 91.2230954,23.6617961 91.2225012,23.6593306 91.2219313,23.6569661 91.2214176,23.6548483 91.2208879,23.6527366 91.2182352,23.651061 91.2160814,23.6496777 91.2148476,23.6488362 91.2134126,23.6479136 91.2119883,23.6462097 91.2109517,23.6449493 91.2104675,23.6430487 91.2096749,23.6399921 91.2090607,23.6375964 91.2075685,23.6361625 91.2041763,23.6329957 91.2021728,23.631414 91.2002322,23.6297492 91.19836,23.6297688 91.1962143,23.6286471</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1455965825</SimpleData>
+		<SimpleData name="osm_id">1455965825</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="cables">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>91.306905,23.7518626 91.3074025,23.7496776 91.3068299,23.7480597 91.307078,23.7448681 91.3072886,23.7421158 91.3057181,23.7398914 91.3046198,23.7383372 91.30282,23.7357714 91.3032679,23.7327747 91.3045862,23.7305378 91.3056685,23.7286569 91.3065228,23.7272229 91.3088778,23.7262837 91.3116847,23.725175</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

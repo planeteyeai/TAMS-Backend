@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="waterway" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>Umiam Stage-IV hydro power station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1039461461</SimpleData>
+		<SimpleData name="osm_id">1039461461</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q56368449</SimpleData>
+		<SimpleData name="plant:output:electricity">60 MW</SimpleData>
+		<SimpleData name="operator">Meghalaya Power Generation Corporation Limited</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>91.7439855,25.8381695 91.7442642,25.8382812 91.7440825,25.8386484 91.7438038,25.8385367 91.7439855,25.8381695</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<name>Umiam Stage-III hydro power station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1039461466</SimpleData>
+		<SimpleData name="osm_id">1039461466</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="alt_name">Kyrdemkulai hydro power station</SimpleData>
+		<SimpleData name="wikidata">Q56368448</SimpleData>
+		<SimpleData name="plant:output:electricity">60 MW</SimpleData>
+		<SimpleData name="operator">Meghalaya Power Generation Corporation Limited</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>91.789229,25.7846213 91.7896942,25.7847044 91.7896453,25.7849391 91.7891747,25.7848488 91.789229,25.7846213</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<name>Umiam Stage-I hydro power station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1039461455</SimpleData>
+		<SimpleData name="osm_id">1039461455</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q56368448</SimpleData>
+		<SimpleData name="plant:output:electricity">36 MW</SimpleData>
+		<SimpleData name="operator">Meghalaya Power Generation Corporation Limited</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>91.878482,25.693015 91.8787461,25.6930517 91.8787738,25.6928897 91.8785097,25.692853 91.878482,25.693015</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<name>New Umiam hydro power station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1039461459</SimpleData>
+		<SimpleData name="osm_id">1039461459</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="addr:street">Panitola</SimpleData>
+		<SimpleData name="addr:postcode">793101</SimpleData>
+		<SimpleData name="plant:output:electricity">40 MW</SimpleData>
+		<SimpleData name="operator">Meghalaya Power Generation Corporation Limited</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>91.8193976,26.0113055 91.819615,26.011399 91.8193945,26.0118134 91.819177,26.01172 91.8193976,26.0113055</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<name>Umtru Dam</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w671323843</SimpleData>
+		<SimpleData name="osm_id">671323843</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="waterway">dam</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>91.8115156,26.0077472 91.8118375,26.0073229 91.8114835,26.0061996 91.8110651,26.0059681 91.8114499,26.0077067 91.8115156,26.0077472</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<name>Umiam Stage-II hydro power station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1039461454</SimpleData>
+		<SimpleData name="osm_id">1039461454</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q56368448</SimpleData>
+		<SimpleData name="plant:output:electricity">20 MW</SimpleData>
+		<SimpleData name="operator">Meghalaya Power Generation Corporation Limited</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>91.8607562,25.7133106 91.860528,25.713003 91.8606801,25.7129114 91.8609083,25.7132189 91.8607562,25.7133106</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<name>Myntdu-Leshka Hydro Project Dam</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w558327397</SimpleData>
+		<SimpleData name="osm_id">558327397</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="waterway">dam</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>92.2022076,25.2637049 92.2024919,25.2637995 92.2025657,25.2637377 92.2023725,25.2636916 92.2023953,25.263506 92.202048,25.2633653 92.2019005,25.2632392 92.2018643,25.2631567 92.2018482,25.2630476 92.2018777,25.2629688 92.2017772,25.2629298 92.2015491,25.2628414 92.2014619,25.2630258 92.2013801,25.2630173 92.2006693,25.262725 92.2005996,25.2626207 92.2006691,25.2624992 92.2006951,25.262454 92.2007552,25.262349 92.200613,25.2622956 92.200381,25.2626304 92.2002348,25.262668 92.200031,25.2626558 92.1998258,25.2626134 92.1997675,25.2625976 92.1997152,25.2626158 92.1996628,25.2625928 92.1996219,25.2626728 92.2001262,25.2629117 92.2002,25.2629493 92.2008836,25.2632538 92.2022076,25.2637049</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<name>Myntdu Leshka hydro power station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w558327403</SimpleData>
+		<SimpleData name="osm_id">558327403</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q56368446</SimpleData>
+		<SimpleData name="plant:output:electricity">126 MW</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>92.2283068,25.2357193 92.2288312,25.2352146 92.2286858,25.235091 92.2281614,25.2355956 92.2283068,25.2357193</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<name>UMIAM I II &amp;IV</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w272518535</SimpleData>
+		<SimpleData name="osm_id">272518535</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="waterway">dam</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>91.9006476,25.6600268 91.9006747,25.6600064 91.900745,25.6599746 91.900712,25.6598764 91.9006437,25.6596732 91.90066,25.6595737 91.9006813,25.6593343 91.9007871,25.6591207 91.9007027,25.6589527 91.900622,25.6587262 91.9005355,25.6585206 91.9002057,25.6584841 91.8999081,25.6586264 91.9001913,25.6593572 91.9003303,25.6596775 91.9006476,25.6600268</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

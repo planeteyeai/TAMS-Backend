@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="imagery_used" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="survey:date" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="voltage_1" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="name:ur" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="source:barrier" type="string"></SimpleField>
+	<SimpleField name="tower:type" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="name:kn" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w354197861</SimpleData>
+		<SimpleData name="osm_id">354197861</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">33000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>85.8125235,20.3567405 85.8128508,20.3569436 85.8134589,20.3567435 85.8136626,20.3564235 85.8137123,20.3555701 85.8136357,20.3543287 85.8139575,20.3539185 85.8154218,20.3538131 85.8165214,20.3537456 85.8181444,20.3536459 85.8186654,20.3536193 85.8190968,20.3535973 85.8194219,20.3535857 85.819773,20.3535628 85.8232319,20.3533849 85.8261408,20.3532264</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w354197862</SimpleData>
+		<SimpleData name="osm_id">354197862</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">33000</SimpleData>
+		<SimpleData name="cables">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>85.8246785,20.3535126 85.8229559,20.3535957 85.8212955,20.3536956 85.8197872,20.353763 85.8183436,20.3538275 85.8172342,20.3539021 85.8161654,20.3539754 85.815003,20.3540591 85.8139201,20.3541241 85.8137795,20.3542416 85.8138671,20.3554235 85.8139386,20.3564607 85.8133071,20.3570992 85.8126768,20.3571359 85.8123714,20.356747</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w151153055</SimpleData>
+		<SimpleData name="osm_id">151153055</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">33000</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>85.0629078,21.1004585 85.0625037,21.1005325</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<name>HVDC Talcher Electrode Line</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w151103748</SimpleData>
+		<SimpleData name="osm_id">151103748</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="operator:short">PGCIL</SimpleData>
+		<SimpleData name="line">electrode</SimpleData>
+		<SimpleData name="operator:wikidata">Q3400886</SimpleData>
+		<SimpleData name="wires">quad</SimpleData>
+		<SimpleData name="operator">Power Grid Corporation of India Limited</SimpleData>
+		<SimpleData name="frequency">0</SimpleData>
+		<SimpleData name="voltage">33000</SimpleData>
+		<SimpleData name="cables">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>85.0625037,21.1005325 85.0622226,21.1008574 85.0618647,21.1013213 85.0594439,21.1030296 85.0598828,21.1060559 85.0602819,21.1092281 85.062275,21.1118655 85.0640891,21.1143567 85.0661739,21.1171813 85.067933,21.1195515 85.0700521,21.1224495 85.0729051,21.1230828 85.076317,21.1238505 85.0797597,21.1246118 85.0832779,21.1254114 85.086532,21.1261791 85.0901736,21.1270267 85.0936507,21.1278327 85.0976558,21.1287539 85.1007384,21.129416 85.104188,21.1302476 85.1075896,21.1310248 85.1103294,21.1320323 85.113443,21.1332029 85.1165462,21.1343543 85.1199924,21.1355857 85.1231917,21.136638 85.1267544,21.1377542 85.1304989,21.1389056 85.1338251,21.139977 85.1374324,21.141074 85.1408683,21.1421294 85.1443556,21.1432424 85.1471605,21.1440835 85.1504627,21.1451197 85.1543135,21.1445664 85.1576876,21.1450941 85.1613944,21.1456474 85.1632906,21.1468595 85.1668911,21.1453947 85.170303,21.1440611 85.1736257,21.1427434 85.1767255,21.143527 85.1797671,21.1443137 85.182548,21.1450205 85.1863302,21.1459928 85.1892003,21.1467027 85.1927116,21.1475982 85.1963018,21.1485097 85.1980163,21.1501279 85.2005092,21.1524528 85.2028409,21.1546754 85.2052927,21.1569363 85.2078988,21.1593635 85.2103985,21.1616819 85.2130663,21.1641826 85.2146025,21.166923 85.2163307,21.1700023 85.2177743,21.1725124 85.2194991,21.1756428 85.2210216,21.1784374 85.2226264,21.1814557 85.2243203,21.1846115 85.2259903,21.1876904 85.2260074,21.1898869 85.2260486,21.1923167 85.2260588,21.1943693 85.2274716,21.1967351 85.2292033,21.1997339 85.2308458,21.2024705 85.233565,21.2038995 85.2360682,21.2052038 85.2387496,21.2066168 85.2419935,21.2056545 85.2452922,21.2046603 85.2483475,21.2037236 85.2490181,21.2036961 85.252092,21.2035702 85.2554661,21.2019174 85.2589123,21.2008848 85.262427,21.1999065 85.2652971,21.1991041 85.2678963,21.1983975 85.2700429,21.1978061 85.2734068,21.1968406 85.2763969,21.1983688 85.2793115,21.1997946 85.2819553,21.201131 85.2854598,21.2028669 85.2884293,21.2041456 85.2914845,21.2055011 85.295181,21.204379 85.2988912,21.2032377 85.3025637,21.2021188 85.3061916,21.2010063 85.3096206,21.1999129 85.3126965,21.1989506 85.3148739,21.1999161 85.3170067,21.2008592 85.3177851,21.2032089</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w151153060</SimpleData>
+		<SimpleData name="osm_id">151153060</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="voltage">33000</SimpleData>
+		<SimpleData name="cables">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>85.0635822,21.1006885 85.0635486,21.1005422 85.0634351,21.1005643 85.0629289,21.1005597 85.0629078,21.1004585 85.0628918,21.1003819 85.0633488,21.1001708 85.0634628,21.100148 85.063432,21.0999779</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

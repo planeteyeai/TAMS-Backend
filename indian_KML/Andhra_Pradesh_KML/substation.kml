@@ -1,0 +1,1709 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="roof:shape" type="string"></SimpleField>
+	<SimpleField name="roof:levels" type="string"></SimpleField>
+	<SimpleField name="building:material" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="utility" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="short_name" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="name:te" type="string"></SimpleField>
+	<SimpleField name="name:etymology:wikidata" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="name:fr" type="string"></SimpleField>
+	<SimpleField name="hazard" type="string"></SimpleField>
+	<SimpleField name="name:ta" type="string"></SimpleField>
+	<SimpleField name="name:ml" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="name:kn" type="string"></SimpleField>
+	<SimpleField name="last_check" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>Vemagiri Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w323515677</SimpleData>
+		<SimpleData name="osm_id">323515677</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">400000;220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.8030858,16.9391283 81.8043928,16.9399445 81.8056087,16.9401507 81.8064602,16.9403853 81.807783,16.9407976 81.8076919,16.9412317 81.8085171,16.9413222 81.8091145,16.9413607 81.809125,16.9415753 81.8091671,16.9416959 81.8090707,16.9419256 81.8090654,16.9421066 81.8091425,16.9422205 81.8091408,16.9426177 81.808934,16.9429948 81.8089095,16.9433401 81.8088184,16.9438429 81.8087781,16.9439954 81.8086572,16.9442334 81.8082648,16.9442015 81.8080458,16.9441965 81.8080493,16.9439317 81.8079459,16.943801 81.8078355,16.9437725 81.8076603,16.9437742 81.807627,16.9437993 81.8073642,16.9437792 81.8073467,16.9445183 81.8073362,16.9447798 81.8060852,16.9449055 81.8057559,16.9449289 81.805211,16.9449557 81.8049692,16.9442803 81.804377,16.9427937 81.8042596,16.942492 81.8043157,16.9417127 81.8023832,16.9407038 81.8019697,16.9403987 81.8019014,16.9404406 81.801805,16.9403619 81.8030858,16.9391283</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<name>JSW Cement Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245128479</SimpleData>
+		<SimpleData name="osm_id">245128479</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.4573109,15.6914711 78.4583679,15.6914468 78.4582825,15.689294 78.4572605,15.6893146 78.4573109,15.6914711</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<name>Somayajulapally Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245128375</SimpleData>
+		<SimpleData name="osm_id">245128375</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.1765764,15.5680692 78.1774226,15.5688261 78.1770633,15.5692291 78.17793,15.56999 78.1781233,15.5717377 78.1768219,15.5705342 78.1753847,15.5692238 78.1765764,15.5680692</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<name>Bommuru Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w323515668</SimpleData>
+		<SimpleData name="osm_id">323515668</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.7998665,16.9632237 81.8000373,16.9630463 81.7988576,16.9595574 81.7989823,16.9595622 81.7991942,16.9596044 81.7995744,16.9596103 81.7999417,16.9596155 81.8000236,16.9596137 81.8000215,16.9602703 81.8004419,16.9603031 81.80044,16.9597312 81.8009135,16.9600086 81.8013058,16.9604191 81.8006185,16.9619635 81.801369,16.9622903 81.8020642,16.9623227 81.8022814,16.9623458 81.8033073,16.9633084 81.8032806,16.9634664 81.8030973,16.964178 81.8028145,16.9643823 81.8026315,16.9645145 81.8020767,16.96485 81.8018925,16.9649601 81.8017269,16.9646393 81.8014971,16.9648135 81.801216,16.9648384 81.8010579,16.9645996 81.8005024,16.9638815 81.8001941,16.96403 81.7998665,16.9632237</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<name>Yerraguntla Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245128377</SimpleData>
+		<SimpleData name="osm_id">245128377</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.5391152,14.6234913 78.5417489,14.6229977 78.5418653,14.624469 78.542032,14.6244408 78.542162,14.6252815 78.5404863,14.6255517 78.5406686,14.6266945 78.5396136,14.6267827 78.5393421,14.6249737 78.5392374,14.6241255 78.5391152,14.6234913</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<name>Chillakallu Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w242167557</SimpleData>
+		<SimpleData name="osm_id">242167557</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>80.1328657,16.9023514 80.1352993,16.9015325 80.134913,16.900547 80.1346681,16.9006576 80.1343886,16.8999953 80.1332275,16.9007151 80.132463,16.901157 80.1326028,16.9016226 80.1328657,16.9023514</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<name>Kakinada Sub station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w362421136</SimpleData>
+		<SimpleData name="osm_id">362421136</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="layer">1</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.2503337,17.0141577 82.2510758,17.0164779 82.2513084,17.017362 82.2498773,17.0178942 82.2490175,17.0182208 82.2487131,17.0167091 82.2485647,17.0148118 82.2490636,17.0146876 82.2495687,17.0145294 82.24953,17.0144493 82.2497625,17.0143774 82.2503337,17.0141577</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<name>Gunadala Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w242291888</SimpleData>
+		<SimpleData name="osm_id">242291888</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="amenity">electric substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>80.6717216,16.5201186 80.6732676,16.5198892 80.6733239,16.5201942 80.6732225,16.5202131 80.6733915,16.5212525 80.6734055,16.5216359 80.6732776,16.5228059 80.6731859,16.5236445 80.673141,16.5236394 80.6724224,16.5235778 80.6720426,16.5235446 80.6717522,16.5227781 80.6712991,16.5217034 80.6709443,16.5209097 80.6715526,16.5207828 80.6718088,16.5207018 80.6717216,16.5201186</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<name>Narasaraopet Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w183169264</SimpleData>
+		<SimpleData name="osm_id">183169264</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>80.0774865,16.2403034 80.0774898,16.2409678 80.077327,16.2409787 80.0773807,16.2414336 80.0779766,16.2414226 80.0786181,16.2412945 80.0793198,16.2412476 80.079201,16.2406379 80.0790528,16.2406145 80.0790154,16.2406301 80.0784107,16.2405009 80.0774865,16.2403034</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<name>Sitapuram Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w242167440</SimpleData>
+		<SimpleData name="osm_id">242167440</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>80.043025,16.8359736 80.0438777,16.8370374 80.0446684,16.8363263 80.0450657,16.8360133 80.0451154,16.8360786 80.0454507,16.835934 80.0459806,16.835621 80.0453845,16.8346028 80.0446642,16.8348187 80.0445835,16.8348088 80.0440412,16.8349811 80.043025,16.8359736</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<name>Bobbili Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w474035475</SimpleData>
+		<SimpleData name="osm_id">474035475</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.3424672,18.5361749 83.3423713,18.5369421 83.3424778,18.5390216 83.3451992,18.5388783 83.3452844,18.5388702 83.3452376,18.5379112 83.344209,18.5380162 83.3441505,18.5378668 83.3442112,18.5378345 83.3439833,18.5372793 83.3438566,18.5372843 83.3435851,18.5370097 83.3435628,18.5367705 83.3434148,18.5365757 83.3433839,18.5361244 83.3424672,18.5361749</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<name>Bavojipeta Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w780040665</SimpleData>
+		<SimpleData name="osm_id">780040665</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.8394059,17.2128116 81.8386254,17.2114025 81.838604,17.211227 81.838628,17.2109233 81.8404949,17.2098486 81.8414832,17.2117804 81.8409165,17.2120617 81.8394059,17.2128116</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<name>Brahmankotkur Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245008342</SimpleData>
+		<SimpleData name="osm_id">245008342</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.1901672,15.8214507 78.1890407,15.8220903 78.1890164,15.8221421 78.1893723,15.8226498 78.1897281,15.8231892 78.1897697,15.8231792 78.1909414,15.8225479 78.1904467,15.8218615 78.1905248,15.8217396 78.1902228,15.821459 78.1901672,15.8214507</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<name>Kamavarapukota Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w505856206</SimpleData>
+		<SimpleData name="osm_id">505856206</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.1924559,16.9633467 81.1922172,16.9633775 81.1921099,16.9620435 81.1937514,16.9619434 81.1936415,16.9607145 81.1936361,16.9603554 81.1936307,16.9600834 81.1936173,16.9599347 81.1950336,16.9598319 81.1952857,16.9628491 81.1931882,16.9632621 81.192987,16.9632981 81.1927054,16.9633365 81.1924559,16.9633467</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<name>Settipalli Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245008405</SimpleData>
+		<SimpleData name="osm_id">245008405</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.9188246,15.6080448 77.9211602,15.6070541 77.9197166,15.6050762 77.9174147,15.6066425 77.9188246,15.6080448</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<name>Ramavaram Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w827910890</SimpleData>
+		<SimpleData name="osm_id">827910890</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.0694375,17.1922139 82.071256,17.1924958 82.0716932,17.1923702 82.0718878,17.1913588 82.0719427,17.1910737 82.0697084,17.1906458 82.0694375,17.1922139</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<name>Rentachintala Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w242543806</SimpleData>
+		<SimpleData name="osm_id">242543806</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.5194489,16.5640845 79.5174922,16.5643501 79.5176788,16.5657026 79.5198674,16.5654315 79.5194489,16.5640845</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<name>Sub Station No.6</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w976874610</SimpleData>
+		<SimpleData name="osm_id">976874610</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="substation">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.1554026,17.6543328 83.1554679,17.6544332 83.1554204,17.6544612 83.1554282,17.6544732 83.1553555,17.6545161 83.155346,17.6545014 83.1553275,17.6545032 83.1552683,17.654412 83.1554026,17.6543328</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<name>Tadikonda</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w242537661</SimpleData>
+		<SimpleData name="osm_id">242537661</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>80.4248973,16.4002975 80.4248435,16.4002612 80.4226074,16.4007597 80.4226253,16.4008075 80.4221056,16.4009641 80.4222151,16.4013404 80.4215739,16.4015506 80.4217512,16.4020357 80.4218706,16.4019842 80.4222948,16.4030252 80.423828,16.4023968 80.4240132,16.4019574 80.4248973,16.4002975</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.20">
+	<name>Gudivada Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w242537739</SimpleData>
+		<SimpleData name="osm_id">242537739</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.0089125,16.4692795 81.0089861,16.4695774 81.009012,16.470263 81.0091673,16.4707098 81.009247,16.470979 81.010611,16.4707041 81.0102585,16.4696882 81.0101709,16.4693693 81.0096751,16.4689645 81.0089125,16.4692795</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w976874615</SimpleData>
+		<SimpleData name="osm_id">976874615</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.1530807,17.6510213 83.1530768,17.6511203 83.1530888,17.6511207 83.1530882,17.6511358 83.1531133,17.6511367 83.1531655,17.6511386 83.1531661,17.6511239 83.1531861,17.6511247 83.1531905,17.6510145 83.1530812,17.6510105 83.1530807,17.6510213</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.22">
+	<name>Pydibheemavaram Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w842774672</SimpleData>
+		<SimpleData name="osm_id">842774672</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.6251616,18.1624221 83.6256538,18.160675 83.626197,18.16067 83.6274053,18.1603412 83.6275354,18.1613466 83.6272551,18.1614651 83.627353,18.1626782 83.6269923,18.1629305 83.6266959,18.1629025 83.6260025,18.1629548 83.6256874,18.1630095 83.6253668,18.1630006 83.6254862,18.1624769 83.6251616,18.1624221</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w976874611</SimpleData>
+		<SimpleData name="osm_id">976874611</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.1554705,17.6543169 83.1555172,17.6544049 83.1556112,17.6543596 83.15556,17.6542632 83.1554705,17.6543063 83.1554705,17.6543169</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.24">
+	<name>Tekkali Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w385123915</SimpleData>
+		<SimpleData name="osm_id">385123915</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000;33000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>84.2430294,18.5895875 84.242884,18.5888378 84.2425757,18.5888681 84.2424661,18.5883547 84.2428815,18.5882573 84.242643,18.5875244 84.2445677,18.587082 84.2447384,18.5881598 84.2447446,18.588304 84.2446788,18.5884872 84.2446973,18.5886841 84.2446479,18.5894033 84.2439364,18.5894871 84.2439323,18.5895398 84.2436197,18.5895904 84.2435704,18.589532 84.2433627,18.5894735 84.2430294,18.5895875</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.25">
+	<name>Gangavaram Port</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1105894455</SimpleData>
+		<SimpleData name="osm_id">1105894455</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">industrial</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.2062872,17.6592763 83.2076873,17.657932 83.2084919,17.6587141 83.208787,17.6587957 83.2082874,17.6591276 83.208282,17.6592093 83.2073754,17.660063 83.2073325,17.6600272 83.2062872,17.6592763</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.26">
+	<name>Shahpuram Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w750805181</SimpleData>
+		<SimpleData name="osm_id">750805181</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5202849,14.1510015 77.5202568,14.1510601 77.5205478,14.1525607 77.5231335,14.1520822 77.5228304,14.1506127 77.5227714,14.1505685 77.5216837,14.1507753 77.521673,14.1507428 77.5202849,14.1510015</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.27">
+	<name>Borampalli Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w752689572</SimpleData>
+		<SimpleData name="osm_id">752689572</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.2329292,14.6062461 77.2347397,14.6057244 77.2366253,14.6054623 77.2369471,14.6054675 77.2363865,14.6078813 77.2340074,14.6080111 77.2331142,14.6081123 77.2329292,14.6062461</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.28">
+	<name>Ammavari Palli Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w750742691</SimpleData>
+		<SimpleData name="osm_id">750742691</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6121265,14.180658 77.6121291,14.1801171 77.6118529,14.179298 77.61181,14.1787285 77.6137197,14.1787909 77.6136661,14.1805228 77.6121265,14.180658</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.29">
+	<name>KIA factory Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w750742692</SimpleData>
+		<SimpleData name="osm_id">750742692</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6249605,14.1703784 77.6241755,14.1696266 77.6247084,14.1691036 77.6254933,14.1698553 77.6249605,14.1703784</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.30">
+	<name>Subharayunipalli Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w750742685</SimpleData>
+		<SimpleData name="osm_id">750742685</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5431615,14.2276828 77.5455835,14.2274072 77.5460476,14.2286785 77.5439313,14.2291673 77.5431615,14.2276828</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.31">
+	<name>Boksampalli Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w750742686</SimpleData>
+		<SimpleData name="osm_id">750742686</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5380948,14.0881272 77.5380009,14.0865585 77.5403264,14.0859887 77.5398195,14.0878228 77.5389022,14.0879087 77.5380948,14.0881272</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.32">
+	<name>Mutyalacheruvu Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w750523832</SimpleData>
+		<SimpleData name="osm_id">750523832</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.1220519,14.0998104 78.1238705,14.099774 78.1236559,14.1013712 78.1240421,14.1014129 78.1241172,14.1015846 78.123613,14.101647 78.1226045,14.101673 78.1218213,14.1016002 78.1220519,14.0998104</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.33">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1427312848</SimpleData>
+		<SimpleData name="osm_id">1427312848</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="utility">power</SimpleData>
+		<SimpleData name="building">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.1628376,15.7127842 78.1630079,15.7127584 78.1629786,15.712579 78.1628083,15.7126048 78.1628376,15.7127842</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1420327675</SimpleData>
+		<SimpleData name="osm_id">1420327675</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">construction</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.1996261,16.197717 81.1995826,16.1975919 81.1996617,16.1975666 81.1997051,16.1976917 81.1996261,16.197717</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.35">
+	<name>Ramasamudram Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1344942782</SimpleData>
+		<SimpleData name="osm_id">1344942782</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">33000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.4489387,13.3746056 78.4494838,13.37485 78.4505137,13.3751702 78.4510304,13.3751496 78.4511295,13.3743955 78.4505207,13.3742888 78.4497881,13.3741717 78.4491723,13.3740546 78.4489387,13.3746056</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.36">
+	<name>Ulavapadu Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1348191038</SimpleData>
+		<SimpleData name="osm_id">1348191038</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9950909,15.1923018 79.9958357,15.1921891 79.9965129,15.192099 79.9963564,15.1914726 79.996256,15.1910692 79.9955065,15.1912202 79.9949251,15.1913441 79.9950115,15.1918466 79.9950909,15.1923018</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1106494052</SimpleData>
+		<SimpleData name="osm_id">1106494052</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.2903469,17.7050804 83.2920313,17.704738 83.2919025,17.7036546 83.2900625,17.7040072 83.2903469,17.7050804</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.38">
+	<name>Duva Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1324939178</SimpleData>
+		<SimpleData name="osm_id">1324939178</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.6333091,16.7628945 81.6330489,16.7616994 81.6341384,16.7615009 81.633923,16.7605705 81.6339596,16.7603253 81.635041,16.760189 81.6352971,16.7613335 81.6354272,16.7623612 81.6343539,16.7626298 81.6333091,16.7628945</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.39">
+	<name>APEPDCL Indoor Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1512706608</SimpleData>
+		<SimpleData name="osm_id">1512706608</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.3130358,17.7372523 83.313131,17.7372704 83.3131481,17.7371889 83.3130529,17.7371708 83.3130358,17.7372523</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.40">
+	<name>Akiveedu Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1324654929</SimpleData>
+		<SimpleData name="osm_id">1324654929</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.3844804,16.5646419 81.3838179,16.56439 81.3830668,16.5641123 81.3831232,16.565007 81.3831714,16.5658142 81.3837186,16.5657577 81.3843704,16.5657423 81.3843221,16.5654569 81.3844804,16.5646419</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.41">
+	<name>Aspari Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w492818979</SimpleData>
+		<SimpleData name="osm_id">492818979</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.45939,15.4541204 77.4610825,15.4538567 77.4612703,15.4550097 77.4595805,15.4552734 77.45939,15.4541204</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1495857719</SimpleData>
+		<SimpleData name="osm_id">1495857719</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+		<SimpleData name="operator">APEPDCL</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.1988482,17.6838336 83.1988125,17.6836731 83.1988923,17.68367 83.198896,17.6838309 83.1988482,17.6838336</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1324716056</SimpleData>
+		<SimpleData name="osm_id">1324716056</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.1470832,16.2457952 81.1475884,16.2460279 81.1480664,16.2450249 81.1475987,16.2447889 81.1470832,16.2457952</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.44">
+	<name>Morgavali Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1326428909</SimpleData>
+		<SimpleData name="osm_id">1326428909</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3009681,15.3720578 77.300586,15.3715051 77.3001103,15.370921 77.2993744,15.3714345 77.2984638,15.3721245 77.2989029,15.3726889 77.2993582,15.3732103 77.300151,15.3726693 77.3009681,15.3720578</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.45">
+	<name>Suzlon V (Boram Palli) Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1321794843</SimpleData>
+		<SimpleData name="osm_id">1321794843</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.1776293,14.5896798 77.1777673,14.5889537 77.1779018,14.5881797 77.1788893,14.5881351 77.1799085,14.5881009 77.1799333,14.5888407 77.1799546,14.5896285 77.1787654,14.5896559 77.1776293,14.5896798</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.46">
+	<name>Transmission corrporation of andhra pradesh</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1324631390</SimpleData>
+		<SimpleData name="osm_id">1324631390</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.1165757,16.1838828 81.1159991,16.1829783 81.1164215,16.1826396 81.1170365,16.1833497 81.1165757,16.1838828</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.47">
+	<name>Suzlon (Ellutla) Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w600375038</SimpleData>
+		<SimpleData name="osm_id">600375038</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.9223009,14.6677397 77.9222691,14.6664048 77.9233066,14.6663817 77.923337,14.6676613 77.9231733,14.667665 77.9231806,14.6679726 77.9224167,14.6679896 77.9224107,14.6677373 77.9223009,14.6677397</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.48">
+	<name>Kuppam Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w576801555</SimpleData>
+		<SimpleData name="osm_id">576801555</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.3760571,12.8124238 78.3760437,12.8117909 78.3761591,12.8113201 78.3761805,12.8107761 78.3762476,12.8107211 78.3764541,12.8106924 78.3768806,12.8107525 78.3770817,12.8108833 78.3774841,12.8103864 78.3777148,12.8102582 78.3778381,12.8106741 78.3779427,12.8108702 78.3779642,12.8110925 78.3778998,12.8113619 78.3780473,12.8116915 78.3775404,12.8118379 78.3773661,12.8118484 78.3773446,12.8119347 78.3773661,12.8120838 78.3776021,12.8128475 78.3770174,12.8128893 78.3767384,12.8128684 78.3764943,12.8127298 78.3760571,12.8124238</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.49">
+	<name>Chakrayapeta Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w545571848</SimpleData>
+		<SimpleData name="osm_id">545571848</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.4917421,14.2656153 78.4932066,14.2656725 78.493153,14.2661196 78.4929438,14.2667877 78.4927185,14.2668605 78.4928794,14.2677209 78.4934373,14.2676533 78.4934909,14.2682694 78.4923591,14.2682616 78.4920613,14.2683734 78.4921364,14.2685735 78.4914766,14.2686983 78.4912728,14.2676195 78.4906934,14.2676585 78.4908034,14.2673206 78.4917421,14.2656153</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.50">
+	<name>Nayudupeta Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1339442341</SimpleData>
+		<SimpleData name="osm_id">1339442341</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.796817,13.8948453 79.7986546,13.8949005 79.7986952,13.8929509 79.7967926,13.8929273 79.796817,13.8948453</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.51">
+	<name>Anumala Wind Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w545571865</SimpleData>
+		<SimpleData name="osm_id">545571865</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.5063629,14.4884493 78.5064044,14.4877598 78.5063387,14.4870548 78.5075055,14.48676 78.5080446,14.4875131 78.5079963,14.4885155 78.5070669,14.4887804 78.5063629,14.4884493</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.52">
+	<name>Menakuru Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1339451122</SimpleData>
+		<SimpleData name="osm_id">1339451122</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8134267,13.9222947 79.8142393,13.9223173 79.814258,13.9215921 79.814258,13.9210345 79.8137723,13.9210436 79.8137816,13.9213518 79.8132586,13.9213382 79.8132913,13.9217552 79.8134267,13.9222947</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.53">
+	<name>Madanapalli Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w400613301</SimpleData>
+		<SimpleData name="osm_id">400613301</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.5044355,13.5725813 78.5047715,13.5721987 78.505591,13.5713344 78.5067814,13.5725008 78.5067178,13.5725696 78.5063194,13.5724413 78.5063362,13.5730549 78.5057998,13.5730805 78.5057854,13.5729557 78.5051482,13.573035 78.5050402,13.5727283 78.5046659,13.5728076 78.5044355,13.5725813</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.54">
+	<name>Dagadarthi Sub Station APTRANSCO</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1336427963</SimpleData>
+		<SimpleData name="osm_id">1336427963</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9871359,14.6998451 79.9882685,14.6999581 79.9894895,14.7000676 79.989578,14.6992631 79.9886755,14.6992323 79.9881163,14.6992186 79.9872669,14.6986948 79.9871925,14.6993521 79.9871359,14.6998451</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.55">
+	<name>Renigunta Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w401575040</SimpleData>
+		<SimpleData name="osm_id">401575040</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.5173526,13.6416217 79.5186166,13.641539 79.5186898,13.6402264 79.5159908,13.6381365 79.5145445,13.6392302 79.5152397,13.6395186 79.5157792,13.6396079 79.5173526,13.6416217</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.56">
+	<name>Mydukur Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1336694681</SimpleData>
+		<SimpleData name="osm_id">1336694681</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.7528638,14.7227334 78.7527619,14.7221627 78.7526922,14.721662 78.7533976,14.7215193 78.7535129,14.7220096 78.7536631,14.7226219 78.7528638,14.7227334</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.57">
+	<name>AxisWinf Form Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1331634681</SimpleData>
+		<SimpleData name="osm_id">1331634681</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.4283737,14.7810057 77.428595,14.7809824 77.4286674,14.7808761 77.4297604,14.7808229 77.4303451,14.7828808 77.4304377,14.7831272 77.4294788,14.7832127 77.4294265,14.78338 77.4291596,14.783428 77.4290872,14.7833424 77.4289383,14.7833528 77.4287184,14.7825514 77.4283737,14.7810057</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.58">
+	<name>Gollapuram Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w400498300</SimpleData>
+		<SimpleData name="osm_id">400498300</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5160259729725,13.7383942488031 77.5154503,13.738413 77.5150099,13.7382744 77.5143108,13.7401491 77.5163258,13.7408139 77.5167922689283,13.739541924856 77.5160259729725,13.7383942488031</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.59">
+	<name>Racharlapadu (IFFOCO SEZ) Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1336425362</SimpleData>
+		<SimpleData name="osm_id">1336425362</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9615887,14.6428322 79.9626904,14.6433632 79.9637312,14.643847 79.9641377,14.6430603 79.9645402,14.6422658 79.9636255,14.6418724 79.9624099,14.6412824 79.9619749,14.6421006 79.9615887,14.6428322</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.60">
+	<name>Rayala Wind Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w400498268</SimpleData>
+		<SimpleData name="osm_id">400498268</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3672746,14.6145784 77.3689701,14.6146521 77.3689264,14.6161491 77.3671718,14.6160055 77.3672746,14.6145784</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.61">
+	<name>Pendekallu Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1326429877</SimpleData>
+		<SimpleData name="osm_id">1326429877</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">traction</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6502146,15.3747508 77.6503809,15.374262 77.650904,15.3744327 77.6513492,15.3745982 77.6511668,15.3750767 77.6507135,15.3749189 77.6502146,15.3747508</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.62">
+	<name>Suzlon (VJRAKRUR) Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w400498270</SimpleData>
+		<SimpleData name="osm_id">400498270</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.334801,15.0036628 77.3369696,15.0041896 77.3377156,15.0015756 77.3346852,15.0012452 77.334801,15.0036628</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.63">
+	<name>Madanapalli Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1328120295</SimpleData>
+		<SimpleData name="osm_id">1328120295</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.5308623,13.5832249 78.5305792,13.582936 78.5303314,13.5824406 78.5301545,13.58178 78.5310746,13.5815874 78.5310534,13.5812296 78.5315347,13.5811264 78.5325682,13.5812778 78.5327451,13.5814223 78.5329009,13.5818764 78.532554,13.5826883 78.53174,13.5827708 78.5317471,13.5830254 78.5313649,13.5830116 78.5313578,13.5832181 78.5308623,13.5832249</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.64">
+	<name>Suzlon OMS Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w400498265</SimpleData>
+		<SimpleData name="osm_id">400498265</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.3033926,14.9775754 77.3051264,14.9774306 77.3052302,14.9785909 77.3034964,14.9787357 77.3033926,14.9775754</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.65">
+	<name>Ramagiri Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w256835134</SimpleData>
+		<SimpleData name="osm_id">256835134</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5114779,14.2821511 77.5128197,14.282019 77.5127203,14.2815198 77.5125287,14.2815346 77.5124574,14.2809481 77.511347,14.281075 77.5114779,14.2821511</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.66">
+	<name>Kondapuram Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w254726642</SimpleData>
+		<SimpleData name="osm_id">254726642</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.1641784,14.7607915 78.1653018,14.7606914 78.1660246,14.7610121 78.1663677,14.7612401 78.1668067,14.7617147 78.1663984,14.7635073 78.1651542,14.7621689 78.1642647,14.7611308 78.1641784,14.7607915</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.67">
+	<name>Goddumarri Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w254726644</SimpleData>
+		<SimpleData name="osm_id">254726644</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.9989247,14.5906099 77.999575,14.5903862 77.9998139,14.5900697 77.9995241,14.5892679 77.9993752,14.5891504 77.9991578,14.5890802 77.9989482,14.5891068 77.9985819,14.5896167 77.9989247,14.5906099</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.68">
+	<description>electrical substation</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1292622967</SimpleData>
+		<SimpleData name="osm_id">1292622967</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.6674328,14.5405155 79.6675539,14.5403221 79.6672361,14.5401357 79.667115,14.5403291 79.6674328,14.5405155</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.69">
+	<name>Thimmapuram Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w254726629</SimpleData>
+		<SimpleData name="osm_id">254726629</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.0974921,14.7069345 78.0999179,14.7077396 78.0998962,14.7078287 78.1001131,14.7078982 78.0994543,14.7104392 78.0968475,14.709544 78.0974921,14.7069345</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.70">
+	<name>Yellanur Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w254726632</SimpleData>
+		<SimpleData name="osm_id">254726632</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.0478095,14.675208 78.048005,14.6754955 78.0489693,14.6753415 78.0490077,14.6751041 78.0490345,14.6750633 78.0487738,14.673398 78.047591,14.6735723 78.0478095,14.675208</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.71">
+	<name>Mylavaram 4</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1130776614</SimpleData>
+		<SimpleData name="osm_id">1130776614</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.2789585,14.9215069 78.2771265,14.921481 78.2771024,14.9234974 78.2789558,14.9232045 78.2789585,14.9215069</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.72">
+	<name>Pulivendula Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w336480190</SimpleData>
+		<SimpleData name="osm_id">336480190</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.2283833,14.4618958 78.2284826,14.4617971 78.2292502,14.4619816 78.2292145,14.4627506 78.2304308,14.4627327 78.2299491,14.4640732 78.2294395,14.4651844 78.228971,14.4650062 78.2286877,14.4649486 78.2283687,14.4649729 78.2281609,14.4647832 78.228153,14.4644936 78.2281173,14.4642296 78.228108,14.4639925 78.2281159,14.4636336 78.2281477,14.4633555 78.2282059,14.4630095 78.228292,14.4626968 78.2283833,14.4618958</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.73">
+	<name>Ongole Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w378259672</SimpleData>
+		<SimpleData name="osm_id">378259672</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>80.028067,15.5023452 80.0276494,15.5025865 80.0274127,15.5027498 80.0271101,15.5029203 80.026501,15.5032716 80.0260458,15.5025466 80.026726,15.501929 80.0276243,15.5015101 80.028067,15.5023452</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.74">
+	<name>Kanigiri Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w315784588</SimpleData>
+		<SimpleData name="osm_id">315784588</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.5096458,15.3975461 79.5086545,15.3980967 79.5088335,15.3986448 79.5093147,15.399441 79.5102659,15.3987743 79.510051,15.3980406 79.5098563,15.3980493 79.5096458,15.3975461</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.75">
+	<name>Kattuvapalli Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1099316588</SimpleData>
+		<SimpleData name="osm_id">1099316588</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9412244,14.1767734 79.9411763,14.1764957 79.9413939,14.1764602 79.941442,14.176738 79.9412244,14.1767734</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.76">
+	<name>Gajuwaka Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w241951895</SimpleData>
+		<SimpleData name="osm_id">241951895</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.2071555,17.6915642 83.2069721,17.6921447 83.20632,17.6922204 83.2060143,17.6922476 83.2056923,17.6933621 83.2054152,17.6951327 83.2064382,17.6952085 83.2074538,17.6948158 83.2075328,17.6946027 83.2084788,17.6945517 83.2092365,17.6944909 83.209273,17.6953216 83.2099299,17.6954642 83.2102315,17.6955497 83.210366,17.6955186 83.2103674,17.6954575 83.2103945,17.6945362 83.2104516,17.6931325 83.2105025,17.6918743 83.2104801,17.6918316 83.2103802,17.6917811 83.2103782,17.6917423 83.2086011,17.6919501 83.2079469,17.6920083 83.2079118,17.6917286 83.2076637,17.6915889 83.2071555,17.6915642</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.77">
+	<name>Nellore Pooling Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w315824842</SimpleData>
+		<SimpleData name="osm_id">315824842</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="voltage">765000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8955286,14.2461857 79.8960569,14.2454348 79.8977678,14.2445672 79.9002184,14.2428491 79.9016271,14.2453608 79.9022669,14.2464588 79.9024987,14.2465925 79.9037196,14.248962 79.904691,14.2508678 79.9052603,14.2520056 79.9040395,14.2526086 79.9032001,14.2529897 79.9031473,14.2531604 79.900462,14.2545115 79.8991384,14.2519828 79.8980114,14.2497556 79.8976769,14.2492521 79.8959952,14.2468428 79.8955286,14.2461857</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.78">
+	<name>Bhimadole Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w183169318</SimpleData>
+		<SimpleData name="osm_id">183169318</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.2583555,16.8229214 81.2600769,16.8233821 81.2602313,16.8234876 81.2605994,16.8238449 81.2595888,16.8248887 81.2589481,16.8246644 81.2589585,16.8245214 81.2579462,16.8242655 81.2583555,16.8229214</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.79">
+	<name>Srikalahasti Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w315758526</SimpleData>
+		<SimpleData name="osm_id">315758526</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.710692,13.7463321 79.7120747,13.745752 79.7113394,13.7440359 79.7108827,13.7441748 79.7105891,13.7441407 79.7102001,13.7451158 79.7104134,13.7458154 79.710692,13.7463321</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.80">
+	<name>Krishnapatnam</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w315758515</SimpleData>
+		<SimpleData name="osm_id">315758515</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>80.122157,14.3327517 80.1202344,14.3326728 80.1202763,14.3302922 80.1233391,14.3303738 80.1232588,14.3324541 80.1230684,14.332545 80.1221752,14.3325294 80.122157,14.3327517</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.81">
+	<name>Punganur Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245492458</SimpleData>
+		<SimpleData name="osm_id">245492458</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">132000;33000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.5759937,13.3712097 78.5765893,13.3710979 78.5772368,13.3710842 78.5775086,13.3721654 78.5770434,13.372179 78.5760932,13.371661 78.5759937,13.3712097</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.82">
+	<name>Kodur Sub station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245523843</SimpleData>
+		<SimpleData name="osm_id">245523843</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.3362918,13.9835224 79.3365201,13.9849327 79.3368298,13.9849847 79.3370423,13.9848306 79.3371773,13.9849693 79.3377054,13.9844222 79.3378921,13.9841409 79.3380271,13.9835359 79.3362918,13.9835224</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.83">
+	<name>Kalikiri Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245492334</SimpleData>
+		<SimpleData name="osm_id">245492334</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.8013491,13.653876 78.8014268,13.6545237 78.8015778,13.6545324 78.8015852,13.6545135 78.8023729,13.6544932 78.8023609,13.6544467 78.8026748,13.6543959 78.8032083,13.6544729 78.8031441,13.6543364 78.8036985,13.6542649 78.8036014,13.6534966 78.8033428,13.6533964 78.8033159,13.6530711 78.8016091,13.6530914 78.8012116,13.653273 78.8012818,13.6538844 78.8013491,13.653876</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.84">
+	<name>Palmaneru Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245492359</SimpleData>
+		<SimpleData name="osm_id">245492359</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.7569478,13.2018408 78.7586071,13.2028095 78.758593,13.202905 78.7590205,13.203141 78.7595025,13.2033784 78.7596214,13.2033787 78.7595897,13.2030872 78.7595684,13.2028913 78.7594969,13.2026103 78.759382,13.2026689 78.7591606,13.2018681 78.7590891,13.2014465 78.7586281,13.2014751 78.7584263,13.2007329 78.7582637,13.2004327 78.7579624,13.2007056 78.7576499,13.2009471 78.7573724,13.2011613 78.7573808,13.2012827 78.757179,13.2014178 78.7568923,13.2014199 78.7569478,13.2018408</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.85">
+	<name>Gudur Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245323032</SimpleData>
+		<SimpleData name="osm_id">245323032</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">132000;33000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8398142,14.1336998 79.8382307,14.1350557 79.8386968,14.1356022 79.8390147,14.1359502 79.8405923,14.1345829 79.8398142,14.1336998</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.86">
+	<name>Chittoor Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245492333</SimpleData>
+		<SimpleData name="osm_id">245492333</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.089855,13.1970138 79.0908004,13.1969269 79.0912126,13.1971392 79.0915792,13.1972665 79.0914301,13.197636 79.0913533,13.1978261 79.0920252,13.1980847 79.0921025,13.1991768 79.091769,13.199001 79.0914729,13.1990219 79.0910429,13.1990499 79.0910402,13.1991439 79.0907059,13.1991688 79.090541,13.1991916 79.090267,13.1992295 79.089936,13.1991129 79.0898716,13.1987008 79.0895296,13.1986599 79.0895128,13.1984498 79.0896697,13.1984552 79.0896529,13.1980377 79.0896501,13.1974865 79.0898828,13.197462 79.089855,13.1970138</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.87">
+	<name>Machumarri Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1244069300</SimpleData>
+		<SimpleData name="osm_id">1244069300</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.3016486,15.9733202 78.3025391,15.9733949 78.3029307,15.97524 78.3016634,15.9748673 78.3016486,15.9733202</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.88">
+	<name>Sunnapuralla Palli Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245323011</SimpleData>
+		<SimpleData name="osm_id">245323011</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.1606899,14.1771865 79.1608937,14.1766554 79.1597262,14.1765426 79.1596701,14.177088 79.1606899,14.1771865</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.89">
+	<name>Kandukur, APTRANSCO 132/33KV Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245323017</SimpleData>
+		<SimpleData name="osm_id">245323017</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">132000/33000</SimpleData>
+		<SimpleData name="substation">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8967852,15.2299676 79.8982234,15.2304985 79.8985958,15.2299157 79.8971879,15.2294208 79.8967852,15.2299676</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.90">
+	<name>Boyireddipalli Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w254726601</SimpleData>
+		<SimpleData name="osm_id">254726601</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.9525129,15.0586958 77.953631,15.0587247 77.953606,15.0596264 77.952488,15.0595976 77.9525129,15.0586958</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.91">
+	<name>Gaddamvaripalli Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w254726627</SimpleData>
+		<SimpleData name="osm_id">254726627</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.0530099,14.63353 78.0548291,14.6331601 78.0546854,14.6325214 78.0546624,14.6320505 78.0528811,14.632406 78.0529991,14.6330421 78.0530099,14.63353</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.92">
+	<name>Kamavarapukota Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w183169303</SimpleData>
+		<SimpleData name="osm_id">183169303</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.2034457,16.9997146 81.2049147,16.9993482 81.2047106,16.9986984 81.2046326,16.9982539 81.203169,16.9986509 81.2034457,16.9997146</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.93">
+	<name>Tadipatri Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w254726517</SimpleData>
+		<SimpleData name="osm_id">254726517</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.9773388,14.901168 77.9793361,14.9007589 77.9796114,14.9016951 77.9776076,14.9021017 77.9773388,14.901168</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.94">
+	<name>Samarlakota Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w308274031</SimpleData>
+		<SimpleData name="osm_id">308274031</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.1550837,17.038728 82.1552838,17.0382834 82.1561209,17.0386279 82.1559207,17.0390725 82.1550837,17.038728</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.95">
+	<name>Kalyandurg Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w254726518</SimpleData>
+		<SimpleData name="osm_id">254726518</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.1181923,14.5606505 77.1190423,14.560842 77.1190678,14.5607718 77.1210794,14.5616514 77.1211714,14.561333 77.1200765,14.559913 77.1193753,14.559022 77.1193812,14.558931 77.1182021,14.5576552 77.1183588,14.5597576 77.1181923,14.5606505</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.96">
+	<name>Anrak Alluminium Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w308274037</SimpleData>
+		<SimpleData name="osm_id">308274037</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7431091,17.595421 82.7456642,17.5954206 82.7456644,17.5963748 82.7435627,17.5963751 82.7435628,17.5966794 82.7432925,17.5966794 82.7432924,17.5963616 82.7431093,17.5963616 82.7431091,17.595421</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.97">
+	<name>Gooty Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w254681355</SimpleData>
+		<SimpleData name="osm_id">254681355</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;66000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6264999,15.1376203 77.6271396,15.1377287 77.6270995,15.1381914 77.6278456,15.1383598 77.6278215,15.1375274 77.6284894,15.1359612 77.6287742,15.1352952 77.6288704,15.1347125 77.6276109,15.1343582 77.6270734,15.1353823 77.6266804,15.1368304 77.6264999,15.1376203</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.98">
+	<name>Anantpur Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w254726515</SimpleData>
+		<SimpleData name="osm_id">254726515</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6389755,14.6986219 77.6403424,14.6979508 77.6402787,14.6973895 77.6407469,14.697151 77.6408396,14.696595 77.6392151,14.6959225 77.6385849,14.6957457 77.6386791,14.6965026 77.6388522,14.6977364 77.6389755,14.6986219</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.99">
+	<name>Nagiri Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245523861</SimpleData>
+		<SimpleData name="osm_id">245523861</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.633818,13.3340399 79.6341198,13.3338216 79.6354104,13.3349325 79.6352317,13.3360124 79.6341218,13.3350194 79.6338518,13.334747 79.6337644,13.334548 79.6337962,13.3342775 79.6337505,13.334235 79.633818,13.3340399</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.100">
+	<name>Sulurpet Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245547195</SimpleData>
+		<SimpleData name="osm_id">245547195</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.991484,13.7078461 79.992068,13.7077656 79.9920849,13.7078774 79.9930058,13.707917 79.9930058,13.7079988 79.9949376,13.7076401 79.9951272,13.7089277 79.9950556,13.7089399 79.9950823,13.7095073 79.9934916,13.7093123 79.9934818,13.7092155 79.9929062,13.7091704 79.9928907,13.7092632 79.9916876,13.7091091 79.991484,13.7078461</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.101">
+	<name>Kadapa Sub station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245128373</SimpleData>
+		<SimpleData name="osm_id">245128373</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.8360948,14.4767474 78.8378112,14.4762535 78.8378325,14.4767775 78.8381157,14.4773295 78.8384163,14.477245 78.8384376,14.4774722 78.8389031,14.4783642 78.8383329,14.4783811 78.8366902,14.4787454 78.8364284,14.4777802 78.8360948,14.4767474</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.102">
+	<name>Nidadavolu Sub-station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w242167537</SimpleData>
+		<SimpleData name="osm_id">242167537</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.6768434,16.928042 81.6783431,16.928049 81.678449,16.929461 81.6780362,16.9294872 81.6770772,16.9297249 81.6768434,16.928042</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.103">
+	<name>Nandyal Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245128374</SimpleData>
+		<SimpleData name="osm_id">245128374</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.452863,15.4684324 78.4531221,15.4684892 78.4532019,15.4685152 78.4549022,15.4690695 78.454307,15.4701361 78.4541822,15.4701268 78.4539024,15.4705564 78.4536172,15.4709793 78.4519537,15.4704295 78.4521855,15.4699576 78.4518056,15.4696272 78.452863,15.4684324</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.104">
+	<name>ParavadaSub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w241951929</SimpleData>
+		<SimpleData name="osm_id">241951929</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.0905606,17.6416187 83.091921,17.6415006 83.093143,17.6414704 83.0934715,17.6432721 83.0908315,17.643404 83.0905606,17.6416187</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.105">
+	<name>Malyala Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245008440</SimpleData>
+		<SimpleData name="osm_id">245008440</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="amenity">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.2321483,15.8972039 78.2332701,15.8970953 78.2326491,15.8952963 78.2315886,15.8953766 78.2317334,15.8956623 78.2318709,15.8956623 78.232084,15.8962319 78.2318488,15.8963068 78.2321483,15.8972039</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.106">
+	<name>Dhone Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245009134</SimpleData>
+		<SimpleData name="osm_id">245009134</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.8854361,15.4532955 77.8858416,15.455529 77.8870381,15.4553362 77.8866308,15.4530992 77.8854361,15.4532955</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.107">
+	<name>Kambalapadu Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245008432</SimpleData>
+		<SimpleData name="osm_id">245008432</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7911637,15.4974483 77.7928053,15.4982488 77.7937549,15.5000877 77.7936847,15.5001971 77.7934126,15.5004228 77.7918629,15.5002301 77.7901041,15.4998046 77.7911637,15.4974483</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.108">
+	<name>Nansuralla Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245008437</SimpleData>
+		<SimpleData name="osm_id">245008437</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6565911,15.4609645 77.6589662,15.460213 77.6601104,15.4621656 77.6594682,15.4625709 77.6577353,15.463433 77.6570447,15.4623105 77.6567899,15.4613084 77.6566217,15.4610726 77.6565911,15.4609645</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.109">
+	<name>Lakkasagaram Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245008422</SimpleData>
+		<SimpleData name="osm_id">245008422</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7203535,15.4587952 77.7212836,15.4594191 77.720672,15.4603033 77.7203382,15.46035 77.719617,15.4598661 77.7203535,15.4587952</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.110">
+	<name>Bhimavaram Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w242537736</SimpleData>
+		<SimpleData name="osm_id">242537736</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.4785576,16.5775938 81.4796329,16.5790576 81.4791889,16.5794278 81.4784282,16.5795576 81.478472,16.5800194 81.4783267,16.5800862 81.4779025,16.5792179 81.4775123,16.5784965 81.4785576,16.5775938</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.111">
+	<name>Krishnagiri Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245008426</SimpleData>
+		<SimpleData name="osm_id">245008426</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.858314,15.5469569 77.8584553,15.547717 77.8585378,15.5481698 77.8594241,15.5479905 77.860436,15.5478038 77.8600498,15.5466078 77.858314,15.5469569</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.112">
+	<name>Maithan Alloys Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w308274022</SimpleData>
+		<SimpleData name="osm_id">308274022</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.0019844,17.537817 83.0026548,17.5377707 83.0027395,17.5388848 83.0020691,17.5389311 83.0019844,17.537817</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.113">
+	<name>Podili Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245226731</SimpleData>
+		<SimpleData name="osm_id">245226731</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.7655464,15.578869 79.7665682,15.5804372 79.7632788,15.5815197 79.763152,15.5815614 79.7625017,15.5805631 79.7655464,15.578869</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.114">
+	<name>Anrak Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w308274027</SimpleData>
+		<SimpleData name="osm_id">308274027</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.7351529,17.6094493 82.7370211,17.6094937 82.7370751,17.6084144 82.735192,17.6083843 82.7351529,17.6094493</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.115">
+	<name>Rajampet Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245322972</SimpleData>
+		<SimpleData name="osm_id">245322972</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.1349594,14.1749246 79.1365195,14.1750494 79.1365019,14.1754445 79.1367867,14.1763313 79.1357102,14.1762708 79.1349633,14.1757357 79.1349594,14.1749246</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.116">
+	<name>Girija Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w308274029</SimpleData>
+		<SimpleData name="osm_id">308274029</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>82.1191412,17.0706432 82.1192338,17.0694245 82.1205696,17.0695173 82.1204769,17.070736 82.1191412,17.0706432</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.117">
+	<name>Sarda Alloys Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w323507089</SimpleData>
+		<SimpleData name="osm_id">323507089</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>83.219462,17.943999 83.2201336,17.9440037 83.2201037,17.9446603 83.2194357,17.9446184 83.219462,17.943999</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.118">
+	<name>Markapur Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245226730</SimpleData>
+		<SimpleData name="osm_id">245226730</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000;132000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.2728037,15.7714746 79.2725145,15.771671 79.272717,15.7719423 79.2720652,15.7723322 79.2722928,15.7727165 79.2724601,15.7726289 79.2729989,15.7734553 79.2733248,15.7738226 79.2735964,15.7739894 79.273774,15.773379 79.2738944,15.7729623 79.2734214,15.7723172 79.2728037,15.7714746</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.119">
+	<name>Rampachodavaram Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w779884919</SimpleData>
+		<SimpleData name="osm_id">779884919</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>81.7869955,17.4313259 81.7878632,17.4307859 81.7880738,17.4314627 81.7881543,17.4316074 81.788401,17.4317327 81.7882709,17.4319183 81.7881931,17.4319144 81.788159,17.4319312 81.7881408,17.4319515 81.788177,17.4320232 81.7881569,17.4320667 81.7878606,17.4324416 81.7876312,17.4326399 81.7875195,17.4326973 81.7874783,17.4327679 81.7871457,17.4329739 81.7868628,17.4318082 81.7873415,17.431821 81.7869955,17.4313259</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

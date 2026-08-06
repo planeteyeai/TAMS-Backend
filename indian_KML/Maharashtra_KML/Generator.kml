@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="waterway" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="name_te" type="string"></SimpleField>
+	<SimpleField name="alt_name_e" type="string"></SimpleField>
+	<SimpleField name="name_pa" type="string"></SimpleField>
+	<SimpleField name="name_hi" type="string"></SimpleField>
+	<SimpleField name="old_name" type="string"></SimpleField>
+	<SimpleField name="short_name" type="string"></SimpleField>
+	<SimpleField name="addr_stree" type="string"></SimpleField>
+	<SimpleField name="addr_city" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="operator_s" type="string"></SimpleField>
+	<SimpleField name="name_en" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="operator_w" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="name_de" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="operator_1" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="generator_" type="string"></SimpleField>
+	<SimpleField name="name_kn" type="string"></SimpleField>
+	<SimpleField name="last_check" type="string"></SimpleField>
+	<SimpleField name="generato_1" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="generato_2" type="string"></SimpleField>
+	<SimpleField name="generato_3" type="string"></SimpleField>
+	<SimpleField name="generato_4" type="string"></SimpleField>
+	<SimpleField name="generato_5" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="plant_type" type="string"></SimpleField>
+	<SimpleField name="plant_sour" type="string"></SimpleField>
+	<SimpleField name="plant_outp" type="string"></SimpleField>
+	<SimpleField name="plant_meth" type="string"></SimpleField>
+	<SimpleField name="descriptio" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>Power Generator</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w353981068</SimpleData>
+		<SimpleData name="osm_id">353981068</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>73.0151971,19.006654 73.0154028,19.0067203 73.0154286,19.0066485 73.0152229,19.0065823 73.0151971,19.006654</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<name>Unit 3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w439885950</SimpleData>
+		<SimpleData name="osm_id">439885950</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generato_2">steam_generator</SimpleData>
+		<SimpleData name="generato_3">coal</SimpleData>
+		<SimpleData name="generato_4">210 MW</SimpleData>
+		<SimpleData name="generato_5">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.8419027,21.0484675 75.842074,21.0484991 75.8420044,21.0488286 75.8419128,21.0488117 75.8418296,21.0492053 75.8423412,21.0492995 75.8424244,21.0489059 75.8423491,21.048892 75.8424187,21.0485625 75.8425478,21.0485868 75.8426654,21.0480268 75.842682,21.0479478 75.8425756,21.0479271 75.8424927,21.047913 75.8421814,21.047854 75.8420381,21.0478269 75.842021,21.047908 75.8419027,21.0484675</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<name>Power Generator</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w986768783</SimpleData>
+		<SimpleData name="osm_id">986768783</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>73.013893,19.0042957 73.0140155,19.0042935 73.014013,19.004171 73.0138905,19.0041732 73.013893,19.0042957</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<name>Unit 4</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w439885951</SimpleData>
+		<SimpleData name="osm_id">439885951</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generato_2">steam_generator</SimpleData>
+		<SimpleData name="generato_3">coal</SimpleData>
+		<SimpleData name="generato_4">500 MW</SimpleData>
+		<SimpleData name="generato_5">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.8508747,21.0496448 75.8510337,21.0495806 75.8511876,21.0499131 75.851569,21.0497592 75.8513711,21.0493319 75.8517816,21.0491664 75.8516909,21.0489705 75.8516448,21.0488709 75.8513834,21.0489764 75.8509741,21.0491414 75.850694,21.0492544 75.8507117,21.0492926 75.8507421,21.0493583 75.8508747,21.0496448</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<name>Power Generator 4</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w986768785</SimpleData>
+		<SimpleData name="osm_id">986768785</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>73.0138358,19.0029196 73.013946,19.0029163 73.0139405,19.0027497 73.0138303,19.002753 73.0138358,19.0029196</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<name>Unit 5</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w439885952</SimpleData>
+		<SimpleData name="osm_id">439885952</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generato_2">steam_generator</SimpleData>
+		<SimpleData name="generato_3">coal</SimpleData>
+		<SimpleData name="generato_4">500 MW</SimpleData>
+		<SimpleData name="generato_5">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.8517816,21.0491664 75.8520404,21.04906 75.852231,21.0494673 75.852608,21.0493137 75.8524131,21.0488971 75.8528138,21.0487338 75.8527246,21.0485432 75.8526796,21.0484471 75.8520194,21.0487175 75.8517688,21.0488201 75.8516448,21.0488709 75.8516909,21.0489705 75.8517816,21.0491664</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1453703811</SimpleData>
+		<SimpleData name="osm_id">1453703811</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.854585,21.0474475 75.8546262,21.0475345 75.8549263,21.0481687 75.8551551,21.0480744 75.8553278,21.0484392 75.8560202,21.0481536 75.8556886,21.0474533 75.8560197,21.0473167 75.8558801,21.0470219 75.8558372,21.0469313 75.8550494,21.0472561 75.8546834,21.047407 75.854585,21.0474475</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1244540870</SimpleData>
+		<SimpleData name="osm_id">1244540870</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generato_3">diesel</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>73.5826544,18.5405819 73.5827219,18.5406156 73.5829064,18.5402836 73.582839,18.54025 73.5826544,18.5405819</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<name>Power Generator 1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w986768754</SimpleData>
+		<SimpleData name="osm_id">986768754</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>73.0169874,19.0069113 73.0170999,19.0069256 73.017132,19.0066999 73.0170196,19.0066856 73.0169874,19.0069113</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1216423392</SimpleData>
+		<SimpleData name="osm_id">1216423392</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generato_3">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>73.9364732,17.950059 73.9364075,17.9507644 73.9374071,17.9508487 73.9374171,17.9507407 73.937898,17.9507813 73.9379537,17.9501838 73.9364732,17.950059</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<name>Power Generator 3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w986768777</SimpleData>
+		<SimpleData name="osm_id">986768777</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>73.0173026,19.0041483 73.0172913,19.003952 73.0172352,19.0039549 73.0172465,19.0041512 73.0173026,19.0041483</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<name>(TAPS)-3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w331427441</SimpleData>
+		<SimpleData name="osm_id">331427441</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="start_date">15.06.2006</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Nuclear Power Corporation of India LTD.</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="generato_2">PHWR</SimpleData>
+		<SimpleData name="generato_3">nuclear</SimpleData>
+		<SimpleData name="generato_4">540 MW</SimpleData>
+		<SimpleData name="generato_5">fission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>72.660527,19.8297284 72.6604498,19.829727 72.6604471,19.8298642 72.6605371,19.8298658 72.6605332,19.8300629 72.6608828,19.830069 72.6608767,19.8303786 72.6607737,19.8303768 72.6607697,19.8305796 72.6608709,19.8305813 72.6608671,19.8307739 72.6607602,19.830772 72.6607561,19.8309765 72.6608681,19.8309784 72.6608646,19.8311543 72.6612446,19.831161 72.6612495,19.8309184 72.6612534,19.8307209 72.6613046,19.8307218 72.6613054,19.8306776 72.6613815,19.8306789 72.6613881,19.8303458 72.6613933,19.8300843 72.6611376,19.8300798 72.6611459,19.8297976 72.6613198,19.8298726 72.6613568,19.8297966 72.661755,19.8299683 72.6618787,19.8297146 72.661954,19.829747 72.6620687,19.8297056 72.6620453,19.8296371 72.662055,19.8296196 72.6620696,19.8295689 72.6620971,19.8295161 72.6613838,19.8291874 72.6602613,19.8286701 72.6602105,19.8287677 72.6603389,19.8288269 72.6602558,19.8289865 72.6597604,19.8287583 72.6595589,19.8291453 72.6598379,19.8292739 72.6598641,19.8292236 72.6599869,19.8292802 72.6599507,19.8293497 72.659826,19.8292923 72.6597773,19.8293856 72.6596802,19.8293409 72.6595996,19.8294956 72.6601332,19.8297415 72.6602089,19.8295963 72.6602591,19.8296194 72.6602801,19.8295792 72.6604935,19.8296736 72.660527,19.8297284</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<name>(TAPS)-4</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w331427442</SimpleData>
+		<SimpleData name="osm_id">331427442</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="start_date">15.06.2006</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Nuclear Power Corporation of India LTD.</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="generato_2">PHWR</SimpleData>
+		<SimpleData name="generato_3">nuclear</SimpleData>
+		<SimpleData name="generato_4">540 MW</SimpleData>
+		<SimpleData name="generato_5">fission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>72.6621273,19.829462 72.662205,19.8294373 72.6622058,19.8293787 72.6621856,19.8293132 72.6621328,19.8292576 72.6622932,19.8289514 72.6618931,19.8287659 72.6619266,19.8287018 72.6617565,19.8286229 72.6620217,19.8284195 72.6621808,19.8286068 72.6623813,19.8284623 72.662684,19.8282442 72.6626105,19.8281534 72.6628176,19.8280052 72.6630003,19.8278745 72.6627477,19.827562 72.6625781,19.8276833 72.6625219,19.8276139 72.6623611,19.827729 72.6624225,19.8278049 72.6622637,19.8279185 72.6621995,19.8278391 72.6620323,19.8279587 72.6621038,19.8280472 72.6618324,19.8282414 72.6616242,19.8279838 72.661446,19.8281113 72.661398,19.8280519 72.6612937,19.8281265 72.6613202,19.8281664 72.661238,19.8281777 72.661028,19.8280784 72.6610543,19.8280285 72.6610244,19.8280146 72.6611021,19.8278671 72.6605891,19.827628 72.660501,19.8277952 72.6605982,19.8278405 72.6605549,19.8279226 72.6606794,19.8279806 72.6606564,19.8280244 72.6607579,19.8280717 72.6604937,19.8285736 72.6603454,19.8285045 72.6602613,19.8286701 72.6613838,19.8291874 72.6620971,19.8295161 72.6621273,19.829462</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1216423391</SimpleData>
+		<SimpleData name="osm_id">1216423391</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="generato_3">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>73.9353345,17.9511644 73.935995,17.9512393 73.9361046,17.9500352 73.935428,17.9499782 73.9353345,17.9511644</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

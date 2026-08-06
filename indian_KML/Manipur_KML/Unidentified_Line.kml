@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="imagery_used:date" type="string"></SimpleField>
+	<SimpleField name="imagery_used" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="ele" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1099365567</SimpleData>
+		<SimpleData name="osm_id">1099365567</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="cables">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>93.8708916,24.7844979 93.8708433,24.7858043 93.870099,24.7870341 93.8693614,24.7882747 93.869411,24.7902849</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1083568981</SimpleData>
+		<SimpleData name="osm_id">1083568981</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>93.8337243,24.5451567 93.8346496,24.5370098</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1382706502</SimpleData>
+		<SimpleData name="osm_id">1382706502</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>93.8993651,25.0018796 93.8991354,25.0016714 93.8987086,25.0012348 93.8981577,25.0007024 93.8979564,25.0005274 93.8977206,25.0003137 93.8971088,24.9997204 93.8964177,24.9990296 93.8961636,24.9987717 93.895944,24.9985745 93.8956554,24.9983295 93.8953728,24.9980458 93.8953041,24.9979723 93.8952305,24.9979131 93.8949439,24.9976828 93.8948342,24.9975742 93.8947996,24.9975115 93.8947203,24.9973254 93.8945069,24.9968299 93.8944195,24.9966438 93.8943707,24.9965756 93.8941613,24.9964006 93.8940983,24.9963416 93.8939093,24.9961648 93.8937588,24.9960137 93.8935291,24.9958405 93.8931531,24.9954518 93.8928726,24.9952252 93.8928075,24.9951607 93.8925026,24.9948807 93.8924945,24.9948291 93.892518,24.9947842 93.893014,24.9941983 93.8931908,24.9939639 93.8929367,24.993804 93.892642,24.9940693</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

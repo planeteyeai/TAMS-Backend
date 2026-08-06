@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="generator:plant" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="full_name" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="generator:solar:tracking" type="string"></SimpleField>
+	<SimpleField name="wire" type="string"></SimpleField>
+	<SimpleField name="voltage_1" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="operator:website" type="string"></SimpleField>
+	<SimpleField name="last_check" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="branch" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="devices" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="operator:wikipedia" type="string"></SimpleField>
+	<SimpleField name="name:ml" type="string"></SimpleField>
+	<SimpleField name="government" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="addr:plot" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="official_name" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="gas_insulated" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="name:kn" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>HVDC Talcher - Kolar Line</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w245492337</SimpleData>
+		<SimpleData name="osm_id">245492337</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="operator:short">PGCIL</SimpleData>
+		<SimpleData name="operator:wikidata">Q3400886</SimpleData>
+		<SimpleData name="wires">quad</SimpleData>
+		<SimpleData name="cables">2</SimpleData>
+		<SimpleData name="alt_name">East South Interconnector 2</SimpleData>
+		<SimpleData name="voltage">500000</SimpleData>
+		<SimpleData name="operator">Power Grid Corporation of India Limited</SimpleData>
+		<SimpleData name="frequency">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.2339344,13.4944295 78.2348242,13.4977385 78.2357694,13.5012549 78.236714,13.5047311 78.2376257,13.5081868 78.2383012,13.510698 78.2391322,13.5138514 78.2400767,13.5173361 78.2409376,13.5205824 78.2428506,13.5233782 78.2450088,13.5263919 78.2470324,13.5293592 78.2491098,13.5323728 78.2511514,13.5353196 78.252903,13.5378159 78.2549506,13.5408121 78.2570399,13.5438052 78.2586899,13.5461881 78.2606687,13.5490854 78.2623337,13.5520174 78.2640703,13.5551645 78.2654812,13.5576867 78.2672537,13.5607959 78.2688111,13.5635506 78.2703744,13.5663372 78.2720423,13.569333 78.2725056,13.5722502 78.2730586,13.5758183 78.2733256185827,13.5779345687051</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<name>HVDC Talcher - Kolar Line</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w126665293</SimpleData>
+		<SimpleData name="osm_id">126665293</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">line</SimpleData>
+		<SimpleData name="wires">quad</SimpleData>
+		<SimpleData name="cables">2</SimpleData>
+		<SimpleData name="alt_name">East South Interconnector 2</SimpleData>
+		<SimpleData name="voltage">500000</SimpleData>
+		<SimpleData name="operator">Power Grid Corporation of India Ltd</SimpleData>
+		<SimpleData name="frequency">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>78.1181521,13.1774022 78.1197592,13.1774102 78.1210773,13.1785999 78.1207636,13.1802021 78.1185958,13.1816329 78.1161329,13.1833276 78.1134602,13.185106 78.1106465,13.186238 78.1079153,13.1873498 78.1049399,13.1885354 78.1042278,13.1915295 78.1034883,13.1944933 78.1028003,13.1973199 78.1021777,13.1998215 78.1033369,13.2025643 78.104362,13.2049018 78.1055418,13.2076177 78.1064869,13.2098672 78.1075231,13.2122825 78.1086454,13.2148987 78.1089808,13.2176153 78.1093634,13.2207923 78.1097345,13.2233874 78.1100746,13.2264094 78.1105556,13.2298618 78.1109879,13.2333378 78.1113863,13.2367334 78.1125669,13.2396513 78.1138848,13.2429937 78.1151884,13.2462309 78.1164456,13.249406 78.1175986,13.2522202 78.1189196,13.2555193 78.1201305,13.2585533 78.1193541,13.2612715 78.1186183,13.2638768 78.1179057,13.2664991 78.1170656,13.2695104 78.1172568,13.2724033 78.117558,13.2755668 78.1178361,13.2790347 78.1180621,13.2817752 78.1183054,13.2846454 78.1185662,13.2880343 78.1216369,13.2895398 78.1248119,13.2911919 78.1278768,13.2927426 78.1309418,13.2942424 78.1329117,13.2969658 78.1349106,13.2997851 78.1369847,13.3026606 78.1389894,13.3055193 78.1410288,13.3084004 78.1429582,13.3111124 78.145015,13.3139766 78.1470254,13.3168407 78.148978,13.3195977 78.1509421,13.3223321 78.1529989,13.3252525 78.1550093,13.3280432 78.1570604,13.3308339 78.1569083,13.3342573 78.1567019,13.3379325 78.1565368,13.3413215 78.1563975,13.3447155 78.1562065,13.3483404 78.1560156,13.3519954 78.1558711,13.3555951 78.1556957,13.3591796 78.1562994,13.3620814 78.1568722,13.364953 78.1575507,13.3681979 78.1582099,13.3712973 78.1583048,13.3732012 78.1606338,13.3754171 78.1629602,13.3776455 78.1651019,13.3798464 78.1673026,13.3819075 78.1695726,13.384026 78.1726377,13.3855581 78.1756797,13.3870777 78.1787474,13.3886098 78.1814508,13.3910302 78.1841466,13.3933332 78.18675,13.3956288 78.1892968,13.3979156 78.1919447,13.4002481 78.1945589,13.4025752 78.1971239,13.4048183 78.1998094,13.4072409 78.2022768,13.4094066 78.2033798,13.4127824 78.2044724,13.4160183 78.2055241,13.4192717 78.2065654,13.4224502 78.2075273,13.4255039 78.2084635,13.4280836 78.209392,13.4309327 78.2090432,13.434348 78.2087174,13.4373641 78.2084045,13.4403154 78.2080762,13.4434163 78.2077376,13.4466493 78.207417,13.4496329 78.2071066,13.4524268 78.2081018,13.4554128 78.2092124,13.458723 78.2103333,13.4620656 78.2124263,13.4650066 78.2141217,13.4673688 78.2162763,13.4702698 78.2184026,13.4732231 78.2203443,13.475917 78.2224527,13.4787106 78.2242122,13.4812323 78.2259948,13.4836867 78.2281186,13.4866024 78.2300013,13.4892114 78.2319173,13.4918926 78.2339344,13.4944295</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

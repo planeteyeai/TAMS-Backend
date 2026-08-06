@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>Vankal Solar Park</name>
+	<description>0</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w971291752</SimpleData>
+		<SimpleData name="osm_id">971291752</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">20 MW</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="operator">Power &amp; Electricity Department</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>93.1112498,23.6113155 93.1100643,23.6102587 93.1108904,23.6073685 93.1135833,23.6039792 93.1149218,23.6038219 93.1153831,23.6036252 93.1163219,23.6029052 93.1164264,23.6023324 93.1165123,23.6015091 93.1165365,23.6006808 93.1157934,23.5987857 93.115933,23.5982008 93.1171936,23.5994641 93.1200152,23.600784 93.1212357,23.6034557 93.1220484,23.6071497 93.1209889,23.6085998 93.1172848,23.609374 93.1112498,23.6113155</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1447720099</SimpleData>
+		<SimpleData name="osm_id">1447720099</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>92.8493428,23.5967309 92.8490102,23.5963131 92.8486133,23.5958952 92.8482056,23.5955659 92.847873,23.5952365 92.847932,23.5948531 92.8481734,23.5945729 92.8486186,23.5944844 92.8488171,23.5944008 92.8492087,23.5946073 92.8492945,23.594799 92.8497773,23.5946908 92.8499275,23.5947892 92.8498685,23.5952513 92.8497827,23.5956003 92.8497559,23.5959985 92.8497398,23.5964163 92.8498095,23.5966326 92.8493428,23.5967309</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1467894235</SimpleData>
+		<SimpleData name="osm_id">1467894235</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>92.4445438,23.7649178 92.4447477,23.7646207 92.4449059,23.7646968 92.4446914,23.764989 92.4445438,23.7649178</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1467894237</SimpleData>
+		<SimpleData name="osm_id">1467894237</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>92.7841008,22.9183194 92.7843086,22.9183145 92.7846238,22.9181947 92.7846225,22.9180255 92.7843784,22.9180119 92.7840324,22.9180959 92.7841008,22.9183194</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

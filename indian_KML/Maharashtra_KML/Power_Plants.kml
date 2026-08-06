@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="circumference" type="string"></SimpleField>
+	<SimpleField name="underground" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="DES" type="string"></SimpleField>
+	<SimpleField name="last_check" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="generator:solar:tracking" type="string"></SimpleField>
+	<SimpleField name="generator:solar:modules" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="operator:type" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="name:ur" type="string"></SimpleField>
+	<SimpleField name="name:ar" type="string"></SimpleField>
+	<SimpleField name="name:kn" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="name:ja" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="converter" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="oneway" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1469075720</SimpleData>
+		<SimpleData name="osm_id">1469075720</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.1680333,17.3085496 74.1680494,17.3083038 74.1682935,17.3083191 74.1682747,17.3085675 74.1680333,17.3085496</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<name>GAPS Power’s Bio Mass Power</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w317985947</SimpleData>
+		<SimpleData name="osm_id">317985947</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">13 MW</SimpleData>
+		<SimpleData name="plant:source">biomass</SimpleData>
+		<SimpleData name="operator">GAPS Power &amp; Infrastucture</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.5020802,19.8798754 75.5019766,19.8820102 75.5036378,19.882095 75.5041738,19.8821214 75.5055365,19.8821848 75.5056433,19.8800615 75.5020802,19.8798754</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1469075724</SimpleData>
+		<SimpleData name="osm_id">1469075724</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.9103428,17.6708354 73.9103615,17.6706565 73.9106941,17.6706769 73.9106834,17.6708507 73.9103428,17.6708354</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<name>Parli Thermal Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w221410711</SimpleData>
+		<SimpleData name="osm_id">221410711</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">630 MW</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="wikidata">Q7138893</SimpleData>
+		<SimpleData name="operator">Maharashtra State Power Generation Company</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.5258924,18.8603911 76.5229288,18.8606957 76.5225466,18.8608956 76.5219767,18.8615206 76.5216649,18.8620313 76.5213263,18.8625706 76.5208301,18.8647438 76.5204077,18.866257 76.5216012,18.8661016 76.522379,18.8671707 76.5224058,18.8684079 76.5223153,18.869017 76.5225365,18.869975 76.5232372,18.8719133 76.523197,18.8727159 76.5249671,18.8729094 76.5260064,18.8739055 76.5261707,18.8739087 76.5268914,18.8750983 76.527023,18.8753127 76.5274451,18.8760054 76.5274982,18.8760912 76.5277631,18.87618 76.5297511,18.8754472 76.5303881,18.8754282 76.530653,18.875333 76.5307234,18.8753203 76.5307703,18.8758755 76.5306965,18.8759231 76.5308508,18.8778581 76.531129,18.8778422 76.5310117,18.8758374 76.5309393,18.8757721 76.5308715,18.8750716 76.531186,18.874486 76.5315783,18.8737913 76.5313201,18.8731378 76.5312329,18.8725351 76.531072,18.8722115 76.5308206,18.8718467 76.5305222,18.871558 76.5299892,18.8691185 76.5297847,18.8684047 76.5299422,18.8681858 76.5299959,18.8679479 76.5298886,18.867618 76.5300931,18.8672532 76.5285945,18.8663236 76.5279508,18.8658065 76.5266903,18.8647533 76.5262042,18.8641918 76.5259192,18.8637445 76.5256845,18.8631925 76.5255203,18.8628213 76.5255169,18.862393 76.5258924,18.8603911</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<name>Patgaon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1469306750</SimpleData>
+		<SimpleData name="osm_id">1469306750</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.9322009,16.1254238 73.9323003,16.1252328 73.9324814,16.1253078 73.9323926,16.1254613 73.9322009,16.1254238</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<name>Chaskaman</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1469306751</SimpleData>
+		<SimpleData name="osm_id">1469306751</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.7859603,18.9613447 73.785926,18.9612492 73.7862345,18.9611639 73.7862579,18.961256 73.7859603,18.9613447</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w202180515</SimpleData>
+		<SimpleData name="osm_id">202180515</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">coal</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.9613093,20.6015291 79.9595342,20.6015749 79.9596066,20.6028261 79.9600431,20.6030808 79.9605167,20.6032438 79.9612174,20.6036029 79.9612937,20.6036047 79.9615109,20.6027895 79.9614189,20.6027418 79.9613974,20.6025312 79.9614483,20.6021538 79.96128,20.6021007 79.9613035,20.6018882 79.9613387,20.6017489 79.9613093,20.6015291</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1467621655</SimpleData>
+		<SimpleData name="osm_id">1467621655</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.195354,21.4596639 79.1953754,21.4593294 79.1956061,21.4593369 79.1956034,21.4596589 79.195354,21.4596639</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<name>substation towers</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1121011018</SimpleData>
+		<SimpleData name="osm_id">1121011018</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="addr:street">MESB Colony Road</SimpleData>
+		<SimpleData name="plant:output:electricity">220/100kv</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="operator">mseb</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>72.8798448,19.2159353 72.8816917,19.2137203 72.8810685,19.213274 72.8792407,19.2155197 72.8798448,19.2159353</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<name>SURYA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1463910400</SimpleData>
+		<SimpleData name="osm_id">1463910400</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.0571884,19.9213723 73.0575237,19.921158 73.0576149,19.9212866 73.057529,19.921564 73.0573493,19.9216346 73.0571884,19.9213723</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<name>Koyna Hydroelectric Project Power House I &amp; 2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w429782241</SimpleData>
+		<SimpleData name="osm_id">429782241</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">600 MW</SimpleData>
+		<SimpleData name="location">underground</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="wikidata">Q56367868</SimpleData>
+		<SimpleData name="operator:wikidata">Q97251179</SimpleData>
+		<SimpleData name="operator">Maharashtra State Power Generation Company</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.688796,17.4390963 73.6888002,17.4378275 73.6898537,17.4378307 73.6898495,17.4390995 73.688796,17.4390963</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<name>Dhom</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1469075727</SimpleData>
+		<SimpleData name="osm_id">1469075727</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.8199228,17.9748552 73.8199872,17.9745643 73.8201964,17.9746358 73.8201213,17.9749062 73.8199228,17.9748552</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<name>BHATGARH</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1463910402</SimpleData>
+		<SimpleData name="osm_id">1463910402</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.725324,18.1014458 73.7254822,18.1011501 73.7259275,18.1013642 73.7257853,18.1016549 73.725324,18.1014458</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1470108340</SimpleData>
+		<SimpleData name="osm_id">1470108340</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.1622853,16.0708466 74.1623551,16.0706456 74.1625535,16.0707023 74.1624784,16.0708879 74.1622853,16.0708466</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1470108341</SimpleData>
+		<SimpleData name="osm_id">1470108341</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.1131768,15.888782 74.1133323,15.8886014 74.1131499,15.8884363 74.1129944,15.8886427 74.1131768,15.888782</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<name>BHANDARDHARA</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1463910404</SimpleData>
+		<SimpleData name="osm_id">1463910404</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.8084537,19.5555845 73.808502,19.5552255 73.809194,19.5552559 73.8091242,19.5556097 73.8088024,19.5556957 73.808459,19.5556401 73.8084537,19.5555845</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1470108342</SimpleData>
+		<SimpleData name="osm_id">1470108342</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.763009,19.5459949 73.7632424,19.5457674 73.763406,19.5459746 73.7632102,19.546144 73.763009,19.5459949</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<name>Koyna Hydroelectric Project Power House 3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w429782239</SimpleData>
+		<SimpleData name="osm_id">429782239</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">320 MW</SimpleData>
+		<SimpleData name="location">underground</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="wikidata">Q56367894</SimpleData>
+		<SimpleData name="operator:wikidata">Q97251179</SimpleData>
+		<SimpleData name="operator">Maharashtra State Power Generation Company</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.6420518,17.4750914 73.642056,17.4738228 73.6431095,17.473826 73.6431053,17.4750946 73.6420518,17.4750914</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1470108344</SimpleData>
+		<SimpleData name="osm_id">1470108344</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.2324895,17.2749598 74.2327335,17.2748061 74.2328221,17.274947 74.232586,17.2750929 74.2324895,17.2749598</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w861266253</SimpleData>
+		<SimpleData name="osm_id">861266253</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">wind</SimpleData>
+		<SimpleData name="plant:method">wind_turbine</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.8469138,19.087522 74.8474586,19.087814 74.8496214,19.087499 74.8495401,19.0869303 74.8469951,19.0871378 74.8469138,19.087522</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.21">
+	<name>Koyna Hydroelectric Project Power House 4</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w429782240</SimpleData>
+		<SimpleData name="osm_id">429782240</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">1000 MW</SimpleData>
+		<SimpleData name="location">underground</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="wikidata">Q56367896</SimpleData>
+		<SimpleData name="operator:wikidata">Q97251179</SimpleData>
+		<SimpleData name="operator">Maharashtra State Power Generation Company</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.685152,17.4595977 73.6842079,17.4588916 73.6847233,17.4582645 73.6856674,17.4589706 73.685152,17.4595977</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1470108345</SimpleData>
+		<SimpleData name="osm_id">1470108345</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.5652176,17.6735852 73.5650834,17.6734191 73.565357,17.6732504 73.5654938,17.6734549 73.5652176,17.6735852</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.23">
+	<name>Bhira Tail Race hydro power station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w294846627</SimpleData>
+		<SimpleData name="osm_id">294846627</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">80 MW</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="wikidata">Q56367865</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.3497788,18.4429567 73.3502673,18.4426495 73.3501415,18.4424694 73.349848,18.4424186 73.3496529,18.4427766 73.3497788,18.4429567</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.24">
+	<name>Kadavi Hydroelectric ProjectKadavi Hydroelectric ProjectKadavi Hydroelectric ProjectKadavi Hydroelectric ProjectKadavi Hydroelectric ProjectKadavi Hydroelectric Project</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1465024213</SimpleData>
+		<SimpleData name="osm_id">1465024213</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.8700327,17.0046709 73.8700959,17.0046798 73.8701575,17.0046429 73.8701113,17.0044043 73.8699665,17.0044102 73.8699311,17.0044573 73.8699773,17.0046179 73.8700327,17.0046709</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1470108346</SimpleData>
+		<SimpleData name="osm_id">1470108346</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.0350413,17.759561 74.0350306,17.7592928 74.0352184,17.7592826 74.0352184,17.7595457 74.0350413,17.759561</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1468974853</SimpleData>
+		<SimpleData name="osm_id">1468974853</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.2006409,16.231286 74.2008045,16.2311701 74.2008689,16.2312448 74.2006972,16.2313761 74.2006409,16.231286</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.27">
+	<name>KHOPOLI</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1463910401</SimpleData>
+		<SimpleData name="osm_id">1463910401</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.3558336,18.7821846 73.356016,18.7817808 73.356024,18.7816361 73.3555761,18.7814913 73.3555037,18.7816818 73.3555654,18.7818468 73.3555332,18.7821059 73.3558336,18.7821846</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1470108339</SimpleData>
+		<SimpleData name="osm_id">1470108339</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.7957722,16.8574534 73.7961584,16.8573199 73.7964642,16.8570889 73.7963355,16.8569451 73.796035,16.8571299 73.7957025,16.8572172 73.7957722,16.8574534</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1471606602</SimpleData>
+		<SimpleData name="osm_id">1471606602</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.7720559,21.1827461 76.7719915,21.1826261 76.77219,21.182521 76.772249,21.1826586 76.7720559,21.1827461</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1470108343</SimpleData>
+		<SimpleData name="osm_id">1470108343</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.7145764,17.9540226 73.7146783,17.9534766 73.7149599,17.9535327 73.7148258,17.9540839 73.7145764,17.9540226</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1469078017</SimpleData>
+		<SimpleData name="osm_id">1469078017</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.9030766,19.5454438 73.9030337,19.5451051 73.9034843,19.5450495 73.9035273,19.5453983 73.9030766,19.5454438</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.32">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1469298915</SimpleData>
+		<SimpleData name="osm_id">1469298915</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.6147332,20.8780768 79.6148076,20.8775361 79.6151596,20.8775455 79.6150919,20.8780704 79.6147332,20.8780768</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.33">
+	<name>TATA Bhivpuri Hydroelectric Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w972353126</SimpleData>
+		<SimpleData name="osm_id">972353126</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.4511298,18.9359168 73.4510601,18.9366018 73.4511191,18.9367794 73.4502178,18.936952 73.4504914,18.938053 73.4511244,18.9378957 73.4515107,18.9380124 73.4523421,18.937845 73.4533238,18.937094 73.4540373,18.9368758 73.454048,18.9364242 73.4535652,18.9363989 73.4534097,18.9354247 73.4511298,18.9359168</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1007647503</SimpleData>
+		<SimpleData name="osm_id">1007647503</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>72.869554,18.7069557 72.8695532,18.7061311 72.870822,18.7061355 72.8708155,18.7067818 72.869554,18.7069557</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.35">
+	<name>Pench (Totladoh)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1469306752</SimpleData>
+		<SimpleData name="osm_id">1469306752</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>79.2367578,21.6561 79.2366863,21.6557349 79.2369377,21.6556906 79.2370258,21.6560505 79.2367578,21.6561</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.36">
+	<name>Bhira hydro power station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w936954862</SimpleData>
+		<SimpleData name="osm_id">936954862</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">300 MW</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:method">water-pumped-storage</SimpleData>
+		<SimpleData name="wikidata">Q4901813</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>73.3924216,18.4541681 73.3905816,18.4544175 73.3899647,18.455313 73.3909249,18.4556998 73.3915204,18.4547482 73.392266,18.4550841 73.3928186,18.4548856 73.3924216,18.4541681</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1468982353</SimpleData>
+		<SimpleData name="osm_id">1468982353</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.6145996,19.3363531 74.6145916,19.3361228 74.6148531,19.3361114 74.6148612,19.3363342 74.6145996,19.3363531</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

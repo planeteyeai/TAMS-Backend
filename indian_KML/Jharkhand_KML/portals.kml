@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="shop" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="route" type="string"></SimpleField>
+	<SimpleField name="panoramax" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="office" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="utility" type="string"></SimpleField>
+	<SimpleField name="lamp_type" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="direction" type="string"></SimpleField>
+	<SimpleField name="colour" type="string"></SimpleField>
+	<SimpleField name="vehicle" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="voltage:secondary" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="poles" type="string"></SimpleField>
+	<SimpleField name="loc_name" type="string"></SimpleField>
+	<SimpleField name="motor_vehicle" type="string"></SimpleField>
+	<SimpleField name="train" type="string"></SimpleField>
+	<SimpleField name="railway" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="source:barrier" type="string"></SimpleField>
+	<SimpleField name="motorcycle" type="string"></SimpleField>
+	<SimpleField name="motorcar" type="string"></SimpleField>
+	<SimpleField name="moped" type="string"></SimpleField>
+	<SimpleField name="mofa" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="imagery_used" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="deviation" type="string"></SimpleField>
+	<SimpleField name="line_management" type="string"></SimpleField>
+	<SimpleField name="make" type="string"></SimpleField>
+	<SimpleField name="foot" type="string"></SimpleField>
+	<SimpleField name="bicycle" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="manufacturer" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12417551478</SimpleData>
+		<SimpleData name="osm_id">12417551478</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0644166,23.3054348</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9342020494</SimpleData>
+		<SimpleData name="osm_id">9342020494</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+		<SimpleData name="material">metal</SimpleData>
+		<SimpleData name="structure">lattice</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.8333383,23.8445579</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297777000</SimpleData>
+		<SimpleData name="osm_id">9297777000</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4011676,23.3293557</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9342020493</SimpleData>
+		<SimpleData name="osm_id">9342020493</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+		<SimpleData name="material">metal</SimpleData>
+		<SimpleData name="structure">lattice</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.8326378,23.8442565</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297777011</SimpleData>
+		<SimpleData name="osm_id">9297777011</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4014759,23.3137793</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297777012</SimpleData>
+		<SimpleData name="osm_id">9297777012</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4017489,23.3152199</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9178889440</SimpleData>
+		<SimpleData name="osm_id">9178889440</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4933524,22.164862</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9571560846</SimpleData>
+		<SimpleData name="osm_id">9571560846</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0692066,22.8394846</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9178889439</SimpleData>
+		<SimpleData name="osm_id">9178889439</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4940873,22.1646782</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791578</SimpleData>
+		<SimpleData name="osm_id">9297791578</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4077632,23.3066382</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791576</SimpleData>
+		<SimpleData name="osm_id">9297791576</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4086563,23.3062589</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9571560845</SimpleData>
+		<SimpleData name="osm_id">9571560845</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0690939,22.8390471</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9284256814</SimpleData>
+		<SimpleData name="osm_id">9284256814</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.8126345,23.9569011</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791577</SimpleData>
+		<SimpleData name="osm_id">9297791577</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4088655,23.30618</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9445440348</SimpleData>
+		<SimpleData name="osm_id">9445440348</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.3163816,23.6363113</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9445440349</SimpleData>
+		<SimpleData name="osm_id">9445440349</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.3157969,23.6365361</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9445440347</SimpleData>
+		<SimpleData name="osm_id">9445440347</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.3161912,23.6355459</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791566</SimpleData>
+		<SimpleData name="osm_id">9297791566</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4093376,23.302884</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791567</SimpleData>
+		<SimpleData name="osm_id">9297791567</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4088199,23.303086</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.20">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791575</SimpleData>
+		<SimpleData name="osm_id">9297791575</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4097211,23.3058351</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.21">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9233170166</SimpleData>
+		<SimpleData name="osm_id">9233170166</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.2559032,23.3301352</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.22">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9233170167</SimpleData>
+		<SimpleData name="osm_id">9233170167</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.2560332,23.3297325</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.23">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791570</SimpleData>
+		<SimpleData name="osm_id">9297791570</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.407275,23.3037265</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.24">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9319340255</SimpleData>
+		<SimpleData name="osm_id">9319340255</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.5163121,23.7709527</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.25">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791571</SimpleData>
+		<SimpleData name="osm_id">9297791571</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4068189,23.3039138</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.26">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9233170165</SimpleData>
+		<SimpleData name="osm_id">9233170165</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.255234,23.331161</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.27">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3980826716</SimpleData>
+		<SimpleData name="osm_id">3980826716</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0530895,23.7057371</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.28">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791550</SimpleData>
+		<SimpleData name="osm_id">9297791550</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4085276,23.3032289</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.29">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12762825378</SimpleData>
+		<SimpleData name="osm_id">12762825378</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0682639,23.6850628</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.30">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791551</SimpleData>
+		<SimpleData name="osm_id">9297791551</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4082352,23.3033373</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.31">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791548</SimpleData>
+		<SimpleData name="osm_id">9297791548</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4062823,23.3015096</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.32">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3980826714</SimpleData>
+		<SimpleData name="osm_id">3980826714</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0531638,23.7052411</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.33">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791549</SimpleData>
+		<SimpleData name="osm_id">9297791549</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4051637,23.3015507</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.34">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791547</SimpleData>
+		<SimpleData name="osm_id">9297791547</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.407012,23.3014828</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.35">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9214414734</SimpleData>
+		<SimpleData name="osm_id">9214414734</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0696116,22.905565</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.36">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9233170171</SimpleData>
+		<SimpleData name="osm_id">9233170171</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.2581683,23.3287547</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.37">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9214414735</SimpleData>
+		<SimpleData name="osm_id">9214414735</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0695338,22.9054168</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.38">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9163340484</SimpleData>
+		<SimpleData name="osm_id">9163340484</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4018596,22.1594518</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.39">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9233170172</SimpleData>
+		<SimpleData name="osm_id">9233170172</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.2584445,23.3285208</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.40">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9214414732</SimpleData>
+		<SimpleData name="osm_id">9214414732</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0707274,22.9067139</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.41">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13759667210</SimpleData>
+		<SimpleData name="osm_id">13759667210</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+		<SimpleData name="ref">L17 GAN</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.7483336,23.6793097</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.42">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9233170168</SimpleData>
+		<SimpleData name="osm_id">9233170168</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.2573207,23.3303828</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.43">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9214414733</SimpleData>
+		<SimpleData name="osm_id">9214414733</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0696787,22.9056712</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.44">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9233170170</SimpleData>
+		<SimpleData name="osm_id">9233170170</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.2580181,23.3290109</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.45">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9163340483</SimpleData>
+		<SimpleData name="osm_id">9163340483</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.401991,22.1594195</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.46">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9667475108</SimpleData>
+		<SimpleData name="osm_id">9667475108</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>87.8280182,24.6438333</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.47">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9308967577</SimpleData>
+		<SimpleData name="osm_id">9308967577</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0636114,23.3074739</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.48">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9308967591</SimpleData>
+		<SimpleData name="osm_id">9308967591</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.063143,23.3048308</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.49">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791467</SimpleData>
+		<SimpleData name="osm_id">9297791467</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4085571,23.3378279</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.50">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9308967592</SimpleData>
+		<SimpleData name="osm_id">9308967592</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0598592,23.3102125</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.51">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791468</SimpleData>
+		<SimpleData name="osm_id">9297791468</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4086,23.3373033</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.52">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9308967589</SimpleData>
+		<SimpleData name="osm_id">9308967589</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0641968,23.3053339</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.53">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9308967590</SimpleData>
+		<SimpleData name="osm_id">9308967590</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0635712,23.3050237</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.54">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9308967587</SimpleData>
+		<SimpleData name="osm_id">9308967587</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.060409,23.3061382</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.55">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9208193431</SimpleData>
+		<SimpleData name="osm_id">9208193431</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0703242,22.9044252</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.56">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9308967588</SimpleData>
+		<SimpleData name="osm_id">9308967588</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0646308,23.3055467</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.57">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9208193432</SimpleData>
+		<SimpleData name="osm_id">9208193432</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0696626,22.9040035</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.58">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9208193429</SimpleData>
+		<SimpleData name="osm_id">9208193429</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.070022,22.9070375</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.59">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12762825227</SimpleData>
+		<SimpleData name="osm_id">12762825227</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.7431921,23.0241491</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.60">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9208193430</SimpleData>
+		<SimpleData name="osm_id">9208193430</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0708159,22.9025408</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.61">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9221665028</SimpleData>
+		<SimpleData name="osm_id">9221665028</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.867939,23.3861114</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.62">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791542</SimpleData>
+		<SimpleData name="osm_id">9297791542</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4019803,23.3051454</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.63">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12762825228</SimpleData>
+		<SimpleData name="osm_id">12762825228</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.7430875,23.0240479</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.64">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791543</SimpleData>
+		<SimpleData name="osm_id">9297791543</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4024845,23.3048695</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.65">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9208193433</SimpleData>
+		<SimpleData name="osm_id">9208193433</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0698825,22.9039047</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.66">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791449</SimpleData>
+		<SimpleData name="osm_id">9297791449</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4342231,23.3504811</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.67">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9208193434</SimpleData>
+		<SimpleData name="osm_id">9208193434</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.0591993,22.8552965</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.68">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791450</SimpleData>
+		<SimpleData name="osm_id">9297791450</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4337686,23.3508887</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.69">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13285206724</SimpleData>
+		<SimpleData name="osm_id">13285206724</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+		<SimpleData name="ref">GAN2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.7907672,23.748506</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.70">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12544883180</SimpleData>
+		<SimpleData name="osm_id">12544883180</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4074999,23.3041974</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.71">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9231273996</SimpleData>
+		<SimpleData name="osm_id">9231273996</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.1983631,23.2190339</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.72">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12544899907</SimpleData>
+		<SimpleData name="osm_id">12544899907</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4094901,23.305923</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.73">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12544883176</SimpleData>
+		<SimpleData name="osm_id">12544883176</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4081833,23.3048268</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.74">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12544883179</SimpleData>
+		<SimpleData name="osm_id">12544883179</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4070386,23.3043747</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.75">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9571548396</SimpleData>
+		<SimpleData name="osm_id">9571548396</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.081703,22.8150278</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.76">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791455</SimpleData>
+		<SimpleData name="osm_id">9297791455</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4264688,23.3487276</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.77">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297791456</SimpleData>
+		<SimpleData name="osm_id">9297791456</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4256695,23.3495821</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.78">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8553881648</SimpleData>
+		<SimpleData name="osm_id">8553881648</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.8115756,22.5624755</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.79">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13273927526</SimpleData>
+		<SimpleData name="osm_id">13273927526</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.7891846,23.743669</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.80">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12762824949</SimpleData>
+		<SimpleData name="osm_id">12762824949</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.5260512,23.3942895</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.81">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12762824950</SimpleData>
+		<SimpleData name="osm_id">12762824950</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.5256382,23.3939252</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.82">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13285206719</SimpleData>
+		<SimpleData name="osm_id">13285206719</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+		<SimpleData name="ref">L#16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.7900782,23.743701</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.83">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12544883150</SimpleData>
+		<SimpleData name="osm_id">12544883150</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4066816,23.3054308</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.84">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12544883151</SimpleData>
+		<SimpleData name="osm_id">12544883151</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4071203,23.3052577</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.85">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13273927527</SimpleData>
+		<SimpleData name="osm_id">13273927527</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>86.7891998,23.7436824</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.86">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12544883149</SimpleData>
+		<SimpleData name="osm_id">12544883149</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4079908,23.3065548</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.87">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n11010395720</SimpleData>
+		<SimpleData name="osm_id">11010395720</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0178879,23.8500215</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.88">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9300167758</SimpleData>
+		<SimpleData name="osm_id">9300167758</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+		<SimpleData name="ref">52</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.6762433,23.4935072</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.89">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n11010395721</SimpleData>
+		<SimpleData name="osm_id">11010395721</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0178879,23.8493542</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.90">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9300167759</SimpleData>
+		<SimpleData name="osm_id">9300167759</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+		<SimpleData name="ref">51</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.676323,23.4940242</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.91">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12417551475</SimpleData>
+		<SimpleData name="osm_id">12417551475</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0629469,23.3047363</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.92">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12417551476</SimpleData>
+		<SimpleData name="osm_id">12417551476</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.063363,23.3049195</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.93">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297777003</SimpleData>
+		<SimpleData name="osm_id">9297777003</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.3996199,23.3284173</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.94">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9372880108</SimpleData>
+		<SimpleData name="osm_id">9372880108</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.7647839,23.7234819</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.95">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297777004</SimpleData>
+		<SimpleData name="osm_id">9297777004</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.3990889,23.3287276</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.96">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9372880109</SimpleData>
+		<SimpleData name="osm_id">9372880109</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.7662591,23.7230915</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.97">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12417551479</SimpleData>
+		<SimpleData name="osm_id">12417551479</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0634824,23.3077034</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.98">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9297777001</SimpleData>
+		<SimpleData name="osm_id">9297777001</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.4010496,23.3287597</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.99">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12417551477</SimpleData>
+		<SimpleData name="osm_id">12417551477</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">portal</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>85.0639888,23.305236</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

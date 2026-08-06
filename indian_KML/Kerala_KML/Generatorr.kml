@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="check_date" type="string"></SimpleField>
+	<SimpleField name="panoramax" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="resort" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="mobile" type="string"></SimpleField>
+	<SimpleField name="contact:facebook" type="string"></SimpleField>
+	<SimpleField name="voltage:secondary" type="string"></SimpleField>
+	<SimpleField name="wikimedia_commons" type="string"></SimpleField>
+	<SimpleField name="tower:construction" type="string"></SimpleField>
+	<SimpleField name="bridge:support" type="string"></SimpleField>
+	<SimpleField name="wheelchair" type="string"></SimpleField>
+	<SimpleField name="trolleybus" type="string"></SimpleField>
+	<SimpleField name="network" type="string"></SimpleField>
+	<SimpleField name="air_conditioning" type="string"></SimpleField>
+	<SimpleField name="utility" type="string"></SimpleField>
+	<SimpleField name="lamp_type" type="string"></SimpleField>
+	<SimpleField name="lamp_mount" type="string"></SimpleField>
+	<SimpleField name="support" type="string"></SimpleField>
+	<SimpleField name="mapillary" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="manufacturer" type="string"></SimpleField>
+	<SimpleField name="addr:full" type="string"></SimpleField>
+	<SimpleField name="short_name" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:abbr" type="string"></SimpleField>
+	<SimpleField name="branch" type="string"></SimpleField>
+	<SimpleField name="operator:type" type="string"></SimpleField>
+	<SimpleField name="internet_access:ssid" type="string"></SimpleField>
+	<SimpleField name="switch" type="string"></SimpleField>
+	<SimpleField name="shelter" type="string"></SimpleField>
+	<SimpleField name="windings:auto" type="string"></SimpleField>
+	<SimpleField name="surveillance:type" type="string"></SimpleField>
+	<SimpleField name="surveillance" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="camera:type" type="string"></SimpleField>
+	<SimpleField name="camera:mount" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="brand:wikipedia" type="string"></SimpleField>
+	<SimpleField name="brand:wikidata" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="devices" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="pole:type" type="string"></SimpleField>
+	<SimpleField name="feeder" type="string"></SimpleField>
+	<SimpleField name="capacity" type="string"></SimpleField>
+	<SimpleField name="public_transport" type="string"></SimpleField>
+	<SimpleField name="bus" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="rooms" type="string"></SimpleField>
+	<SimpleField name="phone" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="internet_access:fee" type="string"></SimpleField>
+	<SimpleField name="internet_access" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="email" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="power_supply" type="string"></SimpleField>
+	<SimpleField name="address" type="string"></SimpleField>
+	<SimpleField name="generator:place" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="generator:output:compressed_air" type="string"></SimpleField>
+	<SimpleField name="name:ml" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="entrance" type="string"></SimpleField>
+	<SimpleField name="triple_tower" type="string"></SimpleField>
+	<SimpleField name="design:incomplete" type="string"></SimpleField>
+	<SimpleField name="rotor:diameter" type="string"></SimpleField>
+	<SimpleField name="line_management" type="string"></SimpleField>
+	<SimpleField name="voltage-low" type="string"></SimpleField>
+	<SimpleField name="voltage-high" type="string"></SimpleField>
+	<SimpleField name="tower:structure" type="string"></SimpleField>
+	<SimpleField name="tower:design" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="survey:date" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="junction" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="operator:wikipedia" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>KSEB Small Hydro Projects</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n5487998511</SimpleData>
+		<SimpleData name="osm_id">5487998511</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">run-of-the-river</SimpleData>
+		<SimpleData name="generator:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.0588245,11.3725855</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<name>Indian Oil</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7493920688</SimpleData>
+		<SimpleData name="osm_id">7493920688</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="brand:wikipedia">en:Indian Oil Corporation</SimpleData>
+		<SimpleData name="brand:wikidata">Q1289348</SimpleData>
+		<SimpleData name="amenity">fuel</SimpleData>
+		<SimpleData name="brand">Indian Oil</SimpleData>
+		<SimpleData name="generator:source">gasoline</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.7939687,11.2613115</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<name>KSEB Peruvanamoozhi Small Hyroelectric Power House</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n11166508297</SimpleData>
+		<SimpleData name="osm_id">11166508297</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board (KSEB)</SimpleData>
+		<SimpleData name="generator:source">hydro</SimpleData>
+		<SimpleData name="generator:output:electricity">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.8189695,11.5995871</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<name>solar system</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n4252004678</SimpleData>
+		<SimpleData name="osm_id">4252004678</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="level">3</SimpleData>
+		<SimpleData name="generator:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.1450627,10.6260758</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n2310341099</SimpleData>
+		<SimpleData name="osm_id">2310341099</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:type">reciprocating_engine</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">diesel</SimpleData>
+		<SimpleData name="generator:output:electricity">21.32 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.3740602,9.9971075</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<name>Generator</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n4250476731</SimpleData>
+		<SimpleData name="osm_id">4250476731</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:output:compressed_air">air compressor</SimpleData>
+		<SimpleData name="survey:date">2016-06-18</SimpleData>
+		<SimpleData name="generator:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.1454376,10.6260365</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<name>Yankee Stadium</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n6005643232</SimpleData>
+		<SimpleData name="osm_id">6005643232</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="leisure">sports_centre</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.4891096,9.3622558</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8764025582</SimpleData>
+		<SimpleData name="osm_id">8764025582</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:source">hydro</SimpleData>
+		<SimpleData name="generator:output:electricity">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7533679,8.7635405</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9236794198</SimpleData>
+		<SimpleData name="osm_id">9236794198</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="operator:abbr">STIST</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="operator">St. Thomas Institute for Science and Technology</SimpleData>
+		<SimpleData name="generator:source">diesel</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.8920752,8.5935702</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<name>Kuttapuzha Barrage</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n4834657850</SimpleData>
+		<SimpleData name="osm_id">4834657850</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">run-of-the-river</SimpleData>
+		<SimpleData name="generator:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.5833902,9.3981845</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<name>Adyanpara Small Hydroelectric Project</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n11395990919</SimpleData>
+		<SimpleData name="osm_id">11395990919</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="operator">Kerala State Eectricity Board</SimpleData>
+		<SimpleData name="generator:source">hydro</SimpleData>
+		<SimpleData name="generator:output:electricity">3.5 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.2023928,11.356115</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n5220537748</SimpleData>
+		<SimpleData name="osm_id">5220537748</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="operator">Ahalia Group</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">2.1 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.8294606,10.7903937</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7477473983</SimpleData>
+		<SimpleData name="osm_id">7477473983</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="ref">addyuthiya power projects</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.3043922,9.9709705</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8897225081</SimpleData>
+		<SimpleData name="osm_id">8897225081</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.5628008,9.1759196</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7479589566</SimpleData>
+		<SimpleData name="osm_id">7479589566</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="ref">Generator Mech</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.5799523,9.5498147</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n2108913951</SimpleData>
+		<SimpleData name="osm_id">2108913951</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.6130665,11.0872793</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n5126511530</SimpleData>
+		<SimpleData name="osm_id">5126511530</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="operator">Ahalia Group</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">2.1 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.8222521,10.7915787</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n2108913932</SimpleData>
+		<SimpleData name="osm_id">2108913932</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.6084141,11.0846156</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n5126510001</SimpleData>
+		<SimpleData name="osm_id">5126510001</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="operator">Ahalia Group</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+		<SimpleData name="generator:output:electricity">2.1 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.8219966,10.7947088</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.20">
+	<name>KSEB Lower Periyar Power station, Neendapara</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8892092317</SimpleData>
+		<SimpleData name="osm_id">8892092317</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="survey:date">2021-07-04</SimpleData>
+		<SimpleData name="generator:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.8536567,10.0175329</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.21">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7346360249</SimpleData>
+		<SimpleData name="osm_id">7346360249</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.8488724,9.5645735</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.22">
+	<name>Mattupetty Dam Power Plant</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n2925717048</SimpleData>
+		<SimpleData name="osm_id">2925717048</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.1218072,10.104454</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.23">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8897225080</SimpleData>
+		<SimpleData name="osm_id">8897225080</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">diesel</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.5629414,9.17506</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.24">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8897225076</SimpleData>
+		<SimpleData name="osm_id">8897225076</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="operator">BSNL</SimpleData>
+		<SimpleData name="generator:source">diesel</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.5615157,9.1752539</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.25">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7685398344</SimpleData>
+		<SimpleData name="osm_id">7685398344</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:type">reciprocating_engine</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">diesel</SimpleData>
+		<SimpleData name="generator:output:electricity">21.32 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.3739893,9.9972029</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.26">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7685398343</SimpleData>
+		<SimpleData name="osm_id">7685398343</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:type">reciprocating_engine</SimpleData>
+		<SimpleData name="generator:method">combustion</SimpleData>
+		<SimpleData name="generator:source">diesel</SimpleData>
+		<SimpleData name="generator:output:electricity">21.32 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.3737854,9.9976414</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.27">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n11843327982</SimpleData>
+		<SimpleData name="osm_id">11843327982</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:method">wind_turbine</SimpleData>
+		<SimpleData name="generator:source">wind</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7199104,11.0696359</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.28">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3862116796</SimpleData>
+		<SimpleData name="osm_id">3862116796</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">generator</SimpleData>
+		<SimpleData name="generator:type">kaplan_turbine</SimpleData>
+		<SimpleData name="generator:method">water-storage</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+		<SimpleData name="generator:source">hydro</SimpleData>
+		<SimpleData name="generator:output:electricity">2.5 MW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.6836242,10.8297434</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

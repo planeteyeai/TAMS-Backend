@@ -360,20 +360,26 @@ async def upsert_missing_kml_assets(
         _load_substations,
         _load_towers,
         clear_kml_cache,
+        set_state_dir_filter,
     )
 
     clear_kml_cache()
+    set_state_dir_filter(state)
     logger.info("Upsert missing KML assets (state=%s towers=%s)", state, include_towers)
-    corridor = _load_lines() + _load_substations()
-    towers = _load_towers() if include_towers else []
-    all_items = list(corridor) + list(towers)
-    if state:
-        needle = state.lower()
-        all_items = [
-            a
-            for a in all_items
-            if str((a.get("metadata") or {}).get("country_or_state") or "").lower() == needle
-        ]
+    try:
+        corridor = _load_lines() + _load_substations()
+        towers = _load_towers() if include_towers else []
+        all_items = list(corridor) + list(towers)
+        if state:
+            needle = state.lower()
+            all_items = [
+                a
+                for a in all_items
+                if str((a.get("metadata") or {}).get("country_or_state") or "").lower() == needle
+            ]
+    finally:
+        set_state_dir_filter(None)
+        clear_kml_cache()
 
     stats: dict[str, Any] = {
         "state": state or "all",

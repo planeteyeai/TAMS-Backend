@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>ONGC Tripura (Palatana) Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w373836928</SimpleData>
+		<SimpleData name="osm_id">373836928</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikidata">Q16896197</SimpleData>
+		<SimpleData name="website">https://otpcindia.in</SimpleData>
+		<SimpleData name="plant:type">combined_cycle</SimpleData>
+		<SimpleData name="plant:source">gas</SimpleData>
+		<SimpleData name="plant:output:electricity">726.6 MW</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="operator">ONGC</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>91.436836,23.4956336 91.4363591,23.4955628 91.4359139,23.4960918 91.4359321,23.4964396 91.4355596,23.4965375 91.4353575,23.4988994 91.4350577,23.5014258 91.4370177,23.5017819 91.437431,23.5019089 91.4380737,23.5023526 91.4387346,23.5026858 91.4391934,23.5018027 91.4395023,23.5019069 91.4399361,23.5019214 91.4399883,23.502213 91.4401473,23.5024754 91.4403244,23.5024921 91.4402994,23.5028962 91.440463,23.5030336 91.4412419,23.5023921 91.4420595,23.5025692 91.4428751,23.5014955 91.4429407,23.5014091 91.4428908,23.5009009 91.4427204,23.5007759 91.442625,23.5003823 91.4429226,23.4991847 91.4428749,23.4987348 91.4425774,23.4985828 91.4423321,23.4977434 91.442055,23.4972998 91.4420459,23.4970186 91.4422458,23.4969332 91.4422367,23.4968437 91.4425683,23.4964604 91.4424661,23.4962709 91.4423525,23.4962209 91.4419755,23.4961564 91.4414713,23.4960022 91.4416439,23.495142 91.4412465,23.4949629 91.4414736,23.4941506 91.4418415,23.4940923 91.4420505,23.4939361 91.4421196,23.4938034 91.4417651,23.4931349 91.4413117,23.4932258 91.4411319,23.4931595 91.4410034,23.4930299 91.4409488,23.4928502 91.4408952,23.4923082 91.4408209,23.4921455 91.4404429,23.4914113 91.4402518,23.4912272 91.4398311,23.4912154 91.4394023,23.4910946 91.4391823,23.4909945 91.4390923,23.4906248 91.4390923,23.4903022 91.439163,23.4897779 91.4391228,23.4894495 91.4388563,23.488934 91.4387615,23.4885716 91.4387615,23.4884037 91.4388466,23.4881342 91.4384259,23.4881003 91.4382155,23.4881195 91.4376053,23.4883993 91.4370207,23.48866 91.436624,23.4887985 91.4369822,23.4907161 91.4371331,23.4916101 91.4373435,23.4919356 91.4373869,23.4923789 91.437533,23.4927604 91.4375763,23.4936691 91.4375731,23.4940358 91.437435,23.4943215 91.4371428,23.4948827 91.436836,23.4956336</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<name>Rokhia Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w959943258</SimpleData>
+		<SimpleData name="osm_id">959943258</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">gas</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>91.1940959,23.6269139 91.1948041,23.6249936 91.1954443,23.6250888 91.1953909,23.6255299 91.196102,23.6260166 91.1960459,23.6265401 91.1955693,23.6269881 91.1951061,23.6267354 91.1949963,23.6269676 91.1948039,23.6269201 91.1945844,23.6270978 91.1940959,23.6269139</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<description>78880</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1007110622</SimpleData>
+		<SimpleData name="osm_id">1007110622</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:type">solar_photovoltaic_panel</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>91.2796578,23.4308606 91.2795773,23.431818 91.2795612,23.432288 91.2789577,23.4322462 91.2786359,23.432416 91.2783515,23.4326744 91.2778446,23.4326818 91.2777963,23.4335726 91.2776273,23.4336662 91.2776139,23.4342174 91.2774396,23.4349139 91.2772545,23.4351993 91.275841,23.4351624 91.2757176,23.4345595 91.2754253,23.4338581 91.275377,23.4336834 91.2747225,23.4336391 91.2742987,23.4335259 91.2741995,23.4327507 91.2750846,23.4326325 91.2755433,23.4324824 91.2756881,23.4323126 91.2758276,23.4319951 91.2760422,23.4318672 91.2767664,23.4316998 91.2773162,23.4315522 91.2784964,23.4310624 91.2790811,23.4307917 91.2795022,23.4308508 91.2796578,23.4308606</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w1518388139</SimpleData>
+		<SimpleData name="osm_id">1518388139</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="name:en">Baramura Gas Thermal power station</SimpleData>
+		<SimpleData name="plant:source">gas</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>91.563313,23.80566 91.5636505,23.8049406 91.5641499,23.8052091 91.5640536,23.8054612 91.5645129,23.8057027 91.5642006,23.8061135 91.563313,23.80566</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

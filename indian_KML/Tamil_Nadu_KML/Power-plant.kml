@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="roof:shape" type="string"></SimpleField>
+	<SimpleField name="roof:levels" type="string"></SimpleField>
+	<SimpleField name="building:material" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="utility" type="string"></SimpleField>
+	<SimpleField name="industrial" type="string"></SimpleField>
+	<SimpleField name="office" type="string"></SimpleField>
+	<SimpleField name="government" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="addr:place" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="converter" type="string"></SimpleField>
+	<SimpleField name="gas_insulated" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="branch" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="short_name" type="string"></SimpleField>
+	<SimpleField name="survey:date" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="power:source" type="string"></SimpleField>
+	<SimpleField name="name:ru" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="waterway" type="string"></SimpleField>
+	<SimpleField name="name:etymology:wikidata" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="name:fr" type="string"></SimpleField>
+	<SimpleField name="hazard" type="string"></SimpleField>
+	<SimpleField name="name:ta" type="string"></SimpleField>
+	<SimpleField name="name:ml" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="operator:wikipedia" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="name:kn" type="string"></SimpleField>
+	<SimpleField name="last_check" type="string"></SimpleField>
+	<SimpleField name="dec" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>Madras Atomic Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w98366375</SimpleData>
+		<SimpleData name="osm_id">98366375</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="wikipedia">en:Madras Atomic Power Station</SimpleData>
+		<SimpleData name="name:fr">Centrale nucléaire de Madras</SimpleData>
+		<SimpleData name="hazard">nuclear</SimpleData>
+		<SimpleData name="name:ta">சென்னை அணுமின் நிலையம்</SimpleData>
+		<SimpleData name="name:ml">ചെന്നൈ ആണവനിലയം</SimpleData>
+		<SimpleData name="start_date">1984</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="wikidata">Q972715</SimpleData>
+		<SimpleData name="plant:source">nuclear</SimpleData>
+		<SimpleData name="plant:output:electricity">440 MW</SimpleData>
+		<SimpleData name="plant:method">fission</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>80.1806945800782,12.5670824050904 80.1806945800782,12.5666551770469 80.1768731,12.5558689 80.1751356,12.5516871 80.1702503,12.539929 80.1695687,12.537985 80.1688532,12.5379186 80.168056,12.5373152 80.1675475,12.5366782 80.1672376,12.536713 80.1669458,12.535992 80.166058,12.5361642 80.1664971,12.5378498 80.1635846,12.5377646 80.1609406,12.5386781 80.1625318,12.5419028 80.1646873,12.546207 80.1648215,12.5479422 80.1639942,12.5514673 80.1637723,12.5630042 80.1646013,12.5693956 80.1655592,12.5721516 80.1715384,12.578107 80.1776641,12.5760149 80.1796299,12.5752533 80.1808978,12.5748107 80.1826245,12.574667 80.1826255,12.5749647 80.1833665,12.575554 80.1838224,12.5755519 80.1837789,12.5747226 80.1837659,12.5742869 80.1837913,12.5742869 80.1837799,12.5740124 80.183849,12.5737545 80.1837192,12.5737524 80.1837192,12.5735537 80.1826797,12.5735387 80.1826263,12.5717122 80.18283,12.5716318 80.1828016,12.5715641 80.1828245,12.5715545 80.1827982,12.5714946 80.1827767,12.5715036 80.1827666,12.5714808 80.1824837,12.5715957 80.1821954,12.5708913 80.1810437612992,12.5676407547059 80.1809692382815,12.5676412582397 80.1809692382815,12.5674304105726 80.1808453865413,12.5670808341897 80.1806945800782,12.5670824050904</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<name>Kudankulam Nuclear Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">w384663588</SimpleData>
+		<SimpleData name="osm_id">384663588</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="name:ru">АЭС Куданкулам</SimpleData>
+		<SimpleData name="wikipedia">en:Kudankulam Nuclear Power Plant</SimpleData>
+		<SimpleData name="name:fr">Centrale nucléaire de Kudankulam</SimpleData>
+		<SimpleData name="name:ta">கூடங்குளம் அணுமின் நிலையம்</SimpleData>
+		<SimpleData name="name:ml">കൂടൻകുളം ആണവനിലയം</SimpleData>
+		<SimpleData name="start_date">2013-07-13</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="wikidata">Q337376</SimpleData>
+		<SimpleData name="plant:source">nuclear</SimpleData>
+		<SimpleData name="plant:output:electricity">1864 MW</SimpleData>
+		<SimpleData name="plant:method">fission</SimpleData>
+		<SimpleData name="operator">Nuclear Power Corporation of India Ltd.</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7068023681642,8.16486072540283 77.7065200805666,8.16486072540283 77.7065200805666,8.16513919830322 77.7054061889651,8.16513919830322 77.7054061889651,8.16486072540283 77.7051391601562,8.16486072540283 77.7051391601562,8.16458320617676 77.7048645019532,8.16458320617676 77.7048645019532,8.16430473327637 77.7040328979494,8.16431045532232 77.7040328979494,8.16403198242193 77.7029190063479,8.16403198242193 77.7029190063479,8.16375064849848 77.7026367187502,8.16375064849848 77.7026367187502,8.16347122192383 77.6998596191407,8.16347312927257 77.6998596191407,8.16319465637201 77.6995849609377,8.16319465637201 77.6995849609377,8.16347312927257 77.6987533569339,8.16347312927257 77.6987533569339,8.16319465637201 77.6981964111329,8.16319465637201 77.6981964111329,8.16291713714611 77.6965255737306,8.16291713714611 77.6965255737306,8.16319465637201 77.6962509155276,8.16319465637201 77.6962509155276,8.16291713714611 77.6956939697268,8.16291713714611 77.6956939697268,8.16319465637201 77.6951370239259,8.16319465637201 77.6951370239259,8.16347312927257 77.6948623657227,8.16347312927257 77.6948623657227,8.16319465637201 77.6945800781249,8.16319465637201 77.6945800781249,8.16311182718776 77.6944729,8.163637 77.693653,8.1635188 77.6934774,8.1634935 77.693259,8.163462 77.690027,8.1630319 77.6870493,8.1631905 77.6859091,8.1629279 77.68567,8.1627461 77.6845737,8.1625036 77.6822031,8.1619696 77.6821156,8.1615049 77.6818727,8.1613107 77.6818023,8.1617562 77.6817572,8.1620414 77.6817119,8.1636435 77.6815882,8.1652844 77.6815634,8.1657048 77.6814026,8.1661457 77.6813387,8.1676315 77.6815016,8.1691826 77.6817879,8.171737 77.6818374,8.1721325 77.6828055,8.1745656 77.6838931,8.1762829 77.6846863,8.1774864 77.6846833,8.1778212 77.6848525,8.1778703 77.6849049,8.1778386 77.6857476,8.1788776 77.6863162,8.1795299 77.6869023,8.1803524 77.6892992,8.1818619 77.6905851,8.1826692 77.6912863,8.1830834 77.6921217,8.1834774 77.6930464,8.1839094 77.6938897,8.1842277 77.695401,8.1848175 77.6960134,8.1850012 77.6972835,8.1853808 77.698067,8.1854828 77.698401,8.1853645 77.6985326,8.1854389 77.6986546,8.1854849 77.6987928,8.1855339 77.6988381,8.1854665 77.6989783,8.1855053 77.7004814,8.1858563 77.7025061,8.1862971 77.7043762,8.1866094 77.7043503,8.1866643 77.7043329,8.1867012 77.7063081,8.1871237 77.7079066,8.1875139 77.7087741,8.1877257 77.7097267,8.1878931 77.7099275,8.1879328 77.7100359,8.1879543 77.7106524,8.1879849 77.7115555,8.1879665 77.7124194,8.1879135 77.7126339,8.1878931 77.7142173,8.1876624 77.7148503,8.1875543 77.7164957,8.1871829 77.7168874,8.1870992 77.7176503,8.1868339 77.7185946,8.1864482 77.7193678,8.186138 77.7199204,8.1858849 77.7207637,8.1854318 77.7218399,8.1848706 77.7230605,8.1839441 77.7236832,8.1834257 77.7246688,8.1825012 77.7253987,8.1818257 77.7259595,8.181244 77.7266048,8.1803563 77.7272914,8.1793603 77.7283615,8.1776684 77.7286378,8.1770052 77.7290708,8.1755684 77.7297285,8.1731989 77.7286976,8.1729867 77.7276584,8.1729663 77.72731,8.1728846 77.726745,8.172556 77.7261492,8.1722295 77.7253916,8.1719201 77.7230329,8.1711421 77.7221713,8.1704901 77.7216456,8.1697122 77.7214129,8.1694853 77.7212836,8.1692957 77.7210456,8.1691534 77.7202679,8.1688064 77.7199271,8.1689384 77.7197233,8.1689065 77.7192914,8.1689808 77.7190532,8.1689356 77.7193255327301,8.16764163970953 77.7193069458008,8.16764163970953 77.7193069458008,8.16756519710681 77.7126388549805,8.16601127679886 77.7126388549805,8.16624927520758 77.7118072509766,8.16624927520758 77.7118072509766,8.16597270965582 77.7101364135744,8.16597080230719 77.7101364135744,8.16569328308111 77.7098617553713,8.16569328308111 77.7098617553713,8.16542503116562 77.7098228123796,8.16541691487553 77.709297180176,8.16541957855219 77.709297180176,8.16529489941425 77.7075579,8.1648745 77.7074971859705,8.16486072540283 77.7070770263672,8.16486072540283 77.7070770263672,8.16476540098881 77.7068023681642,8.16470308744879 77.7068023681642,8.16486072540283</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

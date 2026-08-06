@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="check_date" type="string"></SimpleField>
+	<SimpleField name="panoramax" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="resort" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="mobile" type="string"></SimpleField>
+	<SimpleField name="contact:facebook" type="string"></SimpleField>
+	<SimpleField name="voltage:secondary" type="string"></SimpleField>
+	<SimpleField name="wikimedia_commons" type="string"></SimpleField>
+	<SimpleField name="tower:construction" type="string"></SimpleField>
+	<SimpleField name="bridge:support" type="string"></SimpleField>
+	<SimpleField name="wheelchair" type="string"></SimpleField>
+	<SimpleField name="trolleybus" type="string"></SimpleField>
+	<SimpleField name="network" type="string"></SimpleField>
+	<SimpleField name="air_conditioning" type="string"></SimpleField>
+	<SimpleField name="utility" type="string"></SimpleField>
+	<SimpleField name="lamp_type" type="string"></SimpleField>
+	<SimpleField name="lamp_mount" type="string"></SimpleField>
+	<SimpleField name="support" type="string"></SimpleField>
+	<SimpleField name="mapillary" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="manufacturer" type="string"></SimpleField>
+	<SimpleField name="addr:full" type="string"></SimpleField>
+	<SimpleField name="short_name" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator:abbr" type="string"></SimpleField>
+	<SimpleField name="branch" type="string"></SimpleField>
+	<SimpleField name="operator:type" type="string"></SimpleField>
+	<SimpleField name="internet_access:ssid" type="string"></SimpleField>
+	<SimpleField name="switch" type="string"></SimpleField>
+	<SimpleField name="shelter" type="string"></SimpleField>
+	<SimpleField name="windings:auto" type="string"></SimpleField>
+	<SimpleField name="surveillance:type" type="string"></SimpleField>
+	<SimpleField name="surveillance" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="camera:type" type="string"></SimpleField>
+	<SimpleField name="camera:mount" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="building:use" type="string"></SimpleField>
+	<SimpleField name="brand:wikipedia" type="string"></SimpleField>
+	<SimpleField name="brand:wikidata" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="devices" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="phases" type="string"></SimpleField>
+	<SimpleField name="pole:type" type="string"></SimpleField>
+	<SimpleField name="feeder" type="string"></SimpleField>
+	<SimpleField name="capacity" type="string"></SimpleField>
+	<SimpleField name="public_transport" type="string"></SimpleField>
+	<SimpleField name="bus" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="voltage:primary" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="rooms" type="string"></SimpleField>
+	<SimpleField name="phone" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="internet_access:fee" type="string"></SimpleField>
+	<SimpleField name="internet_access" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="email" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="power_supply" type="string"></SimpleField>
+	<SimpleField name="address" type="string"></SimpleField>
+	<SimpleField name="generator:place" type="string"></SimpleField>
+	<SimpleField name="design" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="transformer" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="generator:output:compressed_air" type="string"></SimpleField>
+	<SimpleField name="name:ml" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="entrance" type="string"></SimpleField>
+	<SimpleField name="triple_tower" type="string"></SimpleField>
+	<SimpleField name="design:incomplete" type="string"></SimpleField>
+	<SimpleField name="rotor:diameter" type="string"></SimpleField>
+	<SimpleField name="line_management" type="string"></SimpleField>
+	<SimpleField name="voltage-low" type="string"></SimpleField>
+	<SimpleField name="voltage-high" type="string"></SimpleField>
+	<SimpleField name="tower:structure" type="string"></SimpleField>
+	<SimpleField name="tower:design" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="line_attachment" type="string"></SimpleField>
+	<SimpleField name="survey:date" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="junction" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="operator:wikipedia" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7473654437</SimpleData>
+		<SimpleData name="osm_id">7473654437</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">33kv_Substation,_KSEBL,karamana</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.9646599,8.489275</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9396171349</SimpleData>
+		<SimpleData name="osm_id">9396171349</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="addr:full">Kuruppampadi</SimpleData>
+		<SimpleData name="operator:wikipedia">en:Kerala State Electricity Board</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.5177895,10.1135063</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<name>KSEB Office Vellur</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8863882244</SimpleData>
+		<SimpleData name="osm_id">8863882244</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="branch">Limited   Vellur Section</SimpleData>
+		<SimpleData name="website">https://wss.kseb.in</SimpleData>
+		<SimpleData name="phone">+91-4985202921</SimpleData>
+		<SimpleData name="opening_hours">24/7</SimpleData>
+		<SimpleData name="addr:street">N.H Kandoth</SimpleData>
+		<SimpleData name="addr:postcode">670307</SimpleData>
+		<SimpleData name="addr:city">Payyanur</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.2164702,12.1295699</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9392820351</SimpleData>
+		<SimpleData name="osm_id">9392820351</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikipedia">en:Kerala State Electricity Board</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.0472582,11.2466291</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8846398346</SimpleData>
+		<SimpleData name="osm_id">8846398346</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.1587351,10.4250506</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<name>KSEB Kanjangad</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n10030893697</SimpleData>
+		<SimpleData name="osm_id">10030893697</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.0958,12.3111623</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9396543727</SimpleData>
+		<SimpleData name="osm_id">9396543727</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">yes</SimpleData>
+		<SimpleData name="operator:wikipedia">en:Kerala State Electricity Board</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.3325428,11.119184</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<name>110kV Substation</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3830615591</SimpleData>
+		<SimpleData name="osm_id">3830615591</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.756157,11.653352</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7489803731</SimpleData>
+		<SimpleData name="osm_id">7489803731</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">industrial</SimpleData>
+		<SimpleData name="voltage">400000</SimpleData>
+		<SimpleData name="operator">Powergrid 400 kV Substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.4072984,10.0286657</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<name>Kerala State Electricity Board</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n10760611384</SimpleData>
+		<SimpleData name="osm_id">10760611384</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.4312456,10.7741544</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7451329639</SimpleData>
+		<SimpleData name="osm_id">7451329639</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7238088,9.0393983</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n11954812208</SimpleData>
+		<SimpleData name="osm_id">11954812208</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:short">KSEB</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.5555244,9.6888627</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7635489978</SimpleData>
+		<SimpleData name="osm_id">7635489978</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.6542344,9.9658786</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8591833406</SimpleData>
+		<SimpleData name="osm_id">8591833406</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">33_kv</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.5778078,9.1745365</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n539330326</SimpleData>
+		<SimpleData name="osm_id">539330326</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="ref">110 KV</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.9342957,11.3200719</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7444237147</SimpleData>
+		<SimpleData name="osm_id">7444237147</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.1522569,10.2710331</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n344444288</SimpleData>
+		<SimpleData name="osm_id">344444288</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="designation">Elathurthy</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.2223319,10.4853492</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7465953153</SimpleData>
+		<SimpleData name="osm_id">7465953153</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">KSEB_Ezhamkulam</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7687672,9.1451089</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8897833671</SimpleData>
+		<SimpleData name="osm_id">8897833671</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.9012289,8.494002</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.20">
+	<description>Electricity substation</description>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7466339390</SimpleData>
+		<SimpleData name="osm_id">7466339390</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">service</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board Substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.6150057,10.0544091</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.21">
+	<name>Kseb 33kv containerised substation Blangad</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8898083617</SimpleData>
+		<SimpleData name="osm_id">8898083617</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="survey:date">2021-07-06</SimpleData>
+		<SimpleData name="voltage">33000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.0278573,10.5556155</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.22">
+	<name>Substation</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n12232000125</SimpleData>
+		<SimpleData name="osm_id">12232000125</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.2081858,10.5150614</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.23">
+	<name>KSEB Chittur</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n13152084893</SimpleData>
+		<SimpleData name="osm_id">13152084893</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:short">KSEB</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7487862,10.7007077</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.24">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9903316511</SimpleData>
+		<SimpleData name="osm_id">9903316511</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.18924,12.2665031</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.25">
+	<name>Olavakode - Kalpathy Substation</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9974304453</SimpleData>
+		<SimpleData name="osm_id">9974304453</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">33000</SimpleData>
+		<SimpleData name="operator:short">KSEB</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.6485097,10.7908905</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.26">
+	<name>K.S.E.B</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n5544177390</SimpleData>
+		<SimpleData name="osm_id">5544177390</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.7084684,10.6829982</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.27">
+	<name>11KV substation ( VSNL)</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7503498033</SimpleData>
+		<SimpleData name="osm_id">7503498033</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">11000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.3446583,10.0144614</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.28">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7503552204</SimpleData>
+		<SimpleData name="osm_id">7503552204</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator">KSEB Substation Valachira</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.4815666,9.7565502</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.29">
+	<name>Substation Odakkali</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9056329219</SimpleData>
+		<SimpleData name="osm_id">9056329219</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="survey:date">2021-09-02</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.5558308,10.0830284</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.30">
+	<name>KSEB Sub Division Office</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n10153719110</SimpleData>
+		<SimpleData name="osm_id">10153719110</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:short">KSEB</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.5250421,9.6315014</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.31">
+	<name>power house</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7503498485</SimpleData>
+		<SimpleData name="osm_id">7503498485</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.3450282,10.0146123</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.32">
+	<name>KSEB substation</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n10096910575</SimpleData>
+		<SimpleData name="osm_id">10096910575</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.2548252,11.6740554</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.33">
+	<name>Substation KSEB</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n10113439378</SimpleData>
+		<SimpleData name="osm_id">10113439378</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.0641188,11.6348308</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.34">
+	<name>KSEB Substation</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n10102580859</SimpleData>
+		<SimpleData name="osm_id">10102580859</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.2655187,11.6640552</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.35">
+	<name>KSEB</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8305092591</SimpleData>
+		<SimpleData name="osm_id">8305092591</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.5627327,10.7994228</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.36">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n3614716424</SimpleData>
+		<SimpleData name="osm_id">3614716424</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.2054274,10.4409135</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.37">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9392554961</SimpleData>
+		<SimpleData name="osm_id">9392554961</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">yes</SimpleData>
+		<SimpleData name="operator:wikipedia">en:Kerala State Electricity Board</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.6122765,9.8505363</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.38">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9373568255</SimpleData>
+		<SimpleData name="osm_id">9373568255</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+		<SimpleData name="operator:wikipedia">en:Kerala State Electricity Board</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.9454112,8.8248867</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.39">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n10888919754</SimpleData>
+		<SimpleData name="osm_id">10888919754</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.4535868,9.9767445</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.40">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9370952008</SimpleData>
+		<SimpleData name="osm_id">9370952008</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+		<SimpleData name="operator:wikipedia">en:Kerala State Electricity Board</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="ref">33</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.5444796,9.4069587</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.41">
+	<name>KSEB Office</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7467730753</SimpleData>
+		<SimpleData name="osm_id">7467730753</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.7588822,11.3111492</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.42">
+	<name>Amrita power substation</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n2388351719</SimpleData>
+		<SimpleData name="osm_id">2388351719</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.4891477,9.096877</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.43">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7513437727</SimpleData>
+		<SimpleData name="osm_id">7513437727</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.9463849,11.0483604</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.44">
+	<name>Kerala State Electricity Board Central Store</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9285191018</SimpleData>
+		<SimpleData name="osm_id">9285191018</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="short_name">KSEB</SimpleData>
+		<SimpleData name="not:operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="survey:date">2021-11-26</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.3704706,10.1834437</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.45">
+	<name>KSEB Ex.Engineer;s Office</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n10023921944</SimpleData>
+		<SimpleData name="osm_id">10023921944</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.3791804,11.9859595</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.46">
+	<name>KSEB Section Office, Alanallur</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n10677754922</SimpleData>
+		<SimpleData name="osm_id">10677754922</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.3423833,11.0158823</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.47">
+	<name>KSEB Sub-Station, Nallalam</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n10657917444</SimpleData>
+		<SimpleData name="osm_id">10657917444</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.808903,11.2071935</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.48">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n8323647852</SimpleData>
+		<SimpleData name="osm_id">8323647852</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="substation">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.4561064,12.1989127</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.49">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n2712069055</SimpleData>
+		<SimpleData name="osm_id">2712069055</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>75.817482,11.2311973</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.50">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n7342448003</SimpleData>
+		<SimpleData name="osm_id">7342448003</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">KSEB_33KV_Substation,_Paika</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.723272,9.658887</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.51">
+	<name>KSEB Office,Pannikode</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="full_id">n9484296134</SimpleData>
+		<SimpleData name="osm_id">9484296134</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:wikipedia">en:Kerala State Electricity Board</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>76.0054351,11.2711759</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

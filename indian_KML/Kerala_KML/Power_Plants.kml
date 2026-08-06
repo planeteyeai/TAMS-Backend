@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="reprojected" id="reprojected">
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="structure" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="generator:place" type="string"></SimpleField>
+	<SimpleField name="panoramax" type="string"></SimpleField>
+	<SimpleField name="building:levels" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="brand" type="string"></SimpleField>
+	<SimpleField name="generator:solar:tracking" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="operator:website" type="string"></SimpleField>
+	<SimpleField name="postal_code" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="contact:phone" type="string"></SimpleField>
+	<SimpleField name="air_conditioning" type="string"></SimpleField>
+	<SimpleField name="branch" type="string"></SimpleField>
+	<SimpleField name="industrial" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="covered" type="string"></SimpleField>
+	<SimpleField name="phone" type="string"></SimpleField>
+	<SimpleField name="operator:type" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="district" type="string"></SimpleField>
+	<SimpleField name="voltage_1" type="string"></SimpleField>
+	<SimpleField name="name:en" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="not:operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="conductor" type="string"></SimpleField>
+	<SimpleField name="capacity" type="string"></SimpleField>
+	<SimpleField name="operator:wikipedia" type="string"></SimpleField>
+	<SimpleField name="government" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="survey:date" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="line" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="image" type="string"></SimpleField>
+	<SimpleField name="name:ta" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="gas_insulated" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="name:kn" type="string"></SimpleField>
+	<SimpleField name="wires" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="circuits" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="name:ml" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="cables" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+</Schema>
+<Folder><name>reprojected</name>
+  <Placemark id="reprojected.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1368</SimpleData>
+		<SimpleData name="full_id">w1433252264</SimpleData>
+		<SimpleData name="osm_id">1433252264</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.7235106,10.7897824 76.7234945,10.7895769 76.7234677,10.7893556 76.7234302,10.7890658 76.7234838,10.7887812 76.7239612,10.7886758 76.7241973,10.7887759 76.7242241,10.7888866 76.7244011,10.7888602 76.7246532,10.7887232 76.7247713,10.7886126 76.7249215,10.7884808 76.7254472,10.7884176 76.7256564,10.788386 76.726048,10.7883965 76.726504,10.7883807 76.7264664,10.7889024 76.7267722,10.7890183 76.7267239,10.7895716 76.7259622,10.7895769 76.725871,10.7898773 76.7253882,10.789872 76.7250019,10.7897824 76.724605,10.7897824 76.724385,10.7898457 76.7241007,10.7899247 76.7237627,10.7899142 76.7235106,10.7897824</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.2">
+	<name>Sabarigiri Hydro Electric Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.856</SimpleData>
+		<SimpleData name="full_id">w823181880</SimpleData>
+		<SimpleData name="osm_id">823181880</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">340 MW</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="wikidata">Q56366799</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.0729894,9.3093642 77.0733511,9.3095014 77.0729086,9.3105231 77.0725852,9.3104342 77.0729894,9.3093642</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1324</SimpleData>
+		<SimpleData name="full_id">w1363082222</SimpleData>
+		<SimpleData name="osm_id">1363082222</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3400797,10.0340959 76.3402444,10.0340812 76.3402231,10.0338489 76.3400584,10.0338636 76.3400797,10.0340959</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.4">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1325</SimpleData>
+		<SimpleData name="full_id">w1363082223</SimpleData>
+		<SimpleData name="osm_id">1363082223</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3406161,10.0336802 76.3406502,10.0336327 76.3406658,10.0336494 76.3407211,10.0336034 76.3407509,10.0336159 76.3407821,10.0335908 76.3409041,10.033662 76.3409353,10.033662 76.3409622,10.0336383 76.3410047,10.0336941 76.3409622,10.0337249 76.3410104,10.0337709 76.3410629,10.033743 76.3411508,10.0338087 76.341114,10.0338254 76.3410969,10.033845 76.3411324,10.0338897 76.3410671,10.033919 76.3409835,10.0338575 76.3407878,10.0337709 76.34067,10.0337109 76.3406161,10.0336802</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.5">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1326</SimpleData>
+		<SimpleData name="full_id">w1363082224</SimpleData>
+		<SimpleData name="osm_id">1363082224</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.340275,10.0349091 76.3404085,10.0349743 76.3404183,10.0349549 76.3405438,10.034706 76.3404646,10.0346672 76.3404797,10.0346374 76.3404253,10.0346108 76.340275,10.0349091</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.6">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1005</SimpleData>
+		<SimpleData name="full_id">w971286669</SimpleData>
+		<SimpleData name="osm_id">971286669</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="location">surface</SimpleData>
+		<SimpleData name="plant:output:electricity">1 MW</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="operator">Ahalia Group</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.8296564,10.7948517 76.8297207,10.7939427 76.8304585,10.793877 76.8304664,10.7941272 76.8305093,10.7941245 76.8305066,10.794222 76.830599,10.7941319 76.8306702,10.7940639 76.8309814,10.7940639 76.8311156,10.79408 76.8312442,10.7941219 76.8313113,10.7948754 76.8296564,10.7948517</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.7">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1550</SimpleData>
+		<SimpleData name="full_id">w1448572418</SimpleData>
+		<SimpleData name="osm_id">1448572418</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3604146,9.970145 76.3604468,9.9697779 76.3605139,9.969762 76.3605782,9.969651 76.3605756,9.9693605 76.360648,9.9691835 76.3607606,9.9690435 76.3608304,9.9689536 76.3609162,9.9688268 76.3611791,9.9684253 76.3613373,9.9681109 76.3614902,9.9679128 76.3616565,9.9677569 76.3618201,9.9676116 76.3620937,9.9674664 76.3628179,9.9671309 76.3633677,9.9670859 76.3634858,9.9673792 76.3634965,9.9680132 76.3633972,9.9688216 76.363349,9.9694714 76.363923,9.9699681 76.3638371,9.9704726 76.3632551,9.97047 76.3628876,9.9707394 76.362673,9.9706945 76.3627374,9.969696 76.3615841,9.9695031 76.3604897,9.9701583 76.3604146,9.970145</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.8">
+	<name>INA Solar Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.876</SimpleData>
+		<SimpleData name="full_id">w867808075</SimpleData>
+		<SimpleData name="osm_id">867808075</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:type">solar_photovoltaic_panel</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="operator">INA</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.198526,12.0192965 75.1982027,12.0202229 75.1986667,12.0202832 75.1993953,12.0194019 75.1996136,12.0189059 75.1998535,12.0184079 75.1999656,12.0182721 75.2002948,12.0178094 75.2005282,12.0173962 75.2005094,12.017206 75.2000239,12.0169699 75.1999552,12.0170589 75.1993346,12.0178776 75.1990664,12.0182553 75.1988357,12.0186646 75.198526,12.0192965</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.9">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1468</SimpleData>
+		<SimpleData name="full_id">w1448459821</SimpleData>
+		<SimpleData name="osm_id">1448459821</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3220885,10.8876647 76.3224506,10.8875198 76.3223326,10.8871432 76.3221368,10.8869746 76.3220188,10.8869219 76.3219947,10.8867033 76.3216674,10.8867006 76.3216755,10.8870957 76.3218874,10.8870931 76.3220885,10.8876647</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1340</SimpleData>
+		<SimpleData name="full_id">w1363517545</SimpleData>
+		<SimpleData name="osm_id">1363517545</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3429925,10.0309319 76.34301,10.0309112 76.3430807,10.0309692 76.3430836,10.0309838 76.3430699,10.0309912 76.3430787,10.031007 76.343059,10.031039 76.3430477,10.0310182 76.3430285,10.0310283 76.3430088,10.0310138 76.3430296,10.0310015 76.3430128,10.0309741 76.3430255,10.030959 76.3429925,10.0309319</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1341</SimpleData>
+		<SimpleData name="full_id">w1363520470</SimpleData>
+		<SimpleData name="osm_id">1363520470</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3153986,10.0529804 76.3155173,10.0528698 76.3157707,10.0531335 76.3157383,10.0531636 76.3158632,10.0532935 76.315743,10.0534056 76.3156197,10.0532774 76.3155971,10.0532276 76.3156326,10.0531921 76.3155611,10.0531227 76.3155132,10.0531332 76.3154558,10.0530735 76.3154728,10.0530576 76.3153986,10.0529804</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1342</SimpleData>
+		<SimpleData name="full_id">w1363520471</SimpleData>
+		<SimpleData name="osm_id">1363520471</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3148139,10.0523624 76.3146135,10.0525527 76.3146757,10.0526062 76.3147814,10.0524916 76.3148285,10.0524303 76.3148836,10.0524611 76.314927,10.0525282 76.3149341,10.052564 76.3149549,10.0525739 76.3149558,10.0525849 76.315037,10.0526792 76.3150525,10.0526775 76.3150762,10.0527031 76.3149407,10.0528696 76.3149742,10.0528993 76.3150075,10.0528775 76.3150335,10.0528937 76.3151757,10.0527743 76.3152774,10.0528613 76.3153153,10.0528266 76.3150354,10.0525236 76.3150189,10.0525259 76.3150153,10.0525007 76.3149518,10.0524473 76.3149332,10.0524183 76.3149177,10.0524138 76.3149022,10.0524199 76.3148139,10.0523624</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.13">
+	<name>Pallivasal Powerhouse</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.801</SimpleData>
+		<SimpleData name="full_id">w798402542</SimpleData>
+		<SimpleData name="osm_id">798402542</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="generator:type">kaplan_turbine</SimpleData>
+		<SimpleData name="plant:output:electricity">37.5 MW</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="wikidata">Q56366816</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.0547433,10.0318113 77.0549069,10.0318222 77.0549097,10.0317676 77.0550954,10.0317785 77.0551176,10.0316038 77.0549873,10.0315983 77.0550095,10.0313253 77.0549485,10.0313198 77.0549485,10.0311642 77.0547766,10.0311506 77.0547433,10.0318113</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.14">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1060</SimpleData>
+		<SimpleData name="full_id">w999687410</SimpleData>
+		<SimpleData name="osm_id">999687410</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:type">solar_photovoltaic_panel</SimpleData>
+		<SimpleData name="barrier">fence</SimpleData>
+		<SimpleData name="plant:output:electricity">0.2 MW</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.8717035,8.535903 76.8721478,8.5361971 76.8730635,8.5350108 76.8723309,8.5344586 76.8719825,8.5349107 76.872265,8.5351237 76.8717035,8.535903</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.15">
+	<name>Adyanpara Small Hydroelectric Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1129</SimpleData>
+		<SimpleData name="full_id">w1228836604</SimpleData>
+		<SimpleData name="osm_id">1228836604</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">3.5 MW</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:method">water-storage</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.2022142,11.3561425 76.2023345,11.3559695 76.2026261,11.3561523 76.2025409,11.3563371 76.2022142,11.3561425</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1564</SimpleData>
+		<SimpleData name="full_id">w1463168789</SimpleData>
+		<SimpleData name="osm_id">1463168789</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3659427,10.0657448 76.365948,10.065552 76.3661143,10.0655573 76.3661036,10.0654648 76.3659722,10.065383 76.3660151,10.0650159 76.3661921,10.0650264 76.3661948,10.0649604 76.3665059,10.0649763 76.3665408,10.0649393 76.3668251,10.0649683 76.366927,10.0650634 76.3677719,10.065169 76.3677049,10.0657712 76.3675091,10.0657685 76.3674715,10.0659085 76.3659427,10.0657448</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.17">
+	<name>Panniyar Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.803</SimpleData>
+		<SimpleData name="full_id">w798460151</SimpleData>
+		<SimpleData name="osm_id">798460151</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.0279078,9.9739747 77.0280931,9.9739326 77.0280626,9.9737475 77.0278621,9.9737796 77.0279078,9.9739747</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1061</SimpleData>
+		<SimpleData name="full_id">w999687411</SimpleData>
+		<SimpleData name="osm_id">999687411</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:type">solar_photovoltaic_panel</SimpleData>
+		<SimpleData name="barrier">fence</SimpleData>
+		<SimpleData name="plant:output:electricity">1 MW</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3868196,10.1490908 76.3868357,10.148803 76.3892028,10.1488545 76.3892671,10.1488994 76.3924107,10.1490129 76.3924697,10.1491027 76.39391,10.1491713 76.3938966,10.1493297 76.3868196,10.1490908</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.19">
+	<name>CHEMBUKADAVU-II</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1565</SimpleData>
+		<SimpleData name="full_id">w1463910411</SimpleData>
+		<SimpleData name="osm_id">1463910411</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.0374874,11.4647287 76.0374847,11.4644737 76.037356,11.4643712 76.0373586,11.4640926 76.0376188,11.4640663 76.0376161,11.4643554 76.0376859,11.4644001 76.037702,11.4646998 76.0376939,11.4647261 76.0374874,11.4647287</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1338</SimpleData>
+		<SimpleData name="full_id">w1363517533</SimpleData>
+		<SimpleData name="osm_id">1363517533</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.342409,10.0313148 76.3425335,10.0313817 76.3425886,10.0312823 76.3424641,10.0312154 76.342409,10.0313148</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.21">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1339</SimpleData>
+		<SimpleData name="full_id">w1363517542</SimpleData>
+		<SimpleData name="osm_id">1363517542</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3425169,10.0309061 76.3426158,10.0309899 76.3426694,10.0309284 76.3426486,10.0309093 76.3425705,10.0308447 76.3425169,10.0309061</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1328</SimpleData>
+		<SimpleData name="full_id">w1363082226</SimpleData>
+		<SimpleData name="osm_id">1363082226</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3406363,10.0351552 76.3406984,10.0352108 76.3409338,10.0349426 76.3409097,10.0349021 76.3408658,10.034951 76.340853,10.0349203 76.3406363,10.0351552</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1556</SimpleData>
+		<SimpleData name="full_id">w1453486902</SimpleData>
+		<SimpleData name="osm_id">1453486902</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3484663,9.9566397 76.3487323,9.9560869 76.3491791,9.9561145 76.3488325,9.9568111 76.348618,9.9568014 76.3486221,9.9567124 76.3484663,9.9566397</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1420</SimpleData>
+		<SimpleData name="full_id">w1448459771</SimpleData>
+		<SimpleData name="osm_id">1448459771</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3233599,9.9603653 76.32406,9.9599321 76.3239393,9.9597498 76.3232419,9.9601857 76.3233599,9.9603653</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1329</SimpleData>
+		<SimpleData name="full_id">w1363082227</SimpleData>
+		<SimpleData name="osm_id">1363082227</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3409268,10.0349706 76.3409594,10.0349364 76.3411026,10.0350684 76.34107,10.0351027 76.3409268,10.0349706</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1557</SimpleData>
+		<SimpleData name="full_id">w1453486903</SimpleData>
+		<SimpleData name="osm_id">1453486903</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.346887,9.9582617 76.3468884,9.9581296 76.3471768,9.9573769 76.3473957,9.9573885 76.3471729,9.958025 76.3471719,9.9581216 76.3475271,9.9581251 76.3475256,9.9582682 76.346887,9.9582617</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.27">
+	<name>KSEB Nallalam Diesel Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.820</SimpleData>
+		<SimpleData name="full_id">w799792158</SimpleData>
+		<SimpleData name="osm_id">799792158</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="industrial">power</SimpleData>
+		<SimpleData name="plant:output:electricity">96 MW</SimpleData>
+		<SimpleData name="plant:source">diesel</SimpleData>
+		<SimpleData name="plant:method">combustion</SimpleData>
+		<SimpleData name="alt_name">Kozhikode Diesel Power Plant</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.8042081,11.2065091 75.8066972,11.2043095 75.8073302,11.2048673 75.8081563,11.2051936 75.8082851,11.2052567 75.8081349,11.2058461 75.8070513,11.2063933 75.8067187,11.2064197 75.8063432,11.206046 75.8053508,11.206888 75.8042081,11.2065091</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.28">
+	<name>KSEB INKEL Solar power plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1086</SimpleData>
+		<SimpleData name="full_id">w1041195441</SimpleData>
+		<SimpleData name="osm_id">1041195441</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">3 MW</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="operator">INKEL</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.7722874,10.791024 76.7745632,10.7910176 76.7745215,10.7899096 76.7733675,10.7899221 76.7733756,10.7887417 76.7722724,10.7887331 76.7722874,10.791024</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1330</SimpleData>
+		<SimpleData name="full_id">w1363082254</SimpleData>
+		<SimpleData name="osm_id">1363082254</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3364537,10.0320528 76.3364584,10.0320316 76.3364338,10.0320263 76.3364333,10.0320072 76.3364129,10.0320077 76.3364114,10.0319544 76.3363938,10.0319549 76.3363966,10.0320543 76.3364537,10.0320528</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1558</SimpleData>
+		<SimpleData name="full_id">w1453486904</SimpleData>
+		<SimpleData name="osm_id">1453486904</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3473767,9.9576879 76.3474691,9.9573928 76.3478055,9.9574949 76.3477088,9.9578038 76.3478874,9.9578581 76.3477745,9.9582186 76.3475675,9.9582118 76.3476954,9.9578985 76.3475953,9.9578589 76.3475901,9.9577527 76.3473767,9.9576879</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1148</SimpleData>
+		<SimpleData name="full_id">w1265578488</SimpleData>
+		<SimpleData name="osm_id">1265578488</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:type">solar_photovoltaic_panel</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.9472922,11.2952411 75.9471339,11.295642 75.9471237,11.2958744 75.9471806,11.2958801 75.947323,11.2958835 75.9475895,11.2959598 75.9477068,11.2958288 75.947757,11.2956443 75.9477923,11.2955202 75.9478276,11.2954484 75.9472922,11.2952411</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.32">
+	<name>Floating Solar Power</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1559</SimpleData>
+		<SimpleData name="full_id">w1454816504</SimpleData>
+		<SimpleData name="osm_id">1454816504</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">50 MW</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="addr:district">Kollam</SimpleData>
+		<SimpleData name="operator">Apollo Green Energy</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.6166106,9.0154264 76.6146425,9.015493 76.6145413,9.0122051 76.6165544,9.0121496 76.6166106,9.0154264</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.33">
+	<name>CIAL Solar Power Plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1080</SimpleData>
+		<SimpleData name="full_id">w1037462231</SimpleData>
+		<SimpleData name="osm_id">1037462231</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="operator:website">https://cial.aero</SimpleData>
+		<SimpleData name="plant:output:electricity">12 MW</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="operator">Cochin International Airport Limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.2400429,12.2170628 75.2398044,12.2157779 75.2397109,12.2141955 75.2397326,12.2139236 75.2401483,12.2136373 75.2413836,12.2135718 75.2417379,12.2136561 75.2420635,12.2135812 75.2423699,12.2134782 75.2424082,12.2133004 75.242887,12.2132349 75.2430019,12.2133098 75.2430211,12.2134689 75.2430115,12.213628 75.2431455,12.2137871 75.2431168,12.2140398 75.242954,12.2143018 75.2429636,12.2144984 75.2432605,12.2150225 75.2432605,12.2155279 75.243519,12.2157244 75.2435573,12.2162954 75.2435094,12.2166416 75.2434137,12.2167914 75.2403921,12.2172825 75.2400429,12.2170628</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.34">
+	<name>KSEB Muvattupuzha</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.816</SimpleData>
+		<SimpleData name="full_id">w799425117</SimpleData>
+		<SimpleData name="osm_id">799425117</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+		<SimpleData name="addr:street">MC Road</SimpleData>
+		<SimpleData name="name:ml">കെഎസ്ഇബി</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.5624883,10.0169689 76.563254,10.0170363 76.5633291,10.0166863 76.5639085,10.0166837 76.5640246,10.0159683 76.5638387,10.015928 76.5625299,10.0158068 76.5624883,10.0169689</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1486</SimpleData>
+		<SimpleData name="full_id">w1448459839</SimpleData>
+		<SimpleData name="osm_id">1448459839</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.6493502,11.1022677 76.6493583,11.1019466 76.6489077,11.1018308 76.6487923,11.1017387 76.6488057,11.1015123 76.6489989,11.1013571 76.6494736,11.1014255 76.649428,11.1016703 76.6500878,11.1018308 76.6499618,11.1023704 76.6493502,11.1022677</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.36">
+	<name>Power House</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.818</SimpleData>
+		<SimpleData name="full_id">w799590038</SimpleData>
+		<SimpleData name="osm_id">799590038</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.176975,10.3768719 76.1784595,10.3769726 76.1785304,10.3763607 76.1769316,10.3761244 76.176975,10.3768719</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1418</SimpleData>
+		<SimpleData name="full_id">w1448449810</SimpleData>
+		<SimpleData name="osm_id">1448449810</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.9115846,12.7191719 74.9117696,12.7192007 74.9118206,12.7192792 74.9119601,12.7193079 74.9119681,12.7193603 74.9120834,12.7193603 74.9120861,12.71941 74.9122471,12.7194257 74.9122685,12.7193734 74.9122846,12.719342 74.9122927,12.7192922 74.9123839,12.7192949 74.9124402,12.7188422 74.9122444,12.7188213 74.9122417,12.7188658 74.9120969,12.7188684 74.9120781,12.7188998 74.9119601,12.7188946 74.911944,12.718939 74.9118099,12.7189286 74.9117213,12.7189495 74.9116543,12.7189809 74.9116221,12.7190489 74.9115416,12.7190542 74.9115309,12.7191667 74.9115846,12.7191719</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.38">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1555</SimpleData>
+		<SimpleData name="full_id">w1453486901</SimpleData>
+		<SimpleData name="osm_id">1453486901</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3487609,9.9560558 76.3487819,9.9555831 76.3492242,9.9556021 76.3492193,9.955711 76.3493352,9.9557159 76.3493238,9.9559741 76.3491136,9.9559651 76.3491115,9.9560147 76.3492045,9.9560187 76.349202,9.9560748 76.3487609,9.9560558</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.39">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1580</SimpleData>
+		<SimpleData name="full_id">w1470127966</SimpleData>
+		<SimpleData name="osm_id">1470127966</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.8412059,10.0256478 76.8411469,10.0253678 76.8416727,10.0252305 76.8417585,10.0255104 76.8412059,10.0256478</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1581</SimpleData>
+		<SimpleData name="full_id">w1470127967</SimpleData>
+		<SimpleData name="osm_id">1470127967</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.1065381,9.935558 77.1065488,9.9353784 77.1070746,9.9354524 77.1070585,9.9356135 77.1065381,9.935558</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1582</SimpleData>
+		<SimpleData name="full_id">w1470127968</SimpleData>
+		<SimpleData name="osm_id">1470127968</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>77.1234494,10.1062355 77.1237686,10.1060375 77.1236935,10.1058975 77.1233556,10.106114 77.1234494,10.1062355</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.42">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1583</SimpleData>
+		<SimpleData name="full_id">w1470127969</SimpleData>
+		<SimpleData name="osm_id">1470127969</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.9593371,10.0705961 76.9594182,10.0705703 76.9595987,10.0705129 76.959549,10.0703558 76.9593894,10.0704108 76.9593169,10.0704358 76.9592848,10.0704469 76.9593371,10.0705961</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.43">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.780</SimpleData>
+		<SimpleData name="full_id">w758340931</SimpleData>
+		<SimpleData name="osm_id">758340931</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.1510415,11.1417973 76.1510107,11.1416325 76.1513126,11.1414662 76.1513265,11.1415131 76.151308,11.1416718 76.15106,11.1418169 76.1510415,11.1417973</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1576</SimpleData>
+		<SimpleData name="full_id">w1470109099</SimpleData>
+		<SimpleData name="osm_id">1470109099</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.8556604,11.6484273 75.8560574,11.6482802 75.8560091,11.6481568 75.8557945,11.6482329 75.8557463,11.6481226 75.8555451,11.6481883 75.8556604,11.6484273</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1477</SimpleData>
+		<SimpleData name="full_id">w1448459830</SimpleData>
+		<SimpleData name="osm_id">1448459830</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.0454106,10.8959193 76.0456788,10.8953346 76.0454053,10.8951765 76.0456037,10.8949395 76.0461777,10.8952714 76.0457915,10.8960615 76.0454106,10.8959193</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1577</SimpleData>
+		<SimpleData name="full_id">w1470127958</SimpleData>
+		<SimpleData name="osm_id">1470127958</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.050708,11.4412956 76.051062,11.4410458 76.0511398,11.4411615 76.0507965,11.4414007 76.050708,11.4412956</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.47">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1578</SimpleData>
+		<SimpleData name="full_id">w1470127959</SimpleData>
+		<SimpleData name="osm_id">1470127959</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.0623863,11.4430201 76.0626599,11.4427152 76.0627833,11.4428387 76.0625124,11.4431253 76.0623863,11.4430201</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.48">
+	<name>Lower Periyar hydro power station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.776</SimpleData>
+		<SimpleData name="full_id">w756450912</SimpleData>
+		<SimpleData name="osm_id">756450912</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">180 MW</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:method">run-of-the-river</SimpleData>
+		<SimpleData name="wikidata">Q56366820</SimpleData>
+		<SimpleData name="operator">KSEB KARIMANAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.8539585,10.0177049 76.8532997,10.0175445 76.8533468,10.0173571 76.8539917,10.017514 76.8539982,10.0175472 76.8539585,10.0177049</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.49">
+	<name>Banasura Sagar 400kW SPV Power plant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.845</SimpleData>
+		<SimpleData name="full_id">w804818861</SimpleData>
+		<SimpleData name="osm_id">804818861</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.9558616,11.6706117 75.9561233,11.6706966 75.9565465,11.6708321 75.9570545,11.6709473 75.9574591,11.6711062 75.9581905,11.6713181 75.9586066,11.6714658 75.9585803,11.6715943 75.9581409,11.6715323 75.9579201,11.6714563 75.9558186,11.6708486 75.9558616,11.6706117</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1572</SimpleData>
+		<SimpleData name="full_id">w1468094730</SimpleData>
+		<SimpleData name="osm_id">1468094730</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.7805841,11.3763659 75.7807115,11.3756941 75.7805854,11.3753259 75.7805854,11.3752602 75.7816583,11.3752339 75.7815644,11.3757388 75.7812533,11.3765829 75.7805841,11.3763659</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1574</SimpleData>
+		<SimpleData name="full_id">w1468881079</SimpleData>
+		<SimpleData name="osm_id">1468881079</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.3748744,9.9966244 76.374464,9.9964897 76.3741744,9.996347 76.3741636,9.996244 76.3743058,9.9961384 76.3744292,9.996141 76.3744399,9.996075 76.3743675,9.9960565 76.3744131,9.9955942 76.3749871,9.9956523 76.3753572,9.9958452 76.3757274,9.9962361 76.3763013,9.9975014 76.3761914,9.9977391 76.3763872,9.9985183 76.3761699,9.9986134 76.3759339,9.9984998 76.3758829,9.9980217 76.3759607,9.9976467 76.3760197,9.9974433 76.3754377,9.9965848 76.3751882,9.9964738 76.3749576,9.996635 76.3748744,9.9966244</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1575</SimpleData>
+		<SimpleData name="full_id">w1468887797</SimpleData>
+		<SimpleData name="osm_id">1468887797</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.8952606,11.5511941 75.8954591,11.5511337 75.8953974,11.5509024 75.8951828,11.5509813 75.8952606,11.5511941</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.53">
+	<name>Sholayar Power Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.488</SimpleData>
+		<SimpleData name="full_id">w588828639</SimpleData>
+		<SimpleData name="osm_id">588828639</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">54 MW</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="wikidata">Q56366870</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.7299124,10.3048808 76.7308455,10.3049107 76.7308758,10.3032686 76.7299351,10.3032387 76.7299279,10.3037591 76.7299124,10.3048808</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.54">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1569</SimpleData>
+		<SimpleData name="full_id">w1468094726</SimpleData>
+		<SimpleData name="osm_id">1468094726</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.1942464,10.6095645 76.1942732,10.6091084 76.1946782,10.6090926 76.1946648,10.6095566 76.1942464,10.6095645</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.55">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1570</SimpleData>
+		<SimpleData name="full_id">w1468094727</SimpleData>
+		<SimpleData name="osm_id">1468094727</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.2081081,10.9378631 76.2087089,10.937131 76.2088108,10.9364147 76.2078988,10.9362777 76.2066168,10.9357089 76.2065631,10.9366464 76.2074697,10.9367623 76.2073892,10.937289 76.2070942,10.9372732 76.2070566,10.9376208 76.2073731,10.9380264 76.2081081,10.9378631</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.56">
+	<name>Calicut airport solar farm</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.988</SimpleData>
+		<SimpleData name="full_id">w956574330</SimpleData>
+		<SimpleData name="osm_id">956574330</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="layer">1</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.9523345,11.1397722 75.9533257,11.1395714 75.9531677,11.1388739 75.9521964,11.1390869 75.9523345,11.1397722</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.57">
+	<name>KSEB Small Hydro Projects 2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.485</SimpleData>
+		<SimpleData name="full_id">w570879232</SimpleData>
+		<SimpleData name="osm_id">570879232</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.0536827,11.3692202 76.0539777,11.3690782 76.0538925,11.3689257 76.0535968,11.3690677 76.0536827,11.3692202</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.58">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1372</SimpleData>
+		<SimpleData name="full_id">w1447962304</SimpleData>
+		<SimpleData name="osm_id">1447962304</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">yes</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>74.9118581,12.7178205 74.9126749,12.7174398 74.9122323,12.716583 74.9117884,12.7167072 74.9117723,12.7169519 74.9115108,12.7170735 74.9117737,12.7175458 74.9118581,12.7178205</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.59">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1598</SimpleData>
+		<SimpleData name="full_id">w1499322318</SimpleData>
+		<SimpleData name="osm_id">1499322318</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="floating">yes</SimpleData>
+		<SimpleData name="plant:output:electricity">500 kW</SimpleData>
+		<SimpleData name="plant:source">solar</SimpleData>
+		<SimpleData name="plant:method">photovoltaic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>75.9593035,11.6684059 75.9593203,11.6680347 75.9594113,11.6680387 75.9594163,11.6679283 75.9600011,11.6679537 75.9599967,11.6680515 75.9601072,11.6680563 75.9600896,11.6684457 75.9600157,11.6684425 75.9600093,11.6685852 75.9593644,11.6685573 75.9593711,11.6684088 75.9593035,11.6684059</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.60">
+	<name>Panamkutty Power House</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.360</SimpleData>
+		<SimpleData name="full_id">w479210951</SimpleData>
+		<SimpleData name="osm_id">479210951</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="plant:output:electricity">77.6 MW</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="wikidata">Q56366818</SimpleData>
+		<SimpleData name="alt_name">Nariamanglam hydro power station</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.9790857,9.9537334 76.9792674,9.9536563 76.9794283,9.953588 76.9795552,9.9535342 76.9800872,9.9533085 76.9799212,9.9529287 76.9789196,9.9533537 76.9790857,9.9537334</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.61">
+	<name>Arippara Small Hydroelectric Project</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1154</SimpleData>
+		<SimpleData name="full_id">w1285599074</SimpleData>
+		<SimpleData name="osm_id">1285599074</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">plant</SimpleData>
+		<SimpleData name="start_date">2021-11-06</SimpleData>
+		<SimpleData name="plant:output:electricity">4.5 MW</SimpleData>
+		<SimpleData name="plant:source">hydro</SimpleData>
+		<SimpleData name="plant:method">run-of-the-river</SimpleData>
+		<SimpleData name="operator">CIAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>76.0454323,11.4377693 76.0455093,11.4378675 76.0455435,11.4378549 76.0455624,11.4378742 76.0457541,11.4377341 76.0456351,11.4375856 76.0455452,11.4376527 76.045505,11.4376393 76.0454408,11.437693 76.0454571,11.4377148 76.045416,11.4377517 76.0454323,11.4377693</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

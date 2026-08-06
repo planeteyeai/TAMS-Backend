@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="reprojected" id="reprojected">
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="power" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="rating" type="string"></SimpleField>
+	<SimpleField name="generator:output:biogas" type="string"></SimpleField>
+	<SimpleField name="addr:village" type="string"></SimpleField>
+	<SimpleField name="addr:district" type="string"></SimpleField>
+	<SimpleField name="utility" type="string"></SimpleField>
+	<SimpleField name="industrial" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="location" type="string"></SimpleField>
+	<SimpleField name="office" type="string"></SimpleField>
+	<SimpleField name="start_date" type="string"></SimpleField>
+	<SimpleField name="water" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="height" type="string"></SimpleField>
+	<SimpleField name="material" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="addr:place" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="aeroway" type="string"></SimpleField>
+	<SimpleField name="branch" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="survey:date" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="operator:short" type="string"></SimpleField>
+	<SimpleField name="waterway" type="string"></SimpleField>
+	<SimpleField name="substation" type="string"></SimpleField>
+	<SimpleField name="wikipedia" type="string"></SimpleField>
+	<SimpleField name="name:etymology:wikidata" type="string"></SimpleField>
+	<SimpleField name="floating" type="string"></SimpleField>
+	<SimpleField name="voltage" type="string"></SimpleField>
+	<SimpleField name="operator:wikipedia" type="string"></SimpleField>
+	<SimpleField name="frequency" type="string"></SimpleField>
+	<SimpleField name="name:kn" type="string"></SimpleField>
+	<SimpleField name="last_check" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="dec" type="string"></SimpleField>
+	<SimpleField name="plant:type" type="string"></SimpleField>
+	<SimpleField name="generator:type" type="string"></SimpleField>
+	<SimpleField name="generator:source" type="string"></SimpleField>
+	<SimpleField name="generator:output:electricity" type="string"></SimpleField>
+	<SimpleField name="generator:method" type="string"></SimpleField>
+	<SimpleField name="wikidata" type="string"></SimpleField>
+	<SimpleField name="name:ml" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="plant:source" type="string"></SimpleField>
+	<SimpleField name="plant:output:electricity" type="string"></SimpleField>
+	<SimpleField name="plant:method" type="string"></SimpleField>
+	<SimpleField name="alt_name" type="string"></SimpleField>
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="operator:wikidata" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+</Schema>
+<Folder><name>reprojected</name>
+  <Placemark id="reprojected.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.81</SimpleData>
+		<SimpleData name="full_id">w1001939628</SimpleData>
+		<SimpleData name="osm_id">1001939628</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">substation</SimpleData>
+		<SimpleData name="operator:wikipedia">en:Kerala State Electricity Board</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.2859789,10.7795751 76.2860499,10.7795277 76.2859513,10.7793852 76.2858802,10.7794326 76.2859789,10.7795751</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.2">
+	<name>KSEB 110KV Substation, Mangad</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.45</SimpleData>
+		<SimpleData name="full_id">w539159391</SimpleData>
+		<SimpleData name="osm_id">539159391</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.3755498,11.9824299 75.374703,11.9826672 75.373857,11.9829077 75.3734889,11.9829887 75.3734686,11.9823799 75.373431,11.9821943 75.3738695,11.9819474 75.3741967,11.9817638 75.3743652,11.9818745 75.3751837,11.9816526 75.3755498,11.9824299</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.3">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.82</SimpleData>
+		<SimpleData name="full_id">w1001940633</SimpleData>
+		<SimpleData name="osm_id">1001940633</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">office_building</SimpleData>
+		<SimpleData name="operator:wikipedia">en:Kerala State Electricity Board</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.2856158,10.779453 76.2857206,10.7794905 76.2857388,10.7795396 76.2857626,10.7795646 76.2857507,10.7796285 76.2856761,10.7796067 76.2856856,10.7795755 76.2856086,10.7795435 76.2856158,10.779453</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.4">
+	<name>Idukki Moolamattom Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.47</SimpleData>
+		<SimpleData name="full_id">w618095001</SimpleData>
+		<SimpleData name="osm_id">618095001</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">220000;66000</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.8593916,9.7878861 76.8592031,9.7902716 76.8599946,9.7903323 76.8601006,9.7889886 76.8607253,9.7890364 76.8607864,9.7882592 76.8604709,9.7879689 76.8593916,9.7878861</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.5">
+	<name>Panampilly Nagar Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.108</SimpleData>
+		<SimpleData name="full_id">w1343983765</SimpleData>
+		<SimpleData name="osm_id">1343983765</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="utility">power</SimpleData>
+		<SimpleData name="industrial">utility</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+		<SimpleData name="location">surface</SimpleData>
+		<SimpleData name="place">plot</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.296678,9.9559569 76.2967271,9.9557196 76.2971926,9.9558171 76.2973489,9.9558498 76.297283,9.9560803 76.2971158,9.9560449 76.296678,9.9559569</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.6">
+	<name>Kanjirappally Electrical Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.40</SimpleData>
+		<SimpleData name="full_id">w450630549</SimpleData>
+		<SimpleData name="osm_id">450630549</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:short">KSEB</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7920387,9.5474368 76.7925958,9.5476253 76.7927147,9.5477518 76.7928147,9.5478299 76.7931065,9.5475134 76.7931857,9.5472544 76.7932252,9.5470639 76.7925452,9.5467769 76.7923312,9.5469708 76.7920387,9.5474368</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.7">
+	<name>Kannadipara KSEB Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.111</SimpleData>
+		<SimpleData name="full_id">w1435603079</SimpleData>
+		<SimpleData name="osm_id">1435603079</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:short">KSEB</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+		<SimpleData name="building">cabin</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.1655799,12.2100429 75.1660522,12.2094087 75.1663048,12.2094809 75.167099,12.210093 75.1667115,12.2105048 75.1658707,12.2099929 75.1657746,12.210135 75.1655799,12.2100429</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.8">
+	<name>KSEB 66 KV Substation,Koodal</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.43</SimpleData>
+		<SimpleData name="full_id">w476362324</SimpleData>
+		<SimpleData name="osm_id">476362324</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="survey:date">2021-11-22</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.8527488,9.1589267 76.8532558,9.1588897 76.8531726,9.1574041 76.8525182,9.1574465 76.8527488,9.1589267</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.9">
+	<name>Kizhisseri Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.104</SimpleData>
+		<SimpleData name="full_id">w1327438479</SimpleData>
+		<SimpleData name="osm_id">1327438479</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.9896758,11.1676142 75.9897341,11.1672912 75.9898112,11.1667941 75.9902782,11.1668628 75.9906915,11.1669316 75.9905817,11.1673851 75.990486,11.1677608 75.9900797,11.1676875 75.9896758,11.1676142</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.10">
+	<name>110kV Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.36</SimpleData>
+		<SimpleData name="full_id">w417339705</SimpleData>
+		<SimpleData name="osm_id">417339705</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="frequency">50</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.5717557,11.8491521 75.5717732,11.8488789 75.5717536,11.8487958 75.5717317,11.84877 75.5718992,11.8478209 75.5723438,11.8480631 75.5722963,11.8481466 75.5724818,11.8482476 75.5724526,11.8487059 75.5731394,11.8487319 75.573176,11.8491455 75.5717557,11.8491521</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.105</SimpleData>
+		<SimpleData name="full_id">w1333467425</SimpleData>
+		<SimpleData name="osm_id">1333467425</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="rating">250 kVA</SimpleData>
+		<SimpleData name="substation">industrial</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.51329,9.5563023 76.5133233,9.5563482 76.5134233,9.5562775 76.51339,9.5562316 76.51329,9.5563023</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.12">
+	<name>Nallalam Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.37</SimpleData>
+		<SimpleData name="full_id">w417383547</SimpleData>
+		<SimpleData name="osm_id">417383547</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">220000;110000</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.8095082,11.2066815 75.8095599,11.2064228 75.8098296,11.2064747 75.8098863,11.206191 75.8097764,11.2057583 75.8095559,11.2057075 75.8094211,11.2056801 75.809028,11.2055991 75.8086319,11.205523 75.8085083,11.2061413 75.8084434,11.2061288 75.8083207,11.2067425 75.8084262,11.2067628 75.8083961,11.20688 75.8077832,11.2078943 75.8081909,11.2081087 75.8084363,11.2076772 75.80873,11.2078522 75.8091322,11.2071678 75.8092512,11.2069652 75.8093067,11.2068708 75.8093965,11.2068747 75.8095082,11.2066815</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.13">
+	<name>KSEB 110KV Substation, Agasthiamuzhi</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.38</SimpleData>
+		<SimpleData name="full_id">w417383635</SimpleData>
+		<SimpleData name="osm_id">417383635</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.9639997,11.3406307 75.9648969,11.3406714 75.9647722,11.3416563 75.9648178,11.3420416 75.9644517,11.3421349 75.9643699,11.3418641 75.9641721,11.3418827 75.9640842,11.3419153 75.9639595,11.3411764 75.9639997,11.3406307</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.14">
+	<name>Thalassery Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.39</SimpleData>
+		<SimpleData name="full_id">w417389375</SimpleData>
+		<SimpleData name="osm_id">417389375</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">220000;110000</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.5246447,11.7683871 75.5246589,11.7683498 75.5247613,11.7683714 75.5248965,11.7680016 75.5247681,11.767968 75.5249486,11.7676005 75.5261807,11.7680056 75.5257248,11.768372 75.5256246,11.7686377 75.5249872,11.7684074 75.5249528,11.7684986 75.5246447,11.7683871</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.15">
+	<name>Southern Railways Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.101</SimpleData>
+		<SimpleData name="full_id">w1219331320</SimpleData>
+		<SimpleData name="osm_id">1219331320</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="utility">power</SimpleData>
+		<SimpleData name="industrial">utility</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+		<SimpleData name="location">surface</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3004215,9.9465793 76.3012926,9.9466773 76.3013597,9.9462692 76.3004873,9.9461417 76.3004215,9.9465793</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.16">
+	<name>KSEB 110 KV Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.33</SimpleData>
+		<SimpleData name="full_id">w364915421</SimpleData>
+		<SimpleData name="osm_id">364915421</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="building">dwellings</SimpleData>
+		<SimpleData name="operator">Government</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3973038,10.7745426 76.3977893,10.774287 76.3975666,10.7737257 76.3970516,10.7739971 76.3973038,10.7745426</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.34</SimpleData>
+		<SimpleData name="full_id">w370264222</SimpleData>
+		<SimpleData name="osm_id">370264222</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Government</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.9127327,10.9265053 75.9126723,10.9271116 75.9134719,10.9271884 75.9135323,10.9265821 75.9127327,10.9265053</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.103</SimpleData>
+		<SimpleData name="full_id">w1310881846</SimpleData>
+		<SimpleData name="osm_id">1310881846</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.2197082,10.5174136 76.2198172,10.5173098 76.2196849,10.5172167 76.2195937,10.5173204 76.2197082,10.5174136</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.19">
+	<name>Kerala State Electricity Board Office, Vadacanal</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.60</SimpleData>
+		<SimpleData name="full_id">w752184945</SimpleData>
+		<SimpleData name="osm_id">752184945</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="branch">Vadacanal</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.328784,9.5009826 76.3290496,9.5009593 76.3290377,9.5008269 76.3287721,9.5008502 76.328784,9.5009826</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.62</SimpleData>
+		<SimpleData name="full_id">w799118747</SimpleData>
+		<SimpleData name="osm_id">799118747</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">33 KV Substation Vallikunnam</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.5599605,9.1258398 76.5602219,9.1258721 76.5602499,9.125485 76.5599698,9.1254896 76.5599605,9.1258398</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.21">
+	<name>11kV Main Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.99</SimpleData>
+		<SimpleData name="full_id">w1183866841</SimpleData>
+		<SimpleData name="osm_id">1183866841</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+		<SimpleData name="voltage">11000</SimpleData>
+		<SimpleData name="building">service</SimpleData>
+		<SimpleData name="operator">IIT Palakkad</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7410345,10.805072 76.7415063,10.8053225 76.741547,10.8052486 76.7414746,10.8052101 76.7415386,10.805094 76.7411391,10.8048818 76.7410345,10.805072</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.22">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.63</SimpleData>
+		<SimpleData name="full_id">w799119027</SimpleData>
+		<SimpleData name="osm_id">799119027</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="building">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.5201541,9.6354105 76.5202125,9.6354611 76.5202615,9.6354842 76.5203316,9.6354197 76.52039,9.6353529 76.5204577,9.6352678 76.5204016,9.6352194 76.5203736,9.635254 76.5203316,9.6352148 76.5203106,9.6352033 76.5202359,9.6352977 76.5201892,9.6353645 76.5201541,9.6354105</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.23">
+	<name>110 KV Substation,Paripally</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.57</SimpleData>
+		<SimpleData name="full_id">w690728041</SimpleData>
+		<SimpleData name="osm_id">690728041</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="place">paripally</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7745933,8.8130396 76.7753845,8.8125678 76.7756394,8.8131748 76.7759572,8.8130158 76.7764199,8.8137646 76.7757614,8.8143702 76.775406,8.8143291 76.7749929,8.8138454 76.774824,8.8138772 76.7747422,8.8138507 76.7745316,8.8130781 76.7745933,8.8130396</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.24">
+	<name>KSEB 33kV Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.58</SimpleData>
+		<SimpleData name="full_id">w704116884</SimpleData>
+		<SimpleData name="osm_id">704116884</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">33000</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.7228808,9.6592119 76.7231205,9.6593423 76.7235473,9.6588505 76.7235627,9.6588171 76.7235381,9.6587776 76.7235227,9.658729 76.7235624,9.6585471 76.7235156,9.658487 76.7235217,9.6584248 76.7235116,9.6583807 76.7234392,9.6583301 76.7228808,9.6592119</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.25">
+	<name>Generator room</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.59</SimpleData>
+		<SimpleData name="full_id">w736704290</SimpleData>
+		<SimpleData name="osm_id">736704290</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.9822673,9.5860581 76.9822627,9.5858531 76.9824144,9.5858232 76.9824238,9.5861409 76.9823257,9.5861294 76.9822673,9.5860581</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.26">
+	<name>Karuvatta 66 kV KSEB Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.52</SimpleData>
+		<SimpleData name="full_id">w645003364</SimpleData>
+		<SimpleData name="osm_id">645003364</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="branch">Karuvatta</SimpleData>
+		<SimpleData name="addr:street">Salem-Kochi-Kanyakumari Road</SimpleData>
+		<SimpleData name="addr:city">karuvattta,Haripad</SimpleData>
+		<SimpleData name="voltage">66000</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.4192003,9.318149 76.4193168,9.3178238 76.4199843,9.3180168 76.4198865,9.3183461 76.4192003,9.318149</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.53</SimpleData>
+		<SimpleData name="full_id">w653356104</SimpleData>
+		<SimpleData name="osm_id">653356104</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="aeroway">hangar</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.5548182,11.918211 75.5547503,11.9183819 75.5549434,11.9184554 75.5550113,11.9182845 75.5548182,11.918211</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.28">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.54</SimpleData>
+		<SimpleData name="full_id">w653356116</SimpleData>
+		<SimpleData name="osm_id">653356116</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.5378776,11.9117617 75.5380714,11.9118428 75.5381434,11.9116778 75.5379497,11.9115968 75.5378776,11.9117617</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.29">
+	<name>KSEB Substation Udumbannoor</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.48</SimpleData>
+		<SimpleData name="full_id">w618095023</SimpleData>
+		<SimpleData name="osm_id">618095023</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+		<SimpleData name="building">service</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.8319429,9.9089552 76.8322245,9.9088982 76.8321244,9.9084178 76.8323245,9.9083773 76.8322542,9.9080399 76.8317725,9.9081373 76.8319429,9.9089552</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.30">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.49</SimpleData>
+		<SimpleData name="full_id">w618181973</SimpleData>
+		<SimpleData name="osm_id">618181973</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3542239,10.2681439 76.3542286,10.2680266 76.3543517,10.2680315 76.354347,10.2681488 76.3542239,10.2681439</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.31">
+	<name>Lower Periyar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.50</SimpleData>
+		<SimpleData name="full_id">w618502110</SimpleData>
+		<SimpleData name="osm_id">618502110</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">generation</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="building">industrial</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.8516734,10.0190334 76.851379,10.0184686 76.8529056,10.0176968 76.8532001,10.0182616 76.8516734,10.0190334</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.32">
+	<name>110kv substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.78</SimpleData>
+		<SimpleData name="full_id">w976716073</SimpleData>
+		<SimpleData name="osm_id">976716073</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.2147643,10.3319094 76.2149761,10.3318569 76.2149465,10.3317414 76.2147347,10.3317939 76.2147643,10.3319094</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.33">
+	<name>110 kV substation Venganellur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.79</SimpleData>
+		<SimpleData name="full_id">w981298064</SimpleData>
+		<SimpleData name="osm_id">981298064</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3407024,10.7035485 76.3405619,10.7033084 76.3407002,10.7032412 76.340845,10.7033308 76.3413466,10.7032947 76.3413517,10.703535 76.3408451,10.7035511 76.3407024,10.7035485</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.34">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.73</SimpleData>
+		<SimpleData name="full_id">w895819018</SimpleData>
+		<SimpleData name="osm_id">895819018</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">distribution</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3590848,10.0920353 76.3590627,10.0920273 76.3590933,10.0919456 76.3591213,10.0918706 76.3591329,10.091875 76.3590848,10.0920353</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.35">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.74</SimpleData>
+		<SimpleData name="full_id">w943581646</SimpleData>
+		<SimpleData name="osm_id">943581646</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">yes</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="operator">KSEB Puthenpeedika</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.1265651,10.4396188 76.1265807,10.4396592 76.1267604,10.4396784 76.1268699,10.439223 76.1266471,10.4391903 76.1265651,10.4396188</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.68</SimpleData>
+		<SimpleData name="full_id">w817276425</SimpleData>
+		<SimpleData name="osm_id">817276425</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="height">20feet</SimpleData>
+		<SimpleData name="building">transformer_tower</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.0556447,8.339802 77.0556366,8.3397064 77.0557224,8.3396878 77.0557493,8.3397834 77.0556447,8.339802</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.37">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.1</SimpleData>
+		<SimpleData name="full_id">r8606538</SimpleData>
+		<SimpleData name="osm_id">8606538</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.2965444,9.8846969 76.2971666,9.8847374 76.297341,9.8840196 76.2967616,9.8839034 76.2965444,9.8846969</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>76.2970606,9.8844933 76.2972028,9.884523 76.2972533,9.8842888 76.2971536,9.884268 76.2971193,9.8844274 76.2970768,9.8844185 76.2970606,9.8844933</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.38">
+	<name>College of Engineering Adoor Electrical Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.71</SimpleData>
+		<SimpleData name="full_id">w835765768</SimpleData>
+		<SimpleData name="osm_id">835765768</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">industrial</SimpleData>
+		<SimpleData name="building">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.716816,9.1314419 76.7168826,9.1313339 76.7170063,9.1313996 76.7169349,9.1314982 76.716816,9.1314419</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.39">
+	<name>Valapad 110 kV KSEB Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.66</SimpleData>
+		<SimpleData name="full_id">w802000180</SimpleData>
+		<SimpleData name="osm_id">802000180</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="operator:short">KSEB</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">Kerala State Electricity Board</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.1191797,10.4017855 76.1193031,10.4014478 76.1194426,10.401498 76.1196491,10.4008833 76.1199549,10.4009888 76.1199039,10.4011392 76.1198449,10.4013951 76.1197269,10.4017459 76.1196518,10.4019438 76.1193729,10.4018436 76.1191797,10.4017855</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.40">
+	<name>KSEB 110 kV Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.67</SimpleData>
+		<SimpleData name="full_id">w802647903</SimpleData>
+		<SimpleData name="osm_id">802647903</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>75.5042527,12.0432889 75.5046153,12.0426271 75.5048788,12.0427743 75.5045105,12.0434021 75.5042527,12.0432889</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.41">
+	<name>Power House</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.25</SimpleData>
+		<SimpleData name="full_id">w98716274</SimpleData>
+		<SimpleData name="osm_id">98716274</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">MES Campus</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.0230596,10.8301109 76.02306,10.8302122 76.0231958,10.8302118 76.0231954,10.8301105 76.0230596,10.8301109</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.42">
+	<name>Kayamkulam Sub Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.27</SimpleData>
+		<SimpleData name="full_id">w135182660</SimpleData>
+		<SimpleData name="osm_id">135182660</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">transmission</SimpleData>
+		<SimpleData name="voltage">220000</SimpleData>
+		<SimpleData name="name:ml">കായംകുളം</SimpleData>
+		<SimpleData name="building">substation</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.4273676,9.2414938 76.4275456,9.2411341 76.4287136,9.2416969 76.4285356,9.2420566 76.4273676,9.2414938</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.43">
+	<name>Cherthala Infopark KSEB 110 kV Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.20</SimpleData>
+		<SimpleData name="full_id">r17684915</SimpleData>
+		<SimpleData name="osm_id">17684915</SimpleData>
+		<SimpleData name="osm_type">relation</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="type">multipolygon</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3556141,9.7356023 76.3556564,9.7361577 76.3562557,9.7361134 76.3562134,9.735558 76.3556141,9.7356023</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3565981,9.7367651 76.3570227,9.7367635 76.3570267,9.7363865 76.3565994,9.7363743 76.3565981,9.7367651</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.44">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.89</SimpleData>
+		<SimpleData name="full_id">w1074823800</SimpleData>
+		<SimpleData name="osm_id">1074823800</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="location">outdoor</SimpleData>
+		<SimpleData name="voltage">33000</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.1253189,10.333053 76.1255037,10.332665 76.1250046,10.3324771 76.1248998,10.3327135 76.124943,10.3329136 76.1253189,10.333053</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.45">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.84</SimpleData>
+		<SimpleData name="full_id">w1006634153</SimpleData>
+		<SimpleData name="osm_id">1006634153</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">substation</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="operator">Southern  Railway</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.269423,10.7600377 76.2696658,10.7599747 76.2696559,10.7598787 76.2693993,10.759933 76.269423,10.7600377</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.85</SimpleData>
+		<SimpleData name="full_id">w1017112393</SimpleData>
+		<SimpleData name="osm_id">1017112393</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="substation">minor_distribution</SimpleData>
+		<SimpleData name="operator:wikipedia">en:Kerala State Electricity Board</SimpleData>
+		<SimpleData name="building">commercial</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3367292,9.9717481 76.3365692,9.9716881 76.3366302,9.9715999 76.3367673,9.9716449 76.3367483,9.9716965 76.3367292,9.9717481</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="reprojected.47">
+	<name>Kadavanthra Substation</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reprojected">
+		<SimpleData name="id">clipped.86</SimpleData>
+		<SimpleData name="full_id">w1036182691</SimpleData>
+		<SimpleData name="osm_id">1036182691</SimpleData>
+		<SimpleData name="osm_type">way</SimpleData>
+		<SimpleData name="power">substation</SimpleData>
+		<SimpleData name="utility">power</SimpleData>
+		<SimpleData name="industrial">utility</SimpleData>
+		<SimpleData name="barrier">wall</SimpleData>
+		<SimpleData name="voltage">110000</SimpleData>
+		<SimpleData name="operator:wikipedia">en:Kerala State Electricity Board</SimpleData>
+		<SimpleData name="landuse">industrial</SimpleData>
+		<SimpleData name="operator:wikidata">Q6393422</SimpleData>
+		<SimpleData name="operator">KSEB</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>76.3002422,9.9464397 76.30008,9.9478277 76.299739,9.9477273 76.2995421,9.9474553 76.2994945,9.9474027 76.3001784,9.9464319 76.3002422,9.9464397</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
