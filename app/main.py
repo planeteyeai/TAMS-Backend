@@ -148,12 +148,11 @@ def create_app() -> FastAPI:
         "allow_methods": ["*"],
         "allow_headers": ["*"],
     }
-    if settings.DEBUG:
-        cors_kwargs["allow_origin_regex"] = r"https?://(localhost|127\.0\.0\.1)(:\d+)?"
-    else:
-        cors_kwargs["allow_origin_regex"] = (
-            r"https://([a-z0-9-]+\.)*(onrender\.com|vercel\.app|up\.railway\.app|railway\.app)"
-        )
+    cors_kwargs["allow_origin_regex"] = (
+        r"https?://(localhost|127\.0\.0\.1|\[::1\])(:\d+)?|"
+        r"https?://(10\.\d+\.\d+\.\d+|192\.168\.\d+\.\d+|172\.(1[6-9]|2\d|3[0-1])\.\d+\.\d+)(:\d+)?|"
+        r"https://([a-z0-9-]+\.)*(onrender\.com|vercel\.app|up\.railway\.app|railway\.app)"
+    )
 
     app.add_middleware(CORSMiddleware, **cors_kwargs)
 

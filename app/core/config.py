@@ -52,11 +52,8 @@ class Settings(BaseSettings):
     AWS_ACCESS_KEY_ID: Optional[str] = None
     AWS_SECRET_ACCESS_KEY: Optional[str] = None
     
-    # CORS — include your Render frontend URL in production
-    CORS_ORIGINS: str = (
-        "http://localhost:3000,http://127.0.0.1:3000,"
-        "https://tams-1-tgkn.onrender.com"
-    )
+    # Extra CORS origins (localhost / LAN / Render / Vercel / Railway are always allowed)
+    CORS_ORIGINS: str = ""
     # Railway / Render hosts; keep * so platform domains always work
     ALLOWED_HOSTS: str = "localhost,127.0.0.1,*,.up.railway.app,.onrender.com"
     
