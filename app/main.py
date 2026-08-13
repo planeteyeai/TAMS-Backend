@@ -21,16 +21,33 @@ setup_logging()
 logger = logging.getLogger(__name__)
 
 
-def _load_kml_mock_sync() -> int:
-    """Blocking KML parse — run in a worker thread on Railway cold start."""
-    from app.services.kml_loader import get_corridor_assets, preload_kml_assets
+def _load_gujarat_corridor_sync() -> int:
+    """Fast first paint — Gujarat pack only."""
+    from app.services.kml_loader import (
+        clear_kml_cache,
+        get_corridor_assets,
+        preload_kml_assets,
+        set_state_dir_filter,
+    )
     import app.services.mock_data as mock_data
 
-    preload_kml_assets()
-    mock_data.MOCK_ASSETS.clear()
-    mock_data.MOCK_ASSETS.extend(get_corridor_assets())
+    set_state_dir_filter("Gujarat")
+    clear_kml_cache()
+    preload_kml_assets(warm_towers=True)
+    mock_data.MOCK_ASSETS[:] = get_corridor_assets()
     mock_data.rebuild_derived_mock_data()
-    return len(mock_data.MOCK_ASSETS)
+    from app.services.kml_loader import mark_corridor_state_loaded
+
+    mark_corridor_state_loaded("Gujarat")
+    set_state_dir_filter(None)
+    n = len(mock_data.MOCK_ASSETS)
+    logger.info("Fast-path Gujarat corridor ready: %d assets", n)
+    return n
+
+
+def _load_kml_mock_sync() -> int:
+    """DB-fallback path: Gujarat first (other states load on demand)."""
+    return _load_gujarat_corridor_sync()
 
 
 @asynccontextmanager
@@ -107,9 +124,11 @@ async def lifespan(app: FastAPI):
 
         async def _load_kml_background() -> None:
             try:
-                count = await asyncio.to_thread(_load_kml_mock_sync)
+                # Publish Gujarat immediately so /analyzer can load; other states
+                # are merged on demand when Places selects them (see ensure_state_loaded).
+                count = await asyncio.to_thread(_load_gujarat_corridor_sync)
                 app.state.kml_ready = True
-                logger.info("Loaded %d KML corridor assets (India)", count)
+                logger.info("Loaded %d Gujarat KML corridor assets (fast path)", count)
             except Exception:
                 app.state.kml_ready = False
                 logger.exception("KML preload failed")
