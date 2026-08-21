@@ -264,3 +264,58 @@ class AuditLog(Base):
     timestamp: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
 
     __table_args__ = (Index("ix_audit_timestamp", "timestamp"),)
+
+
+class GeotechInvestigation(Base, TimestampMixin):
+    """Field geotechnical investigation for transmission tower / pad locations."""
+
+    __tablename__ = "geotech_investigations"
+
+    geotech_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=_uuid)
+    site_code: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)
+    site_name: Mapped[str] = mapped_column(String(255), nullable=False)
+    project_name: Mapped[str | None] = mapped_column(String(255))
+    client_name: Mapped[str | None] = mapped_column(String(255))
+    purpose: Mapped[str | None] = mapped_column(String(255))
+    region: Mapped[str | None] = mapped_column(String(255))
+    latitude: Mapped[float] = mapped_column(Float, nullable=False)
+    longitude: Mapped[float] = mapped_column(Float, nullable=False)
+    investigation_depth_m: Mapped[float] = mapped_column(Float, default=2.0)
+    groundwater_note: Mapped[str | None] = mapped_column(String(255))
+    # Layer rows, SBC table, pile capacities, CBR, resistivity, design params
+    soil_layers: Mapped[list | None] = mapped_column(JSONB)
+    design_params: Mapped[dict | None] = mapped_column(JSONB)
+    sbc_by_depth: Mapped[list | None] = mapped_column(JSONB)
+    pile_capacities: Mapped[list | None] = mapped_column(JSONB)
+    cbr_by_depth: Mapped[list | None] = mapped_column(JSONB)
+    resistivity: Mapped[dict | None] = mapped_column(JSONB)
+    recommendations: Mapped[dict | None] = mapped_column(JSONB)
+    remarks: Mapped[str | None] = mapped_column(Text)
+    is_active: Mapped[bool] = mapped_column(Boolean, default=True)
+
+    __table_args__ = (Index("ix_geotech_lat_lon", "latitude", "longitude"),)
+
+
+class SiteSuitabilityScore(Base, TimestampMixin):
+    """Saved Tower Suitability site score runs (screening results)."""
+
+    __tablename__ = "site_suitability_scores"
+
+    score_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=_uuid)
+    site_label: Mapped[str] = mapped_column(String(255), nullable=False)
+    place_label: Mapped[str | None] = mapped_column(String(255))
+    latitude: Mapped[float] = mapped_column(Float, nullable=False)
+    longitude: Mapped[float] = mapped_column(Float, nullable=False)
+    final_score: Mapped[float] = mapped_column(Float, nullable=False)
+    verdict: Mapped[str] = mapped_column(String(32), nullable=False)
+    confidence_pct: Mapped[float | None] = mapped_column(Float)
+    voltage_kv: Mapped[float | None] = mapped_column(Float)
+    search_radius_km: Mapped[float | None] = mapped_column(Float)
+    summary: Mapped[str | None] = mapped_column(Text)
+    # Full SuitabilityResult + corridor/power extras for later review
+    result_payload: Mapped[dict | None] = mapped_column(JSONB)
+    factors: Mapped[list | None] = mapped_column(JSONB)
+    notes: Mapped[str | None] = mapped_column(Text)
+    is_active: Mapped[bool] = mapped_column(Boolean, default=True)
+
+    __table_args__ = (Index("ix_site_scores_lat_lon", "latitude", "longitude"),)

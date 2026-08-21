@@ -6,11 +6,13 @@ from app.api.v1 import (
     alarms,
     assets,
     dashboard,
+    geotech,
     gis,
     health,
     imagery,
     inspections,
     monitoring,
+    site_scores,
     workorders,
 )
 from app.db.init_db import is_db_ready
@@ -25,6 +27,8 @@ router.include_router(health.router)
 router.include_router(workorders.router)
 router.include_router(workorders.maint_router)
 router.include_router(inspections.router)
+router.include_router(geotech.router)
+router.include_router(site_scores.router)
 router.include_router(gis.router)
 router.include_router(dashboard.router)
 router.include_router(dashboard.analytics_router)
@@ -51,6 +55,8 @@ async def api_status():
                 "health_monitoring": True,
                 "maintenance_work_orders": True,
                 "inspection_management": True,
+                "geotech_investigations": True,
+                "site_suitability_scores": True,
                 "predictive_maintenance": "heuristic",
                 "dashboard_analytics": True,
                 "satellite_sources": ["sentinel-1", "sentinel-2", "landsat-9", "sentinel-2-night"],
