@@ -9,9 +9,18 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db.database import get_session
 from app.schemas.response import ApiResponse, PaginationMeta, ResponseMeta
-from app.services import geotech_service
+from app.services import geotech_service, gemini_geotech_report
 
 router = APIRouter(prefix="/geotech", tags=["geotech"])
+
+
+class AiGeotechReportRequest(BaseModel):
+    latitude: float = Field(..., ge=-90, le=90)
+    longitude: float = Field(..., ge=-180, le=180)
+    place_label: str = Field(..., min_length=1, max_length=512)
+    region: Optional[str] = None
+    geo_summary: dict[str, Any] = Field(default_factory=dict)
+    force: bool = False
 
 
 class SoilLayer(BaseModel):
@@ -101,6 +110,55 @@ async def list_geotech(
             )
         ),
     )
+
+
+@router.get("/report/ai", response_model=ApiResponse)
+async def get_cached_ai_geotech_report(
+    lat: float = Query(..., ge=-90, le=90),
+    lon: float = Query(..., ge=-180, le=180),
+):
+    """Return cached Gemini geotech report for lat/lon if it exists."""
+    hit = gemini_geotech_report.get_cached_report(lat, lon)
+    if not hit:
+        return ApiResponse(
+            data=None,
+            meta=ResponseMeta(),
+            errors=["No cached AI report for these coordinates"],
+        )
+    return ApiResponse(
+        data={
+            "html": hit["html"],
+            "cached": True,
+            "cache_key": hit.get("cache_key"),
+            "place_label": hit.get("place_label"),
+            "generated_at": hit.get("generated_at"),
+            "model": hit.get("model"),
+            "source": "cache",
+        },
+        meta=ResponseMeta(),
+    )
+
+
+@router.post("/report/ai", response_model=ApiResponse)
+async def generate_ai_geotech_report(payload: AiGeotechReportRequest):
+    """
+    Generate Transmission-line geotechnical HTML via Gemini.
+    Same lat/lon returns cached report without calling Gemini again (unless force=true).
+    """
+    try:
+        result = await gemini_geotech_report.generate_gemini_geotech_report(
+            payload.latitude,
+            payload.longitude,
+            place_label=payload.place_label,
+            region=payload.region,
+            geo_summary=payload.geo_summary,
+            force=payload.force,
+        )
+        return ApiResponse(data=result, meta=ResponseMeta())
+    except ValueError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+    except RuntimeError as exc:
+        raise HTTPException(status_code=502, detail=str(exc)) from exc
 
 
 @router.get("/nearest", response_model=ApiResponse)

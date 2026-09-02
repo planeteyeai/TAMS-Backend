@@ -80,5 +80,11 @@ class Settings(BaseSettings):
     CDSE_S3_SECRET_KEY: Optional[str] = None
     ENABLE_CDSE_STAC: bool = False
 
+    # Google Gemini — AI geotechnical report (Transmission-line format)
+    GEMINI_API_KEY: Optional[str] = None
+    GEMINI_MODEL: str = "gemini-2.0-flash"
+    GEMINI_TEMPERATURE: float = 0.15
+    GEMINI_MAX_OUTPUT_TOKENS: int = 8192
+
 
 settings = Settings()
