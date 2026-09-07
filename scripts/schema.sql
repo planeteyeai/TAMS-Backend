@@ -55,10 +55,13 @@ CREATE TABLE IF NOT EXISTS roles (
 CREATE TABLE IF NOT EXISTS users (
     user_id      UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     email        VARCHAR(200) NOT NULL UNIQUE,
+    username     VARCHAR(100) UNIQUE,
     display_name VARCHAR(200) NOT NULL,
     department   VARCHAR(100),
+    password_hash VARCHAR(255),
     is_active    BOOLEAN      NOT NULL DEFAULT TRUE,
-    created_at   TIMESTAMPTZ  NOT NULL DEFAULT NOW()
+    created_at   TIMESTAMPTZ  NOT NULL DEFAULT NOW(),
+    updated_at   TIMESTAMPTZ  NOT NULL DEFAULT NOW()
 );
 
 CREATE TABLE IF NOT EXISTS user_roles (
@@ -244,14 +247,17 @@ INSERT INTO roles (role_code, role_name, description) VALUES
     ('AUDITOR', 'Auditor', 'Read-only audit access')
 ON CONFLICT (role_code) DO NOTHING;
 
-INSERT INTO users (email, display_name, department)
-VALUES ('admin@tams.local', 'TAMS Administrator', 'IT')
+INSERT INTO users (email, username, display_name, department)
+VALUES
+    ('admin@tams.local', 'Admin', 'Admin', 'IT'),
+    ('vishalbhor@tams.local', 'VishalBhor', 'VishalBhor', 'Engineering'),
+    ('shwetapawar@tams.local', 'ShwetaPawar', 'ShwetaPawar', 'Engineering')
 ON CONFLICT (email) DO NOTHING;
 
 INSERT INTO user_roles (user_id, role_id)
 SELECT u.user_id, r.role_id
 FROM users u
 CROSS JOIN roles r
-WHERE u.email = 'admin@tams.local'
+WHERE u.email IN ('admin@tams.local', 'vishalbhor@tams.local', 'shwetapawar@tams.local')
   AND r.role_code = 'ADMIN'
 ON CONFLICT ON CONSTRAINT uq_user_roles_user_role DO NOTHING;
