@@ -29,17 +29,20 @@ Include ALL sections and ALL table columns:
 3) Pile design 450 mm & 600 mm at 1.0/1.5/2.0 m (vertical, uplift, lateral + summary tables)
 4) CBR depth-wise
 5) Earth resistivity with formula and recommendation table
-Show location name and coordinates prominently in scope."""
+Show location name and EXACT latitude/longitude from DATA in the title and scope.
+Never invent a different site or round away more than 6 decimal places."""
 
 _USER_TEMPLATE = """Location: {place_label}
-Coordinates: {lat:.6f}°N, {lon:.6f}°E
+Coordinates (AUTHORITATIVE — use exactly these, never substitute another site):
+  Latitude:  {lat:.6f} °N
+  Longitude: {lon:.6f} °E
 Region: {region}
-Purpose: Transmission tower foundation investigation to 2.0 m depth.
+Purpose: Transmission tower foundation investigation to 2.0 m depth at THIS lat/lon only.
 
-DATA (use exactly):
+DATA for these coordinates (use exactly — do not invent lab/field numbers):
 {data_json}
 
-Output professional HTML report for this site only."""
+Output one professional HTML report for this site only. Put the exact lat/lon in the title and scope."""
 
 
 def _cache_key(lat: float, lon: float) -> str:

@@ -109,7 +109,7 @@ async def list_assets(
             and state.lower() != "india"
         )
         global _corridor_cache, _corridor_cache_key
-        cache_key = f"corridor:{state or 'all'}"
+        cache_key = f"corridor:v2:{state or 'all'}"
         if cacheable and _corridor_cache is not None and _corridor_cache_key == cache_key:
             start = (page - 1) * page_size
             chunk = _corridor_cache[start : start + page_size]
@@ -125,13 +125,33 @@ async def list_assets(
             page=page,
             page_size=page_size,
         )
-        if cacheable and page == 1 and len(items) < page_size:
-            _corridor_cache = items
-            _corridor_cache_key = cache_key
-        elif cacheable and page == 1 and len(items) == page_size:
-            # Full page returned — store this page; total may be higher but good enough for map
-            _corridor_cache = items
-            _corridor_cache_key = cache_key
+        # Only cache complete state catalogs. Caching a full first page used to
+        # publish total=page_size (e.g. Gujarat 11k → 5k) and break later pages.
+        if cacheable and page == 1:
+            if len(items) < page_size or total <= len(items):
+                _corridor_cache = items
+                _corridor_cache_key = cache_key
+            elif total > page_size:
+                merged = list(items)
+                p = 2
+                while len(merged) < total and p <= 50:
+                    more, total = await _list_assets_light(
+                        session,
+                        asset_type=asset_type,
+                        category=category,
+                        state=state,
+                        bbox_tuple=bbox_tuple,
+                        include_towers=include_towers,
+                        page=p,
+                        page_size=page_size,
+                    )
+                    if not more:
+                        break
+                    merged.extend(more)
+                    p += 1
+                _corridor_cache = merged
+                _corridor_cache_key = cache_key
+                return merged[:page_size], len(merged)
         return items, total
 
     stmt = (

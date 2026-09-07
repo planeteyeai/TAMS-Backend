@@ -271,6 +271,39 @@ async def get_viewport_towers(
     return payload
 
 
+def _resolve_stats_scope(
+    *,
+    place_id: str | None,
+    state: str | None,
+    bbox: str | None,
+) -> tuple[str | None, tuple[float, float, float, float] | None]:
+    """Return (state_name, bbox minLon,minLat,maxLon,maxLat) for DB filtering."""
+    from app.services.kml_loader import CITY_BOUNDS, PLACE_ID_TO_STATE
+
+    resolved_state = state
+    resolved_bbox: tuple[float, float, float, float] | None = None
+
+    if place_id:
+        if place_id in CITY_BOUNDS:
+            south, west, north, east = CITY_BOUNDS[place_id]
+            resolved_bbox = (west, south, east, north)
+            resolved_state = None
+        elif place_id != "india":
+            resolved_state = PLACE_ID_TO_STATE.get(place_id) or resolved_state
+
+    if bbox and resolved_bbox is None:
+        try:
+            min_lon, min_lat, max_lon, max_lat = [float(v) for v in bbox.split(",")]
+            resolved_bbox = (min_lon, min_lat, max_lon, max_lat)
+        except ValueError as exc:
+            raise ValueError("bbox must be minLon,minLat,maxLon,maxLat") from exc
+
+    if resolved_state and resolved_state.lower() == "india":
+        resolved_state = None
+
+    return resolved_state, resolved_bbox
+
+
 async def get_region_asset_stats(
     *,
     place_id: str | None = None,
@@ -289,24 +322,49 @@ async def get_region_asset_stats(
                 raise ValueError("bbox must be minLon,minLat,maxLon,maxLat") from exc
         return get_region_stats(state=state)
 
+    resolved_state, resolved_bbox = _resolve_stats_scope(
+        place_id=place_id, state=state, bbox=bbox
+    )
+
     async with async_session_maker() as session:
         # If import still empty, fall back to KML stats
-        total = await session.scalar(select(func.count()).select_from(Asset).where(Asset.is_active.is_(True))) or 0
-        if total == 0:
+        total_all = (
+            await session.scalar(select(func.count()).select_from(Asset).where(Asset.is_active.is_(True)))
+            or 0
+        )
+        if total_all == 0:
             if place_id:
                 return get_stats_for_place(place_id)
             return get_region_stats(state=state)
+
+        filters = [Asset.is_active.is_(True)]
+        if resolved_bbox:
+            min_lon, min_lat, max_lon, max_lat = resolved_bbox
+            filters.extend(
+                [
+                    Asset.latitude.is_not(None),
+                    Asset.longitude.is_not(None),
+                    Asset.latitude >= min_lat,
+                    Asset.latitude <= max_lat,
+                    Asset.longitude >= min_lon,
+                    Asset.longitude <= max_lon,
+                ]
+            )
+        elif resolved_state:
+            filters.append(Asset.metadata_["country_or_state"].astext.ilike(resolved_state))
 
         type_counts = (
             await session.execute(
                 select(AssetType.type_code, func.count())
                 .join(Asset, Asset.asset_type_id == AssetType.asset_type_id)
-                .where(Asset.is_active.is_(True))
+                .where(*filters)
                 .group_by(AssetType.type_code)
             )
         ).all()
         by_type = {code: int(n) for code, n in type_counts}
+        total = sum(by_type.values())
 
+        line_filters = [*filters, AssetType.type_code == "LINE"]
         line_km = await session.scalar(
             select(
                 func.coalesce(
@@ -316,7 +374,7 @@ async def get_region_asset_stats(
             )
             .select_from(Asset)
             .join(AssetType)
-            .where(Asset.is_active.is_(True), AssetType.type_code == "LINE")
+            .where(*line_filters)
         )
 
         return {
@@ -330,11 +388,73 @@ async def get_region_asset_stats(
 
 
 async def get_places_asset_stats() -> dict[str, dict]:
+    """Actual per-state (and India) asset totals for Places menu / region summary."""
+    from app.services.kml_loader import PLACE_ID_TO_STATE
+
     if not is_db_ready():
         return get_all_place_stats()
-    # Prefer DB India/Gujarat totals; keep KML place breakdown for UX until fully mapped
-    india = await get_region_asset_stats()
-    return {
-        "india": {"total": india.get("total", 0), **india},
-        "gujarat": {"total": india.get("total", 0), **india},
+
+    async with async_session_maker() as session:
+        total_all = (
+            await session.scalar(select(func.count()).select_from(Asset).where(Asset.is_active.is_(True)))
+            or 0
+        )
+        if total_all == 0:
+            return get_all_place_stats()
+
+        state_col = Asset.metadata_["country_or_state"].astext.label("state_name")
+        rows = (
+            await session.execute(
+                select(
+                    state_col,
+                    AssetType.type_code,
+                    func.count(),
+                )
+                .join(Asset, Asset.asset_type_id == AssetType.asset_type_id)
+                .where(Asset.is_active.is_(True))
+                .group_by(state_col, AssetType.type_code)
+            )
+        ).all()
+
+    by_state: dict[str, dict] = {}
+    india = {
+        "towers": 0,
+        "lines": 0,
+        "substations": 0,
+        "total": 0,
+        "source": "database",
     }
+
+    for state_name, type_code, n in rows:
+        count = int(n or 0)
+        if type_code == "TOWER":
+            india["towers"] += count
+        elif type_code == "LINE":
+            india["lines"] += count
+        elif type_code == "SUBSTATION":
+            india["substations"] += count
+        india["total"] += count
+
+        if not state_name or not str(state_name).strip():
+            continue
+        key = str(state_name).strip()
+        bucket = by_state.setdefault(
+            key.lower(),
+            {"towers": 0, "lines": 0, "substations": 0, "total": 0, "source": "database"},
+        )
+        if type_code == "TOWER":
+            bucket["towers"] += count
+        elif type_code == "LINE":
+            bucket["lines"] += count
+        elif type_code == "SUBSTATION":
+            bucket["substations"] += count
+        bucket["total"] += count
+
+    out: dict[str, dict] = {"india": india}
+    empty = {"towers": 0, "lines": 0, "substations": 0, "total": 0, "source": "database"}
+    for place_id, state_name in PLACE_ID_TO_STATE.items():
+        if not state_name:
+            continue
+        out[place_id] = dict(by_state.get(state_name.lower(), empty))
+
+    return out
