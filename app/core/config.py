@@ -61,6 +61,9 @@ class Settings(BaseSettings):
     JWT_SECRET_KEY: str = "your-secret-key-change-in-production"
     JWT_ALGORITHM: str = "HS256"
     JWT_EXPIRATION_HOURS: int = 1
+
+    # Bootstrap password for seeded Admin / VishalBhor / ShwetaPawar (hashed at seed time)
+    ADMIN_PASSWORD: str = "Planeteye@2026"
     
     # Pagination
     DEFAULT_PAGE_SIZE: int = 100

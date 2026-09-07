@@ -5,6 +5,7 @@ from fastapi import APIRouter
 from app.api.v1 import (
     alarms,
     assets,
+    auth,
     dashboard,
     geotech,
     gis,
@@ -20,6 +21,7 @@ from app.schemas.response import ApiResponse, ResponseMeta
 
 router = APIRouter(tags=["v1"])
 
+router.include_router(auth.router)
 router.include_router(assets.router)
 router.include_router(alarms.router)
 router.include_router(alarms.legacy_router)

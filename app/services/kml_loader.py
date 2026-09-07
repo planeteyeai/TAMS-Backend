@@ -1387,6 +1387,15 @@ def list_kml_assets(
             pool = pool + _cache["towers"]
 
     filtered = filter_assets(pool, asset_type=asset_type, state=state, bbox=bbox, search=search)
+    # Prefer higher-voltage corridors first so India/state samples are not LV-only
+    def _kv(a: dict) -> float:
+        try:
+            v = (a.get("metadata") or {}).get("voltage_kv")
+            return float(v) if v is not None else -1.0
+        except (TypeError, ValueError):
+            return -1.0
+
+    filtered.sort(key=_kv, reverse=True)
     total = len(filtered)
     start = (page - 1) * page_size
     page_items = filtered[start : start + page_size]

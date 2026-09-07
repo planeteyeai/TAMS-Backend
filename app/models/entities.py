@@ -234,10 +234,15 @@ class User(Base):
 
     user_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=_uuid)
     email: Mapped[str] = mapped_column(String(200), unique=True, nullable=False)
+    username: Mapped[str | None] = mapped_column(String(100), unique=True, nullable=True)
     display_name: Mapped[str] = mapped_column(String(200), nullable=False)
     department: Mapped[str | None] = mapped_column(String(100))
+    password_hash: Mapped[str | None] = mapped_column(String(255), nullable=True)
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), onupdate=func.now()
+    )
 
 
 class UserRole(Base):

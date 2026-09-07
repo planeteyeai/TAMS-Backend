@@ -178,9 +178,18 @@ async def init_database() -> bool:
 
     async with async_session_maker() as session:
         from app.services.kml_db_import import ensure_reference_data
+        from app.services.auth_service import ensure_auth_schema, ensure_seed_users
 
         await ensure_reference_data(session)
         await session.commit()
+
+        try:
+            await ensure_auth_schema(session)
+            await ensure_seed_users(session)
+            logger.info("Auth users seeded (Admin, VishalBhor, ShwetaPawar)")
+        except Exception:
+            logger.exception("Auth user seed failed")
+
         count = await session.scalar(select(func.count()).select_from(Asset)) or 0
         if count > 0:
             logger.info("Database ready with %s assets", count)
@@ -204,13 +213,33 @@ async def _seed(session: AsyncSession) -> None:
         session.add(Role(role_code=code, role_name=name, description=desc))
     await session.flush()
 
-    admin = User(email="admin@tams.local", display_name="TAMS Administrator", department="IT")
+    admin = User(
+        email="admin@tams.local",
+        username="Admin",
+        display_name="Admin",
+        department="IT",
+    )
     session.add(admin)
+    vishal = User(
+        email="vishalbhor@tams.local",
+        username="VishalBhor",
+        display_name="VishalBhor",
+        department="Engineering",
+    )
+    session.add(vishal)
+    shweta = User(
+        email="shwetapawar@tams.local",
+        username="ShwetaPawar",
+        display_name="ShwetaPawar",
+        department="Engineering",
+    )
+    session.add(shweta)
     await session.flush()
 
     admin_role = await session.scalar(select(Role).where(Role.role_code == "ADMIN"))
     if admin_role:
-        session.add(UserRole(user_id=admin.user_id, role_id=admin_role.role_id))
+        for u in (admin, vishal, shweta):
+            session.add(UserRole(user_id=u.user_id, role_id=admin_role.role_id))
 
     substation_ids: dict[str, int] = {}
     for mock in MOCK_ASSETS:
