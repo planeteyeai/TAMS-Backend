@@ -158,24 +158,38 @@ def create_app() -> FastAPI:
     )
     
     # CORS: configured origins + hosted FE domains (Render / Vercel / Railway).
+    # Explicit list of known production origins for reliable matching:
     origins = [o.strip() for o in settings.CORS_ORIGINS.split(",") if o.strip()]
-    app.add_middleware(GZipMiddleware, minimum_size=500)
+    known_origins = [
+        "https://tams-u8r1.onrender.com",
+        "https://tams-txmr.onrender.com",
+        "https://tams-28nc.onrender.com",
+    ]
+    for ko in known_origins:
+        if ko not in origins:
+            origins.append(ko)
 
     cors_kwargs = {
         "allow_origins": origins,
         "allow_credentials": True,
         "allow_methods": ["*"],
         "allow_headers": ["*"],
+        "allow_origin_regex": (
+            r"https?://(localhost|127\.0\.0\.1|\[::1\])(:\d+)?|"
+            r"https?://(10\.\d+\.\d+\.\d+|192\.168\.\d+\.\d+|172\.(1[6-9]|2\d|3[0-1])\.\d+\.\d+)(:\d+)?|"
+            r"https://([a-z0-9-]+\.)*(onrender\.com|vercel\.app|up\.railway\.app|railway\.app)"
+        ),
     }
-    cors_kwargs["allow_origin_regex"] = (
-        r"https?://(localhost|127\.0\.0\.1|\[::1\])(:\d+)?|"
-        r"https?://(10\.\d+\.\d+\.\d+|192\.168\.\d+\.\d+|172\.(1[6-9]|2\d|3[0-1])\.\d+\.\d+)(:\d+)?|"
-        r"https://([a-z0-9-]+\.)*(onrender\.com|vercel\.app|up\.railway\.app|railway\.app)"
-    )
 
+    # ── Middleware registration order matters! ──
+    # Starlette executes middleware in LIFO (last-added = outermost).
+    # We want the outermost layer to be CORS so its headers are ALWAYS
+    # present, even when an inner middleware (TrustedHost) rejects the
+    # request.  Register order: CORS → GZip → TrustedHost.
+    #   Execution order: CORS (outermost) → GZip → TrustedHost (innermost).
     app.add_middleware(CORSMiddleware, **cors_kwargs)
+    app.add_middleware(GZipMiddleware, minimum_size=500)
 
-    # TrustedHost can block requests before CORS headers are applied
     if not settings.DEBUG:
         app.add_middleware(
             TrustedHostMiddleware,
